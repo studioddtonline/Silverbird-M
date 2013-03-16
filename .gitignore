@@ -5,4 +5,5 @@
 *.tmproj
 *~
 .redcar
-secret_keys.js
+lib/secret_keys.js
+lib/analytics.js

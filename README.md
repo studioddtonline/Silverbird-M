@@ -7,7 +7,7 @@
 
 2. Installing
 
-    Get it at the [Download and Build it directly from GitHub](https://github.com/studioddtonline/silver_bird)
+    Get it at the [Download and Build it directly from GitHub](https://github.com/studioddtonline/Silverbird-M)
 
 3. Compatibility
 

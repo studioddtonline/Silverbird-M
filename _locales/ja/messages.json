@@ -1,0 +1,710 @@
+{
+	"extDescription": {
+		"message": "Silverbird M は Twitterクライアントです。あなたのTwitterアカウントとやりとりして、あなたのタイムラインを追っかけることができます。",
+		"description": "Chome拡張の説明"
+	},
+	"resetSize": {
+		"message": "サイズをリセットしたいならダブルクリックしてください"
+	},
+	"composeTweet": {
+		"message": "つぶやく",
+		"description": "新しいつぶやきの入力欄"
+	},
+	"tweetit": {
+		"message": "つぶやく！"
+	},
+	"logout": {
+		"message": "ログアウト",
+		"description": "ログアウトへのリンク"
+	},
+	"options": {
+		"message": "オプション",
+		"description": "オプションへのリンク"
+	},
+	"refresh": {
+		"message": "再読み込み",
+		"description": "再読み込みへのリンク"
+	},
+	"suspend": {
+		"message": "自動更新停止",
+		"description": "自動更新停止へのリンク"
+	},
+	"autoUpdatesSuspended": {
+		"message": "自動更新は一時的に停止しています"
+	},
+	"resume": {
+		"message": "自動更新再開"
+	},
+	"remove": {
+		"message": "削除"
+	},
+	"hide": {
+		"message": "非表示"
+	},
+	"show": {
+		"message": "表示"
+	},
+	"add": {
+		"message": "追加"
+	},
+	"selectList": {
+		"message": "選択してください"
+	},
+	"updateList": {
+		"message": "リストをアップデートしています……"
+	},
+	"w_Unified": {
+		"message": "Unified"
+	},
+	"w_Home": {
+		"message": "ホーム"
+	},
+	"w_DM": {
+		"message": "DM"
+	},
+	"w_SentDM": {
+		"message": "送信済みDM"
+	},
+	"w_ReceivedDM": {
+		"message": "受信済みDM"
+	},
+	"w_Favorites": {
+		"message": "お気に入り"
+	},
+	"w_Lists": {
+		"message": "リスト"
+	},
+	"w_Search": {
+		"message": "検索"
+	},
+	"fromApp": {
+		"message": "from"
+	},
+	"inReply": {
+		"message": "リプライ先"
+	},
+	"sentTo": {
+		"message": "送り先"
+	},
+	"retweetedBy": {
+		"message": "リツイートしたひと"
+	},
+	"retweetedByMe": {
+		"message": "あなたがリツイートしました"
+	},
+	"unmarkFavorite": {
+		"message": "お気に入りを解除"
+	},
+	"markFavorite": {
+		"message": "お気に入りに登録"
+	},
+	"Delete": {
+		"message": "削除"
+	},
+	"deleteConfirm": {
+		"message": "このメッセージを削除しますか: "
+	},
+	"Yes": {
+		"message": "はい"
+	},
+	"No": {
+		"message": "いいえ"
+	},
+	"Reply": {
+		"message": "リプライ"
+	},
+	"Retweet": {
+		"message": "リツイート"
+	},
+	"retweetConfirm": {
+		"message": "このメッセージをリツイートしますか: "
+	},
+	"oldRT": {
+		"message": "引用してつぶやく"
+	},
+	"markAllRead": {
+		"message": "すべてのメッセージを既読に"
+	},
+	"newToken": {
+		"message": "違うトークンをリクエスト"
+	},
+	"shortenerIdleString": {
+		"message": "短縮したいURLを入力しましょう。表示中のページURLを短縮したいなら右画像をクリック \u2192"
+	},
+	"timelineHome": {
+		"message": "ホーム",
+		"description": "ホームのタイムラインタブ"
+	},
+	"timelineDM": {
+		"message": "DM",
+		"description": "ダイレクトメッセージタブ"
+	},
+	"timelineFavorites": {
+		"message": "お気に入り",
+		"description": "お気に入りタブ"
+	},
+	"tweet_singular": {
+		"message": "つぶやき"
+	},
+	"tweet_plural": {
+		"message": "つぶやき"
+	},
+	"newTweetsAvailable": {
+		"message": "$count$件のあたらしい$tweets$があります。クリックして更新しましょう。",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"tweets": {
+				"content": "$2"
+			}
+		}
+	},
+	"preventClosing": {
+		"message": "クリックすると閉じます。"
+	},
+	"changeNotificationSettings": {
+		"message": "オプションページで通知設定を変更できます。"
+	},
+	"loadingMap": {
+		"message": "地図を読込中……"
+	},
+	"loadingImage": {
+		"message": "画像を読込中……"
+	},
+	"loadingLongUrl": {
+		"message": "URLを展開中……"
+	},
+	"errorExpandingUrl": {
+		"message": "失敗したようです。もう一度試してください。"
+	},
+	"ajaxFailed": {
+		"message": "AJAXリクエストに失敗しました (接続が切れた？)"
+	},
+	"successAuth": {
+		"message": "アプリケーションのアクセス許可がおりました。Silverbird Mをお楽しみください。"
+	},
+	"cbAuthorized": {
+		"message": "Silverbird Mはアクセス許可されました。"
+	},
+	"cbNotAuthorized": {
+		"message": "失敗したようです。Silverbird Mのアイコンをもう一度クリックしてみてください。"
+	},
+	"authorizing": {
+		"message": "少しお待ちください。アクセス許可を確認しています……。"
+	},
+	"yourPIN": {
+		"message": "PINコードを入力してください: $pin$",
+		"placeholders": {
+			"pin":{
+				"content": "$1"
+			}
+		}
+	},
+	"tryAgain": {
+		"message": "やりなおす"
+	},
+	"canceling": {
+		"message": "中止しています……"
+	},
+	"cancelTweet": {
+		"message": "つぶやきを中止します"
+	},
+	"queued_messages": {
+		"message": "送信待ちのメッセージ:"
+	},
+	"queue_trying": {
+		"message": "trying to send for $timediff$",
+		"placeholders": {
+			"timediff": {
+				"content": "$1"
+			}
+		}
+	},
+	"queue_retried": {
+		"message": "retried $retries$ times since $timediff$ ago [$laststatus$]",
+		"placeholders": {
+			"retries": {
+				"content": "$1"
+			},
+			"timediff": {
+				"content": "$2"
+			},
+			"laststatus": {
+				"content": "$3"
+			}
+		}
+	},
+	"ue_fetchingLists": {
+		"message": "リスト一覧の取得に失敗しました エラー $status$",
+		"placeholders": {
+			"status": {
+				"content": "$1"
+			}
+		}
+	},
+	"ue_updatingTweets": {
+		"message": "つぶやきの更新に失敗しました エラー $baseError$",
+		"placeholders": {
+			"baseError": {
+				"content": "$1"
+			}
+		}
+	},
+	"ue_updatingTweets2": {
+		"message": "何度もタイムアウトするようなら、いったんログアウトしてからログインしなおしてください。"
+	},
+	"ue_deletingTweet": {
+		"message": "つぶやきの削除に失敗しました エラー $status$",
+		"placeholders": {
+			"status": {
+				"content": "$1"
+			}
+		}
+	},
+	"ue_retweeting": {
+		"message": "リツイートに失敗しました エラー $status$",
+		"placeholders": {
+			"status": {
+				"content": "$1"
+			}
+		}
+	},
+	"ue_markFavorite": {
+		"message": "お気に入りの登録に失敗しました エラー $status$",
+		"placeholders": {
+			"status": {
+				"content": "$1"
+			}
+		}
+	},
+	"ue_unmarkFavorite": {
+		"message": "お気に入りの削除に失敗しました エラー $status$",
+		"placeholders": {
+			"status": {
+				"content": "$1"
+			}
+		}
+	},
+	"newTweets": {
+		"message": "$count$ $newtweets$",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"newtweets": {
+				"content": "$2"
+			}
+		}
+	},
+	"newtweets_singular": {
+		"message": "新しいつぶやき"
+	},
+	"newtweets_plural": {
+		"message": "新しいつぶやき"
+	},
+	"btnAuthorize": {
+		"message": "アクセス許可されました"
+	},
+	"exceededAPIHits": {
+		"message": "APIの回数制限に達してしまいました。<br><a href='#' class=\"msg-trigger-openoptions\">オプションページ</a>の更新間隔を見なおしてください。<br>Silverbird Mは $nextResetDate $nextResetTime$ までご利用いただけません。",
+		"placeholders": {
+			"options_url": {
+				"content": "$1"
+			},
+			"nextResetDate": {
+				"content": "$2"
+			},
+			"nextResetTime": {
+				"content": "$3"
+			}
+		}
+	},
+	"warningAPIHits": {
+		"message": "ご注意ください。APIの回数制限に到達しそうです。<br><a href='#' class=\"msg-trigger-openoptions\">オプションページ</a>の更新間隔を見なおしてください。<br>もし複数のTwitterクライアントを使っている場合、回数制限は共有されます。<br>API実行回数: $remainingHits$ - リセット予定時間: $nextResetDate$ $nextResetTime$",
+		"placeholders": {
+			"options_url": {
+				"content": "$1"
+			},
+			"remainingHits": {
+				"content": "$2"
+			},
+			"nextResetDate": {
+				"content": "$3"
+			},
+			"nextResetTime": {
+				"content": "$4"
+			}
+		}
+	},
+	"oAuthError": {
+		"message": "アクセス許可確認中に以下のエラーが発生しました: $errorMessage$<br><a href=\"#\" class=\"msg-trigger-openoptions\">クリックしてやりなおしてください</a>",
+		"placeholders": {
+			"errorMessage": {
+				"content": "$1"
+			}
+		}
+	},
+	"justNow": {
+		"message": "たったいま"
+	},
+	"minuteAgo": {
+		"message": "数十秒"
+	},
+	"minutes": {
+		"message": "$nr_of_minutes$$minutes$前",
+		"placeholders": {
+			"nr_of_minutes":{
+				"content": "$1"
+			},
+			"minutes": {
+				"content": "$2",
+				"example": "minute or minutes (singular / plural)"
+			}
+		}
+	},
+	"minute_singular": {
+		"message": "分"
+	},
+	"minute_plural": {
+		"message": "分"
+	},
+	"timeAgo": {
+		"message": "約$time$$time_string$前",
+		"placeholders": {
+			"time": {
+				"content": "$1"
+			},
+			"time_string": {
+				"content": "$2"
+			}
+		}
+	},
+	"hour_singular": {
+		"message": "時間"
+	},
+	"hour_plural": {
+		"message": "時間"
+	},
+	"day_singular": {
+		"message": "日"
+	},
+	"day_plural": {
+		"message": "日"
+	},
+	"month_singular": {
+		"message": "ヶ月"
+	},
+	"month_plural": {
+		"message": "ヶ月"
+	},
+	"yearsAgo": {
+		"message": "年前"
+	},
+	"options_title": {
+		"message": "Silverbird M 設定"
+	},
+	"conf_saved": {
+		"message": "新しい設定が反映されました。"
+	},
+	"changes_restart": {
+		"message": "設定の反映にはSilverbird Mを再起動する必要があります。よろしいですか？<br>(未読カウンターはリセットされます)"
+	},
+	"remaining_api_hits": {
+		"message": "Twitter API制限回数まで: "
+	},
+	"rate_limit_reset": {
+		"message": "レート制限解除まで: "
+	},
+	"nerds_link": {
+		"message": "API利用統計"
+	},
+	"g_ui": {
+		"message": "ユーザインターフェース設定"
+	},
+	"l_name_attribute": {
+		"message": "つぶやき上の名前表示:"
+	},
+	"o_screen_name": {
+		"message": "アカウント名"
+	},
+	"o_name": {
+		"message": "登録名"
+	},
+	"o_both": {
+		"message": "両方"
+	},
+	"l_compose_position": {
+		"message": "ウィンドウ表示位置:"
+	},
+	"o_top": {
+		"message": "上部"
+	},
+	"o_bottom": {
+		"message": "下部"
+	},
+	"l_theme": {
+		"message": "テーマ:"
+	},
+	"l_font_size": {
+		"message": "フォントサイズ:"
+	},
+	"o_small": {
+		"message": "小さい"
+	},
+	"o_normal": {
+		"message": "通常"
+	},
+	"o_large": {
+		"message": "大きい"
+	},
+	"o_extra_large": {
+		"message": "特大"
+	},
+	"l_font_family": {
+		"message": "フォントの種類:"
+	},
+	"l_hover_timeout": {
+		"message": "ホバーする時間 (ミリ秒):"
+	},
+	"l_show_expanded_urls": {
+		"message": "短縮URLを展開する:"
+	},
+	"l_reply_all": {
+		"message": "すべてのメンションにリプライする:"
+	},
+	"l_show_hits_in_popup": {
+		"message": "API利用回数を表示する:"
+	},
+	"l_show_user_autocomplete": {
+		"message": "ユーザ名をオートコンプリートする:"
+	},
+	"l_icon_color": {
+		"message": "アイコンカラー:"
+	},
+	"l_tweets_color_only_unified": {
+		"message": "カラー変更はUnifiedのみ:"
+	},
+	"l_tweet_color": {
+		"message": "つぶやきの色:"
+	},
+	"w_Mentions": {
+		"message": "メンション"
+	},
+	"btn_reset_popup_size": {
+		"message": "ポップアップのサイズをリセット"
+	},
+	"g_notifications": {
+		"message": "通知設定"
+	},
+	"l_tweet_notification": {
+		"message": "つぶやき通知"
+	},
+	"l_change_icon": {
+		"message": "アイコン変更"
+	},
+	"l_icon_color_column": {
+		"message": "アイコンカラー"
+	},
+	"notif_home": {
+		"message": "ホーム:"
+	},
+	"notif_mentions": {
+		"message": "メンション:"
+	},
+	"notif_dms": {
+		"message": "DM:"
+	},
+	"notif_lists": {
+		"message": "リスト:"
+	},
+	"notif_search": {
+		"message": "検索:"
+	},
+	"l_tweets_notification_style": {
+		"message": "通知設定:"
+	},
+	"l_noti_on_page": {
+		"message": "ページ上で通知"
+	},
+	"l_noti_desktop": {
+		"message": "デスクトップ通知"
+	},
+	"l_notification_fade_timeout": {
+		"message": "通知のタイムアウト (秒):"
+	},
+	"l_notification_max_popups": {
+		"message": "1つだけ通知 (-1: 全て通知):"
+	},
+	"g_shortener": {
+		"message": "短縮URL"
+	},
+	"l_url_shortener": {
+		"message": "短縮URLプロバイダ:"
+	},
+	"l_shortener_acct": {
+		"message": "個人アカウントを利用する"
+	},
+	"l_shortener_login": {
+		"message": "APIログイン名:"
+	},
+	"l_shortener_key": {
+		"message": "APIキー:"
+	},
+	"l_share_include_title": {
+		"message": "共有対象のページタイトルを含める:"
+	},
+	"g_timelines": {
+		"message": "タイムライン"
+	},
+	"notice_api_hits": {
+		"message": "API利用回数を <span style=\"color: red;\">below <span class=\"__hourly_limit\"></span>以下</span>にする必要があります。<br>でないとSilverbird Mは動作を中止してしまうので、タイムラインは一切更新されなくなります。<br>複数のTwitterクライアントをご利用の場合、この回数制限よりも低くする必要があります。"
+	},
+	"l_hits_notice": {
+		"message": "1時間あたりのAPI利用回数: "
+	},
+	"l_visible": {
+		"message": "表示"
+	},
+	"l_refresh_interval": {
+		"message": "更新間隔 (秒)"
+	},
+	"l_include_in_unified": {
+		"message": "Unifiedタイムラインに表示する"
+	},
+	"l_tabs_count": {
+		"message": "タブの個数"
+	},
+	"l_unified_timeline": {
+		"message": "Unifiedタイムライン:"
+	},
+	"tml_favorites": {
+		"message": "お気に入り:"
+	},
+	"l_blocked_users": {
+		"message": "ブロック済みユーザ:"
+	},
+	"notice_right_click_change": {
+		"message": "* ちなみに、コンテクストメニューを右クリックするとポップアップするウィンドウ上で、ほとんどの設定値をちょくせつ変更できます。"
+	},
+	"l_tweets_per_page": {
+		"message": "1ページ中のつぶやき:"
+	},
+	"l_max_cached_tweets": {
+		"message": "つぶやきの最大表示数:"
+	},
+	"g_microblogging_service": {
+		"message": "マイクロブログサービスの切り替え"
+	},
+	"g_advanced": {
+		"message": "詳細設定"
+	},
+	"l_request_timeout": {
+		"message": "リクエストタイムアウト (ミリ秒):"
+	},
+	"l_base_url": {
+		"message": "Twitter API URL:"
+	},
+	"l_base_oauth_url": {
+		"message": "OAuth URL:"
+	},
+	"l_same_signing_urls": {
+		"message": "Same signing URLs:"
+	},
+	"l_base_signing_url": {
+		"message": "API Signing URL:"
+	},
+	"l_base_oauth_signing_url": {
+		"message": "OAuth Signing URL:"
+	},
+	"l_base_search_url": {
+		"message": "Search API URL:"
+	},
+	"btn_save": {
+		"message": "保存"
+	},
+	"btn_reset": {
+		"message": "破棄"
+	},
+	"btn_default": {
+		"message": "初期化"
+	},
+	"shortenIt": {
+		"message": "URLを短くする"
+	},
+	"shorten_current": {
+		"message": "表示中のページを共有する"
+	},
+	"tweet_send_error": {
+		"message": "つぶやき中にエラーが発生しました。最近、同じ文面のつぶやきをしていないか確かめてからやり直してみてください。"
+	},
+	"detach_window": {
+	  "message": "独立ウィンドウ化する"
+	},
+	"follow_action": {
+	  "message": "フォローする"
+	},
+	"unfollow_action": {
+	  "message": "フォローを外す"
+	},
+	"tweets_action": {
+	  "message": "つぶやきを見る"
+	},
+	"profile_action": {
+	  "message": "プロフィール"
+	},
+	"add_mention_action": {
+	  "message": "メンションを送る"
+	},
+	"g_image_service": {
+	  "message": "画像サービス"
+	},
+	"l_image_up_service": {
+	  "message": "画像アップローダー:"
+	},
+	"l_default_locale": {
+	  "message": "使用する言語:"
+	},
+	"automatic": {
+	  "message": "ブラウザと同じ"
+	},
+	"trending_topics": {
+	  "message": "トレンド"
+	},
+	"g_trending_topics": {
+	  "message": "トレンドのトピック" 
+	},
+	"l_trending_topics_woeid": {
+	  "message": "地域のトレンド:" 
+	},
+	"l_use_streaming_api": {
+	  "message": "Streaming APIを使う (実験的):"
+	},
+	"l_user_stream_url": {
+	  "message": "User Stream URL:"
+	},
+	"block_action": {
+	  "message": "ブロックする"
+	},
+	"report_action": {
+	  "message": "スパムとして報告"
+	},
+	"l_shortener_oauth": {
+	  "message": "URL短縮に個人アカウントを利用:"
+	},
+	"l_notify_retweets": {
+	  "message": "つぶやきがリツイートされたら通知する"
+	},
+	"l_notify_rt_always": {
+	  "message": "常に通知"
+	},
+	"l_notify_rt_only_first": {
+	  "message": "最初のみ通知"
+	},
+	"l_notify_rt_never": {
+	  "message": "通志しない"
+	},
+	"invalid_keys": {
+	  "message": "TwitterのAPIキーがありません。開発版を利用していますか？<br>独自のAPIキーを利用したい場合は、http://dev.twitter.com/にてアプリケーションを改めて登録してコンシューマキーとコンシューマシークレットを取得し、secret_keys.jsに記載してください。"
+	}
+}

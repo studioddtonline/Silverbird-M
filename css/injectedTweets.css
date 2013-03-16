@@ -1,5 +1,5 @@
 #chromed_bird_control {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Hiragino Kaku Gothic ProN', meiryo, Helvetica, Arial, sans-serif;
   width: 364px;
   background: #878787;
   color: #fff;
@@ -19,7 +19,7 @@
   padding: 2px 4px 2px 4px;
   text-align: left;
   margin: 0px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Hiragino Kaku Gothic ProN', meiryo, Helvetica, Arial, sans-serif;
   color: black;
   font-size: 10pt;
 }

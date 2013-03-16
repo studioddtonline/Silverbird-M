@@ -1,24 +1,24 @@
 {
 	"extDescription": {
-		"message": "Silver Bird é un engadido para Twitter que che permite interactuar coa túa conta de Twitter.",
+		"message": "Silverbird M e un engadido para Twitter que che permite interactuar coa tua conta de Twitter.",
 		"description": "Extension description"
 	},
 	"resetSize": {
-		"message": "Doble clic para reiniciar o tamaño"
+		"message": "Doble clic para reiniciar o tamano"
 	},
 	"composeTweet": {
-		"message": "Publicar un chío",
+		"message": "Publicar un chio",
 		"description": "Text for composing new tweet"
 	},
 	"tweetit": {
-		"message": "¡Chíao!"
+		"message": "!Chiao!"
 	},
 	"logout": {
-		"message": "Pechar sesión",
+		"message": "Pechar sesion",
 		"description": "The text for the logout link"
 	},
 	"options": {
-		"message": "Opcións",
+		"message": "Opcions",
 		"description": "Options link"
 	},
 	"refresh": {
@@ -30,7 +30,7 @@
 		"description": "Suspend link"
 	},
 	"autoUpdatesSuspended": {
-		"message": "Actualizacións automáticas suspendidas"
+		"message": "Actualizacions automaticas suspendidas"
 	},
 	"resume": {
 		"message": "Retomar"
@@ -78,10 +78,10 @@
 		"message": "en resposta a"
 	},
 	"retweetedBy": {
-		"message": "chío de"
+		"message": "chio de"
 	},
 	"retweetedByMe": {
-		"message": "chío meu"
+		"message": "chio meu"
 	},
 	"unmarkFavorite": {
 		"message": "Desmarcar como favorito"
@@ -93,7 +93,7 @@
 		"message": "Borrar"
 	},
 	"deleteConfirm": {
-		"message": "Borrar este chío: "
+		"message": "Borrar este chio: "
 	},
 	"Yes": {
 		"message": "Si"
@@ -108,19 +108,19 @@
 		"message": "Reenviao"
 	},
 	"retweetConfirm": {
-		"message": "Reenviar este chío: "
+		"message": "Reenviar este chio: "
 	},
 	"oldRT": {
 		"message": "Compartir (antiguo RT)"
 	},
 	"markAllRead": {
-		"message": "Marcar todo coma leído"
+		"message": "Marcar todo coma leido"
 	},
 	"newToken": {
 		"message": "Pedir outro token"
 	},
 	"shortenerIdleString": {
-		"message": "Escribe unha URL para acortala ou clica xusto aquí \u2192"
+		"message": "Escribe unha URL para acortala ou clica xusto aqui \u2192"
 	},
 	"timelineHome": {
 		"message": "Inicio",
@@ -135,13 +135,13 @@
 		"description": "The home time line tab"
 	},
 	"tweet_singular": {
-		"message": "chío"
+		"message": "chio"
 	},
 	"tweet_plural": {
-		"message": "chíos"
+		"message": "chios"
 	},
 	"newTweetsAvailable": {
-		"message": "$count$ $tweets$ máis dispoñibles. Anovar agora.",
+		"message": "$count$ $tweets$ mais disponibles. Anovar agora.",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -155,7 +155,7 @@
 		"message": "Clica para evitar o peche."
 	},
 	"changeNotificationSettings": {
-		"message": "Podes trocar a configuración das notificacións na páxina de Opcións"
+		"message": "Podes trocar a configuracion das notificacions na paxina de Opcions"
 	},
 	"loadingMap": {
 		"message": "Cargando mapa..."
@@ -167,25 +167,25 @@
 		"message": "Cargando url longa..."
 	},
 	"errorExpandingUrl": {
-		"message": "Sintoo, algo foi mal. Por favor, téntao de novo."
+		"message": "Sintoo, algo foi mal. Por favor, tentao de novo."
 	},
 	"ajaxFailed": {
-		"message": "A petición AJAX fallou (¿problemas de conexión?)"
+		"message": "A peticion AJAX fallou (?problemas de conexion?)"
 	},
 	"successAuth": {
-		"message": "Noraboa, identificacheste correctamente. ¡Disfruta Silver Bird!"
+		"message": "Noraboa, identificacheste correctamente. !Disfruta Silverbird M!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird autorizado!"
+		"message": "Silverbird M autorizado!"
 	},
 	"cbNotAuthorized": {
-		"message": "Oops... Algo foi mal. Por favor, téntao de novo facendo clic na icona de Silver Bird."
+		"message": "Oops... Algo foi mal. Por favor, tentao de novo facendo clic na icona de Silverbird M."
 	},
 	"authorizing": {
-		"message": "Autorizando Silver Bird, por favor, agarda..."
+		"message": "Autorizando Silverbird M, por favor, agarda..."
 	},
 	"yourPIN": {
-		"message": "O teu PIN é: $pin$",
+		"message": "O teu PIN e: $pin$",
 		"placeholders": {
 			"pin":{
 				"content": "$1"
@@ -193,13 +193,13 @@
 		}
 	},
 	"tryAgain": {
-		"message": "Téntao de novo"
+		"message": "Tentao de novo"
 	},
 	"canceling": {
 		"message": "Cancelando..."
 	},
 	"cancelTweet": {
-		"message": "Cancelar Chío"
+		"message": "Cancelar Chio"
 	},
 	"queued_messages": {
 		"message": "Mensaxes encadeados:"
@@ -235,7 +235,7 @@
 		}
 	},
 	"ue_updatingTweets": {
-		"message": "Erro non agardado $baseError$ actualizando chíos.",
+		"message": "Erro non agardado $baseError$ actualizando chios.",
 		"placeholders": {
 			"baseError": {
 				"content": "$1"
@@ -243,10 +243,10 @@
 		}
 	},
 	"ue_updatingTweets2": {
-		"message": " Si este erro (timeout) se repite a miudo, por favor, tenta pechar a sesión e voltando a conectar."
+		"message": " Si este erro (timeout) se repite a miudo, por favor, tenta pechar a sesion e voltando a conectar."
 	},
 	"ue_deletingTweet": {
-		"message": "Erro non agardado $status$ borrando chío.",
+		"message": "Erro non agardado $status$ borrando chio.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -254,7 +254,7 @@
 		}
 	},
 	"ue_retweeting": {
-		"message": "Erro non agardado $status$ reenviando chío.",
+		"message": "Erro non agardado $status$ reenviando chio.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -289,16 +289,16 @@
 		}
 	},
 	"newtweets_singular": {
-		"message": "novo chío"
+		"message": "novo chio"
 	},
 	"newtweets_plural": {
-		"message": "novos chíos"
+		"message": "novos chios"
 	},
 	"btnAuthorize": {
-		"message": "¡Autorizar!"
+		"message": "!Autorizar!"
 	},
 	"exceededAPIHits": {
-		"message": "Superaches o límite de petións ó API. Por favor, revisa os intervalos de actualización na <a href='#' class=\"msg-trigger-openoptions\">páxina de opcións</a>. Silver Bird non actualizará ate $nextResetDate $nextResetTime$.",
+		"message": "Superaches o limite de petions o API. Por favor, revisa os intervalos de actualizacion na <a href='#' class=\"msg-trigger-openoptions\">paxina de opcions</a>. Silverbird M non actualizara ate $nextResetDate $nextResetTime$.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -312,7 +312,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "Hey! Estás quedando sen chamadas dispoñibles ao API demasiado rápido.<br>Por favor, revisa os intervalos de actualización na <a href='#' class=\"msg-trigger-openoptions\">páxina de opcións</a>. Presta especial atención se estás usando máis dun cliente de Twitter, xa que todos eles comparten o mesmo límite.<br>Chamadas dispoñibles: $remainingHits$ - Próximo reincio de chamadas: $nextResetDate$ $nextResetTime$",
+		"message": "Hey! Estas quedando sen chamadas disponibles ao API demasiado rapido.<br>Por favor, revisa os intervalos de actualizacion na <a href='#' class=\"msg-trigger-openoptions\">paxina de opcions</a>. Presta especial atencion se estas usando mais dun cliente de Twitter, xa que todos eles comparten o mesmo limite.<br>Chamadas disponibles: $remainingHits$ - Proximo reincio de chamadas: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -329,7 +329,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "Mentras te autenticabas, oconteceu o seguiente erro: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">fai clic aquí para reiniciar o proceso de autenticación</a>",
+		"message": "Mentras te autenticabas, oconteceu o seguiente erro: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">fai clic aqui para reiniciar o proceso de autenticacion</a>",
 		"placeholders": {
 			"errorMessage":{
 				"content": "$1"
@@ -378,10 +378,10 @@
 		"message": "horas"
 	},
 	"day_singular": {
-		"message": "día"
+		"message": "dia"
 	},
 	"day_plural": {
-		"message": "días"
+		"message": "dias"
 	},
 	"month_singular": {
 		"message": "mes"
@@ -393,28 +393,28 @@
 		"message": "hai anos"
 	},
 	"options_title": {
-		"message": "Opcions de Silver Bird"
+		"message": "Opcions de Silverbird M"
 	},
 	"conf_saved": {
-		"message": "¡A túa configuración gardouse correctamente!"
+		"message": "!A tua configuracion gardouse correctamente!"
 	},
 	"changes_restart": {
-		"message": "Pero algúns dos teus cambios requiren que se reinicie a extensión. ¿Queres facelo agora?<br>(Esto reiniciará o contador de chíos leídos.)"
+		"message": "Pero alguns dos teus cambios requiren que se reinicie a extension. ?Queres facelo agora?<br>(Esto reiniciara o contador de chios leidos.)"
 	},
 	"remaining_api_hits": {
-		"message": "Chamadas ao API de Twitter dispoñible: "
+		"message": "Chamadas ao API de Twitter disponible: "
 	},
 	"rate_limit_reset": {
-		"message": "Reinicio do límite: "
+		"message": "Reinicio do limite: "
 	},
 	"nerds_link": {
-		"message": "Estatísticas de chamadas ao API (para gafapastas)"
+		"message": "Estatisticas de chamadas ao API (para gafapastas)"
 	},
 	"g_ui": {
 		"message": "Interface de Usuario"
 	},
 	"l_name_attribute": {
-		"message": "Nome nos chíos:"
+		"message": "Nome nos chios:"
 	},
 	"o_screen_name": {
 		"message": "Nome en pantaia (nickname)"
@@ -426,7 +426,7 @@
 		"message": "Os dous nomes"
 	},
 	"l_compose_position": {
-		"message": "Posición da área de escritura:"
+		"message": "Posicion da area de escritura:"
 	},
 	"o_top": {
 		"message": "Arriba"
@@ -438,7 +438,7 @@
 		"message": "Decorado da IU:"
 	},
 	"l_font_size": {
-		"message": "Tamaño de Fonte:"
+		"message": "Tamano de Fonte:"
 	},
 	"o_small": {
 		"message": "Pequena"
@@ -456,7 +456,7 @@
 		"message": "Familia da Fonte:"
 	},
 	"l_hover_timeout": {
-		"message": "Marcar coma leído en (ms):"
+		"message": "Marcar coma leido en (ms):"
 	},
 	"l_show_expanded_urls": {
 		"message": "Expandir URLs acortadas:"
@@ -477,19 +477,19 @@
 		"message": "Cores so en unificado:"
 	},
 	"l_tweet_color": {
-		"message": "Cor de Chío:"
+		"message": "Cor de Chio:"
 	},
 	"w_Mentions": {
-		"message": "Mencións"
+		"message": "Mencions"
 	},
 	"btn_reset_popup_size": {
-		"message": "Reiniciar tamaño do Popup"
+		"message": "Reiniciar tamano do Popup"
 	},
 	"g_notifications": {
-		"message": "Notificacións"
+		"message": "Notificacions"
 	},
 	"l_tweet_notification": {
-		"message": "Notificacións de Chíos"
+		"message": "Notificacions de Chios"
 	},
 	"l_change_icon": {
 		"message": "Trocar icona"
@@ -501,7 +501,7 @@
 		"message": "Inicio:"
 	},
 	"notif_mentions": {
-		"message": "Mencións:"
+		"message": "Mencions:"
 	},
 	"notif_dms": {
 		"message": "MDs:"
@@ -513,19 +513,19 @@
 		"message": "Procura:"
 	},
 	"l_tweets_notification_style": {
-		"message": "Estilo de notificación:"
+		"message": "Estilo de notificacion:"
 	},
 	"l_noti_on_page": {
-		"message": "Notificar na páxina"
+		"message": "Notificar na paxina"
 	},
 	"l_noti_desktop": {
-		"message": "Notificacións de Escritorio"
+		"message": "Notificacions de Escritorio"
 	},
 	"l_notification_fade_timeout": {
-		"message": "Caducidade de Notificacións (s):"
+		"message": "Caducidade de Notificacions (s):"
 	},
 	"l_notification_max_popups": {
-		"message": "Notificacións ao mesmo tempo (-1: todas):"
+		"message": "Notificacions ao mesmo tempo (-1: todas):"
 	},
 	"g_shortener": {
 		"message": "Acurtador"
@@ -534,7 +534,7 @@
 		"message": "Acurtador de URLs:"
 	},
 	"l_shortener_acct": {
-		"message": "¿Usar conta personal?"
+		"message": "?Usar conta personal?"
 	},
 	"l_shortener_login": {
 		"message": "Login para o API:"
@@ -543,13 +543,13 @@
 		"message": "Key para o API:"
 	},
 	"l_share_include_title": {
-		"message": "Incluir título de páxina (compartir):"
+		"message": "Incluir titulo de paxina (compartir):"
 	},
 	"g_timelines": {
-		"message": "Liñas de tempo"
+		"message": "Linas de tempo"
 	},
 	"notice_api_hits": {
-		"message": "¡Deberías manter as petición ao API <span style=\"color: red;\">por debaixo de <span class=\"__hourly_limit\"></span></span>! Se non, Silver Bird deixará de funcionar correctamente e as liñas de tempo non se actualizarán máis.<br><span style=\"color: red;\">Recorda</span> que se estás usando máis dun cliente de Twitter entón necesitas manter o número de peticións ao API aínda máis baixo."
+		"message": "!Deberias manter as peticion ao API <span style=\"color: red;\">por debaixo de <span class=\"__hourly_limit\"></span></span>! Se non, Silverbird M deixara de funcionar correctamente e as linas de tempo non se actualizaran mais.<br><span style=\"color: red;\">Recorda</span> que se estas usando mais dun cliente de Twitter enton necesitas manter o numero de peticions ao API ainda mais baixo."
 	},
 	"l_hits_notice": {
 		"message": "Chamadas ao API por hora: "
@@ -561,13 +561,13 @@
 		"message": "Intervalo de refresco (s)"
 	},
 	"l_include_in_unified": {
-		"message": "Incluir na liña de tempo Unificada"
+		"message": "Incluir na lina de tempo Unificada"
 	},
 	"l_tabs_count": {
 		"message": "Contador de lapelas"
 	},
 	"l_unified_timeline": {
-		"message": "Liñaa de tempo Unificada:"
+		"message": "Linaa de tempo Unificada:"
 	},
 	"tml_favorites": {
 		"message": "Favoritos:"
@@ -576,13 +576,13 @@
 		"message": "Usuarios bloqueados:"
 	},
 	"notice_right_click_change": {
-		"message": "* Hey, agora podes usar o menu contextual que aparece con clic-dereito para trocar a maioría destos axustes directamente dende a ventá emerxente. ¡Sal de aquí anda! :)"
+		"message": "* Hey, agora podes usar o menu contextual que aparece con clic-dereito para trocar a maioria destos axustes directamente dende a venta emerxente. !Sal de aqui anda! :)"
 	},
 	"l_tweets_per_page": {
-		"message": "Chíos por páxina:"
+		"message": "Chios por paxina:"
 	},
 	"l_max_cached_tweets": {
-		"message": "Máx. número de chíos amosados:"
+		"message": "Max. numero de chios amosados:"
 	},
 	"g_microblogging_service": {
 		"message": "Servizo de Microblogging"
@@ -591,7 +591,7 @@
 		"message": "Avanzado"
 	},
 	"l_request_timeout": {
-		"message": "Caducidade para as peticións (ms):"
+		"message": "Caducidade para as peticions (ms):"
 	},
 	"l_base_url": {
 		"message": "URL do API de Twitter:"
@@ -621,13 +621,13 @@
 		"message": "Reiniciar a inicial"
 	},
 	"shortenIt": {
-		"message": "¡Acurtar!"
+		"message": "!Acurtar!"
 	},
 	"shorten_current": {
-		"message": "Compartir páxina actual"
+		"message": "Compartir paxina actual"
 	},
 	"tweet_send_error": {
-		"message": "Houbo un erro ao tentar envialo teu chío. Fai Twetter cousas raras? Pódelo tentar de novo, pero comproba a túa conta para evitar chíos repetidos."
+		"message": "Houbo un erro ao tentar envialo teu chio. Fai Twetter cousas raras? Podelo tentar de novo, pero comproba a tua conta para evitar chios repetidos."
 	},
 	"detach_window": {
 	  "message": "Detach Window"
@@ -639,7 +639,7 @@
 	  "message": "Deixar de seguir"
 	},
 	"tweets_action": {
-	  "message": "Chíos"
+	  "message": "Chios"
 	},
 	"profile_action": {
 	  "message": "Perfil"
@@ -654,7 +654,7 @@
 	  "message": "Servizo de subida de imaxes:"
 	},
 	"l_default_locale": {
-	  "message": "Locale por omisión:"
+	  "message": "Locale por omision:"
 	},
 	"automatic": {
 	  "message": "O mesmo que o navegador"

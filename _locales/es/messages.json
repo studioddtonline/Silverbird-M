@@ -1,20 +1,20 @@
 {
 	"extDescription": {
-		"message": "Silver Bird es una extensión para Twitter que te permite seguir tus líneas de tiempo e interactuar con tu cuenta de Twitter.",
+		"message": "Silverbird M es una extension para Twitter que te permite seguir tus lineas de tiempo e interactuar con tu cuenta de Twitter.",
 		"description": "Extension description"
 	},
 	"resetSize": {
-		"message": "Doble clic para reiniciar el tamaño"
+		"message": "Doble clic para reiniciar el tamano"
 	},
 	"composeTweet": {
 		"message": "Publicar un tweet",
 		"description": "Text for composing new tweet"
 	},
 	"tweetit": {
-		"message": "¡Publicar!"
+		"message": "!Publicar!"
 	},
 	"logout": {
-		"message": "Cerrar sesión",
+		"message": "Cerrar sesion",
 		"description": "The text for the logout link"
 	},
 	"options": {
@@ -30,7 +30,7 @@
 		"description": "Suspend link"
 	},
 	"autoUpdatesSuspended": {
-		"message": "Actualizaciones automáticas suspendidas"
+		"message": "Actualizaciones automaticas suspendidas"
 	},
 	"resume": {
 		"message": "Reanudar"
@@ -45,7 +45,7 @@
 		"message": "Mostrar"
 	},
 	"add": {
-		"message": "Añadir"
+		"message": "Anadir"
 	},
 	"selectList": {
 		"message": "- Selecciona una lista -"
@@ -69,10 +69,10 @@
 		"message": "Listas"
 	},
 	"w_Search": {
-		"message": "Búsqueda"
+		"message": "Busqueda"
 	},
 	"fromApp": {
-		"message": "vía"
+		"message": "via"
 	},
 	"inReply": {
 		"message": "en respuesta a"
@@ -81,7 +81,7 @@
 		"message": "retweet de"
 	},
 	"retweetedByMe": {
-		"message": "retweet mío"
+		"message": "retweet mio"
 	},
 	"unmarkFavorite": {
 		"message": "Desmarcar como favorito"
@@ -96,7 +96,7 @@
 		"message": "Borrar este tweet: "
 	},
 	"Yes": {
-		"message": "Sí"
+		"message": "Si"
 	},
 	"No": {
 		"message": "No"
@@ -114,13 +114,13 @@
 		"message": "Compartir (antiguo RT)"
 	},
 	"markAllRead": {
-		"message": "Marcar todo como leído"
+		"message": "Marcar todo como leido"
 	},
 	"newToken": {
 		"message": "Pedir otro token"
 	},
 	"shortenerIdleString": {
-		"message": "Escribe una URL para acortarla o haz clic justo aquí \u2192"
+		"message": "Escribe una URL para acortarla o haz clic justo aqui \u2192"
 	},
 	"timelineHome": {
 		"message": "Inicio",
@@ -141,7 +141,7 @@
 		"message": "tweets"
 	},
 	"newTweetsAvailable": {
-		"message": "$count$ $tweets$ más disponibles. Actualizar ahora.",
+		"message": "$count$ $tweets$ mas disponibles. Actualizar ahora.",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -155,7 +155,7 @@
 		"message": "Clic para evitar que se cierre."
 	},
 	"changeNotificationSettings": {
-		"message": "Puedes cambiar la configuración de las notificaciones en la página de Opciones"
+		"message": "Puedes cambiar la configuracion de las notificaciones en la pagina de Opciones"
 	},
 	"loadingMap": {
 		"message": "Cargando mapa..."
@@ -167,25 +167,25 @@
 		"message": "Cargando url larga..."
 	},
 	"errorExpandingUrl": {
-		"message": "Lo siento, algo fue mal. Por favor, inténtalo de nuevo."
+		"message": "Lo siento, algo fue mal. Por favor, intentalo de nuevo."
 	},
 	"ajaxFailed": {
-		"message": "La petición AJAX falló (¿problemas de conexión?)"
+		"message": "La peticion AJAX fallo (?problemas de conexion?)"
 	},
 	"successAuth": {
-		"message": "Felicidades, te has autentificado satisfactoriamente. ¡Disfruta Silver Bird!"
+		"message": "Felicidades, te has autentificado satisfactoriamente. !Disfruta Silverbird M!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird autorizado!"
+		"message": "Silverbird M autorizado!"
 	},
 	"cbNotAuthorized": {
-		"message": "Oops... Algo fue mal. Por favor, inténtalo de nuevo haciendo clic en el icono de Silver Bird."
+		"message": "Oops... Algo fue mal. Por favor, intentalo de nuevo haciendo clic en el icono de Silverbird M."
 	},
 	"authorizing": {
-		"message": "Autorizando Silver Bird, por favor, espera..."
+		"message": "Autorizando Silverbird M, por favor, espera..."
 	},
 	"yourPIN": {
-		"message": "Tu número PIN es: $pin$",
+		"message": "Tu numero PIN es: $pin$",
 		"placeholders": {
 			"pin":{
 				"content": "$1"
@@ -243,7 +243,7 @@
 		}
 	},
 	"ue_updatingTweets2": {
-		"message": " Si este error (timeout) se repite muy a menudo, por favor, intenta cerrando la sesión y volviendo a conectar."
+		"message": " Si este error (timeout) se repite muy a menudo, por favor, intenta cerrando la sesion y volviendo a conectar."
 	},
 	"ue_deletingTweet": {
 		"message": "Error inesperado $status$ borrando tweet.",
@@ -295,10 +295,10 @@
 		"message": "nuevos tweets"
 	},
 	"btnAuthorize": {
-		"message": "¡Autorizar!"
+		"message": "!Autorizar!"
 	},
 	"exceededAPIHits": {
-		"message": "Has superado el límite de peticiones al API. Por favor, revisa los intervalos de actualización en la <a href='#' class=\"msg-trigger-openoptions\">página de opciones</a>. Silver Bird no actualizará hasta $nextResetDate $nextResetTime$.",
+		"message": "Has superado el limite de peticiones al API. Por favor, revisa los intervalos de actualizacion en la <a href='#' class=\"msg-trigger-openoptions\">pagina de opciones</a>. Silverbird M no actualizara hasta $nextResetDate $nextResetTime$.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -312,7 +312,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "Hey! Te estás quedando sin llamadas disponibles al API demasiado rápido.<br>Por favor, revisa los intervalos de actualización en la <a href='#' class=\"msg-trigger-openoptions\">página de opciones</a>. Presta especial atención si estás usando más de un cliente de Twitter, ya que todos ellos comparten el mismo límite.<br>Llamadas disponibles: $remainingHits$ - Próximo reseteo de llamadas: $nextResetDate$ $nextResetTime$",
+		"message": "Hey! Te estas quedando sin llamadas disponibles al API demasiado rapido.<br>Por favor, revisa los intervalos de actualizacion en la <a href='#' class=\"msg-trigger-openoptions\">pagina de opciones</a>. Presta especial atencion si estas usando mas de un cliente de Twitter, ya que todos ellos comparten el mismo limite.<br>Llamadas disponibles: $remainingHits$ - Proximo reseteo de llamadas: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -329,7 +329,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "Mientras te autentificabas, ocurrió el siguiente error: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">haz clic aquí para reiniciar el proceso de autenticación</a>",
+		"message": "Mientras te autentificabas, ocurrio el siguiente error: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">haz clic aqui para reiniciar el proceso de autenticacion</a>",
 		"placeholders": {
 			"errorMessage":{
 				"content": "$1"
@@ -378,10 +378,10 @@
 		"message": "horas"
 	},
 	"day_singular": {
-		"message": "día"
+		"message": "dia"
 	},
 	"day_plural": {
-		"message": "días"
+		"message": "dias"
 	},
 	"month_singular": {
 		"message": "mes"
@@ -390,25 +390,25 @@
 		"message": "meses"
 	},
 	"yearsAgo": {
-		"message": "hace años"
+		"message": "hace anos"
 	},
 	"options_title": {
-		"message": "Opciones de Silver Bird"
+		"message": "Opciones de Silverbird M"
 	},
 	"conf_saved": {
-		"message": "¡Tu configuración se ha guardado satisfactoriamente!"
+		"message": "!Tu configuracion se ha guardado satisfactoriamente!"
 	},
 	"changes_restart": {
-		"message": "Sin embargo, algunos de tus cambios requieren que la extensión se reinicie. ¿Te gustaría hacerlo ahora?<br>(Esto reiniciará tu contador de tweets leídos.)"
+		"message": "Sin embargo, algunos de tus cambios requieren que la extension se reinicie. ?Te gustaria hacerlo ahora?<br>(Esto reiniciara tu contador de tweets leidos.)"
 	},
 	"remaining_api_hits": {
 		"message": "Llamadas al API de Twitter disponibles: "
 	},
 	"rate_limit_reset": {
-		"message": "Reinicio del límite: "
+		"message": "Reinicio del limite: "
 	},
 	"nerds_link": {
-		"message": "Estadísticas de llamadas al API (para gafapastas)"
+		"message": "Estadisticas de llamadas al API (para gafapastas)"
 	},
 	"g_ui": {
 		"message": "Interfaz de Usuario"
@@ -426,7 +426,7 @@
 		"message": "Los dos nombres"
 	},
 	"l_compose_position": {
-		"message": "Posición del área de escritura:"
+		"message": "Posicion del area de escritura:"
 	},
 	"o_top": {
 		"message": "Arriba"
@@ -438,10 +438,10 @@
 		"message": "Tema de IU:"
 	},
 	"l_font_size": {
-		"message": "Tamaño de Fuente:"
+		"message": "Tamano de Fuente:"
 	},
 	"o_small": {
-		"message": "Pequeña"
+		"message": "Pequena"
 	},
 	"o_normal": {
 		"message": "Normal"
@@ -456,7 +456,7 @@
 		"message": "Familia de Fuente:"
 	},
 	"l_hover_timeout": {
-		"message": "Marcar como leído en (ms):"
+		"message": "Marcar como leido en (ms):"
 	},
 	"l_show_expanded_urls": {
 		"message": "Expandir URLs acortadas:"
@@ -474,7 +474,7 @@
 		"message": "Color de Icono:"
 	},
 	"l_tweets_color_only_unified": {
-		"message": "Colores sólo en unificado:"
+		"message": "Colores solo en unificado:"
 	},
 	"l_tweet_color": {
 		"message": "Color de Tweet:"
@@ -483,7 +483,7 @@
 		"message": "Menciones"
 	},
 	"btn_reset_popup_size": {
-		"message": "Reiniciar tamaño del Popup"
+		"message": "Reiniciar tamano del Popup"
 	},
 	"g_notifications": {
 		"message": "Notificaciones"
@@ -510,13 +510,13 @@
 		"message": "Listas:"
 	},
 	"notif_search": {
-		"message": "Búsqueda:"
+		"message": "Busqueda:"
 	},
 	"l_tweets_notification_style": {
-		"message": "Estilo de notificación:"
+		"message": "Estilo de notificacion:"
 	},
 	"l_noti_on_page": {
-		"message": "Notificar en la página"
+		"message": "Notificar en la pagina"
 	},
 	"l_noti_desktop": {
 		"message": "Notificaciones de Escritorio"
@@ -534,7 +534,7 @@
 		"message": "Acortador de URLs:"
 	},
 	"l_shortener_acct": {
-		"message": "¿Usar cuenta personal?"
+		"message": "?Usar cuenta personal?"
 	},
 	"l_shortener_login": {
 		"message": "Login para API:"
@@ -543,13 +543,13 @@
 		"message": "Key para el API:"
 	},
 	"l_share_include_title": {
-		"message": "Incluir título de página (compartir):"
+		"message": "Incluir titulo de pagina (compartir):"
 	},
 	"g_timelines": {
-		"message": "Líneas de tiempo"
+		"message": "Lineas de tiempo"
 	},
 	"notice_api_hits": {
-		"message": "¡Deberías mantener las peticiones al API <span style=\"color: red;\">por debajo de <span class=\"__hourly_limit\"></span></span>! Si no, Silver Bird dejará de funcionar adecuadamente y las líneas de tiempo no se actualizarán más.<br><span style=\"color: red;\">Recuerda</span> que si estás usando más de un cliente de Twitter entonces necesitarás mantener el número de peticiones al API todavía más bajo."
+		"message": "!Deberias mantener las peticiones al API <span style=\"color: red;\">por debajo de <span class=\"__hourly_limit\"></span></span>! Si no, Silverbird M dejara de funcionar adecuadamente y las lineas de tiempo no se actualizaran mas.<br><span style=\"color: red;\">Recuerda</span> que si estas usando mas de un cliente de Twitter entonces necesitaras mantener el numero de peticiones al API todavia mas bajo."
 	},
 	"l_hits_notice": {
 		"message": "Llamadas al API por hora: "
@@ -561,13 +561,13 @@
 		"message": "Intervalo de refresco (s)"
 	},
 	"l_include_in_unified": {
-		"message": "Incluir en la línea de tiempo Unificada"
+		"message": "Incluir en la linea de tiempo Unificada"
 	},
 	"l_tabs_count": {
-		"message": "Contador de pestañas"
+		"message": "Contador de pestanas"
 	},
 	"l_unified_timeline": {
-		"message": "Línea de tiempo Unificada:"
+		"message": "Linea de tiempo Unificada:"
 	},
 	"tml_favorites": {
 		"message": "Favoritos:"
@@ -576,13 +576,13 @@
 		"message": "Usuarios bloqueados:"
 	},
 	"notice_right_click_change": {
-		"message": "* Hey, ahora puedes usar el menú contextual que aparece con clic-derecho para cambiar la mayoría de estos ajustes directamente desde la ventana emergente. ¡Sal de aquí anda! :)"
+		"message": "* Hey, ahora puedes usar el menu contextual que aparece con clic-derecho para cambiar la mayoria de estos ajustes directamente desde la ventana emergente. !Sal de aqui anda! :)"
 	},
 	"l_tweets_per_page": {
-		"message": "Tweets por página:"
+		"message": "Tweets por pagina:"
 	},
 	"l_max_cached_tweets": {
-		"message": "Máx. número de tweets mostrados:"
+		"message": "Max. numero de tweets mostrados:"
 	},
 	"g_microblogging_service": {
 		"message": "Servicio de Microblogging"
@@ -600,16 +600,16 @@
 		"message": "URL de OAuth:"
 	},
 	"l_same_signing_urls": {
-		"message": "URLs iguales para autenticación:"
+		"message": "URLs iguales para autenticacion:"
 	},
 	"l_base_signing_url": {
-		"message": "URL para la API de autenticación:"
+		"message": "URL para la API de autenticacion:"
 	},
 	"l_base_oauth_signing_url": {
-		"message": "URL de autenticación OAuth:"
+		"message": "URL de autenticacion OAuth:"
 	},
 	"l_base_search_url": {
-		"message": "URL del API de búsquedas:"
+		"message": "URL del API de busquedas:"
 	},
 	"btn_save": {
 		"message": "Guardar"
@@ -621,10 +621,10 @@
 		"message": "Reiniciar a por defecto"
 	},
 	"shortenIt": {
-		"message": "¡Acortar!"
+		"message": "!Acortar!"
 	},
 	"shorten_current": {
-		"message": "Compartir página actual"
+		"message": "Compartir pagina actual"
 	},
 	"detach_window": {
 	  "message": "Separar ventana"
@@ -633,7 +633,7 @@
 	  "message": "Perfil"
 	},
 	"add_mention_action": {
-	  "message": "Mención"
+	  "message": "Mencion"
 	},
 	"automatic": {
 	  "message": "Igual que el navegador"
@@ -648,40 +648,40 @@
 	  "message": "Dejar de seguir"
 	},
 	"g_image_service": {
-	  "message": "Servicio de imágenes"
+	  "message": "Servicio de imagenes"
 	},
 	"g_trending_topics": {
 	  "message": "Temas del momento" 
 	},
 	"invalid_keys": {
-	  "message": "Estás usando API Keys vacías. Esto probablemente esté ocurriendo ya que estás usando una versión de desarrollo. <br>Deberías registrar la aplicación en http://dev.twitter.com y rellenar las API Keys en el fichero lib/secret_keys.js."
+	  "message": "Estas usando API Keys vacias. Esto probablemente este ocurriendo ya que estas usando una version de desarrollo. <br>Deberias registrar la aplicacion en http://dev.twitter.com y rellenar las API Keys en el fichero lib/secret_keys.js."
 	},
 	"l_default_locale": {
-	  "message": "Localización por defecto:"
+	  "message": "Localizacion por defecto:"
 	},
 	"l_image_up_service": {
-	  "message": "Servicio de alojamiento de imágenes:"
+	  "message": "Servicio de alojamiento de imagenes:"
 	},
 	"l_notify_retweets": {
-	  "message": "¿Notificar retweets de mis tweets?"
+	  "message": "?Notificar retweets de mis tweets?"
 	},
 	"l_notify_rt_always": {
 	  "message": "Siempre"
 	},
 	"l_notify_rt_only_first": {
-	  "message": "Sólo el primero"
+	  "message": "Solo el primero"
 	},
 	"l_notify_rt_never": {
 	  "message": "Nunca"
 	},
 	"l_shortener_oauth": {
-	  "message": "Usar una cuenta personal de autentificación:"
+	  "message": "Usar una cuenta personal de autentificacion:"
 	},
 	"l_trending_topics_woeid": {
 	  "message": "Temas del momento locales:"
 	},
 	"l_use_streaming_api": {
-	  "message": "Usar API de streaming (¡Experimental!):"
+	  "message": "Usar API de streaming (!Experimental!):"
 	},
 	"l_user_stream_url": {
 	  "message": "URL de Stream de usuario:"

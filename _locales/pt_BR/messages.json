@@ -1,7 +1,7 @@
 {
 	"extDescription": {
-		"message": "Silver Bird é uma extensão que integra o Chrome ao Twitter e permite que você acompanhe seus amigos e interaja com o seu Twitter.",
-		"description": "Descrição da extensão"
+		"message": "Silverbird M e uma extensao que integra o Chrome ao Twitter e permite que voce acompanhe seus amigos e interaja com o seu Twitter.",
+		"description": "Descricao da extensao"
 	},
 	"resetSize": {
 		"message": "Duplo clique para resetar o tamanho"
@@ -16,7 +16,7 @@
 		"message": "Deslogar"
 	},
 	"options": {
-		"message": "Opções"
+		"message": "Opcoes"
 	},
 	"refresh": {
 		"message": "Atualizar"
@@ -25,7 +25,7 @@
 		"message": "Suspender"
 	},
 	"autoUpdatesSuspended": {
-		"message": "Atualizações automáticas suspensas"
+		"message": "Atualizacoes automaticas suspensas"
 	},
 	"resume": {
 		"message": "Continuar"
@@ -103,7 +103,7 @@
 		"message": "Sim"
 	},
 	"No": {
-		"message": "Não"
+		"message": "Nao"
 	},
 	"Reply": {
 		"message": "Resposta"
@@ -124,7 +124,7 @@
 		"message": "Solicitar outro token"
 	},
 	"shortenerIdleString": {
-		"message": "Digite uma URL para encurtá-la, ou clique aqui \u2192"
+		"message": "Digite uma URL para encurta-la, ou clique aqui \u2192"
 	},
 	"timelineHome": {
 		"message": "Home",
@@ -145,7 +145,7 @@
 		"message": "tweets"
 	},
 	"newTweetsAvailable": {
-		"message": "$count$ $tweets$ disponíveis. Atualizar agora.",
+		"message": "$count$ $tweets$ disponiveis. Atualizar agora.",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -159,7 +159,7 @@
 		"message": "Clique para impedir o fechamento."
 	},
 	"changeNotificationSettings": {
-		"message": "Você pode mudar as configurações de notificação na página de opções"
+		"message": "Voce pode mudar as configuracoes de notificacao na pagina de opcoes"
 	},
 	"loadingMap": {
 		"message": "Carregando mapa..."
@@ -174,22 +174,22 @@
 		"message": "Desculpe, aconteceu algo ruim, por favor tente novamente."
 	},
 	"ajaxFailed": {
-		"message": "Requisição AJAX falhou (conexão ruim?)"
+		"message": "Requisicao AJAX falhou (conexao ruim?)"
 	},
 	"successAuth": {
-		"message": "Parabés, você foi autenticado com sucesso. Aproveite o Silver Bird!"
+		"message": "Parabes, voce foi autenticado com sucesso. Aproveite o Silverbird M!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird autorizado!"
+		"message": "Silverbird M autorizado!"
 	},
 	"cbNotAuthorized": {
-		"message": "Ops... Tem algo errado. Por favor, tente clicar no ícone do Silver Bird novamente."
+		"message": "Ops... Tem algo errado. Por favor, tente clicar no icone do Silverbird M novamente."
 	},
 	"authorizing": {
-		"message": "Por favor aguarde, autorizando o Silver Bird..."
+		"message": "Por favor aguarde, autorizando o Silverbird M..."
 	},
 	"yourPIN": {
-		"message": "Seu PIN é: $pin$",
+		"message": "Seu PIN e: $pin$",
 		"placeholders": {
 			"pin":{
 				"content": "$1"
@@ -217,7 +217,7 @@
 		}
 	},
 	"queue_retried": {
-		"message": "tentadas $retries$ vezes desde $timediff$ atrás [$laststatus$]",
+		"message": "tentadas $retries$ vezes desde $timediff$ atras [$laststatus$]",
 		"placeholders": {
 			"retries": {
 				"content": "$1"
@@ -247,7 +247,7 @@
 		}
 	},
 	"ue_updatingTweets2": {
-		"message": " Se esse erro de timeout está sendo mostrado repetidamente, por favor, tente deslogar e logar novamente."
+		"message": " Se esse erro de timeout esta sendo mostrado repetidamente, por favor, tente deslogar e logar novamente."
 	},
 	"ue_deletingTweet": {
 		"message": "Erro inesperado $status$ deletando tweet.",
@@ -302,7 +302,7 @@
 		"message": "Autorizar!"
 	},
 	"exceededAPIHits": {
-		"message": "Você excedeu o limite de chamadas à API do Twitter. Por favor reveja as suas configurações de intervalo de atualização na <a href='#' class=\"msg-trigger-openoptions\">página de opções</a>. O Silver Bird não irá atualizar até $nextResetDate $nextResetTime$.",
+		"message": "Voce excedeu o limite de chamadas a API do Twitter. Por favor reveja as suas configuracoes de intervalo de atualizacao na <a href='#' class=\"msg-trigger-openoptions\">pagina de opcoes</a>. O Silverbird M nao ira atualizar ate $nextResetDate $nextResetTime$.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -316,7 +316,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "Ei! A quantidade de chamdas à API restantes está diminuindo muito rápido.<br>Por favor reveja as suas configurações de intervalo de atualização na <a href='#' class=\"msg-trigger-openoptions\">página de opções</a>. Tome um cuidado especial caso você esteja utilizando multiplos clientes para o Twitter, eles todos irão compartilhar o mesmo limite.<br>Chamadas restantes disponíveis: $remainingHits$ - Próximo reset: $nextResetDate$ $nextResetTime$",
+		"message": "Ei! A quantidade de chamdas a API restantes esta diminuindo muito rapido.<br>Por favor reveja as suas configuracoes de intervalo de atualizacao na <a href='#' class=\"msg-trigger-openoptions\">pagina de opcoes</a>. Tome um cuidado especial caso voce esteja utilizando multiplos clientes para o Twitter, eles todos irao compartilhar o mesmo limite.<br>Chamadas restantes disponiveis: $remainingHits$ - Proximo reset: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -333,7 +333,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "O seguinte erro ocorreu tentando autenticar: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">clique aqui para reiniciar o processo de autenticação</a>",
+		"message": "O seguinte erro ocorreu tentando autenticar: $errorMessage$. Por favor, <a href=\"#\" class=\"msg-trigger-openoptions\">clique aqui para reiniciar o processo de autenticacao</a>",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -344,10 +344,10 @@
 		"message": "agorinha"
 	},
 	"minuteAgo": {
-		"message": "menos de 1 minuto atrás"
+		"message": "menos de 1 minuto atras"
 	},
 	"minutes": {
-		"message": "$nr_of_minutes$ $minutes$ atrás",
+		"message": "$nr_of_minutes$ $minutes$ atras",
 		"placeholders": {
 			"nr_of_minutes":{
 				"content": "$1"
@@ -365,7 +365,7 @@
 		"message": "minutos"
 	},
 	"timeAgo": {
-		"message": "aproximadamente $time$ $time_string$ atrás",
+		"message": "aproximadamente $time$ $time_string$ atras",
 		"placeholders": {
 			"time": {
 				"content": "$1"
@@ -388,40 +388,40 @@
 		"message": "dias"
 	},
 	"month_singular": {
-		"message": "mês"
+		"message": "mes"
 	},
 	"month_plural": {
 		"message": "meses"
 	},
 	"yearsAgo": {
-		"message": "anos atrás"
+		"message": "anos atras"
 	},
 	"options_title": {
-		"message": "Opções do Silver Bird"
+		"message": "Opcoes do Silverbird M"
 	},
 	"conf_saved": {
-		"message": "A configuração foi salva com sucesso!"
+		"message": "A configuracao foi salva com sucesso!"
 	},
 	"changes_restart": {
-		"message": "No entanto, algumas das alterações exigem o reinicio da extensão. Você gostaria de fazer isso agora?<br>    (Isso irá resetar as mensagens não lidas.)"
+		"message": "No entanto, algumas das alteracoes exigem o reinicio da extensao. Voce gostaria de fazer isso agora?<br>    (Isso ira resetar as mensagens nao lidas.)"
 	},
 	"remaining_api_hits": {
-		"message": "Chamadas à API do Twitter restantes: "
+		"message": "Chamadas a API do Twitter restantes: "
 	},
 	"rate_limit_reset": {
-		"message": "Reinício do limite: "
+		"message": "Reinicio do limite: "
 	},
 	"nerds_link": {
-		"message": "Estatísticas de chamadas (para nerds)"
+		"message": "Estatisticas de chamadas (para nerds)"
 	},
 	"g_ui": {
-		"message": "Interface do Usuário"
+		"message": "Interface do Usuario"
 	},
 	"l_name_attribute": {
 		"message": "Nome nos tweets:"
 	},
 	"o_screen_name": {
-		"message": "Nome do usuário (apelido)"
+		"message": "Nome do usuario (apelido)"
 	},
 	"o_name": {
 		"message": "Nome real"
@@ -430,7 +430,7 @@
 		"message": "Ambos os nomes"
 	},
 	"l_compose_position": {
-		"message": "Posição da área de escrita:"
+		"message": "Posicao da area de escrita:"
 	},
 	"o_top": {
 		"message": "Em cima"
@@ -457,7 +457,7 @@
 		"message": "Muito Grande"
 	},
 	"l_font_family": {
-		"message": "Família da Fonte:"
+		"message": "Familia da Fonte:"
 	},
 	"l_hover_timeout": {
 		"message": "Marcar como lido em (ms):"
@@ -475,7 +475,7 @@
 		"message": "Autocompletar nomes:"
 	},
 	"l_icon_color": {
-		"message": "Cor do ícone:"
+		"message": "Cor do icone:"
 	},
 	"l_tweets_color_only_unified": {
 		"message": "Cores somente na unificada:"
@@ -484,28 +484,28 @@
 		"message": "Cor da mensagem:"
 	},
 	"w_Mentions": {
-		"message": "Referências"
+		"message": "Referencias"
 	},
 	"btn_reset_popup_size": {
 		"message": "Resetar tamanho do Popup"
 	},
 	"g_notifications": {
-		"message": "Notificações"
+		"message": "Notificacoes"
 	},
 	"l_tweet_notification": {
-		"message": "Notificação do Tweet"
+		"message": "Notificacao do Tweet"
 	},
 	"l_change_icon": {
-		"message": "Mudar Ícone"
+		"message": "Mudar Icone"
 	},
 	"l_icon_color_column": {
-		"message": "Cor do Ícone"
+		"message": "Cor do Icone"
 	},
 	"notif_home": {
 		"message": "Home:"
 	},
 	"notif_mentions": {
-		"message": "Referências:"
+		"message": "Referencias:"
 	},
 	"notif_dms": {
 		"message": "DMs:"
@@ -517,19 +517,19 @@
 		"message": "Buscas:"
 	},
 	"l_tweets_notification_style": {
-		"message": "Tipo de Notificação:"
+		"message": "Tipo de Notificacao:"
 	},
 	"l_noti_on_page": {
-		"message": "Notificações na Página"
+		"message": "Notificacoes na Pagina"
 	},
 	"l_noti_desktop": {
-		"message": "Notificações no Desktop"
+		"message": "Notificacoes no Desktop"
 	},
 	"l_notification_fade_timeout": {
-		"message": "Duração das notificações (s):"
+		"message": "Duracao das notificacoes (s):"
 	},
 	"l_notification_max_popups": {
-		"message": "Notificações ao mesmo tempo (-1: todas):"
+		"message": "Notificacoes ao mesmo tempo (-1: todas):"
 	},
 	"g_shortener": {
 		"message": "Encurtador"
@@ -547,22 +547,22 @@
 		"message": "API Key:"
 	},
 	"l_share_include_title": {
-		"message": "Incluir título da página (compartilhando):"
+		"message": "Incluir titulo da pagina (compartilhando):"
 	},
 	"g_timelines": {
 		"message": "Timelines"
 	},
 	"notice_api_hits": {
-		"message": "Você deverá deixar o número de chamadas ao Twitter <span style=\"color: red;\">abaixo de <span class=\"__hourly_limit\"></span></span>! Caso contrário o Silver Bird irá parar de funcionar corretamente e as timelines não irão mais atualizar.<br><span style=\"color: red;\">Lembre-se</span> de que se você está utilizando múltiplos clientes para o Twitter você deverá deixar o número de chamadas ainda menor."
+		"message": "Voce devera deixar o numero de chamadas ao Twitter <span style=\"color: red;\">abaixo de <span class=\"__hourly_limit\"></span></span>! Caso contrario o Silverbird M ira parar de funcionar corretamente e as timelines nao irao mais atualizar.<br><span style=\"color: red;\">Lembre-se</span> de que se voce esta utilizando multiplos clientes para o Twitter voce devera deixar o numero de chamadas ainda menor."
 	},
 	"l_hits_notice": {
 		"message": "Chamadas ao Twitter por hora: "
 	},
 	"l_visible": {
-		"message": "Visível"
+		"message": "Visivel"
 	},
 	"l_refresh_interval": {
-		"message": "Intervalo de atualização (s)"
+		"message": "Intervalo de atualizacao (s)"
 	},
 	"l_include_in_unified": {
 		"message": "Incluir na timeline unificada"
@@ -577,25 +577,25 @@
 		"message": "Favoritos:"
 	},
 	"l_blocked_users": {
-		"message": "Usuários Bloqueados:"
+		"message": "Usuarios Bloqueados:"
 	},
 	"notice_right_click_change": {
-		"message": "* Ei, agora você pode usar um clique com o botão direito para acessar o menu de contexto e mudar essas configurações diretamente no popup. Sai logo daqui! :)"
+		"message": "* Ei, agora voce pode usar um clique com o botao direito para acessar o menu de contexto e mudar essas configuracoes diretamente no popup. Sai logo daqui! :)"
 	},
 	"l_tweets_per_page": {
-		"message": "Tweets por Página:"
+		"message": "Tweets por Pagina:"
 	},
 	"l_max_cached_tweets": {
-		"message": "Maxímo de Tweets Exibidos:"
+		"message": "Maximo de Tweets Exibidos:"
 	},
 	"g_microblogging_service": {
-		"message": "Serviço de Microblogging"
+		"message": "Servico de Microblogging"
 	},
 	"g_advanced": {
-		"message": "Avançado"
+		"message": "Avancado"
 	},
 	"l_request_timeout": {
-		"message": "Tempo máximo para chamadas (ms):"
+		"message": "Tempo maximo para chamadas (ms):"
 	},
 	"l_base_url": {
 		"message": "URL da API do Twitter:"
@@ -628,10 +628,10 @@
 	  "message": "Encurte!"
 	},
 	"shorten_current": {
-	  "message": "Compartilhar página atual"
+	  "message": "Compartilhar pagina atual"
 	},
 	"tweet_send_error": {
-	  "message": "Um erro ocorreu enquanto enviávamos seu tweet. O twitter está agindo de maneira estranha? Você pode tentar novamente, mas antes verifique se seu tweet já não foi publicado e previna mensagens duplicadas."
+	  "message": "Um erro ocorreu enquanto enviavamos seu tweet. O twitter esta agindo de maneira estranha? Voce pode tentar novamente, mas antes verifique se seu tweet ja nao foi publicado e previna mensagens duplicadas."
 	},
 	"detach_window": {
 	  "message": "Separar janela"
@@ -652,13 +652,13 @@
 	  "message": "Mencionar"
 	},
 	"g_image_service": {
-	  "message": "Serviço de imagens"
+	  "message": "Servico de imagens"
 	},
 	"l_image_up_service": {
-	  "message": "Serviço de upload de imagens:"
+	  "message": "Servico de upload de imagens:"
 	},
 	"l_default_locale": {
-	  "message": "Idioma padrão:"
+	  "message": "Idioma padrao:"
 	},
 	"automatic": {
 	  "message": "O mesmo que o browser"
@@ -676,7 +676,7 @@
 	  "message": "Usar a API de streaming (experimental!):"
 	},
 	"l_user_stream_url": {
-	  "message": "URL da stream de usuário:"
+	  "message": "URL da stream de usuario:"
 	},
 	"block_action": {
 	  "message": "Bloquear"

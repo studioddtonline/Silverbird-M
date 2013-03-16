@@ -1,6 +1,6 @@
 {
 	"extDescription": {
-		"message": "Silver Bird è un'estensione di Twitter che ti permette di seguire le timeline ed interagire con i tuoi account Twitter.",
+		"message": "Silverbird M e un'estensione di Twitter che ti permette di seguire le timeline ed interagire con i tuoi account Twitter.",
 		"description": "Descrizione estensione"
 	},
 	"resetSize": {
@@ -105,7 +105,7 @@
 		"message": "Cancella il messaggio: "
 	},
 	"Yes": {
-		"message": "Sì"
+		"message": "Si"
 	},
 	"No": {
 		"message": "No"
@@ -123,7 +123,7 @@
 		"message": "Condividi (RT vecchia maniera)"
 	},
 	"markAllRead": {
-		"message": "Segna tutti come già letti"
+		"message": "Segna tutti come gia letti"
 	},
 	"newToken": {
 		"message": "Richiedi un altro token"
@@ -164,7 +164,7 @@
 		"message": "Clicca per evitare che si chiuda."
 	},
 	"changeNotificationSettings": {
-		"message": "È possibile cambiare le impostazioni delle notifiche nella pagina delle opzioni."
+		"message": "E possibile cambiare le impostazioni delle notifiche nella pagina delle opzioni."
 	},
 	"loadingMap": {
 		"message": "Caricamento mappa..."
@@ -176,25 +176,25 @@
 		"message": "Caricamento URL lungo..."
 	},
 	"errorExpandingUrl": {
-		"message": "Qualcosa è andato storto, si prega di riprovare."
+		"message": "Qualcosa e andato storto, si prega di riprovare."
 	},
 	"ajaxFailed": {
 		"message": "La richiesta AJAX non ha avuto successo(scarsa connessione?)"
 	},
 	"successAuth": {
-		"message": "Complimenti, ti sei appena autenticato. Divertiti con Silver Bird!"
+		"message": "Complimenti, ti sei appena autenticato. Divertiti con Silverbird M!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird autorizzato!"
+		"message": "Silverbird M autorizzato!"
 	},
 	"cbNotAuthorized": {
-		"message": "Ops... Qualcosa è andato storto. Prova a cliccare di nuovo sull'icona di Silver Bird."
+		"message": "Ops... Qualcosa e andato storto. Prova a cliccare di nuovo sull'icona di Silverbird M."
 	},
 	"authorizing": {
-		"message": "Attendi, autorizzazione di Silver Bird in corso..."
+		"message": "Attendi, autorizzazione di Silverbird M in corso..."
 	},
 	"yourPIN": {
-		"message": "Il tuo numero PIN è: $pin$",
+		"message": "Il tuo numero PIN e: $pin$",
 		"placeholders": {
 			"pin":{
 				"content": "$1"
@@ -307,7 +307,7 @@
 		"message": "Autorizza!"
 	},
 	"exceededAPIHits": {
-		"message": "Hai superato il limite di hit API. Modifica le opzioni di intervallo tra gli aggiornamenti nella <a href='#' class=\"msg-trigger-openoptions\">pagina delle opzioni</a>. Silver Bird non si aggiornerà fino al $nextResetDate $nextResetTime$.",
+		"message": "Hai superato il limite di hit API. Modifica le opzioni di intervallo tra gli aggiornamenti nella <a href='#' class=\"msg-trigger-openoptions\">pagina delle opzioni</a>. Silverbird M non si aggiornera fino al $nextResetDate $nextResetTime$.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -321,7 +321,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "Hey! Le tue hit API rimaste si stanno esaurendo troppo velocemente.<br>Modifica le opzioni di intervallo tra gli aggiornamenti nella <a href='#' class=\"msg-trigger-openoptions\">pagina delle opzioni</a>. Stai attento se hai in esecuzione più client di twitter allo stesso tempo, perché condividono tutti lo stesso limite.<br>Hit rimaste a disposizione: $remainingHits$ - Prossimo reset delle hit: $nextResetDate$ $nextResetTime$",
+		"message": "Hey! Le tue hit API rimaste si stanno esaurendo troppo velocemente.<br>Modifica le opzioni di intervallo tra gli aggiornamenti nella <a href='#' class=\"msg-trigger-openoptions\">pagina delle opzioni</a>. Stai attento se hai in esecuzione piu client di twitter allo stesso tempo, perche condividono tutti lo stesso limite.<br>Hit rimaste a disposizione: $remainingHits$ - Prossimo reset delle hit: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -338,7 +338,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "Mentre tentavi di autenticarti si è verificato il seguente errore: $errorMessage$. <a href=\"#\" class=\"msg-trigger-openoptions\">Clicca qui per riavviare il processo di autenticazione, grazie.</a>",
+		"message": "Mentre tentavi di autenticarti si e verificato il seguente errore: $errorMessage$. <a href=\"#\" class=\"msg-trigger-openoptions\">Clicca qui per riavviare il processo di autenticazione, grazie.</a>",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -402,13 +402,13 @@
 		"message": "anni fa"
 	},
 	"options_title": {
-		"message": "Opzioni di Silver Bird"
+		"message": "Opzioni di Silverbird M"
 	},
 	"conf_saved": {
 		"message": "Impostazioni salvate correttamente!"
 	},
 	"changes_restart": {
-		"message": "In ogni caso, acuni cambiamenti richiedono un riavvio dell'estensione. Vuoi farlo ora?<br>    (Il conto dei tweet non letti verrà resettato.)"
+		"message": "In ogni caso, acuni cambiamenti richiedono un riavvio dell'estensione. Vuoi farlo ora?<br>    (Il conto dei tweet non letti verra resettato.)"
 	},
 	"remaining_api_hits": {
 		"message": "Hit API di Twitter rimaste: "
@@ -558,7 +558,7 @@
 		"message": "Timeline"
 	},
 	"notice_api_hits": {
-		"message": "È consigliabile mantenere le hit API <span style=\"color: red;\"> al di sotto di <span class=\"__hourly_limit\"></span></span>! Altrimenti Silver Bird non funzionerà correttamente e le timeline non si aggiorneranno più.<br><span style=\"color: red;\">Ricorda</span> che se stai usando più di un client Twitter devi tenere il numero delle hit API ancora più basso."
+		"message": "E consigliabile mantenere le hit API <span style=\"color: red;\"> al di sotto di <span class=\"__hourly_limit\"></span></span>! Altrimenti Silverbird M non funzionera correttamente e le timeline non si aggiorneranno piu.<br><span style=\"color: red;\">Ricorda</span> che se stai usando piu di un client Twitter devi tenere il numero delle hit API ancora piu basso."
 	},
 	"l_hits_notice": {
 		"message": "Hit API all'ora: "
@@ -585,7 +585,7 @@
 		"message": "Utenti bloccati:"
 	},
 	"notice_right_click_change": {
-		"message": "* Hei, ora puoi usare il menu cliccando col tasto destro direttamente nella finestra di pop up per cambiare quasi tutte le impostazioni. È sufficiente uscire di qui! :)"
+		"message": "* Hei, ora puoi usare il menu cliccando col tasto destro direttamente nella finestra di pop up per cambiare quasi tutte le impostazioni. E sufficiente uscire di qui! :)"
 	},
 	"l_tweets_per_page": {
 		"message": "Tweet per pagina:"
@@ -636,7 +636,7 @@
 		"message": "Condividi questa pagina"
 	},
 	"tweet_send_error": {
-		"message": "Si è verificato un errore durante l'invio del tweet. Twitter si sta comportando in modo strano? Puoi provare di nuovo ma ti conviene controllare il tuo account per evitare di pubblicare lo stesso tweet due volte."
+		"message": "Si e verificato un errore durante l'invio del tweet. Twitter si sta comportando in modo strano? Puoi provare di nuovo ma ti conviene controllare il tuo account per evitare di pubblicare lo stesso tweet due volte."
 	},
 	"detach_window": {
 	  "message": "Separa le finestre"
@@ -705,6 +705,6 @@
 	  "message": "Mai"
 	},
 	"invalid_keys": {
-	  "message": "Stai usando delle API key vuote, probabilmente perché stai utilizzando una versione in via di sviluppo.<br>È preferibile registrare le applicazioni su http://dev.twitter.com e riempire le APi key nel file lib/secret_keys.jso."
+	  "message": "Stai usando delle API key vuote, probabilmente perche stai utilizzando una versione in via di sviluppo.<br>E preferibile registrare le applicazioni su http://dev.twitter.com e riempire le APi key nel file lib/secret_keys.jso."
 	}
 }

@@ -40,11 +40,11 @@ class ExtensionInfo
 end
 
 module Constants
-  KEY_FILE = "../silver_bird.pem"
-  BETA_KEY_FILE = "../silver_bird_beta.pem"
+  KEY_FILE = "./silverbird_m.pem"
+  BETA_KEY_FILE = "./silverbird_m_beta.pem"
   IGNORE_DIR = /\.git/
   IGNORE_FILE = /Rakefile|\.gitignore|.*\.crx$|.*\.zip$/
-  TEMP_PACKAGE_FILE = "/tmp/tmp_package"
+  TEMP_PACKAGE_FILE = ".tmp/tmp_package"
 end
 
 def current_branch
@@ -53,7 +53,7 @@ def current_branch
 end
 
 def get_filename(extension_info, ext)
-  "./chromed_bird_#{extension_info.id}_#{extension_info.version}_#{current_branch}.#{ext}"
+  "./silverbirdm_#{extension_info.id}_#{extension_info.version}_#{current_branch}.#{ext}"
 end
 
 @crxmake_hash = {

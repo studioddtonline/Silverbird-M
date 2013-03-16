@@ -1,14 +1,13 @@
-## Silver Bird ##
+## Silverbird M ##
 
 1. What is it?
 
-    Silver Bird is a general purpose Chromium twitter extension.
+    Silverbird M is a general purpose Chromium Twitter extension.
+    Silverbird M is forked from Silver Bird.
 
 2. Installing
 
-    Get it at the [chrome web store](https://chrome.google.com/webstore/detail/encaiiljifbdbjlphpgpiimidegddhic)
-
-    or [Download it directly from GitHub](https://github.com/cezarsa/silver_bird/downloads)
+    Get it at the [Download and Build it directly from GitHub](https://github.com/studioddtonline/silver_bird)
 
 3. Compatibility
 
@@ -30,4 +29,5 @@
 
 6. Credits
 
+    [Cezar Sá Espinola](http://cezarsa.github.com/) - Origenal Development
     [Chiara De Liberato](http://www.chiaradeliberato.it/) - Italian translation

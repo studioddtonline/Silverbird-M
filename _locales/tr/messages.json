@@ -1,24 +1,24 @@
 {
 	"extDescription": {
-		"message": "Silver Bird, Twitter hesabınızı Google Chrome üzerinden takip etmenizi ve yönetmenizi sağlayan bir eklentidir.",
+		"message": "Silverbird M, Twitter hesab?n?z? Google Chrome uzerinden takip etmenizi ve yonetmenizi sa?layan bir eklentidir.",
 		"description": "Extension description"
 	},
 	"resetSize": {
-		"message": "Varsayılan boyuta dönüş için çift tıklayın"
+		"message": "Varsay?lan boyuta donu? icin cift t?klay?n"
 	},
 	"composeTweet": {
 		"message": "Yeni tweet",
 		"description": "Text for composing new tweet"
 	},
 	"tweetit": {
-		"message": "Gönder"
+		"message": "Gonder"
 	},
 	"logout": {
-		"message": "Çıkış",
+		"message": "C?k??",
 		"description": "The text for the logout link"
 	},
 	"options": {
-		"message": "Seçenekler",
+		"message": "Secenekler",
 		"description": "Options link"
 	},
 	"refresh": {
@@ -26,35 +26,35 @@
 		"description": "Refresh link"
 	},
 	"suspend": {
-		"message": "İptal",
+		"message": "?ptal",
 		"description": "Suspend link"
 	},
 	"autoUpdatesSuspended": {
-		"message": "Otomatik güncellemeler iptal edildi"
+		"message": "Otomatik guncellemeler iptal edildi"
 	},
 	"resume": {
 		"message": "Devam"
 	},
 	"remove": {
-		"message": "Kaldır"
+		"message": "Kald?r"
 	},
 	"hide": {
 		"message": "Gizle"
 	},
 	"show": {
-		"message": "Göster"
+		"message": "Goster"
 	},
 	"add": {
 		"message": "Ekle"
 	},
 	"selectList": {
-		"message": "- Bir liste seç -"
+		"message": "- Bir liste sec -"
 	},
 	"updateList": {
-		"message": "Listeler güncelleniyor..."
+		"message": "Listeler guncelleniyor..."
 	},
 	"w_Unified": {
-		"message": "Tümü"
+		"message": "Tumu"
 	},
 	"w_Home": {
 		"message": "Ana sayfa"
@@ -81,10 +81,10 @@
 		"message": "tekrar tweetleyen:"
 	},
 	"retweetedByMe": {
-		"message": "sizin tarafınızdan tekrar tweetlendi"
+		"message": "sizin taraf?n?zdan tekrar tweetlendi"
 	},
 	"unmarkFavorite": {
-		"message": "Favorilerden kaldır"
+		"message": "Favorilerden kald?r"
 	},
 	"markFavorite": {
 		"message": "Favorilere ekle"
@@ -99,7 +99,7 @@
 		"message": "Evet"
 	},
 	"No": {
-		"message": "Hayır"
+		"message": "Hay?r"
 	},
 	"Reply": {
 		"message": "Cevapla"
@@ -111,16 +111,16 @@
 		"message": "Bu iletiyi yeniden tweetle: "
 	},
 	"oldRT": {
-		"message": "Paylaş"
+		"message": "Payla?"
 	},
 	"markAllRead": {
-		"message": "Tümünü okundu olarak işaretle"
+		"message": "Tumunu okundu olarak i?aretle"
 	},
 	"newToken": {
-		"message": "Başka bir işaretçi iste"
+		"message": "Ba?ka bir i?aretci iste"
 	},
 	"shortenerIdleString": {
-		"message": "Buraya kısaltılacak adresi yazın. Açık sayfayı sağdaki simgeden kısaltın."
+		"message": "Buraya k?salt?lacak adresi yaz?n. Ac?k sayfay? sa?daki simgeden k?salt?n."
 	},
 	"timelineHome": {
 		"message": "Ana sayfa",
@@ -141,7 +141,7 @@
 		"message": "tweet"
 	},
 	"newTweetsAvailable": {
-		"message": "Yeni $count$ tweet var. Okumak için tıklayın.",
+		"message": "Yeni $count$ tweet var. Okumak icin t?klay?n.",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -152,40 +152,40 @@
 		}
 	},
 	"preventClosing": {
-		"message": "Kapanmaması için tıklayın."
+		"message": "Kapanmamas? icin t?klay?n."
 	},
 	"changeNotificationSettings": {
-		"message": "Bildirim seçeneklerini ayarlar sayfasından değiştirebilirsiniz."
+		"message": "Bildirim seceneklerini ayarlar sayfas?ndan de?i?tirebilirsiniz."
 	},
 	"loadingMap": {
-		"message": "Harita yükleniyor..."
+		"message": "Harita yukleniyor..."
 	},
 	"loadingImage": {
-		"message": "Görsel yükleniyor..."
+		"message": "Gorsel yukleniyor..."
 	},
 	"loadingLongUrl": {
-		"message": "URL yükleniyor..."
+		"message": "URL yukleniyor..."
 	},
 	"errorExpandingUrl": {
-		"message": "Bir hata oluştu. Lütfen tekrar deneyin."
+		"message": "Bir hata olu?tu. Lutfen tekrar deneyin."
 	},
 	"ajaxFailed": {
-		"message": "AJAX isteği başarısız (kötü bağlantı?)"
+		"message": "AJAX iste?i ba?ar?s?z (kotu ba?lant??)"
 	},
 	"successAuth": {
-		"message": "Tebrikler, kimliğiniz doğrulandı. Silver Bird'ün tadını çıkarın!"
+		"message": "Tebrikler, kimli?iniz do?ruland?. Silverbird M'un tad?n? c?kar?n!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird yetkili!"
+		"message": "Silverbird M yetkili!"
 	},
 	"cbNotAuthorized": {
-		"message": "Bir hata oluştu. Lütfen Silver Bird ikonuna tekrar tıklayın."
+		"message": "Bir hata olu?tu. Lutfen Silverbird M ikonuna tekrar t?klay?n."
 	},
 	"authorizing": {
-		"message": "Lütfen bekleyin..."
+		"message": "Lutfen bekleyin..."
 	},
 	"yourPIN": {
-		"message": "PIN numaranız: $pin$",
+		"message": "PIN numaran?z: $pin$",
 		"placeholders": {
 			"pin":{
 				"content": "$1"
@@ -196,16 +196,16 @@
 		"message": "Tekrar deneyin"
 	},
 	"canceling": {
-		"message": "İptal ediliyor..."
+		"message": "?ptal ediliyor..."
 	},
 	"cancelTweet": {
-		"message": "İptal"
+		"message": "?ptal"
 	},
 	"queued_messages": {
 		"message": "Kuyruktaki mesajlar:"
 	},
 	"queue_trying": {
-		"message": "$timediff$ tarihinden beri gönderilmeyi bekliyor",
+		"message": "$timediff$ tarihinden beri gonderilmeyi bekliyor",
 		"placeholders": {
 			"timediff": {
 				"content": "$1"
@@ -213,7 +213,7 @@
 		}
 	},
 	"queue_retried": {
-		"message": "$timediff$ tarihinden beri $retries$ defa gönderilmeye çalıştı [$laststatus$]",
+		"message": "$timediff$ tarihinden beri $retries$ defa gonderilmeye cal??t? [$laststatus$]",
 		"placeholders": {
 			"retries": {
 				"content": "$1"
@@ -227,7 +227,7 @@
 		}
 	},
 	"ue_fetchingLists": {
-		"message": "Listeler alınırken $status$ hatası oluştu.",
+		"message": "Listeler al?n?rken $status$ hatas? olu?tu.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -235,7 +235,7 @@
 		}
 	},
 	"ue_updatingTweets": {
-		"message": "Tweetler güncellenirken $baseError$ hatası oluştu.",
+		"message": "Tweetler guncellenirken $baseError$ hatas? olu?tu.",
 		"placeholders": {
 			"baseError": {
 				"content": "$1"
@@ -243,10 +243,10 @@
 		}
 	},
 	"ue_updatingTweets2": {
-		"message": "Eğer bu hata ile çok sık karşılaşıyorsanız çıkış yapıp tekrar girmeyi deneyin."
+		"message": "E?er bu hata ile cok s?k kar??la??yorsan?z c?k?? yap?p tekrar girmeyi deneyin."
 	},
 	"ue_deletingTweet": {
-		"message": "Tweet silinirken $status$ hatası oluştu.",
+		"message": "Tweet silinirken $status$ hatas? olu?tu.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -254,7 +254,7 @@
 		}
 	},
 	"ue_retweeting": {
-		"message": "Tekrar tweetlerken $status$ hatası oluştu.",
+		"message": "Tekrar tweetlerken $status$ hatas? olu?tu.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -262,7 +262,7 @@
 		}
 	},
 	"ue_markFavorite": {
-		"message": "Favorilere eklerken $status$ hatası oluştu.",
+		"message": "Favorilere eklerken $status$ hatas? olu?tu.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -270,7 +270,7 @@
 		}
 	},
 	"ue_unmarkFavorite": {
-		"message": "Favoriden kaldırırken $status$ hatası oluştu.",
+		"message": "Favoriden kald?r?rken $status$ hatas? olu?tu.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -298,7 +298,7 @@
 		"message": "Yetkilendir!"
 	},
 	"exceededAPIHits": {
-		"message": "Günlük API kullanım limitini aştınız. Lütfen <a href='#' class=\"msg-trigger-openoptions\">ayarlar sayfasından</a> yenileme aralığını kontrol edin. Silver Bird $nextResetDate $nextResetTime$ tarihine kadar güncellenmeyecek.",
+		"message": "Gunluk API kullan?m limitini a?t?n?z. Lutfen <a href='#' class=\"msg-trigger-openoptions\">ayarlar sayfas?ndan</a> yenileme aral???n? kontrol edin. Silverbird M $nextResetDate $nextResetTime$ tarihine kadar guncellenmeyecek.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -312,7 +312,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "API limitinizi çok hızlı dolduruyorsunuz.<br>Lütfen <a href='#' class=\"msg-trigger-openoptions\">ayarlar sayfasından</a> yenileme aralığını kontrol edin.<br>Kalan hak: $remainingHits$ - Bir sonraki sıfırlama tarihi: $nextResetDate$ $nextResetTime$",
+		"message": "API limitinizi cok h?zl? dolduruyorsunuz.<br>Lutfen <a href='#' class=\"msg-trigger-openoptions\">ayarlar sayfas?ndan</a> yenileme aral???n? kontrol edin.<br>Kalan hak: $remainingHits$ - Bir sonraki s?f?rlama tarihi: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -329,7 +329,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "Bir hata oluştu: $errorMessage$. Lütfen <a href=\"#\" class=\"msg-trigger-openoptions\">yetkilendirme işlemini tekrar başlatın</a>.",
+		"message": "Bir hata olu?tu: $errorMessage$. Lutfen <a href=\"#\" class=\"msg-trigger-openoptions\">yetkilendirme i?lemini tekrar ba?lat?n</a>.",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -337,13 +337,13 @@
 		}
 	},
 	"justNow": {
-		"message": "Az önce"
+		"message": "Az once"
 	},
 	"minuteAgo": {
-		"message": "Saniyeler önce"
+		"message": "Saniyeler once"
 	},
 	"minutes": {
-		"message": "$nr_of_minutes$ $minutes$ önce",
+		"message": "$nr_of_minutes$ $minutes$ once",
 		"placeholders": {
 			"nr_of_minutes":{
 				"content": "$1"
@@ -361,7 +361,7 @@
 		"message": "dakika"
 	},
 	"timeAgo": {
-		"message": "$time$ $time_string$ önce",
+		"message": "$time$ $time_string$ once",
 		"placeholders": {
 			"time": {
 				"content": "$1"
@@ -378,10 +378,10 @@
 		"message": "saat"
 	},
 	"day_singular": {
-		"message": "gün"
+		"message": "gun"
 	},
 	"day_plural": {
-		"message": "gün"
+		"message": "gun"
 	},
 	"month_singular": {
 		"message": "ay"
@@ -390,46 +390,46 @@
 		"message": "ay"
 	},
 	"yearsAgo": {
-		"message": "yıl önce"
+		"message": "y?l once"
 	},
 	"options_title": {
-		"message": "Silver Bird Seçenekleri"
+		"message": "Silverbird M Secenekleri"
 	},
 	"conf_saved": {
-		"message": "Ayarlarınız başarıyla kaydedildi."
+		"message": "Ayarlar?n?z ba?ar?yla kaydedildi."
 	},
 	"changes_restart": {
-		"message": "Bazı ayarların aktif olması için eklentinin yeniden başlatılması gerek. Bunu şimdi yapmak ister misiniz?<br>    (Okunmamış tweet sayınız sıfırlanacak)"
+		"message": "Baz? ayarlar?n aktif olmas? icin eklentinin yeniden ba?lat?lmas? gerek. Bunu ?imdi yapmak ister misiniz?<br>    (Okunmam?? tweet say?n?z s?f?rlanacak)"
 	},
 	"remaining_api_hits": {
-		"message": "Kalan Twitter API Kullanım Sayısı: "
+		"message": "Kalan Twitter API Kullan?m Say?s?: "
 	},
 	"rate_limit_reset": {
-		"message": "Bir sonraki Twitter API sıfırlama tarihi: "
+		"message": "Bir sonraki Twitter API s?f?rlama tarihi: "
 	},
 	"nerds_link": {
-		"message": "API kullanım istatistikleri"
+		"message": "API kullan?m istatistikleri"
 	},
 	"g_ui": {
-		"message": "Arayüz"
+		"message": "Arayuz"
 	},
 	"l_name_attribute": {
-		"message": "Tweetlerdeki isimler nasıl görünsün?:"
+		"message": "Tweetlerdeki isimler nas?l gorunsun?:"
 	},
 	"o_screen_name": {
-		"message": "Kullanıcı adı"
+		"message": "Kullan?c? ad?"
 	},
 	"o_name": {
-		"message": "Gerçek ad"
+		"message": "Gercek ad"
 	},
 	"o_both": {
-		"message": "İkisi de"
+		"message": "?kisi de"
 	},
 	"l_compose_position": {
 		"message": "Yeni tweet konumu:"
 	},
 	"o_top": {
-		"message": "Üst"
+		"message": "Ust"
 	},
 	"o_bottom": {
 		"message": "Alt"
@@ -438,43 +438,43 @@
 		"message": "Tema:"
 	},
 	"l_font_size": {
-		"message": "Yazı boyutu:"
+		"message": "Yaz? boyutu:"
 	},
 	"o_small": {
-		"message": "Küçük"
+		"message": "Kucuk"
 	},
 	"o_normal": {
 		"message": "Normal"
 	},
 	"o_large": {
-		"message": "Büyük"
+		"message": "Buyuk"
 	},
 	"o_extra_large": {
-		"message": "Çok büyük"
+		"message": "Cok buyuk"
 	},
 	"l_font_family": {
-		"message": "Yazı tipi:"
+		"message": "Yaz? tipi:"
 	},
 	"l_hover_timeout": {
-		"message": "Okumak için üzerinde bekleme süresi (ms):"
+		"message": "Okumak icin uzerinde bekleme suresi (ms):"
 	},
 	"l_show_expanded_urls": {
-		"message": "Kısaltılmış adresleri genişlet:"
+		"message": "K?salt?lm?? adresleri geni?let:"
 	},
 	"l_reply_all": {
-		"message": "Tüm bahsedilenleri cevapla:"
+		"message": "Tum bahsedilenleri cevapla:"
 	},
 	"l_show_hits_in_popup": {
-		"message": "API kullanım sayısını göster:"
+		"message": "API kullan?m say?s?n? goster:"
 	},
 	"l_show_user_autocomplete": {
-		"message": "Kullanıcı adlarını otomatik tamamla:"
+		"message": "Kullan?c? adlar?n? otomatik tamamla:"
 	},
 	"l_icon_color": {
 		"message": "Simge rengi:"
 	},
 	"l_tweets_color_only_unified": {
-		"message": "Sadece birleşik akışta renkler:"
+		"message": "Sadece birle?ik ak??ta renkler:"
 	},
 	"l_tweet_color": {
 		"message": "Tweet rengi:"
@@ -483,7 +483,7 @@
 		"message": "Bahsetmeler"
 	},
 	"btn_reset_popup_size": {
-		"message": "Pencere Boyutunu Sıfırla"
+		"message": "Pencere Boyutunu S?f?rla"
 	},
 	"g_notifications": {
 		"message": "Bildirimler"
@@ -492,7 +492,7 @@
 		"message": "Tweet bildirimi"
 	},
 	"l_change_icon": {
-		"message": "Simgeyi değiştir"
+		"message": "Simgeyi de?i?tir"
 	},
 	"l_icon_color_column": {
 		"message": "Simge rengi"
@@ -516,82 +516,82 @@
 		"message": "Bildirim stili:"
 	},
 	"l_noti_on_page": {
-		"message": "Tarayıcı bildirimleri"
+		"message": "Taray?c? bildirimleri"
 	},
 	"l_noti_desktop": {
-		"message": "Masaüstü bildirimleri"
+		"message": "Masaustu bildirimleri"
 	},
 	"l_notification_fade_timeout": {
-		"message": "Bildirim zaman aşımı(s):"
+		"message": "Bildirim zaman a??m?(s):"
 	},
 	"l_notification_max_popups": {
-		"message": "Maksimum bildirim sayısı (-1: hepsi):"
+		"message": "Maksimum bildirim say?s? (-1: hepsi):"
 	},
 	"g_shortener": {
-		"message": "Kısaltıcı"
+		"message": "K?salt?c?"
 	},
 	"l_url_shortener": {
-		"message": "URL kısaltıcı:"
+		"message": "URL k?salt?c?:"
 	},
 	"l_shortener_acct": {
-		"message": "Kişisel hesap kullan?"
+		"message": "Ki?isel hesap kullan?"
 	},
 	"l_shortener_login": {
-		"message": "API Giriş:"
+		"message": "API Giri?:"
 	},
 	"l_shortener_key": {
-		"message": "API Anahtarı:"
+		"message": "API Anahtar?:"
 	},
 	"l_share_include_title": {
-		"message": "Sayfa başlığını dahil et:"
+		"message": "Sayfa ba?l???n? dahil et:"
 	},
 	"g_timelines": {
-		"message": "Akışlar"
+		"message": "Ak??lar"
 	},
 	"notice_api_hits": {
-		"message": "Saatlik API limiti en fazla <span style=\"color: red;\"><span class=\"__hourly_limit\"></span></span> olabilir!<br>Eğer birden fazla Twitter istemcisi kullanıyorsanız aşağıdaki değerleri daha da azaltmalısınız."
+		"message": "Saatlik API limiti en fazla <span style=\"color: red;\"><span class=\"__hourly_limit\"></span></span> olabilir!<br>E?er birden fazla Twitter istemcisi kullan?yorsan?z a?a??daki de?erleri daha da azaltmal?s?n?z."
 	},
 	"l_hits_notice": {
 		"message": "Saatlik API limiti: "
 	},
 	"l_visible": {
-		"message": "Görünsün"
+		"message": "Gorunsun"
 	},
 	"l_refresh_interval": {
-		"message": "Yenileme aralığı(s)"
+		"message": "Yenileme aral???(s)"
 	},
 	"l_include_in_unified": {
-		"message": "Birleşik akışa dahil et"
+		"message": "Birle?ik ak??a dahil et"
 	},
 	"l_tabs_count": {
-		"message": "Sekme sayısı"
+		"message": "Sekme say?s?"
 	},
 	"l_unified_timeline": {
-		"message": "Birleşik Akış:"
+		"message": "Birle?ik Ak??:"
 	},
 	"tml_favorites": {
 		"message": "Favoriler:"
 	},
 	"l_blocked_users": {
-		"message": "Engellenen kullanıcılar:"
+		"message": "Engellenen kullan?c?lar:"
 	},
 	"notice_right_click_change": {
-		"message": "* Artık pencerede sağ tıklayarak buradaki ayarların çoğunu pencere üzerinden değiştirebilirsiniz."
+		"message": "* Art?k pencerede sa? t?klayarak buradaki ayarlar?n co?unu pencere uzerinden de?i?tirebilirsiniz."
 	},
 	"l_tweets_per_page": {
-		"message": "Sayfa başı gösterilecek tweet sayısı:"
+		"message": "Sayfa ba?? gosterilecek tweet say?s?:"
 	},
 	"l_max_cached_tweets": {
-		"message": "Gösterilecek maksimum tweet:"
+		"message": "Gosterilecek maksimum tweet:"
 	},
 	"g_microblogging_service": {
 		"message": "Mikroblog servisi"
 	},
 	"g_advanced": {
-		"message": "Gelişmiş"
+		"message": "Geli?mi?"
 	},
 	"l_request_timeout": {
-		"message": "İstek zamanaşımı(ms):"
+		"message": "?stek zamana??m?(ms):"
 	},
 	"l_base_url": {
 		"message": "Twitter API Adresi:"
@@ -600,13 +600,13 @@
 		"message": "OAuth Adresi:"
 	},
 	"l_same_signing_urls": {
-		"message": "Aynı Giriş Adresleri:"
+		"message": "Ayn? Giri? Adresleri:"
 	},
 	"l_base_signing_url": {
-		"message": "API Giriş Adresi:"
+		"message": "API Giri? Adresi:"
 	},
 	"l_base_oauth_signing_url": {
-		"message": "OAuth Giriş Adresi:"
+		"message": "OAuth Giri? Adresi:"
 	},
 	"l_base_search_url": {
 		"message": "Arama API Adresi:"
@@ -615,28 +615,28 @@
 		"message": "Kaydet"
 	},
 	"btn_reset": {
-		"message": "Sıfırla"
+		"message": "S?f?rla"
 	},
 	"btn_default": {
-		"message": "Varsayılan ayarlara geri dön"
+		"message": "Varsay?lan ayarlara geri don"
 	},
 	"shortenIt": {
-		"message": "Kısalt"
+		"message": "K?salt"
 	},
 	"shorten_current": {
-		"message": "Aktif sayfayı paylaş"
+		"message": "Aktif sayfay? payla?"
 	},
 	"tweet_send_error": {
-		"message": "Tweetinizi gönderirken bir hata oluştu. Twitter garip davranıyor olabilir mi? Tekrar deneyebilirsiniz ama aynı mesajı göndermediğinizden emin olun."
+		"message": "Tweetinizi gonderirken bir hata olu?tu. Twitter garip davran?yor olabilir mi? Tekrar deneyebilirsiniz ama ayn? mesaj? gondermedi?inizden emin olun."
 	},
 	"detach_window": {
-	  "message": "Pencereyi Ayır"
+	  "message": "Pencereyi Ay?r"
 	},
 	"follow_action": {
 	  "message": "Takip Et"
 	},
 	"unfollow_action": {
-	  "message": "Takip Etmeyi Bırak"
+	  "message": "Takip Etmeyi B?rak"
 	},
 	"tweets_action": {
 	  "message": "Tweetler"
@@ -648,33 +648,33 @@
 	  "message": "Bahset"
 	},
     "g_image_service": {
-        "message": "Görsel servisi"
+        "message": "Gorsel servisi"
     },
     "g_trending_topics": {
-        "message": "Popüler konular"
+        "message": "Populer konular"
     },
     "automatic": {
-        "message": "Tarayıcı ile aynı"
+        "message": "Taray?c? ile ayn?"
     },
     "l_default_locale": {
-        "message": "Varsayılan dil"
+        "message": "Varsay?lan dil"
     },
     "l_image_up_service": {
-        "message": "Görsel yükleme servisi"
+        "message": "Gorsel yukleme servisi"
     },
     "l_trending_topics_woeid": {
-        "message": "Popüler konular yerelleştirmesi"
+        "message": "Populer konular yerelle?tirmesi"
     },
     "sentTo": {
-        "message": "gönderildi"
+        "message": "gonderildi"
     },
     "trending_topics": {
-        "message": "Popüler konular"
+        "message": "Populer konular"
     },
     "w_ReceivedDM": {
-        "message": "Alınan iletiler"
+        "message": "Al?nan iletiler"
     },
     "w_SentDM": {
-        "message": "Gönderilen iletiler"
+        "message": "Gonderilen iletiler"
     }
 }

@@ -1,10 +1,10 @@
 {
 	"extDescription": {
-		"message": "Silver Bird ist eine Erweiterung für Twitter, die es erlaubt, der Timeline zu folgen und mit Twitter zu interagieren.",
+		"message": "Silverbird M ist eine Erweiterung fur Twitter, die es erlaubt, der Timeline zu folgen und mit Twitter zu interagieren.",
 		"description": "Beschreibung der Erweiterung"
 	},
 	"resetSize": {
-		"message": "Doppelklicken, um die Größe zurück zu setzen"
+		"message": "Doppelklicken, um die Grose zuruck zu setzen"
 	},
 	"composeTweet": {
 		"message": "Tweet schreiben",
@@ -15,19 +15,19 @@
 	},
 	"logout": {
 		"message": "Abmelden",
-		"description": "Text für den Logout-Link"
+		"description": "Text fur den Logout-Link"
 	},
 	"options": {
 		"message": "Optionen",
-		"description": "Verknüpfung zu den Optionen"
+		"description": "Verknupfung zu den Optionen"
 	},
 	"refresh": {
 		"message": "Aktualisieren",
-		"description": "Verknüpfung zum Aktualisieren"
+		"description": "Verknupfung zum Aktualisieren"
 	},
 	"suspend": {
 		"message": "Pausieren",
-		"description": "Verknüpfung zum Pausieren"
+		"description": "Verknupfung zum Pausieren"
 	},
 	"autoUpdatesSuspended": {
 		"message": "Automatische Updates pausiert."
@@ -45,16 +45,16 @@
 		"message": "Zeigen"
 	},
 	"add": {
-		"message": "Hinzufügen"
+		"message": "Hinzufugen"
 	},
 	"selectList": {
-		"message": "- Wähle eine Liste aus -"
+		"message": "- Wahle eine Liste aus -"
 	},
 	"updateList": {
 		"message": "Listen aktualisieren..."
 	},
 	"w_Unified": {
-		"message": "Übersicht"
+		"message": "Ubersicht"
 	},
 	"w_Home": {
 		"message": "Startseite"
@@ -84,16 +84,16 @@
 		"message": "von mir retweeted"
 	},
 	"unmarkFavorite": {
-		"message": "Als Favorit abwählen"
+		"message": "Als Favorit abwahlen"
 	},
 	"markFavorite": {
 		"message": "Als Favorit markieren"
 	},
 	"Delete": {
-		"message": "Löschen"
+		"message": "Loschen"
 	},
 	"deleteConfirm": {
-		"message": "Nachricht löschen: "
+		"message": "Nachricht loschen: "
 	},
 	"Yes": {
 		"message": "Ja"
@@ -120,7 +120,7 @@
 		"message": "Neues Token anfordern"
 	},
 	"shortenerIdleString": {
-		"message": "URL zum Kürzen eintippen, oder gleich hier klicken \u2192"
+		"message": "URL zum Kurzen eintippen, oder gleich hier klicken \u2192"
 	},
 	"timelineHome": {
 		"message": "Startseite",
@@ -141,7 +141,7 @@
 		"message": "Tweets"
 	},
 	"newTweetsAvailable": {
-		"message": "$count$ weitere $tweets$ verfügbar. Jetzt aktualisieren.",
+		"message": "$count$ weitere $tweets$ verfugbar. Jetzt aktualisieren.",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -152,10 +152,10 @@
 		}
 	},
 	"preventClosing": {
-		"message": "Klicken, um Schließen zu verhindern."
+		"message": "Klicken, um Schliesen zu verhindern."
 	},
 	"changeNotificationSettings": {
-		"message": "Benachrichtigungseinstellungen können in den Optionen geändert werden."
+		"message": "Benachrichtigungseinstellungen konnen in den Optionen geandert werden."
 	},
 	"loadingMap": {
 		"message": "Lade Karte ..."
@@ -173,16 +173,16 @@
 		"message": "AJAX Anfrage fehlgeschlagen. (Schlechte Verbindung?)"
 	},
 	"successAuth": {
-		"message": "Glückwunsch, Du wurdest erfolgreich authentifiziert. Viel Spaß mit Silver Bird!"
+		"message": "Gluckwunsch, Du wurdest erfolgreich authentifiziert. Viel Spas mit Silverbird M!"
 	},
 	"cbAuthorized": {
-		"message": "Silver Bird authorisiert!"
+		"message": "Silverbird M authorisiert!"
 	},
 	"cbNotAuthorized": {
-		"message": "Ups... Irgendwas ist schief gegangen. Bitte klick noch mal auf das Silver Bird Icon."
+		"message": "Ups... Irgendwas ist schief gegangen. Bitte klick noch mal auf das Silverbird M Icon."
 	},
 	"authorizing": {
-		"message": "Bitte warten, Silver Bird wird authorisiert..."
+		"message": "Bitte warten, Silverbird M wird authorisiert..."
 	},
 	"yourPIN": {
 		"message": "Deine PIN ist: $pin$",
@@ -246,7 +246,7 @@
 		"message": " Wenn dieser Timeout-Fehler wiederholt auftritt, versuch's mit Aus- und wieder Einloggen."
 	},
 	"ue_deletingTweet": {
-		"message": "Unerwartete Fehler $status$ beim Löschen eines Tweets.",
+		"message": "Unerwartete Fehler $status$ beim Loschen eines Tweets.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -270,7 +270,7 @@
 		}
 	},
 	"ue_unmarkFavorite": {
-		"message": "Unerwartete Fehler $status$ beim Löschen eines Favoriten.",
+		"message": "Unerwartete Fehler $status$ beim Loschen eines Favoriten.",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -298,7 +298,7 @@
 		"message": "Authorisieren!"
 	},
 	"exceededAPIHits": {
-		"message": "Du hast die API-Aufrufgrenze überschritten. Bitte überprüfe Deine Aktualisierungseinstellungen in den <a href='#' class=\"msg-trigger-openoptions\">Optionen</a>. Silver Bird wird bis $nextResetDate $nextResetTime$ nicht mehr aktualisiert.",
+		"message": "Du hast die API-Aufrufgrenze uberschritten. Bitte uberprufe Deine Aktualisierungseinstellungen in den <a href='#' class=\"msg-trigger-openoptions\">Optionen</a>. Silverbird M wird bis $nextResetDate $nextResetTime$ nicht mehr aktualisiert.",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -312,7 +312,7 @@
 		}
 	},
 	"warningAPIHits": {
-		"message": "Hey! Die verbleibende API-Aufrufe werden zu schnell weniger.<br>Bitte überprüfe Deine Aktualisierungseinstellungen in den <a href='#' class=\"msg-trigger-openoptions\">Optionen</a>. Sei besonders vorsichtig, wenn Du mehrere Twitter-Programme verwendest; sie teilen sich die API-Aufrufe!<br>Verbleibende Aufrufe: $remainingHits$ - Nächster Reset: $nextResetDate$ $nextResetTime$",
+		"message": "Hey! Die verbleibende API-Aufrufe werden zu schnell weniger.<br>Bitte uberprufe Deine Aktualisierungseinstellungen in den <a href='#' class=\"msg-trigger-openoptions\">Optionen</a>. Sei besonders vorsichtig, wenn Du mehrere Twitter-Programme verwendest; sie teilen sich die API-Aufrufe!<br>Verbleibende Aufrufe: $remainingHits$ - Nachster Reset: $nextResetDate$ $nextResetTime$",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"
@@ -329,7 +329,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "Der folgende Fehler trat während der Authentifizierung auf:: $errorMessage$. Bitte <a href=\"#\" class=\"msg-trigger-openoptions\">hier klicken zum Neustarten der Authentifizierung</a>.",
+		"message": "Der folgende Fehler trat wahrend der Authentifizierung auf:: $errorMessage$. Bitte <a href=\"#\" class=\"msg-trigger-openoptions\">hier klicken zum Neustarten der Authentifizierung</a>.",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -393,22 +393,22 @@
 		"message": "Vor Jahren"
 	},
 	"options_title": {
-		"message": "Silver Bird Optionen"
+		"message": "Silverbird M Optionen"
 	},
 	"conf_saved": {
 		"message": "Die Konfiguration wurde erfolgreich gespeichert!"
 	},
 	"changes_restart": {
-		"message": "Einige der Änderungen erfordern, dass Silver Bird neu gestartet werden muss. Jetz neu starten?<br>    (Das wird Deinen Ungelesene Tweets-Zähler zurücksetzen.)"
+		"message": "Einige der Anderungen erfordern, dass Silverbird M neu gestartet werden muss. Jetz neu starten?<br>    (Das wird Deinen Ungelesene Tweets-Zahler zurucksetzen.)"
 	},
 	"remaining_api_hits": {
 		"message": "Verbleibende Twitter-API-Aufrufe: "
 	},
 	"rate_limit_reset": {
-		"message": "Aufrufsgrenze wird zurückgesetzt in: "
+		"message": "Aufrufsgrenze wird zuruckgesetzt in: "
 	},
 	"nerds_link": {
-		"message": "API-Statistiken (für Nerds)"
+		"message": "API-Statistiken (fur Nerds)"
 	},
 	"g_ui": {
 		"message": "UI"
@@ -438,7 +438,7 @@
 		"message": "UI Theme:"
 	},
 	"l_font_size": {
-		"message": "Schriftgröße:"
+		"message": "Schriftgrose:"
 	},
 	"o_small": {
 		"message": "Klein"
@@ -447,10 +447,10 @@
 		"message": "Normal"
 	},
 	"o_large": {
-		"message": "Groß"
+		"message": "Gros"
 	},
 	"o_extra_large": {
-		"message": "Extragroß"
+		"message": "Extragros"
 	},
 	"l_font_family": {
 		"message": "Schriftfamilie:"
@@ -459,7 +459,7 @@
 		"message": "Als Gelesen markieren nach (ms):"
 	},
 	"l_show_expanded_urls": {
-		"message": "Verkürzte URLs auflösen:"
+		"message": "Verkurzte URLs auflosen:"
 	},
 	"l_reply_all": {
 		"message": "An alle antworten:"
@@ -468,22 +468,22 @@
 		"message": "API-Aufrufzahl anzeigen:"
 	},
 	"l_show_user_autocomplete": {
-		"message": "Benutzernamen vervollständigen:"
+		"message": "Benutzernamen vervollstandigen:"
 	},
 	"l_icon_color": {
 		"message": "Icon-Farbe:"
 	},
 	"l_tweets_color_only_unified": {
-		"message": "Farben nur in der Übersicht:"
+		"message": "Farben nur in der Ubersicht:"
 	},
 	"l_tweet_color": {
 		"message": "Tweet-Farbe:"
 	},
 	"w_Mentions": {
-		"message": "Erwähnungen"
+		"message": "Erwahnungen"
 	},
 	"btn_reset_popup_size": {
-		"message": "Popup-Größe zurücksetzen"
+		"message": "Popup-Grose zurucksetzen"
 	},
 	"g_notifications": {
 		"message": "Benachrichtigungen"
@@ -492,7 +492,7 @@
 		"message": "Tweet-Benachrichtigung"
 	},
 	"l_change_icon": {
-		"message": "Icon ändern"
+		"message": "Icon andern"
 	},
 	"l_icon_color_column": {
 		"message": "Icon-Farbe"
@@ -501,7 +501,7 @@
 		"message": "Startseite:"
 	},
 	"notif_mentions": {
-		"message": "Erwähnungen:"
+		"message": "Erwahnungen:"
 	},
 	"notif_dms": {
 		"message": "DN:"
@@ -525,10 +525,10 @@
 		"message": "Benachrichtigungs-Timeout (s):"
 	},
 	"g_shortener": {
-		"message": "Verkürzer"
+		"message": "Verkurzer"
 	},
 	"l_url_shortener": {
-		"message": "URL-Verkürzer:"
+		"message": "URL-Verkurzer:"
 	},
 	"l_shortener_acct": {
 		"message": "Privates Konto nutzen?"
@@ -546,7 +546,7 @@
 		"message": "Timelines"
 	},
 	"notice_api_hits": {
-		"message": "Die API-Aufrufe pro Stunde sollten <span style=\"color: red;\">unter <span class=\"__hourly_limit\"></span></span> bleiben! Sonst wird Silver Bird nicht mehr richtig arbeiten und Timelines werden nicht mehr aktualisiert.<br><span style=\"color: red;\">Bedenke</span>, dass die API-Aufrufe noch niedriger liegen müssen, wenn Du mehrere Twitter-Programme einsetzt!"
+		"message": "Die API-Aufrufe pro Stunde sollten <span style=\"color: red;\">unter <span class=\"__hourly_limit\"></span></span> bleiben! Sonst wird Silverbird M nicht mehr richtig arbeiten und Timelines werden nicht mehr aktualisiert.<br><span style=\"color: red;\">Bedenke</span>, dass die API-Aufrufe noch niedriger liegen mussen, wenn Du mehrere Twitter-Programme einsetzt!"
 	},
 	"l_hits_notice": {
 		"message": "API-Aufrufe pro Stunde: "
@@ -558,13 +558,13 @@
 		"message": "Aktualisierungs-Intervall (s)"
 	},
 	"l_include_in_unified": {
-		"message": "In Übersichts-Timeline anzeigen"
+		"message": "In Ubersichts-Timeline anzeigen"
 	},
 	"l_tabs_count": {
 		"message": "Anzahl Tabs"
 	},
 	"l_unified_timeline": {
-		"message": "Überischts-Timeline:"
+		"message": "Uberischts-Timeline:"
 	},
 	"tml_favorites": {
 		"message": "Favoriten:"
@@ -573,7 +573,7 @@
 		"message": "Gesperrte Nutzer:"
 	},
 	"notice_right_click_change": {
-		"message": "* Hey, jetzt kannst Du mit dem Kontextmenü (Rechts-Klick) die meisten Einstellungen direkt im Popup-Fenster erledigen. Raus hier! :)"
+		"message": "* Hey, jetzt kannst Du mit dem Kontextmenu (Rechts-Klick) die meisten Einstellungen direkt im Popup-Fenster erledigen. Raus hier! :)"
 	},
 	"l_tweets_per_page": {
 		"message": "Tweets pro Setie:"
@@ -612,9 +612,9 @@
 		"message": "Speicheren"
 	},
 	"btn_reset": {
-		"message": "Zurücksetzen"
+		"message": "Zurucksetzen"
 	},
 	"btn_default": {
-		"message": "Auf Standards zurücksetzen"
+		"message": "Auf Standards zurucksetzen"
 	}
 }

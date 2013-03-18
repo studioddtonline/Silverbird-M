@@ -389,7 +389,10 @@
 	"month_plural": {
 		"message": "Monate"
 	},
-	"yearsAgo": {
+	"year_singular": {
+		"message": "Vor Jahren"
+	},
+	"year_plural": {
 		"message": "Vor Jahren"
 	},
 	"options_title": {

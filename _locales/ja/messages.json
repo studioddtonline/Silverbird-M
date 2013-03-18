@@ -84,7 +84,7 @@
 		"message": "リプライ先"
 	},
 	"sentTo": {
-		"message": "送り先"
+		"message": "DM送信先"
 	},
 	"retweetedBy": {
 		"message": "リツイートしたひと"
@@ -144,13 +144,13 @@
 		"description": "お気に入りタブ"
 	},
 	"tweet_singular": {
-		"message": "つぶやき"
+		"message": "更新"
 	},
 	"tweet_plural": {
-		"message": "つぶやき"
+		"message": "更新"
 	},
 	"newTweetsAvailable": {
-		"message": "$count$件のあたらしい$tweets$があります。クリックして更新しましょう。",
+		"message": "$count$件の$tweets$があります。クリックして更新しましょう。",
 		"placeholders": {
 			"count": {
 				"content": "$1"
@@ -182,16 +182,16 @@
 		"message": "AJAXリクエストに失敗しました (接続が切れた？)"
 	},
 	"successAuth": {
-		"message": "アプリケーションのアクセス許可がおりました。Silverbird Mをお楽しみください。"
+		"message": "アプリケーションのアクセス許可がおりました。<br>Silverbird Mをお楽しみください。"
 	},
 	"cbAuthorized": {
 		"message": "Silverbird Mはアクセス許可されました。"
 	},
 	"cbNotAuthorized": {
-		"message": "失敗したようです。Silverbird Mのアイコンをもう一度クリックしてみてください。"
+		"message": "失敗したようです。<br>Silverbird Mのアイコンをもう一度クリックしてみてください。"
 	},
 	"authorizing": {
-		"message": "少しお待ちください。アクセス許可を確認しています……。"
+		"message": "少しお待ちください。<br>アクセス許可を確認しています……。"
 	},
 	"yourPIN": {
 		"message": "PINコードを入力してください: $pin$",
@@ -298,10 +298,10 @@
 		}
 	},
 	"newtweets_singular": {
-		"message": "新しいつぶやき"
+		"message": "件の更新があります"
 	},
 	"newtweets_plural": {
-		"message": "新しいつぶやき"
+		"message": "件の更新があります"
 	},
 	"btnAuthorize": {
 		"message": "アクセス許可されました"
@@ -398,8 +398,11 @@
 	"month_plural": {
 		"message": "ヶ月"
 	},
-	"yearsAgo": {
-		"message": "年前"
+	"year_singular": {
+		"message": "年"
+	},
+	"year_plural": {
+		"message": "年"
 	},
 	"options_title": {
 		"message": "Silverbird M 設定"

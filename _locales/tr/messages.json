@@ -389,8 +389,11 @@
 	"month_plural": {
 		"message": "ay"
 	},
-	"yearsAgo": {
-		"message": "y?l once"
+	"year_singular": {
+		"message": "y?l"
+	},
+	"year_plural": {
+		"message": "y?l"
 	},
 	"options_title": {
 		"message": "Silverbird M Secenekleri"

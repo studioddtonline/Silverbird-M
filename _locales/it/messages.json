@@ -398,8 +398,11 @@
 	"month_plural": {
 		"message": "mesi"
 	},
-	"yearsAgo": {
-		"message": "anni fa"
+	"year_singular": {
+		"message": "anni"
+	},
+	"year_plural": {
+		"message": "anni"
 	},
 	"options_title": {
 		"message": "Opzioni di Silverbird M"

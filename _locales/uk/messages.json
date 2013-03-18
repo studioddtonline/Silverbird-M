@@ -389,8 +389,11 @@
 	"month_plural": {
 		"message": "м?сяц?в"
 	},
-	"yearsAgo": {
-		"message": "рок?в тому"
+	"year_singular": {
+		"message": "рок?в"
+	},
+	"year_plural": {
+		"message": "рок?в"
 	},
 	"options_title": {
 		"message": "Налаштування Silverbird M"

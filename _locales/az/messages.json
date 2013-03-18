@@ -398,8 +398,11 @@
   "month_plural": {
     "message": "ay"
   },
-  "yearsAgo": {
-    "message": "il ?vv?l"
+  "year_singular": {
+    "message": "il"
+  },
+  "year_plural": {
+    "message": "il"
   },
   "options_title": {
     "message": "Silverbird M Ayarlar?"

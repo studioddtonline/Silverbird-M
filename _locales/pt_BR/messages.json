@@ -393,8 +393,11 @@
 	"month_plural": {
 		"message": "meses"
 	},
-	"yearsAgo": {
-		"message": "anos atras"
+	"year_singular": {
+		"message": "anos"
+	},
+	"year_plural": {
+		"message": "anos"
 	},
 	"options_title": {
 		"message": "Opcoes do Silverbird M"

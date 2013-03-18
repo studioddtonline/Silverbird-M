@@ -1,6 +1,7 @@
-0.2.0.3
+0.2.0.4
 
 * Add Locale ja.
+* Change Locale properties "yearsAgo" to "year_singular" and "year_plural".
 * Remove unfinished locale.
 * Remove longshore URL Expandor.
 * For CSP compliant, jQuery update to 1.5.2.

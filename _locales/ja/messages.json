@@ -705,7 +705,7 @@
 	  "message": "最初のみ通知"
 	},
 	"l_notify_rt_never": {
-	  "message": "通志しない"
+	  "message": "通知しない"
 	},
 	"invalid_keys": {
 	  "message": "TwitterのAPIキーがありません。開発版を利用していますか？<br>独自のAPIキーを利用したい場合は、http://dev.twitter.com/にてアプリケーションを改めて登録してコンシューマキーとコンシューマシークレットを取得し、secret_keys.jsに記載してください。"

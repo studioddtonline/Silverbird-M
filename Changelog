@@ -1,10 +1,12 @@
-0.2.0.1
+0.2.0.3
 
-* add Locale ja
-* delete unfinished locale
+* Add Locale ja.
+* Remove unfinished locale.
+* Remove longshore URL Expandor.
+* For CSP compliant, jQuery update to 1.5.2.
 
 0.1.0.0
 
-* fork from Silver Bird (View Silver Bird Changelog if you check old changes)
+* Fork from Silver Bird (View Silver Bird Changelog if you check old changes)
 * Application name change to "Silverbird M".
 

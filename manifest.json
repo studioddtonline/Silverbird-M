@@ -23,7 +23,7 @@
         "48": "img/icon48.png",
         "128": "img/icon128.png"
     },
-    "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'; style-src 'self' 'unsafe-inline'",
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'; style-src 'self' 'unsafe-inline'",
     "content_scripts": [
         {
             "matches": [

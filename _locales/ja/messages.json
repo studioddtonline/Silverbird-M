@@ -1,17 +1,17 @@
 {
 	"extDescription": {
-		"message": "Silverbird M は Twitterクライアントです。あなたのTwitterアカウントとやりとりして、あなたのタイムラインを追っかけることができます。",
+		"message": "Silverbird M は Twitterクライアントです。あなたのタイムラインを追うことができます。Silverbird MはSilver Birdからforkしたプロジェクトです。",
 		"description": "Chome拡張の説明"
 	},
 	"resetSize": {
 		"message": "サイズをリセットしたいならダブルクリックしてください"
 	},
 	"composeTweet": {
-		"message": "つぶやく",
-		"description": "新しいつぶやきの入力欄"
+		"message": "ツイートする",
+		"description": "新しいツイートの入力欄"
 	},
 	"tweetit": {
-		"message": "つぶやく！"
+		"message": "送信！"
 	},
 	"logout": {
 		"message": "ログアウト",
@@ -22,7 +22,7 @@
 		"description": "オプションへのリンク"
 	},
 	"refresh": {
-		"message": "再読み込み",
+		"message": "リロード",
 		"description": "再読み込みへのリンク"
 	},
 	"suspend": {
@@ -30,7 +30,7 @@
 		"description": "自動更新停止へのリンク"
 	},
 	"autoUpdatesSuspended": {
-		"message": "自動更新は一時的に停止しています"
+		"message": "自動更新停止中……"
 	},
 	"resume": {
 		"message": "自動更新再開"
@@ -120,7 +120,7 @@
 		"message": "このメッセージをリツイートしますか: "
 	},
 	"oldRT": {
-		"message": "引用してつぶやく"
+		"message": "引用してツイート"
 	},
 	"markAllRead": {
 		"message": "すべてのメッセージを既読に"
@@ -129,7 +129,7 @@
 		"message": "違うトークンをリクエスト"
 	},
 	"shortenerIdleString": {
-		"message": "短縮したいURLを入力しましょう。表示中のページURLを短縮したいなら右画像をクリック \u2192"
+		"message": "短縮したいURLを入力するか、右画像をクリックしてください。 \u2192"
 	},
 	"timelineHome": {
 		"message": "ホーム",
@@ -208,7 +208,7 @@
 		"message": "中止しています……"
 	},
 	"cancelTweet": {
-		"message": "つぶやきを中止します"
+		"message": "ツイートを中止します"
 	},
 	"queued_messages": {
 		"message": "送信待ちのメッセージ:"
@@ -244,7 +244,7 @@
 		}
 	},
 	"ue_updatingTweets": {
-		"message": "つぶやきの更新に失敗しました エラー $baseError$",
+		"message": "ツイートの更新に失敗しました エラー $baseError$",
 		"placeholders": {
 			"baseError": {
 				"content": "$1"
@@ -255,7 +255,7 @@
 		"message": "何度もタイムアウトするようなら、いったんログアウトしてからログインしなおしてください。"
 	},
 	"ue_deletingTweet": {
-		"message": "つぶやきの削除に失敗しました エラー $status$",
+		"message": "ツイートの削除に失敗しました エラー $status$",
 		"placeholders": {
 			"status": {
 				"content": "$1"
@@ -411,7 +411,7 @@
 		"message": "新しい設定が反映されました。"
 	},
 	"changes_restart": {
-		"message": "設定の反映にはSilverbird Mを再起動する必要があります。よろしいですか？<br>(未読カウンターはリセットされます)"
+		"message": "設定の反映にはSilverbird Mを再起動する必要があります。(未読カウンターはリセットされます)"
 	},
 	"remaining_api_hits": {
 		"message": "Twitter API制限回数まで: "
@@ -426,13 +426,13 @@
 		"message": "ユーザインターフェース設定"
 	},
 	"l_name_attribute": {
-		"message": "つぶやき上の名前表示:"
+		"message": "ツイート上の名前表示:"
 	},
 	"o_screen_name": {
-		"message": "アカウント名"
+		"message": "アカウント名のみ"
 	},
 	"o_name": {
-		"message": "登録名"
+		"message": "登録名のみ"
 	},
 	"o_both": {
 		"message": "両方"
@@ -489,7 +489,7 @@
 		"message": "カラー変更はUnifiedのみ:"
 	},
 	"l_tweet_color": {
-		"message": "つぶやきの色:"
+		"message": "ツイートの色:"
 	},
 	"w_Mentions": {
 		"message": "メンション"
@@ -501,7 +501,7 @@
 		"message": "通知設定"
 	},
 	"l_tweet_notification": {
-		"message": "つぶやき通知"
+		"message": "ツイート通知"
 	},
 	"l_change_icon": {
 		"message": "アイコン変更"
@@ -591,10 +591,10 @@
 		"message": "* ちなみに、コンテクストメニューを右クリックするとポップアップするウィンドウ上で、ほとんどの設定値をちょくせつ変更できます。"
 	},
 	"l_tweets_per_page": {
-		"message": "1ページ中のつぶやき:"
+		"message": "1ページ中のツイート数:"
 	},
 	"l_max_cached_tweets": {
-		"message": "つぶやきの最大表示数:"
+		"message": "ツイートの最大表示数:"
 	},
 	"g_microblogging_service": {
 		"message": "マイクロブログサービスの切り替え"
@@ -639,7 +639,7 @@
 		"message": "表示中のページを共有する"
 	},
 	"tweet_send_error": {
-		"message": "つぶやき中にエラーが発生しました。最近、同じ文面のつぶやきをしていないか確かめてからやり直してみてください。"
+		"message": "ツイート中にエラーが発生しました。最近、同じ文面のツイートをしていないか確かめてからやり直してみてください。"
 	},
 	"detach_window": {
 	  "message": "独立ウィンドウ化する"
@@ -651,7 +651,7 @@
 	  "message": "フォローを外す"
 	},
 	"tweets_action": {
-	  "message": "つぶやきを見る"
+	  "message": "ツイートを見る"
 	},
 	"profile_action": {
 	  "message": "プロフィール"
@@ -696,7 +696,7 @@
 	  "message": "URL短縮に個人アカウントを利用:"
 	},
 	"l_notify_retweets": {
-	  "message": "つぶやきがリツイートされたら通知する"
+	  "message": "リツイートされたら通知する"
 	},
 	"l_notify_rt_always": {
 	  "message": "常に通知"

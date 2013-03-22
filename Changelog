@@ -1,3 +1,9 @@
+0.4.0.0
+
+* jQuery is updated to 1.9.1
+* jQuery UI is updated to 1.10.2
+* remove jquery.autocomplete.js
+
 0.3.2.3
 
 * jQuery is updated to 1.7.2.

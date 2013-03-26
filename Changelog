@@ -1,6 +1,7 @@
-0.4.9.0
+0.4.9.2
 
 * Support Twitter API 1.1
+* remove identi.ca support
 
 0.4.0.0
 
@@ -12,12 +13,10 @@
 
 * jQuery is updated to 1.7.2.
 * jQuery UI is updated to 1.8.24
-* attach event handlers migrate to "on" and "off".
 
 0.2.0.4
 
 * Add Locale ja.
-* Change Locale properties "yearsAgo" to "year_singular" and "year_plural".
 * Remove unfinished locale.
 * Remove longshore URL Expandor.
 * For CSP compliant, jQuery is updated to 1.5.2.

@@ -596,9 +596,6 @@
 	"l_max_cached_tweets": {
 		"message": "ツイートの最大表示数:"
 	},
-	"g_microblogging_service": {
-		"message": "マイクロブログサービスの切り替え"
-	},
 	"g_advanced": {
 		"message": "詳細設定"
 	},

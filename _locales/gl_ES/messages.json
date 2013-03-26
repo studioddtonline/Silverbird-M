@@ -587,9 +587,6 @@
 	"l_max_cached_tweets": {
 		"message": "Max. numero de chios amosados:"
 	},
-	"g_microblogging_service": {
-		"message": "Servizo de Microblogging"
-	},
 	"g_advanced": {
 		"message": "Avanzado"
 	},

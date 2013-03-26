@@ -584,9 +584,6 @@
 	"l_max_cached_tweets": {
 		"message": "Maximale Zahl angezeigter Tweets:"
 	},
-	"g_microblogging_service": {
-		"message": "Mikroblogging-Dienst"
-	},
 	"g_advanced": {
 		"message": "Erweitert"
 	},

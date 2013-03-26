@@ -587,9 +587,6 @@
 	"l_max_cached_tweets": {
 		"message": "Gosterilecek maksimum tweet:"
 	},
-	"g_microblogging_service": {
-		"message": "Mikroblog servisi"
-	},
 	"g_advanced": {
 		"message": "Geli?mi?"
 	},

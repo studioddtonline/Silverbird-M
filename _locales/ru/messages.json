@@ -584,9 +584,6 @@
 	"l_max_cached_tweets": {
 		"message": "Максимум показанных твитов:"
 	},
-	"g_microblogging_service": {
-		"message": "Служба микроблогов"
-	},
 	"g_advanced": {
 		"message": "Продвинутые"
 	},

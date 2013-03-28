@@ -1,6 +1,8 @@
-0.4.9.2
+0.4.9.3
 
 * Support Twitter API 1.1
+* Support pic.twitter.com Thumbnail
+* Support Hatena shorten URL expander
 * remove identi.ca support
 
 0.4.0.0

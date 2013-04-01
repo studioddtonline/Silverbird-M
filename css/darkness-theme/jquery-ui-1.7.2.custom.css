@@ -338,8 +338,8 @@
 ----------------------------------*/
 .ui-tabs { padding: .2em; zoom: 1; }
 .ui-tabs .ui-tabs-nav { white-space: nowrap; list-style: none; position: relative; padding: .1em .3em 0em .3em; }
-.ui-tabs .ui-tabs-nav li { display: inline-block; height: 19px; position: relative; border-bottom-width: 0 !important; margin: 1px .2em 0px 0px; padding: 0; padding-top: 3px;}
-.ui-tabs .ui-tabs-nav li a { text-decoration: none; padding: .2em 0.7em .2em 0.7em; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li { display: inline-block; height: 19px; position: relative; border-bottom-width: 0 !important; margin: 1px .2em 0px 0px; padding: 0; padding-top: 3px; min-width: 6em; text-align: center;}
+.ui-tabs .ui-tabs-nav li a { text-decoration: none; padding: .2em 0 .2em 0; white-space: nowrap; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { border-bottom-width: 0; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */

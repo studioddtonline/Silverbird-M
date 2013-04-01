@@ -33,12 +33,6 @@
   </div>
 </div>
 <div id="main_area">
-  <p>
-    <span class="i18n" id="remaining_api_hits">Remaining Twitter API Hits: </span><span class="twitter_hits_left"></span><br>
-    <span class="i18n" id="rate_limit_reset">Rate Limit Reset: </span><span class="twitter_hits_reset"></span>
-    <a id="nerds_link" href="#" class="i18n">API Hits stats (for nerds)</a>
-    <canvas id="nerds" width="650" height="500" style="display: none;"></canvas>
-  </p>
   <fieldset>
     <legend id="g_ui" class="i18n">UI</legend>
     <label for="name_attribute" id="l_name_attribute" class="i18n">Name in tweets:</label>
@@ -222,13 +216,6 @@
 
   <fieldset>
     <legend class="i18n" id="g_timelines">Timelines</legend>
-    <p class="notice i18n htmlSafe" style="text-align: center; color: black;" id="notice_api_hits">
-      You should keep API hits <span style="color: red;">below <span class="__hourly_limit"></span></span>! Otherwise Silverbird M will stop working properly and timelines won't update anymore.<br>
-      <span style="color: red;">Remember</span> that if you're using multiple Twitter clients you'll need to keep your API hits even lower.
-    </p>
-    <p class="hits_notice">
-      <span class="i18n" id="l_hits_notice">API hits per hour: </span><span id="predicted_hits_count"></span> / <span class="__hourly_limit"></span>
-    </p>
     <table class="timelines">
       <tr>
         <th></th>
@@ -284,10 +271,6 @@
         <td>-</td>
       </tr>
     </table>
-    <p id="notice_right_click_change" class="notice i18n" style="color: black;">
-      * Hey, now you can use the right-click context menu to change most of this settings directly into the popup window. Just get
-      out of here! :)
-    </p>
   </fieldset>
 
   <fieldset>
@@ -300,26 +283,10 @@
 
   <fieldset>
     <legend class="i18n" id="g_advanced">Advanced</legend>
-
     <label for="request_timeout" class="i18n" id="l_request_timeout">Request Timeout (ms):</label>
     <input type="text" name="request_timeout" validator="required,number,positive" must_restart><br>
-    <label for="base_url" class="i18n" id="l_base_url">Twitter's API URL:</label>
-    <input type="text" name="base_url" style="width: 300px;" validator="required,url" must_restart><br>
-    <label for="base_oauth_url" class="i18n" id="l_base_oauth_url">OAuth URL:</label>
-    <input type="text" name="base_oauth_url" style="width: 300px;" validator="required,url" must_restart><br>
-
-    <label for="same_signing_urls" class="i18n" id="l_same_signing_urls">Same signing URLs:</label>
-    <input type="checkbox" name="same_signing_urls"><br>
-
-    <label for="base_signing_url" class="i18n" id="l_base_signing_url">API Signing URL:</label>
-    <input type="text" name="base_signing_url" style="width: 300px;" validator="required,url" must_restart><br>
-    <label for="base_oauth_signing_url" class="i18n" id="l_base_oauth_signing_url">OAuth Signing URL:</label>
-    <input type="text" name="base_oauth_signing_url" style="width: 300px;" validator="required,url" must_restart><br>
-    <label for="use_streaming_api" class="i18n" id="l_use_streaming_api">Use streaming API:</label>
+    <label for="use_streaming_api" class="i18n" id="l_use_streaming_api">Use Streaming API:</label>
     <input type="checkbox" name="use_streaming_api" must_restart><br>
-
-    <label for="user_stream_url" class="i18n" id="l_user_stream_url">User Stream URL:</label>
-    <input type="text" name="user_stream_url" style="width: 300px;" validator="required,url" must_restart><br>
   </fieldset>
 
   <br>

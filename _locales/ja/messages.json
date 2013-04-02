@@ -307,7 +307,7 @@
 		"message": "アクセス許可されました"
 	},
 	"exceededAPIHits": {
-		"message": "APIの回数制限に達してしまいました。<br><a href='#' class=\"msg-trigger-openoptions\">オプションページ</a>の更新間隔を見なおしてください。<br>Silverbird Mは $nextResetDate $nextResetTime$ までご利用いただけません。",
+		"message": "APIの回数制限に達してしまいました。<br><a href='#' class=\"msg-trigger-openoptions\">オプションページ</a>の更新間隔を見なおしてください。<br>Silverbird Mは $nextResetDate$ $nextResetTime$ までご利用いただけません。",
 		"placeholders": {
 			"options_url": {
 				"content": "$1"

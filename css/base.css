@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: black;
   font-size: 10pt;
   overflow: hidden;
@@ -21,7 +21,7 @@ a:hover {
 }
 
 input[type='text'] {
-  margin: 0px;
+  margin: 0;
 }
 
 .tab_modifier {
@@ -49,7 +49,7 @@ input[type='text'] {
 #absolute_container {
   position: absolute;
   z-index: 999999;
-  left: 0px;
+  left: 0;
   width: 100%;
   display: none;
 }
@@ -81,7 +81,7 @@ input[type='text'] {
 }
 
 #workspace {
-  margin: 0px 4px 0px 4px;
+  margin: 0 4px 0 4px;
   min-width: 440px;
 }
 
@@ -104,8 +104,8 @@ input[type='text'] {
 
 #loading, #queue_loading {
   float: right;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   padding-right: 5px;
   padding-top: 6px;
 }
@@ -119,8 +119,8 @@ input[type='text'] {
 }
 
 .inner_timeline {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   padding-right: 35px;
   overflow: auto;
   overflow-x: hidden;
@@ -137,8 +137,8 @@ input[type='text'] {
 }
 
 #shortener_area {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 2px;
 }
 
@@ -174,8 +174,8 @@ input[type='text'] {
 
 #compose_tweet_area textarea {
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #compose_tweet_area .footer .chars_left {
@@ -200,8 +200,8 @@ input[type='text'] {
 #compose_tweet {
   font-size: 9pt;
   font-weight: bold;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   cursor: pointer;
 }
@@ -224,7 +224,7 @@ input[type='text'] {
 
 .tweet {
   width: 100%;
-  padding: 2px 22px 0px 4px;
+  padding: 2px 22px 0 4px;
 }
 
 .tweet_overlay {
@@ -247,8 +247,8 @@ input[type='text'] {
 }
 
 .tweet .footer {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   position: relative;
   font-size: 8pt;
   margin-top: 2px;
@@ -264,7 +264,7 @@ input[type='text'] {
 }
 
 .tweet img.profile.retweet_source {
-  margin-right: 0px;
+  margin-right: 0;
   width: 40px;
   height: 40px;
 }
@@ -301,7 +301,7 @@ input[type='text'] {
 
 .tweet .rt_confirm {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 45px;
   display: none;
   padding: 5px;
@@ -347,13 +347,27 @@ div.reply_separator {
 
 div#popup_footer {
   display: none;
-  float: right;
-  margin-right: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+div#popup_footer ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div#popup_footer ul li {
+  width: 100%;
+  margin: 0;
+  padding: 0 1em 0 1em;
+  display: none;
 }
 
 div.worklist_container {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: left;
 }
 
@@ -375,8 +389,8 @@ div.worklist_container img:hover {
 }
 
 ul.worklist {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   padding-left: 5px;
   text-align: left;
   list-style-type: none;
@@ -384,8 +398,8 @@ ul.worklist {
 }
 
 ul.worklist li {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   display: block;
 }
 

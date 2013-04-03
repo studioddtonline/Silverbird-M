@@ -233,7 +233,7 @@ input[type='text'] {
   margin-left: -4px;
   padding: 2px 22px 2px 4px;
   min-width: 400px;
-  min-height: 64px;
+  min-height: 72px;
   position: relative;
 }
 
@@ -319,13 +319,17 @@ input[type='text'] {
 
 .tweet .new_actions {
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 3px;
+  margin: auto 0;
+  padding: 0;
 }
 
 .tweet .new_actions img {
   cursor: pointer;
   display: none;
+  margin: 0;
+  padding: 0;
 }
 
 .tweet .new_actions img.starred {

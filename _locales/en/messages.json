@@ -1,6 +1,6 @@
 {
 	"extDescription": {
-		"message": "Silverbird M is a Twitter extension that allows you to follow your timelines and interact with your Twitter account.",
+		"message": "Silverbird M is a Twitter extension that allows you to follow your timelines and interact with your Twitter account. Silverbird M is a fork of Silver Bird.",
 		"description": "Extension description"
 	},
 	"resetSize": {
@@ -35,17 +35,38 @@
 	"resume": {
 		"message": "Resume"
 	},
-	"remove": {
-		"message": "Remove"
+	"remove_tab": {
+		"message": "Remove This Tab"
 	},
-	"hide": {
-		"message": "Hide"
+	"hide_tab": {
+		"message": "Hide This Tab"
 	},
-	"show": {
-		"message": "Show"
+	"notify": {
+		"message": "Toggle Notify"
 	},
-	"add": {
-		"message": "Add"
+	"changeIcon": {
+		"message": "Toggle Change Icon"
+	},
+	"show_unified": {
+		"message": "Show Unified Tab"
+	},
+	"show_home": {
+		"message": "Show Home Tab"
+	},
+	"show_mentions": {
+		"message": "Show Mentions Tab"
+	},
+	"show_dms": {
+		"message": "Show DMs Tab"
+	},
+	"show_favorites": {
+		"message": "Show Favorite Tab"
+	},
+	"add_lists": {
+		"message": "Add List Tab"
+	},
+	"add_search": {
+		"message": "Add Search Tab"
 	},
 	"selectList": {
 		"message": "- Select a list -"
@@ -130,18 +151,6 @@
 	},
 	"shortenerIdleString": {
 		"message": "Type a URL to make it shorter, or, click right here \u2192"
-	},
-	"timelineHome": {
-		"message": "Home",
-		"description": "The home time line tab"
-	},
-	"timelineDM": {
-		"message": "DM",
-		"description": "The direct message time line tab"
-	},
-	"timelineFavorites": {
-		"message": "Favorites",
-		"description": "The home time line tab"
 	},
 	"tweet_singular": {
 		"message": "tweet"

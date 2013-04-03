@@ -35,17 +35,38 @@
 	"resume": {
 		"message": "自動更新再開"
 	},
-	"remove": {
-		"message": "削除"
+	"remove_tab": {
+		"message": "このタブを削除"
 	},
-	"hide": {
-		"message": "非表示"
+	"hide_tab": {
+		"message": "このタブを非表示"
 	},
-	"show": {
-		"message": "表示"
+	"notify": {
+		"message": "通知設定の切り替え"
 	},
-	"add": {
-		"message": "追加"
+	"changeIcon": {
+		"message": "アイコン変更の切り替え"
+	},
+	"show_unified": {
+		"message": "Unifiedタブを表示"
+	},
+	"show_home": {
+		"message": "ホームタブを表示"
+	},
+	"show_mentions": {
+		"message": "メンションタブを表示"
+	},
+	"show_dms": {
+		"message": "DMタブを表示"
+	},
+	"show_favorites": {
+		"message": "おきにいりタブを表示"
+	},
+	"add_lists": {
+		"message": "リストタブを追加"
+	},
+	"add_search": {
+		"message": "検索タブを追加"
 	},
 	"selectList": {
 		"message": "選択してください"
@@ -130,18 +151,6 @@
 	},
 	"shortenerIdleString": {
 		"message": "短縮したいURLを入力するか、右画像をクリックしてください。 \u2192"
-	},
-	"timelineHome": {
-		"message": "ホーム",
-		"description": "ホームのタイムラインタブ"
-	},
-	"timelineDM": {
-		"message": "DM",
-		"description": "ダイレクトメッセージタブ"
-	},
-	"timelineFavorites": {
-		"message": "お気に入り",
-		"description": "お気に入りタブ"
 	},
 	"tweet_singular": {
 		"message": "更新"

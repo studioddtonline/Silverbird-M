@@ -1,5 +1,7 @@
-0.4.9.6
+0.4.9.7
 
+* Better localization
+* Support tweet with line breaks
 * Support Twitter API 1.1
 * Support pic.twitter.com Thumbnail
 * Support Hatena shorten URL expander

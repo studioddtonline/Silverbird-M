@@ -2,8 +2,8 @@
 
 1. What is it?
 
-    Silverbird M is a general purpose Chromium Twitter extension.
-    Silverbird M is forked from Silver Bird.
+    Silverbird M is a general purpose Chrome Twitter extension.
+    Silverbird M is a fork of the Silver Bird.
 
 2. Installing
 
@@ -20,8 +20,7 @@
     * Compose, reply, and RT tweets
     * Read / unread tweets tracking
     * OAuth authentication
-    * Tweets caching to avoid hitting Twitter's API rate limit (Only hit Twitter after 1 minute or when fetching uncached tweets)
-    * It uses Chromium autoupdate feature, so you won't be left behind
+    * Twitter API 1.1 support
 
 5. License
 
@@ -29,5 +28,4 @@
 
 6. Credits
 
-    [Cezar Sá Espinola](http://cezarsa.github.com/) - Origenal Development
-    [Chiara De Liberato](http://www.chiaradeliberato.it/) - Italian translation
+    [Cezar Sa Espinola](http://cezarsa.github.com/) - Origenal Development

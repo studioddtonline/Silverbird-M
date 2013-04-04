@@ -8,10 +8,13 @@
 	},
 	"composeTweet": {
 		"message": "ツイートする",
-		"description": "新しいツイートの入力欄"
+		"description": "新しいツイートの入力欄を開く"
+	},
+	"closeComposeTweet": {
+		"message": "閉じる"
 	},
 	"tweetit": {
-		"message": "送信！"
+		"message": "ツイート"
 	},
 	"logout": {
 		"message": "ログアウト",
@@ -98,20 +101,32 @@
 	"w_Search": {
 		"message": "検索"
 	},
-	"fromApp": {
-		"message": "from"
+	"fromApp_prefix": {
+		"message": ""
 	},
-	"inReply": {
-		"message": "リプライ先"
+	"fromApp_suffix": {
+		"message": "から"
 	},
-	"sentTo": {
-		"message": "DM送信先"
+	"inReply_prefix": {
+		"message": ""
 	},
-	"retweetedBy": {
-		"message": "リツイートしたひと"
+	"inReply_suffix": {
+		"message": "へのリプライ"
+	},
+	"sentTo_prefix": {
+		"message": ""
+	},
+	"sentTo_suffix": {
+		"message": "へのDM"
+	},
+	"retweetedBy_prefix": {
+		"message": ""
+	},
+	"retweetedBy_suffix": {
+		"message": "がリツイート"
 	},
 	"retweetedByMe": {
-		"message": "あなたがリツイートしました"
+		"message": "あなたがリツイート"
 	},
 	"unmarkFavorite": {
 		"message": "お気に入りを解除"
@@ -223,7 +238,7 @@
 		"message": "送信待ちのメッセージ:"
 	},
 	"queue_trying": {
-		"message": "trying to send for $timediff$",
+		"message": "$timediff$に送信します",
 		"placeholders": {
 			"timediff": {
 				"content": "$1"
@@ -231,7 +246,7 @@
 		}
 	},
 	"queue_retried": {
-		"message": "retried $retries$ times since $timediff$ ago [$laststatus$]",
+		"message": "$timediff$後に$retries$回目の再送信をします [$laststatus$]",
 		"placeholders": {
 			"retries": {
 				"content": "$1"
@@ -422,15 +437,6 @@
 	"changes_restart": {
 		"message": "設定の反映にはSilverbird Mを再起動する必要があります。(未読カウンターはリセットされます)"
 	},
-	"remaining_api_hits": {
-		"message": "Twitter API制限回数まで: "
-	},
-	"rate_limit_reset": {
-		"message": "レート制限解除まで: "
-	},
-	"nerds_link": {
-		"message": "API利用統計"
-	},
 	"g_ui": {
 		"message": "ユーザインターフェース設定"
 	},
@@ -444,7 +450,7 @@
 		"message": "登録名のみ"
 	},
 	"o_both": {
-		"message": "両方"
+		"message": "標準"
 	},
 	"l_compose_position": {
 		"message": "ウィンドウ表示位置:"
@@ -715,5 +721,8 @@
 	},
 	"invalid_keys": {
 	  "message": "TwitterのAPIキーがありません。開発版を利用していますか？<br>独自のAPIキーを利用したい場合は、http://dev.twitter.com/にてアプリケーションを改めて登録してコンシューマキーとコンシューマシークレットを取得し、secret_keys.jsに記載してください。"
+	},
+	"f_footer_list": {
+	  "message": "リスト"
 	}
 }

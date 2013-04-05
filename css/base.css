@@ -237,67 +237,115 @@ input[type='text'] {
   position: relative;
 }
 
-.tweet .text {
-  clear: right;
-  word-wrap: break-word;
+.tweet .first_container {
+  width: 100%;
 }
 
-.tweet .user {
-  font-size: 9pt;
-}
+/* .tweet .profile */
 
-.tweet .footer {
+.tweet div.profile {
   margin: 0;
   padding: 0;
-  position: relative;
-  font-size: 8pt;
-  margin-top: 2px;
+  border: none;
+  float: left;
 }
 
-.tweet img.profile {
+.tweet .profile img.profile {
   border: 0;
   margin-right: 4px;
   float: left;
   cursor: pointer;
   height: 48px;
   width: 48px;
+  max-width: 54px;
+  max-height: 54px;
 }
 
-.tweet img.profile.retweet_source {
+.tweet .profile img.profile.retweet_source {
   margin-right: 0;
   width: 40px;
   height: 40px;
 }
 
-.tweet img.profile.retweet_retweeter {
+.tweet .profile img.profile.retweet_retweeter {
   margin-bottom: 20px;
-  margin-right: -12px;
+  margin-right: -10px;
   position: relative;
   top: 24px;
-  left: -16px;
+  left: -14px;
   width: 24px;
   height: 24px;
 }
 
-.tweet img.verified {
-  margin-right: 2px;
-  margin-top: 1px;
+/* .tweet .profile */
+
+/* .tweet .header */
+
+.tweet div.header {
+  margin: 3px 0 4px 0;
   vertical-align: top;
+  width: 100%;
+  max-height: 54px;
 }
 
-.tweet img.protected {
+.tweet .header .user {
+  font-size: 10pt;
+}
+
+.tweet .header img.verified {
+  margin-right: 2px;
+  margin-top: 1px;
+  vertical-align: middle;
+}
+
+.tweet .header img.protected {
   margin-right: 2px;
   margin-top: 3px;
-  vertical-align: top;
+  vertical-align: middle;
+}
+
+.tweet .header span.timestamp {
+  font-size: 8pt;
+  display: block;
+  float: right;
+  margin-top: -20px;
+}
+
+/* .tweet .header */
+
+/* .tweet .text */
+
+.tweet .text {
+  clear: both;
+  word-wrap: break-word;
+  padding-top: 4px;
+  padding-left: 18px;
 }
 
 .tweet img.retweet {
   width: 14px;
   height: 14px;
-  margin-right: 2px;
-  margin-top: 1px;
+  margin: 1px 4px auto -18px;
   vertical-align: top;
 }
+
+/* .tweet .text */
+
+/* .tweet .footer */
+
+.tweet .footer {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 8pt;
+  margin-top: 2px;
+  text-align: right;
+}
+
+/* .tweet .footer */
+
+/* .tweet .overlay */
 
 .tweet .rt_confirm {
   position: absolute;
@@ -311,10 +359,6 @@ input[type='text'] {
 
 .tweet .rt_confirm.destroy {
   top: 30px;
-}
-
-.tweet .first_container {
-  width: 100%;
 }
 
 .tweet .new_actions {
@@ -335,6 +379,8 @@ input[type='text'] {
 .tweet .new_actions img.starred {
   display: inline;
 }
+
+/* .tweet .overlay */
 
 .tweet_space {
   position: relative;

@@ -288,8 +288,28 @@ input[type='text'] {
   max-height: 54px;
 }
 
-.tweet .header .user {
-  font-size: 10pt;
+.tweet .header .primary_name,
+.tweet .header .secondary_name {
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.tweet .header .primary_name .user,
+.tweet .header .secondary_name .user {
+  word-wrap: nomal;
+  line-height: 1;
+}
+
+.tweet .header .primary_name .user {
+  font-size: 11pt;
+}
+
+.tweet .header .secondary_name {
+  padding-left: 8px;
+}
+
+.tweet .header .secondary_name .user {
+  font-size: 8pt;
 }
 
 .tweet .header img.verified {
@@ -308,7 +328,7 @@ input[type='text'] {
   font-size: 8pt;
   display: block;
   float: right;
-  margin-top: -20px;
+  margin-top: -42px;
 }
 
 /* .tweet .header */

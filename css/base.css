@@ -328,7 +328,8 @@ input[type='text'] {
   font-size: 8pt;
   display: block;
   float: right;
-  margin-top: -42px;
+  margin: 2px 2px 0 2px;
+  padding: 0;
 }
 
 /* .tweet .header */

@@ -725,5 +725,13 @@
 	},
 	"f_footer_list": {
 	  "message": "List"
+	},
+	"request_token_error": {
+		"message": "Ouch... Something bad happened to Silverbird M while calling Twitter's API. Request token response: $errorMsg$ \n\nThis problem is probably due to incorrect date and time settings in your operating system. Please, review your settings and try again.",
+		"placeholders": {
+			"errorMsg": {
+				"content": "$1"
+			}
+		}
 	}
 }

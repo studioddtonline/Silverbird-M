@@ -1,4 +1,4 @@
-0.4.9.9
+0.5.0.0
 
 * Better localization
 * Support tweet with line breaks
@@ -9,6 +9,7 @@
 * Support Twipple Thumbnail
 * Support FxCamera Thumbnail
 * Support Flickr Thumbnail
+* Support mobypicture Thumbnail
 * new Timeline layout for Twitter Display Requirements
 * remove identi.ca support
 

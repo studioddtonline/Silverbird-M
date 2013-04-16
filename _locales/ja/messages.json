@@ -729,5 +729,8 @@
 				"content": "$1"
 			}
 		}
+	},
+	"saved_searches": {
+	  "message" : "保存済み検索"
 	}
 }

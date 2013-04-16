@@ -733,5 +733,8 @@
 				"content": "$1"
 			}
 		}
+	},
+	"saved_searches": {
+	  "message" : "Saved Searches"
 	}
 }

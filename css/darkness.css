@@ -141,11 +141,6 @@ input[type='text'] {
   padding: 0.1em 0.1em !important;
 }
 
-.tweet.unread {
-  background-color: #333;
-  border-color: #fff;
-}
-
 .tweet .user {
   color: #666;
   font-weight: bold;

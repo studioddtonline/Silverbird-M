@@ -78,11 +78,6 @@ input[type='text'] {
   margin-bottom: 3px;
 }
 
-.tweet.unread {
-  border: 1px solid #4b8cdc;
-  margin: 2px 2px 5px;
-}
-
 .tweet .user {
   color: #666;
   font-weight: bold;

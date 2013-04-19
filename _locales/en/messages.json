@@ -162,9 +162,6 @@
 	"oldRT": {
 		"message": "Share (old school RT)"
 	},
-	"markAllRead": {
-		"message": "Mark all as read"
-	},
 	"newToken": {
 		"message": "Request another token"
 	},
@@ -482,9 +479,6 @@
 	},
 	"l_font_family": {
 		"message": "Font Family:"
-	},
-	"l_hover_timeout": {
-		"message": "Hover to read time (ms):"
 	},
 	"l_show_expanded_urls": {
 		"message": "Expand shortened URLs:"

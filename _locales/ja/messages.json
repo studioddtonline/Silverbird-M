@@ -158,9 +158,6 @@
 	"oldRT": {
 		"message": "引用してツイート"
 	},
-	"markAllRead": {
-		"message": "すべてのメッセージを既読に"
-	},
 	"newToken": {
 		"message": "違うトークンをリクエスト"
 	},
@@ -478,9 +475,6 @@
 	},
 	"l_font_family": {
 		"message": "フォントの種類:"
-	},
-	"l_hover_timeout": {
-		"message": "ホバーする時間 (ミリ秒):"
 	},
 	"l_show_expanded_urls": {
 		"message": "短縮URLを展開する:"

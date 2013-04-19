@@ -75,10 +75,6 @@ input[type='text'] {
   margin-bottom: 3px;
 }
 
-.tweet.unread {
-  background-color: #eed077;
-}
-
 .tweet .user {
   color: #666;
   font-weight: bold;

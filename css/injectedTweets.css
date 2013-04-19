@@ -98,10 +98,6 @@
   margin-bottom: 3px;
 }
 
-.chromed_bird_tweet.unread {
-  border: 1px solid #4b8cdc;
-}
-
 .chromed_bird_tweet .user {
   color: #666;
   font-weight: bold;

@@ -488,6 +488,9 @@
 	"l_show_user_autocomplete": {
 		"message": "ユーザ名をオートコンプリートする:"
 	},
+	"l_tab_select_with_hover": {
+		"message": "マウスホバーでタブを選択する:"
+	},
 	"l_icon_color": {
 		"message": "アイコンカラー:"
 	},

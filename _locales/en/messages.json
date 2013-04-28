@@ -558,15 +558,6 @@
 	"l_url_shortener": {
 		"message": "URL Shortener:"
 	},
-	"l_shortener_acct": {
-		"message": "Use Personal Account?"
-	},
-	"l_shortener_login": {
-		"message": "API Login:"
-	},
-	"l_shortener_key": {
-		"message": "API Key:"
-	},
 	"l_share_include_title": {
 		"message": "Include page title (sharing):"
 	},
@@ -701,9 +692,6 @@
 	},
 	"report_action": {
 	  "message": "Report Spam"
-	},
-	"l_shortener_oauth": {
-	  "message": "Use personal account authentication:"
 	},
 	"l_notify_retweets": {
 	  "message": "Notify retweets of my tweets?"

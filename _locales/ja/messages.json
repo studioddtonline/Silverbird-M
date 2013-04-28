@@ -554,15 +554,6 @@
 	"l_url_shortener": {
 		"message": "短縮URLプロバイダ:"
 	},
-	"l_shortener_acct": {
-		"message": "個人アカウントを利用する"
-	},
-	"l_shortener_login": {
-		"message": "APIログイン名:"
-	},
-	"l_shortener_key": {
-		"message": "APIキー:"
-	},
 	"l_share_include_title": {
 		"message": "共有対象のページタイトルを含める:"
 	},
@@ -697,9 +688,6 @@
 	},
 	"report_action": {
 	  "message": "スパムとして報告"
-	},
-	"l_shortener_oauth": {
-	  "message": "URL短縮に個人アカウントを利用:"
 	},
 	"l_notify_retweets": {
 	  "message": "リツイートされたら通知する"

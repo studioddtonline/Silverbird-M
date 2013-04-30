@@ -182,7 +182,7 @@
 		}
 	},
 	"preventClosing": {
-		"message": "クリックすると閉じます。"
+		"message": "クリックすると留まります"
 	},
 	"changeNotificationSettings": {
 		"message": "オプションページで通知設定を変更できます。"

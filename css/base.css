@@ -313,14 +313,12 @@ input[type='text'] {
 }
 
 .tweet .header img.verified {
-  margin-right: 2px;
-  margin-top: 1px;
+  margin: auto 0.5em;
   vertical-align: middle;
 }
 
 .tweet .header img.protected {
-  margin-right: 2px;
-  margin-top: 3px;
+  margin: auto 0.5em;
   vertical-align: middle;
 }
 
@@ -341,6 +339,7 @@ input[type='text'] {
   word-wrap: break-word;
   padding-top: 4px;
   padding-left: 18px;
+  line-height: 1.4;
 }
 
 .tweet img.retweet {
@@ -360,8 +359,18 @@ input[type='text'] {
   padding: 0;
   position: relative;
   font-size: 8pt;
-  margin-top: 2px;
+  margin-top: 4px;
   text-align: right;
+}
+
+.tweet .footer .inReply,
+.tweet .footer .inRetweet,
+.tweet .footer .selfRetweet,
+.tweet .footer .from_app,
+.tweet .footer .dm_recipient,
+.tweet .footer .geo_tag,
+.tweet .footer .from_list {
+  margin: auto 0.5em;
 }
 
 /* .tweet .footer */

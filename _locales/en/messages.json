@@ -132,6 +132,12 @@
 	"retweetedByMe": {
 		"message": "retweeted by me"
 	},
+	"retweetedCount_prefix": {
+		"message": ""
+	},
+	"retweetedCount_suffix": {
+		"message": "persons retweet"
+	},
 	"unmarkFavorite": {
 		"message": "Unmark as favorite"
 	},

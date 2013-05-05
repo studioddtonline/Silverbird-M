@@ -366,6 +366,7 @@ input[type='text'] {
 .tweet .footer .inReply,
 .tweet .footer .inRetweet,
 .tweet .footer .selfRetweet,
+.tweet .footer .retweetCount,
 .tweet .footer .from_app,
 .tweet .footer .dm_recipient,
 .tweet .footer .geo_tag,

@@ -165,6 +165,12 @@
 	"retweetConfirm": {
 		"message": "Retweet this message: "
 	},
+	"deleteRT": {
+		"message": "Undo Retweet"
+	},
+	"deleteRTConfirm": {
+		"message": "Undo this retweet: "
+	},
 	"oldRT": {
 		"message": "Share (old school RT)"
 	},

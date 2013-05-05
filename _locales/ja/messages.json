@@ -161,6 +161,12 @@
 	"retweetConfirm": {
 		"message": "このメッセージをリツイートしますか: "
 	},
+	"deleteRT": {
+		"message": "リツイート取り消し"
+	},
+	"deleteRTConfirm": {
+		"message": "このリツイートを取り消しますか: "
+	},
 	"oldRT": {
 		"message": "引用してツイート"
 	},

@@ -371,7 +371,7 @@ input[type='text'] {
 .tweet .footer .dm_recipient,
 .tweet .footer .geo_tag,
 .tweet .footer .from_list {
-  margin: auto 0.5em;
+  margin: auto 0 auto 1em;
 }
 
 /* .tweet .footer */

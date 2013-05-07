@@ -1,11 +1,14 @@
-0.5.1.6
+0.5.1.7
 
+* Support Undo Retweet
 * Support Saved Search (view only)
 * Support photozou Thumbnail
 * Bugfix
 * remove unread tweets styles
 * remove URL shortener exclude bit.ly and google
 * remove personal account for URL shortener
+* jQuery is updated to 2.0
+* jQuery UI is updated to 1.10.3
 
 0.5.0.0
 

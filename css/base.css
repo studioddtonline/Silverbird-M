@@ -494,3 +494,31 @@ ul.worklist li {
   width: 12px;
   height: 12px;
 }
+
+/* jQuery UI Tooltip */
+
+.ui-tooltip {
+  position: absolute;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.ui-tooltip .ui-tooltip-content{
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+  min-width: 50px;
+  max-width: 300px;
+  min-height: 1.3em;
+  border-radius: 10px;
+  opacity: 0.8;
+  word-break: break-all;
+}
+
+.ui-tooltip img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+}

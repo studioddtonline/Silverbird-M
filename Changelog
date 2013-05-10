@@ -1,8 +1,9 @@
-0.5.1.7
+0.5.1.8
 
 * Support Undo Retweet
 * Support Saved Search (view only)
 * Support photozou Thumbnail
+* change tooltip style
 * Bugfix
 * remove unread tweets styles
 * remove URL shortener exclude bit.ly and google

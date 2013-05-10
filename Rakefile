@@ -42,7 +42,7 @@ end
 module Constants
   KEY_FILE = ".tmp/silverbird_m.pem"
   BETA_KEY_FILE = ".tmp/silverbird_m_beta.pem"
-  IGNORE_DIR = /\.git|\.tmp/
+  IGNORE_DIR = /\.git|\.tmp|webstore/
   IGNORE_FILE = /Rakefile|\.gitignore|.*\.crx$|.*\.zip$|.*_stub\.js$/
   TEMP_PACKAGE_FILE = ".tmp/tmp_package"
 end

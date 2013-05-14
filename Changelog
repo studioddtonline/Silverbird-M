@@ -1,8 +1,9 @@
-0.5.1.8
+0.5.1.9
 
 * Support Undo Retweet
 * Support Saved Search (view only)
 * Support photozou Thumbnail
+* Support slideshare Thumbnail
 * change tooltip style
 * Bugfix
 * remove unread tweets styles

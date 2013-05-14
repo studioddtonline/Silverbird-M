@@ -729,5 +729,8 @@
 	},
 	"deleteSearch": {
 	  "message" : "この保存済み検索を削除"
+	},
+	"l_use_bearer_token": {
+	  "message": "Application-only認証を使う (実験的):"
 	}
 }

@@ -729,5 +729,8 @@
 	},
 	"saved_searches": {
 	  "message" : "保存済み検索"
+	},
+	"saveSearch": {
+	  "message" : "この検索を保存する"
 	}
 }

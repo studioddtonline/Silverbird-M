@@ -733,5 +733,8 @@
 	},
 	"saved_searches": {
 	  "message" : "Saved Searches"
+	},
+	"saveSearch": {
+	  "message" : "Save this query"
 	}
 }

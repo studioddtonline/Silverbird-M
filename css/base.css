@@ -313,12 +313,14 @@ input[type='text'] {
 }
 
 .tweet .header img.verified {
-  margin: auto 0.5em;
+  margin: 0 0.5em;
+  padding: 0;
   vertical-align: middle;
 }
 
 .tweet .header img.protected {
-  margin: auto 0.5em;
+  margin: 0 0.5em;
+  padding: 0;
   vertical-align: middle;
 }
 
@@ -338,15 +340,14 @@ input[type='text'] {
   clear: both;
   word-wrap: break-word;
   padding-top: 4px;
-  padding-left: 18px;
+  padding-left: 22px;
   line-height: 1.4;
 }
 
 .tweet img.retweet {
-  width: 14px;
-  height: 14px;
-  margin: 1px 4px auto -18px;
-  vertical-align: top;
+  margin: 2px 4px auto -23px;
+  padding: 0;
+  vertical-align: middle;
 }
 
 /* .tweet .text */

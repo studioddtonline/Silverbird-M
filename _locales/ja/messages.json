@@ -731,6 +731,9 @@
 	  "message" : "保存済み検索"
 	},
 	"saveSearch": {
-	  "message" : "この検索を保存する"
+	  "message" : "この検索語を保存"
+	},
+	"deleteSearch": {
+	  "message" : "この保存済み検索を削除"
 	}
 }

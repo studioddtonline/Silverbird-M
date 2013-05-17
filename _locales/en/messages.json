@@ -736,5 +736,8 @@
 	},
 	"saveSearch": {
 	  "message" : "Save this query"
+	},
+	"deleteSearch": {
+	  "message" : "Delete this query"
 	}
 }

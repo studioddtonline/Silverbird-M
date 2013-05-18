@@ -199,14 +199,8 @@
 	"changeNotificationSettings": {
 		"message": "オプションページで通知設定を変更できます。"
 	},
-	"loadingMap": {
-		"message": "地図を読込中……"
-	},
-	"loadingImage": {
-		"message": "画像を読込中……"
-	},
-	"loadingLongUrl": {
-		"message": "URLを展開中……"
+	"loading": {
+		"message": "読込中…"
 	},
 	"errorExpandingUrl": {
 		"message": "失敗したようです。もう一度試してください。"

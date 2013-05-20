@@ -1,31 +1,40 @@
 ## Silverbird M ##
 
-1. What is it?
+### What is it? ###
 
-    Silverbird M is a general purpose Chrome Twitter extension.
-    Silverbird M is a fork of the Silver Bird.
+Silverbird M is a general purpose Chrome/Chromium Twitter extension.  
+Silverbird M is a fork of the Silver Bird.
 
-2. Installing
+### Installing ###
 
-    Get it at the [Download and Build it directly from GitHub](https://github.com/studioddtonline/Silverbird-M)
+1. Get it at the [Download it directly from GitHub](https://github.com/studioddtonline/Silverbird-M)
+2. Get your own Twitter API ConsumerKey and ConsumerSecret.
+3. Fill gap of lib/secret_keys_stub.js, and rename to lib/secret_keys.js
+4. Enable Chrome/Chromium Extensions Developer Mode
+5. Load unpacked extension
 
-3. Compatibility
+#### Easy Installing ####
 
-    It works on all Chrome distribution channels: Stable, Beta and Dev.
+Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/silverbird-m/gopipemgedcleeegndifdeddpemopeda)  
+\(That is in Alpha state. It will remove soon\)
 
-4. Features
+### Compatibility ###
 
-    * Follow your timelines and navigate through your tweets
-    * Notify user through icon changes whenever new tweets arrive
-    * Compose, reply, and RT tweets
-    * Read / unread tweets tracking
-    * OAuth authentication
-    * Twitter API 1.1 support
+It works on all Chrome/Chromium distribution channels: Stable, Beta and Dev.....maybe
 
-5. License
+### Features ###
 
-    This project uses the very simple and permissive MIT license. Check the LICENSE file.
+* Follow your timelines and navigate through your tweets
+* Notify user through icon changes whenever new tweets arrive
+* Compose, reply, and RT tweets
+* Read / unread tweets tracking
+* OAuth authentication
+* Twitter API 1.1 support
 
-6. Credits
+### License ###
 
-    [Cezar Sa Espinola](http://cezarsa.github.com/) - Origenal Development
+This project uses the very simple and permissive MIT license. Check the LICENSE file.
+
+### Credits ###
+
+[Cezar Sa Espinola](http://cezarsa.github.com/) - Origenal Development

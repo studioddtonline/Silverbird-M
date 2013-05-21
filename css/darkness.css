@@ -97,10 +97,6 @@ input[type='text'] {
   margin-right:5px;
 }
 
-.tab_modifier {
-  background-color: transparent;
-}
-
 #compose_tweet_area input[type="button"]:hover:disabled {
   outline: inherit;
 }

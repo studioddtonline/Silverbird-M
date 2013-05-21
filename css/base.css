@@ -24,16 +24,6 @@ input[type='text'] {
   margin: 0;
 }
 
-.tab_modifier {
-  position: absolute;
-  top: 1px;
-  left: 5px;
-  background-color: red;
-  height: 1px;
-  border-radius: 1px;
-  opacity: 0.4;
-}
-
 #__debug {
   width: 200px;
   background-color: #dd0;
@@ -211,6 +201,11 @@ input[type='text'] {
   margin: 0;
   padding: 0;
   font-size: 0.8em;
+}
+
+#tabs .update_modifier {
+  border: 1px solid red !important;
+  border-bottom: none !important;
 }
 
 #suspended_notice {

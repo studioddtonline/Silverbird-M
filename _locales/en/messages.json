@@ -739,5 +739,8 @@
 	},
 	"updateLists": {
 	  "message": "Update Lists"
+	},
+	"view_twitter": {
+	  "message": "View Twitter.com"
 	}
 }

@@ -735,5 +735,8 @@
 	},
 	"updateLists": {
 	  "message": "リスト更新"
+	},
+	"view_twitter": {
+	  "message": "Twitterで見る"
 	}
 }

@@ -16,23 +16,23 @@
 	"tweetit": {
 		"message": "ツイート"
 	},
-	"logout": {
+	"signout": {
 		"message": "ログアウト",
 		"description": "ログアウトへのリンク"
 	},
-	"options": {
+	"options_page_link": {
 		"message": "オプション",
 		"description": "オプションへのリンク"
 	},
-	"refresh": {
+	"refresh_trigger": {
 		"message": "リロード",
 		"description": "再読み込みへのリンク"
 	},
-	"suspend": {
+	"suspend_toggle": {
 		"message": "自動更新停止",
 		"description": "自動更新停止へのリンク"
 	},
-	"autoUpdatesSuspended": {
+	"suspended_notice": {
 		"message": "自動更新停止中……"
 	},
 	"resume": {

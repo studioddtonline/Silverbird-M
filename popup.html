@@ -8,27 +8,20 @@
 <link rel="stylesheet" type="text/css" href="css/simple_select.css" />
 <link rel="stylesheet" type="text/css" href="css/jquery.contextMenu.css" />
 <title>Silverbird M</title>
-
 <script src="lib/popup/global.js"></script>
-
 <script src="lib/3rdparty/jquery.js"></script>
 <script src="lib/3rdparty/jquery-ui-custom.js"></script>
 <script src="lib/3rdparty/jquery.contextMenu.js"></script>
 <script src="lib/3rdparty/jquery.insertatcaret.min.js"></script>
 <script src="lib/3rdparty/oauth.js"></script>
 <script src="lib/3rdparty/sha1.js"></script>
-
 <!--script src="lib/debug.js"></script-->
 <script src="lib/any_click.js"></script>
 <script src="lib/shortener_lib.js"></script>
 <script src="lib/simple_select.js"></script>
 <script src="lib/action_menu.js"></script>
 <script src="lib/tweets_assembler.js"></script>
-
-
 <script src="lib/popup/first_init.js"></script>
-
-
 <script src="lib/popup/my_oauth.js"></script>
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
@@ -42,15 +35,9 @@
 <script src="lib/popup/timeline_tab.js"></script>
 <script src="lib/popup/autocomplete.js"></script>
 <script src="lib/popup/image_upload.js"></script>
-
 <script src="lib/popup/final_init.js"></script>
-
 </head>
-
-
 <body>
-
-
 <a style="position:absolute; left:-5000px;" href="">dummy</a>
 
 <div id="error" style="display: none;"></div>
@@ -84,28 +71,25 @@
     <img class="left" src="img/arrow_down.gif"/><span id="composeTweet" class="i18n"></span><img class="right" src="img/arrow_down.gif"/>
   </div>
 
-  <span class="header_link_left">
-    <a id="signout" href="#"><span id="logout" class="i18n"></span></a> |
-    <a id="options_page_link" href="#"><span id="options" class="i18n"></span></a> |
-    <a id="refresh_trigger" href="#"><span id="refresh" class="i18n"></span></a> |
-    <a id="suspend_toggle" href="#"><span id="suspend" class="i18n"></span></a> |
-    <a id="trending_topics" href="#" class="i18n">Trends</a> |
-    <a id="saved_searches" href="#" class="i18n">Saved Sarches</a>
-    <span id="suspended_notice"><span id="autoUpdatesSuspended" class="i18n"></span></span>
-  </span>
-  <span class="header_link_right">
-    <a id="detach_trigger" href="#"><img id="detach_img" src="img/up_detach.png"/></a>
-  </span>
-  <img src="img/loading.gif" id="loading" style="display: none;"/>
-  <img src="img/loading.gif" id="queue_loading" style="display: none;"/>
-  <div style="clear: both;"></div>
-
-  <div id="update_tweets"></div>
-
-  <div id="tabs">
-    <ul></ul>
+  <div>
+    <span class="header_link_left">
+      <a id="signout" href="#" class="i18n"></a> |
+      <a id="options_page_link" href="#" class="i18n"></a> |
+      <a id="refresh_trigger" href="#" class="i18n"></a> |
+      <a id="suspend_toggle" href="#" class="i18n"></a> |
+      <a id="trending_topics" href="#" class="i18n"></a> |
+      <a id="saved_searches" href="#" class="i18n"></a>
+      <span id="suspended_notice" class="i18n"></span>
+    </span>
+    <span class="header_link_right">
+      <a id="detach_trigger" href="#"><img id="detach_img" src="img/up_detach.png"/></a>
+    </span>
+    <img src="img/loading.gif" id="loading" style="display: none;"/>
+    <img src="img/loading.gif" id="queue_loading" style="display: none;"/>
   </div>
 
+  <div id="update_tweets"></div>
+  <div id="tabs"><ul></ul></div>
 </div>
 
 <div id="enter_pin" style="display: none;">
@@ -114,13 +98,11 @@
   <input type="text" name="pin"><br>
   <input type="button" class="i18n" id="btnAuthorize" value="Authorize!">
   <br><br>
-  <a href="#"><span id="newToken" class="i18n"></span></a>
+  <a href="#" id="newToken" class="i18n"></a>
 </div>
-<div id="error_pin" style="display: none;">
-</div>
+<div id="error_pin" style="display: none;"></div>
 
-<ul id="tab_context_menu" class="contextMenu">
-</ul>
+<ul id="tab_context_menu" class="contextMenu"></ul>
 <div id="popup_footer">
   <ul id="hits_ticker"></ul>
 </div>

@@ -124,6 +124,7 @@ input[type='text'] {
   text-align: center;
   margin-bottom: 3px;
   cursor: pointer;
+  clear: both;
 }
 
 #shortener_area {
@@ -194,6 +195,10 @@ input[type='text'] {
   padding: 0;
   text-align: center;
   cursor: pointer;
+}
+
+#tabs {
+  clear: both;
 }
 
 #tabs .timeline_tab input.search_selector {

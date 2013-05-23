@@ -20,23 +20,23 @@
 	"tweetit": {
 		"message": "Tweet it!"
 	},
-	"logout": {
+	"signout": {
 		"message": "Log out",
 		"description": "The text for the logout link"
 	},
-	"options": {
+	"options_page_link": {
 		"message": "Options",
 		"description": "Options link"
 	},
-	"refresh": {
+	"refresh_trigger": {
 		"message": "Refresh",
 		"description": "Refresh link"
 	},
-	"suspend": {
+	"suspend_toggle": {
 		"message": "Suspend",
 		"description": "Suspend link"
 	},
-	"autoUpdatesSuspended": {
+	"suspended_notice": {
 		"message": "Automatic updates suspended"
 	},
 	"resume": {

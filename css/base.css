@@ -87,9 +87,11 @@ input[type='text'] {
   margin-top: 4px;
 }
 
-.header_link_right #detach_img {
-  margin-left: 2px;
-  margin-right: 2px;
+.header_link_right #detach_img,
+.header_link_right #twitter_img {
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
 }
 
 #loading, #queue_loading {

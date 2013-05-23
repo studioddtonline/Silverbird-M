@@ -736,5 +736,8 @@
 	},
 	"l_use_bearer_token": {
 	  "message": "Use Application-only Auth (experimental!):"
+	},
+	"updateLists": {
+	  "message": "Update Lists"
 	}
 }

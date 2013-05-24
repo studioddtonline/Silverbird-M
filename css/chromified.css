@@ -45,7 +45,7 @@ input[type='text'] {
 }
 
 #shorten_current {
-  background: #fff url(../img/globe_blue.png) repeat-x 0 0;
+  background: transparent url(../img/globe_blue.png) repeat-x 0 0;
 }
 
 #compose_tweet_area textarea {

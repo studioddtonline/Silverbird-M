@@ -41,7 +41,7 @@
   border: 0;
 }
 
-.chromed_bird_tweet .text {
+.chromed_bird_tweet .text_container {
   clear: right;
   word-wrap: break-word;
 }
@@ -50,7 +50,7 @@
   font-size: 9pt;
 }
 
-.chromed_bird_tweet .footer {
+.chromed_bird_tweet .footer_container {
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -106,7 +106,7 @@
   text-decoration: none;
 }
 
-.chromed_bird_tweet .footer {
+.chromed_bird_tweet .footer_container {
   color: #999;
 }
 

@@ -84,7 +84,7 @@ input[type='text'] {
   text-decoration: none;
 }
 
-.tweet .footer {
+.tweet .footer_container {
   color: #999;
 }
 

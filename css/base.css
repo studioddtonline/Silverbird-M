@@ -243,16 +243,16 @@ input[type='text'] {
   width: 100%;
 }
 
-/* .tweet .profile */
+/* .tweet .profile_container */
 
-.tweet div.profile {
+.tweet .profile_container {
   margin: 0;
   padding: 0;
   border: none;
   float: left;
 }
 
-.tweet .profile img.profile {
+.tweet img.profile {
   border: 0;
   margin-right: 4px;
   float: left;
@@ -263,13 +263,13 @@ input[type='text'] {
   max-height: 54px;
 }
 
-.tweet .profile img.profile.retweet_source {
+.tweet img.profile.retweet_source {
   margin-right: 0;
   width: 40px;
   height: 40px;
 }
 
-.tweet .profile img.profile.retweet_retweeter {
+.tweet img.profile.retweet_retweeter {
   margin-bottom: 20px;
   margin-right: -10px;
   position: relative;
@@ -279,54 +279,54 @@ input[type='text'] {
   height: 24px;
 }
 
-/* .tweet .profile */
+/* .tweet .profile_container */
 
-/* .tweet .header */
+/* .tweet .header_container */
 
-.tweet div.header {
+.tweet .header_container {
   margin: 3px 0 4px 0;
   vertical-align: top;
   width: 100%;
   max-height: 54px;
 }
 
-.tweet .header .primary_name,
-.tweet .header .secondary_name {
+.tweet .primary_name,
+.tweet .secondary_name {
   max-width: 80%;
   overflow: hidden;
 }
 
-.tweet .header .primary_name .user,
-.tweet .header .secondary_name .user {
+.tweet .primary_name .user,
+.tweet .secondary_name .user {
   word-wrap: nomal;
   line-height: 1;
 }
 
-.tweet .header .primary_name .user {
+.tweet .primary_name .user {
   font-size: 11pt;
 }
 
-.tweet .header .secondary_name {
+.tweet .secondary_name {
   padding-left: 8px;
 }
 
-.tweet .header .secondary_name .user {
+.tweet .secondary_name .user {
   font-size: 8pt;
 }
 
-.tweet .header img.verified {
+.tweet img.verified {
   margin: 0 0.5em;
   padding: 0;
   vertical-align: middle;
 }
 
-.tweet .header img.protected {
+.tweet img.protected {
   margin: 0 0.5em;
   padding: 0;
   vertical-align: middle;
 }
 
-.tweet .header span.timestamp {
+.tweet .header_container span.timestamp {
   font-size: 8pt;
   display: block;
   float: right;
@@ -334,11 +334,11 @@ input[type='text'] {
   padding: 0;
 }
 
-/* .tweet .header */
+/* .tweet .header_container */
 
-/* .tweet .text */
+/* .tweet .text_container */
 
-.tweet .text {
+.tweet .text_container {
   clear: both;
   word-wrap: break-word;
   padding-top: 4px;
@@ -346,17 +346,17 @@ input[type='text'] {
   line-height: 1.4;
 }
 
-.tweet img.retweet {
+.tweet .text_container img.retweet {
   margin: 2px 4px auto -23px;
   padding: 0;
   vertical-align: middle;
 }
 
-/* .tweet .text */
+/* .tweet .text_container */
 
-/* .tweet .footer */
+/* .tweet .footer_container */
 
-.tweet .footer {
+.tweet .footer_container {
   clear: both;
   margin: 0;
   padding: 0;
@@ -366,18 +366,18 @@ input[type='text'] {
   text-align: right;
 }
 
-.tweet .footer .inReply,
-.tweet .footer .inRetweet,
-.tweet .footer .selfRetweet,
-.tweet .footer .retweetCount,
-.tweet .footer .from_app,
-.tweet .footer .dm_recipient,
-.tweet .footer .geo_tag,
-.tweet .footer .from_list {
+.tweet .footer_container .inReply,
+.tweet .footer_container .inRetweet,
+.tweet .footer_container .selfRetweet,
+.tweet .footer_container .retweetCount,
+.tweet .footer_container .from_app,
+.tweet .footer_container .dm_recipient,
+.tweet .footer_container .geo_tag,
+.tweet .footer_container .from_list {
   margin: auto 0 auto 1em;
 }
 
-/* .tweet .footer */
+/* .tweet .footer_container */
 
 /* .tweet .overlay */
 

@@ -742,5 +742,8 @@
 	},
 	"view_twitter": {
 	  "message": "View Twitter.com"
+	},
+	"l_use_keyboard_shortcuts": {
+	  "message": "Use Keyboard Shortcuts (experimental!):"
 	}
 }

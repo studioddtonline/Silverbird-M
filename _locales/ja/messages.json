@@ -738,5 +738,8 @@
 	},
 	"view_twitter": {
 	  "message": "Twitterで見る"
+	},
+	"l_use_keyboard_shortcuts": {
+	  "message": "キーボードショートカットを使う (実験的):"
 	}
 }

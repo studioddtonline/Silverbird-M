@@ -1,6 +1,6 @@
 {
     "name": "Silverbird M",
-    "version": "0.5.1.15",
+    "version": "0.5.2.0",
     "manifest_version": 2,
     "minimum_chrome_version": "27.0",
     "description": "__MSG_extDescription__",

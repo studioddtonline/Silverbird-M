@@ -366,7 +366,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "The following error occurred trying to authenticate: $errorMessage$. Please, <a href=\"#\" class=\"msg-trigger-openoptions\">click here to restart the authentication process</a>",
+		"message": "The following error occurred trying to authenticate: $errorMessage$. Please, <a href=\"#\" class=\"msg-trigger-reload\">click here to restart the authentication process</a>",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -745,5 +745,8 @@
 	},
 	"l_use_keyboard_shortcuts": {
 	  "message": "Use Keyboard Shortcuts (experimental!):"
+	},
+	"undefined_message": {
+	  "message": "UNDEFINED"
 	}
 }

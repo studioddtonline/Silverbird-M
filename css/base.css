@@ -70,6 +70,11 @@ input[type='text'] {
   margin-left: 3px;
 }
 
+#enter_pin,
+#error_pin {
+  min-width: 300px;
+}
+
 #workspace {
   margin: 0 4px 0 4px;
   min-width: 440px;

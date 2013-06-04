@@ -331,7 +331,7 @@
 		"message": "件の更新があります"
 	},
 	"btnAuthorize": {
-		"message": "アクセス許可されました"
+		"message": "アクセス許可"
 	},
 	"exceededAPIHits": {
 		"message": "APIの回数制限に達してしまいました。<br><a href='#' class=\"msg-trigger-openoptions\">オプションページ</a>の更新間隔を見なおしてください。<br>Silverbird Mは $nextResetDate$ $nextResetTime$ までご利用いただけません。",
@@ -362,7 +362,7 @@
 		}
 	},
 	"oAuthError": {
-		"message": "アクセス許可確認中に以下のエラーが発生しました: $errorMessage$<br><a href=\"#\" class=\"msg-trigger-openoptions\">クリックしてやりなおしてください</a>",
+		"message": "アクセス許可確認中に以下のエラーが発生しました: $errorMessage$<br><a href=\"#\" class=\"msg-trigger-reload\">クリックしてやりなおしてください</a>",
 		"placeholders": {
 			"errorMessage": {
 				"content": "$1"
@@ -741,5 +741,8 @@
 	},
 	"l_use_keyboard_shortcuts": {
 	  "message": "キーボードショートカットを使う (実験的):"
+	},
+	"undefined_message": {
+	  "message": "不明"
 	}
 }

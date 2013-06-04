@@ -74,9 +74,6 @@
 	"selectList": {
 		"message": "選択してください"
 	},
-	"updateList": {
-		"message": "リストをアップデートしています……"
-	},
 	"w_Unified": {
 		"message": "Unified"
 	},
@@ -608,24 +605,6 @@
 	"l_request_timeout": {
 		"message": "リクエストタイムアウト (ミリ秒):"
 	},
-	"l_base_url": {
-		"message": "Twitter API URL:"
-	},
-	"l_base_oauth_url": {
-		"message": "OAuth URL:"
-	},
-	"l_same_signing_urls": {
-		"message": "Same signing URLs:"
-	},
-	"l_base_signing_url": {
-		"message": "API Signing URL:"
-	},
-	"l_base_oauth_signing_url": {
-		"message": "OAuth Signing URL:"
-	},
-	"l_base_search_url": {
-		"message": "Search API URL:"
-	},
 	"btn_save": {
 		"message": "保存"
 	},
@@ -685,9 +664,6 @@
 	},
 	"l_use_streaming_api": {
 	  "message": "Streaming APIを使う (実験的):"
-	},
-	"l_user_stream_url": {
-	  "message": "User Stream URL:"
 	},
 	"block_action": {
 	  "message": "ブロックする"

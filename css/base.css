@@ -303,7 +303,7 @@ input[type='text'] {
 
 .tweet .primary_name .user,
 .tweet .secondary_name .user {
-  word-wrap: nomal;
+  word-wrap: normal;
   line-height: 1;
 }
 

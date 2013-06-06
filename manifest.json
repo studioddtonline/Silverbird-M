@@ -40,5 +40,19 @@
         }
     ],
     "options_page": "options.html",
-    "update_url": "http://clients2.google.com/service/update2/crx"
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "commands": {
+        "showComposeArea": {
+            "suggested_key": {
+                "default": "Ctrl+C"
+            },
+            "description": "Show and Close the Compose Area"
+        },
+        "closePopup": {
+            "suggested_key": {
+                "default": "Ctrl+Q"
+            },
+            "description": "Close Popup"
+        }
+    }
 }

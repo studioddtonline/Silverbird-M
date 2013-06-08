@@ -53,6 +53,12 @@
                 "default": "Ctrl+Q"
             },
             "description": "Close Popup"
+        },
+        "reload": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+R"
+            },
+            "description": "Reload Silverbird M"
         }
     }
 }

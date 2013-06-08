@@ -275,8 +275,14 @@
 			}
 		}
 	},
-	"ue_updatingTweets2": {
-		"message": "何度もタイムアウトするようなら、いったんログアウトしてからログインしなおしてください。"
+	"ue_updatingTweets_timeout": {
+		"message": "<br>何度もタイムアウトするようなら、いったんログアウトしてからログインしなおしてください。"
+	},
+	"ue_updatingTweets_noresult": {
+		"message": "検索キーワードが未入力か、検索結果がありませんでした。"
+	},
+	"ue_updatingTweets_nofetched": {
+		"message": "<br>何度も空っぽのままなら、<a href=\"#\" class=\"msg-trigger-reload\">Silverbird Mをリロードしてください</a>"
 	},
 	"ue_deletingTweet": {
 		"message": "ツイートの削除に失敗しました エラー $status$",

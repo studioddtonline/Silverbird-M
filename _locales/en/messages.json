@@ -279,8 +279,14 @@
 			}
 		}
 	},
-	"ue_updatingTweets2": {
-		"message": " If this timeout error is being shown repeatedly, please try logging out and logging in again."
+	"ue_updatingTweets_timeout": {
+		"message": "<br> If this timeout error is being shown repeatedly, <a href=\"#\" class=\"msg-trigger-reload\">please try logging out and logging in again.</a>"
+	},
+	"ue_updatingTweets_noresult": {
+		"message": "No search query, or No results"
+	},
+	"ue_updatingTweets_nofetched": {
+		"message": "<br> If no tweets is displayed repeatedly, please try to reload the Silverbird M."
 	},
 	"ue_deletingTweet": {
 		"message": "Unexpected error $status$ deleting tweet.",

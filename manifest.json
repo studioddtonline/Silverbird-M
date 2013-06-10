@@ -16,6 +16,7 @@
     "permissions": [
         "notifications",
         "tabs",
+        "power",
         "http://*/*",
         "https://*/*"
     ],

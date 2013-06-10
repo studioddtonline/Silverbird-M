@@ -721,5 +721,8 @@
 	},
 	"undefined_message": {
 	  "message": "UNDEFINED"
+	},
+	"l_use_disable_displayoff": {
+	  "message": "Disable Display-Off (experimental!):"
 	}
 }

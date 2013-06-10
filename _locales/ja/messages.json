@@ -569,12 +569,6 @@
 	"g_timelines": {
 		"message": "タイムライン"
 	},
-	"notice_api_hits": {
-		"message": "API利用回数を <span style=\"color: red;\">below <span class=\"__hourly_limit\"></span>以下</span>にする必要があります。<br>でないとSilverbird Mは動作を中止してしまうので、タイムラインは一切更新されなくなります。<br>複数のTwitterクライアントをご利用の場合、この回数制限よりも低くする必要があります。"
-	},
-	"l_hits_notice": {
-		"message": "1時間あたりのAPI利用回数: "
-	},
 	"l_visible": {
 		"message": "表示"
 	},
@@ -595,9 +589,6 @@
 	},
 	"l_blocked_users": {
 		"message": "ブロック済みユーザ:"
-	},
-	"notice_right_click_change": {
-		"message": "* ちなみに、コンテクストメニューを右クリックするとポップアップするウィンドウ上で、ほとんどの設定値をちょくせつ変更できます。"
 	},
 	"l_tweets_per_page": {
 		"message": "1ページ中のツイート数:"

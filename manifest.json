@@ -41,31 +41,5 @@
         }
     ],
     "options_page": "options.html",
-    "update_url": "http://clients2.google.com/service/update2/crx",
-    "commands": {
-        "_execute_browser_action": {
-            "suggested_key": {
-                "default": "Ctrl+M",
-                "mac": "Command+Shift+M"
-            }
-        },
-        "showComposeArea": {
-            "suggested_key": {
-                "default": "Ctrl+Shift+C"
-            },
-            "description": "Show and Close the Compose Area"
-        },
-        "closePopup": {
-            "suggested_key": {
-                "default": "Ctrl+Q"
-            },
-            "description": "Close Popup"
-        },
-        "reload": {
-            "suggested_key": {
-                "default": "Alt+Shift+R"
-            },
-            "description": "Reload Silverbird M"
-        }
-    }
+    "update_url": "http://clients2.google.com/service/update2/crx"
 }

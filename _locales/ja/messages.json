@@ -723,5 +723,20 @@
 	},
 	"l_compliant_twitter_display_requirements": {
 	  "message": "Twitter Display Requirementsに準拠する:"
+	},
+	"l_hidden_user_icons": {
+	  "message": "ユーザアイコンを表示しない:"
+	},
+	"l_display_simple_name": {
+	  "message": "簡素な名前表示をする:"
+	},
+	"l_hidden_timestamp": {
+	  "message": "タイムスタンプを表示しない:"
+	},
+	"l_hidden_footer": {
+	  "message": "フッターを表示しない:"
+	},
+	"l_aggressive_flat": {
+	  "message": "アグレッシブフラット:"
 	}
 }

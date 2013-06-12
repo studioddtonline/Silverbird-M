@@ -727,5 +727,20 @@
 	},
 	"l_compliant_twitter_display_requirements": {
 	  "message": "Compliant Twitter Display Requirements:"
+	},
+	"l_hidden_user_icons": {
+	  "message": "Hidden User Icons:"
+	},
+	"l_display_simple_name": {
+	  "message": "Display Simple name:"
+	},
+	"l_hidden_timestamp": {
+	  "message": "Hidden Tiemstamp:"
+	},
+	"l_hidden_footer": {
+	  "message": "Hidden Footer:"
+	},
+	"l_aggressive_flat": {
+	  "message": "Aggressive Flat:"
 	}
 }

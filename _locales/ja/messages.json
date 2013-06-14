@@ -259,14 +259,6 @@
 			}
 		}
 	},
-	"ue_fetchingLists": {
-		"message": "リスト一覧の取得に失敗しました エラー $status$",
-		"placeholders": {
-			"status": {
-				"content": "$1"
-			}
-		}
-	},
 	"ue_updatingTweets": {
 		"message": "ツイートの更新に失敗しました エラー $baseError$",
 		"placeholders": {

@@ -263,14 +263,6 @@
 			}
 		}
 	},
-	"ue_fetchingLists": {
-		"message": "Unexpected error $status$ fetching lists.",
-		"placeholders": {
-			"status": {
-				"content": "$1"
-			}
-		}
-	},
 	"ue_updatingTweets": {
 		"message": "Unexpected error $baseError$ updating tweets.",
 		"placeholders": {

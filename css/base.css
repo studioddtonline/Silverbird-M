@@ -386,20 +386,6 @@ input[type='text'] {
 
 /* .tweet .overlay */
 
-.tweet .rt_confirm {
-  position: absolute;
-  right: 0;
-  top: 45px;
-  display: none;
-  padding: 5px;
-  min-width: 200px;
-  z-index: 99999;
-}
-
-.tweet .rt_confirm.destroy {
-  top: 30px;
-}
-
 .tweet .new_actions {
   position: absolute;
   top: 0;
@@ -529,4 +515,9 @@ ul.worklist li {
   max-width: 200px;
   max-height: 200px;
   border-radius: 10px;
+}
+
+/* jQuery UI Dialog */
+.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
 }

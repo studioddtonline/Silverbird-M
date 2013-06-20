@@ -92,12 +92,6 @@ input[type='text'] {
   -webkit-border-radius: 5px;
 }
 
-.tweet .rt_confirm {
-  -webkit-border-radius: 5px;
-  border: 3px solid #3BAAE3;
-  background-color: #e5effe;
-}
-
 .tweet .extra_tweet_data {
   color: #999;
 }

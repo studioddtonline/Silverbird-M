@@ -200,9 +200,6 @@
 	"changeNotificationSettings": {
 		"message": "You can change notification settings in the options page"
 	},
-	"loading": {
-		"message": "Loading..."
-	},
 	"errorExpandingUrl": {
 		"message": "Sorry, something went wrong, please try again."
 	},

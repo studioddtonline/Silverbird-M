@@ -196,9 +196,6 @@
 	"changeNotificationSettings": {
 		"message": "オプションページで通知設定を変更できます。"
 	},
-	"loading": {
-		"message": "読込中…"
-	},
 	"errorExpandingUrl": {
 		"message": "失敗したようです。もう一度試してください。"
 	},

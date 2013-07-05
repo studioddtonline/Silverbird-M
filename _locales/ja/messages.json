@@ -727,5 +727,8 @@
 	},
 	"l_aggressive_flat": {
 	  "message": "アグレッシブフラット:"
+	},
+	"ue_expand_in_reply": {
+		"message": "リプライ元が削除されているか、保護されたユーザです。"
 	}
 }

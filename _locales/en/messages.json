@@ -734,5 +734,23 @@
 	},
 	"ue_expand_in_reply": {
 		"message": "That tweet is deleted, or this user probably is protected."
+	},
+	"l_hidden_reply_info": {
+	  "message": "Hidden Reply Info:"
+	},
+	"l_hidden_retweet_info": {
+	  "message": "Hidden Retweet Info:"
+	},
+	"l_hidden_client_name": {
+	  "message": "Hidden Client Name:"
+	},
+	"l_hidden_dm_info": {
+	  "message": "Hidden DM Info:"
+	},
+	"l_hidden_geo_info": {
+	  "message": "Hidden Geo Info:"
+	},
+	"l_hidden_list_info": {
+	  "message": "Hidden List Info:"
 	}
 }

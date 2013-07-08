@@ -730,5 +730,23 @@
 	},
 	"ue_expand_in_reply": {
 		"message": "リプライ元が削除されているか、保護されたユーザです。"
+	},
+	"l_hidden_reply_info": {
+	  "message": "リプライ情報を表示しない:"
+	},
+	"l_hidden_retweet_info": {
+	  "message": "リツイート情報を表示しない:"
+	},
+	"l_hidden_client_name": {
+	  "message": "クライアント名を表示しない:"
+	},
+	"l_hidden_dm_info": {
+	  "message": "DM情報を表示しない:"
+	},
+	"l_hidden_geo_info": {
+	  "message": "位置情報を表示しない:"
+	},
+	"l_hidden_list_info": {
+	  "message": "リスト情報を表示しない:"
 	}
 }

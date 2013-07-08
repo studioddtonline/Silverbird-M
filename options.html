@@ -39,21 +39,33 @@
     <input type="checkbox" id="compliant_twitter_display_requirements" name="compliant_twitter_display_requirements" /><br/>
     <p id="incompliant_options">
       <label for="hidden_user_icons" class="i18n" id="l_hidden_user_icons">Hidden User Icons:</label>
-      <input type="checkbox" id="hidden_user_icons" name="hidden_user_icons" /><br/>
-      <label for="hidden_timestamp" class="i18n" id="l_hidden_timestamp">Hidden Timestamp:</label>
-      <input type="checkbox" id="hidden_timestamp" name="hidden_timestamp" /><br/>
+      <input type="checkbox" id="hidden_user_icons" name="hidden_user_icons" class="CTDR" /><br/>
       <label for="name_attribute" id="l_name_attribute" class="i18n">Name in tweets:</label>
-      <select name="name_attribute">
+      <select name="name_attribute" class="CTDR">
         <option value="both" id="o_both" class="i18n" >Default</option>
         <option value="name" id="o_name" class="i18n">Real name</option>
         <option value="screen_name" id="o_screen_name" class="i18n">Screen name (nickname)</option>
       </select><br>
       <label for="display_simple_name" class="i18n" id="l_display_simple_name">Display Simple Name:</label>
-      <input type="checkbox" id="display_simple_name" name="display_simple_name" /><br/>
+      <input type="checkbox" id="display_simple_name" name="display_simple_name" class="CTDR" /><br/>
       <label for="hidden_footer" class="i18n" id="l_hidden_footer">Hidden Footer:</label>
-      <input type="checkbox" id="hidden_footer" name="hidden_footer" /><br/>
+      <input type="checkbox" id="hidden_footer" name="hidden_footer" class="CTDR" /><br/>
+      <label for="hidden_timestamp" class="i18n" id="l_hidden_timestamp">Hidden Timestamp:</label>
+      <input type="checkbox" id="hidden_timestamp" name="hidden_timestamp" class="CTDR hFooter" /><br/>
+      <label for="hidden_reply_info" class="i18n" id="l_hidden_reply_info">Hidden Reply Info:</label>
+      <input type="checkbox" id="hidden_reply_info" name="hidden_reply_info" class="CTDR hFooter" /><br/>
+      <label for="hidden_retweet_info" class="i18n" id="l_hidden_retweet_info">Hidden Retweet Info:</label>
+      <input type="checkbox" id="hidden_retweet_info" name="hidden_retweet_info" class="CTDR hFooter" /><br/>
+      <label for="hidden_client_name" class="i18n" id="l_hidden_client_name">Hidden Client Name:</label>
+      <input type="checkbox" id="hidden_client_name" name="hidden_client_name" class="CTDR hFooter" /><br/>
+      <label for="hidden_dm_info" class="i18n" id="l_hidden_dm_info">Hidden DM Info:</label>
+      <input type="checkbox" id="hidden_dm_info" name="hidden_dm_info" class="CTDR hFooter" /><br/>
+      <label for="hidden_geo_info" class="i18n" id="l_hidden_geo_info">Hidden Geo Info:</label>
+      <input type="checkbox" id="hidden_geo_info" name="hidden_geo_info" class="CTDR hFooter" /><br/>
+      <label for="hidden_list_info" class="i18n" id="l_hidden_list_info">Hidden List Info:</label>
+      <input type="checkbox" id="hidden_list_info" name="hidden_list_info" class="CTDR hFooter" /><br/>
       <label for="aggressive_flat" class="i18n" id="l_aggressive_flat">Aggressive Flat:</label>
-      <input type="checkbox" id="aggressive_flat" name="aggressive_flat" />
+      <input type="checkbox" id="aggressive_flat" name="aggressive_flat" class="CTDR" />
     </p>
     <label for="compose_position" id="l_compose_position" class="i18n">Compose area position:</label>
     <select name="compose_position">

@@ -343,12 +343,6 @@ input[type='text'] {
   line-height: 1.4;
 }
 
-.tweet .text_container img.retweet {
-  margin: 2px 4px auto -23px;
-  padding: 0;
-  vertical-align: middle;
-}
-
 /* .tweet .text_container */
 
 /* .tweet .footer_container */
@@ -366,12 +360,19 @@ input[type='text'] {
 .tweet .footer_container .inReply,
 .tweet .footer_container .inRetweet,
 .tweet .footer_container .selfRetweet,
-.tweet .footer_container .retweetCount,
 .tweet .footer_container .from_app,
 .tweet .footer_container .dm_recipient,
 .tweet .footer_container .geo_tag,
 .tweet .footer_container .from_list {
   margin: auto 0 auto 1em;
+}
+
+.tweet .footer_container img.retweet {
+  margin: 0 2px;
+  padding: 0;
+  vertical-align: top;
+  max-width: 14px;
+  max-height: 14px;
 }
 
 /* .tweet .footer_container */

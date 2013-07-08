@@ -331,14 +331,6 @@ input[type='text'] {
   vertical-align: middle;
 }
 
-.tweet .header_container span.timestamp {
-  font-size: 8pt;
-  display: block;
-  float: right;
-  margin: 2px 2px 0 2px;
-  padding: 0;
-}
-
 /* .tweet .header_container */
 
 /* .tweet .text_container */

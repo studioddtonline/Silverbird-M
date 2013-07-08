@@ -565,8 +565,11 @@
 	"l_visible": {
 		"message": "Visible"
 	},
-	"l_refresh_interval": {
+	"l_refresh_interval_seconds": {
 		"message": "Refresh Interval (s)"
+	},
+	"l_refresh_interval_minutes": {
+		"message": "Refresh Interval (m)"
 	},
 	"l_include_in_unified": {
 		"message": "Include in unified timeline"
@@ -752,5 +755,11 @@
 	},
 	"l_hidden_list_info": {
 	  "message": "Hidden List Info:"
+	},
+	"l_trends_in_places": {
+	  "message": "Trends in Places:"
+	},
+	"l_saved_searches": {
+	  "message": "Saved Searches:"
 	}
 }

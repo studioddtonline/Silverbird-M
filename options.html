@@ -220,12 +220,17 @@
 
   <fieldset>
     <legend class="i18n" id="g_timelines">Timelines</legend>
+    <label for="tweets_per_page" class="i18n" id="l_tweets_per_page">Tweets per Page:</label>
+    <input type="text" name="tweets_per_page" validator="required,number,positive,maxTweetsPerRequest" must_restart><br>
+    <label for="max_cached_tweets" class="i18n" id="l_max_cached_tweets">Max Shown Tweets:</label>
+    <input type="text" name="max_cached_tweets" validator="required,number,positive,maxTweetsOnTimeline" must_restart>
     <table class="timelines">
       <tr>
         <th></th>
         <th id="l_visible" class="i18n">Visible</th>
-        <th id="l_refresh_interval" class="i18n">Refresh Interval (s)</th>
+        <th id="l_refresh_interval_seconds" class="i18n">Refresh Interval (s)</th>
         <th id="l_include_in_unified" class="i18n">Include in unified timeline</th>
+      </tr>
       <tr>
         <td class="label i18n" id="l_unified_timeline">Unified Timeline:</td>
         <td><input type="checkbox" name="unified_visible" validator="unifiedValidator"></td>
@@ -268,21 +273,25 @@
         <td><input type="text" name="favorites_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
         <td><input type="checkbox" name="favorites_include_unified"></td>
       </tr>
+    </table>
+    <table class="timelines">
+      <tr>
+        <th></th>
+        <th id="l_refresh_interval_minutes" class="i18n">Refresh Interval (m)</th>
+      </tr>
       <tr>
         <td class="label i18n" id="l_blocked_users">Blocked Users:</td>
-        <td>-</td>
-        <td><input type="text" name="blockedusers_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td>-</td>
+        <td><input type="text" name="blockedusers_refresh_interval" validator="required,number,positive,minAlarm" must_restart></td>
+      </tr>
+      <tr>
+        <td class="label i18n" id="l_trends_in_places">Trends of places:</td>
+        <td><input type="text" name="trends_in_places" validator="required,number,positive,minAlarm" must_restart></td>
+      </tr>
+      <tr>
+        <td class="label i18n" id="l_saved_searches">Saved Searches:</td>
+        <td><input type="text" name="saved_searches" validator="required,number,positive,minAlarm" must_restart></td>
       </tr>
     </table>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_timelines">Timelines</legend>
-    <label for="tweets_per_page" class="i18n" id="l_tweets_per_page">Tweets per Page:</label>
-    <input type="text" name="tweets_per_page" validator="required,number,positive,maxTweetsPerRequest" must_restart><br>
-    <label for="max_cached_tweets" class="i18n" id="l_max_cached_tweets">Max Shown Tweets:</label>
-    <input type="text" name="max_cached_tweets" validator="required,number,positive,maxTweetsOnTimeline" must_restart><br>
   </fieldset>
 
   <fieldset>

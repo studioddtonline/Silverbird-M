@@ -561,8 +561,11 @@
 	"l_visible": {
 		"message": "表示"
 	},
-	"l_refresh_interval": {
+	"l_refresh_interval_seconds": {
 		"message": "更新間隔 (秒)"
+	},
+	"l_refresh_interval_minutes": {
+		"message": "更新間隔 (分)"
 	},
 	"l_include_in_unified": {
 		"message": "Unifiedタイムラインに表示する"
@@ -748,5 +751,11 @@
 	},
 	"l_hidden_list_info": {
 	  "message": "リスト情報を表示しない:"
+	},
+	"l_trends_in_places": {
+	  "message": "地域のトレンド:"
+	},
+	"l_saved_searches": {
+	  "message": "保存済み検索:"
 	}
 }

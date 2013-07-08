@@ -1,6 +1,7 @@
-0.5.2.16
+0.5.2.17
 
 * change dialog style
+* change tweet style
 * Support pic.twitter.com image uploading
 * Bugfix
 * jQuery is updated to 2.0.2

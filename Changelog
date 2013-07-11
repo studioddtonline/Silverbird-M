@@ -1,7 +1,8 @@
-0.5.2.17
+0.5.2.18
 
 * change dialog style
 * change tweet style
+* Support Richer Notification of Chrome 28 (experimental)
 * Support pic.twitter.com image uploading
 * Bugfix
 * jQuery is updated to 2.0.2

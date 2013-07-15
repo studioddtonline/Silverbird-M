@@ -1,7 +1,8 @@
-0.5.2.19
+0.5.2.20
 
 * change dialog style
 * change tweet style
+* Support Profile Icon size changing in timeline
 * Support Richer Notification of Chrome 28 (experimental)
 * Support pic.twitter.com image uploading
 * Bugfix

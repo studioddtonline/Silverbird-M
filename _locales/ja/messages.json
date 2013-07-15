@@ -445,13 +445,13 @@
 		"message": "標準"
 	},
 	"l_compose_position": {
-		"message": "ウィンドウ表示位置:"
+		"message": "ツイート入力欄の位置:"
 	},
 	"o_top": {
-		"message": "上部"
+		"message": "タイムライン上部"
 	},
 	"o_bottom": {
-		"message": "下部"
+		"message": "タイムライン下部"
 	},
 	"l_theme": {
 		"message": "テーマ:"

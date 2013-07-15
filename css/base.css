@@ -262,26 +262,90 @@ input[type='text'] {
   margin-right: 4px;
   float: left;
   cursor: pointer;
-  height: 48px;
-  width: 48px;
-  max-width: 54px;
-  max-height: 54px;
 }
 
-.tweet img.profile.retweet_source {
-  margin-right: 0;
+.tweet img.profile.icon_small {
+  width: 24px;
+  height: 24px;
+}
+
+.tweet img.profile.icon_normal {
+  width: 48px;
+  height: 48px;
+}
+
+.tweet img.profile.icon_large {
+  width: 73px;
+  height: 73px;
+}
+
+.tweet img.profile.icon_max {
+  width: 128px;
+  height: 128px;
+}
+
+.tweet img.profile.retweet_source.icon_small {
+  margin: 0 6px 6px 0;
+  width: 18px;
+  height: 18px;
+}
+
+.tweet img.profile.retweet_source.icon_normal {
+  margin: 0 10px 10px 0;
   width: 40px;
   height: 40px;
 }
 
-.tweet img.profile.retweet_retweeter {
-  margin-bottom: 20px;
+.tweet img.profile.retweet_source.icon_large {
+  margin: 0 16px 16px 0;
+  width: 60px;
+  height: 60px;
+}
+
+.tweet img.profile.retweet_source.icon_max {
+  margin: 0 32px 32px 0;
+  width: 100px;
+  height: 100px;
+}
+
+.tweet img.profile.retweet_retweeter.icon_small {
+  margin-bottom: -8px;
   margin-right: -10px;
   position: relative;
-  top: 24px;
-  left: -14px;
+  top: 10px;
+  left: -12px;
+  width: 14px;
+  height: 14px;
+}
+
+.tweet img.profile.retweet_retweeter.icon_normal {
+  margin-bottom: -20px;
+  margin-right: -22px;
+  position: relative;
+  top: 28px;
+  left: -24px;
   width: 24px;
   height: 24px;
+}
+
+.tweet img.profile.retweet_retweeter.icon_large {
+  margin-bottom: -30px;
+  margin-right: -32px;
+  position: relative;
+  top: 40px;
+  left: -34px;
+  width: 36px;
+  height: 36px;
+}
+
+.tweet img.profile.retweet_retweeter.icon_max {
+  margin-bottom: -48px;
+  margin-right: -64px;
+  position: relative;
+  top: 62px;
+  left: -66px;
+  width: 64px;
+  height: 64px;
 }
 
 /* .tweet .profile_container */

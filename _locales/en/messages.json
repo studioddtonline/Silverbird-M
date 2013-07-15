@@ -761,5 +761,20 @@
 	},
 	"l_saved_searches": {
 	  "message": "Saved Searches:"
+	},
+	"l_icon_size": {
+		"message": "Profile Icon Size"
+	},
+	"o_icon_small": {
+		"message": "Small"
+	},
+	"o_icon_normal": {
+		"message": "Normal"
+	},
+	"o_icon_large": {
+		"message": "Large"
+	},
+	"o_icon_max": {
+		"message": "Maximum"
 	}
 }

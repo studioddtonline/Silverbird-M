@@ -757,5 +757,20 @@
 	},
 	"l_saved_searches": {
 	  "message": "保存済み検索:"
+	},
+	"l_icon_size": {
+		"message": "プロフィールアイコンサイズ"
+	},
+	"o_icon_small": {
+		"message": "小さい"
+	},
+	"o_icon_normal": {
+		"message": "通常"
+	},
+	"o_icon_large": {
+		"message": "大きい"
+	},
+	"o_icon_max": {
+		"message": "最大"
 	}
 }

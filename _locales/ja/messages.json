@@ -772,5 +772,8 @@
 	},
 	"o_icon_max": {
 		"message": "最大"
+	},
+	"w_Notification": {
+		"message": "通知"
 	}
 }

@@ -776,5 +776,8 @@
 	},
 	"o_icon_max": {
 		"message": "Maximum"
+	},
+	"w_Notification": {
+		"message": "Notification"
 	}
 }

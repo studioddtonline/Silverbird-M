@@ -534,8 +534,8 @@
   "l_tweets_notification_style": {
     "message": "通知設定:"
   },
-  "l_noti_on_page": {
-    "message": "ページ上で通知"
+  "l_noti_never": {
+    "message": "通知しない"
   },
   "l_noti_desktop": {
     "message": "デスクトップ通知"

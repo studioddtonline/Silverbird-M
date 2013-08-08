@@ -538,8 +538,8 @@
   "l_tweets_notification_style": {
     "message": "Notification Style:"
   },
-  "l_noti_on_page": {
-    "message": "Notify on Page"
+  "l_noti_never": {
+    "message": "Never"
   },
   "l_noti_desktop": {
     "message": "Desktop Notifications"

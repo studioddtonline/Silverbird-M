@@ -1,11 +1,13 @@
-0.5.2.21
+0.5.2.22
 
+* add notifications timeline (hidden)
 * change dialog style
 * change tweet style
 * Support Profile Icon size changing in timeline
 * Support Richer Notification of Chrome 28 (experimental)
 * Support pic.twitter.com image uploading
 * remove via.me support
+* remove on-page notification
 * Bugfix
 * jQuery is updated to 2.0.3
 

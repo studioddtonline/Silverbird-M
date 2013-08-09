@@ -531,6 +531,9 @@
   "notif_search": {
     "message": "検索:"
   },
+  "notif_notification": {
+    "message": "通知:"
+  },
   "l_tweets_notification_style": {
     "message": "通知設定:"
   },

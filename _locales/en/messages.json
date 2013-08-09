@@ -535,6 +535,9 @@
   "notif_search": {
     "message": "Search:"
   },
+  "notif_notification": {
+    "message": "Notification:"
+  },
   "l_tweets_notification_style": {
     "message": "Notification Style:"
   },

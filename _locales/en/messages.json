@@ -826,5 +826,8 @@
         "content": "$1"
       }
     }
+  },
+  "c_search_on_silverbird_m": {
+    "message": "Search \"%s\" on Silverbird M"
   }
 }

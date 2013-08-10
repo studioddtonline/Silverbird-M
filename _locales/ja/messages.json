@@ -822,5 +822,8 @@
         "content": "$1"
       }
     }
+  },
+  "c_search_on_silverbird_m": {
+    "message": "Silverbird Mで「%s」を検索"
   }
 }

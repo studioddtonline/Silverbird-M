@@ -701,9 +701,6 @@
   "undefined_message": {
     "message": "不明"
   },
-  "l_use_disable_displayoff": {
-    "message": "ディスプレイオフを無効にする (実験的):"
-  },
   "l_compliant_twitter_display_requirements": {
     "message": "Twitter Display Requirementsに準拠する:"
   },

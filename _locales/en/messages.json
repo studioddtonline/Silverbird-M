@@ -705,9 +705,6 @@
   "undefined_message": {
     "message": "UNDEFINED"
   },
-  "l_use_disable_displayoff": {
-    "message": "Disable Display-Off (experimental!):"
-  },
   "l_compliant_twitter_display_requirements": {
     "message": "Compliant Twitter Display Requirements:"
   },

@@ -18,7 +18,6 @@
         "contextMenus",
         "notifications",
         "tabs",
-        "power",
         "http://*/*",
         "https://*/*"
     ],

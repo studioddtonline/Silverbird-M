@@ -692,7 +692,7 @@
     "message": "List"
   },
   "request_token_error": {
-    "message": "Ouch... Something bad happened to Silverbird M while calling Twitter's API. Request token response: $errorMsg$ \n\nThis problem is probably due to incorrect date and time settings in your operating system. Please, review your settings and try again.",
+    "message": "Ouch... Something bad happened to Silverbird M while calling Twitter's API. Request token response: $errorMsg$ \n\nThis problem is probably due to incorrect date and time settings in your operating system or disconnected from internet. Please, review your settings and try again.",
     "placeholders": {
       "errorMsg": {
         "content": "$1"
@@ -844,5 +844,8 @@
   },
   "c_search_on_silverbird_m": {
     "message": "Search \"%s\" on Silverbird M"
+  },
+  "initial_fetch_error": {
+    "message": "fail to fetch necessary data for boot Silverbird M. your network or Twitter is probably down."
   }
 }

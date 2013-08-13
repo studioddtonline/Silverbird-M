@@ -583,8 +583,26 @@
   "l_unified_timeline": {
     "message": "Unified Timeline:"
   },
-  "tml_favorites": {
+  "l_home_timeline": {
+    "message": "Home:"
+  },
+  "l_mention_timeline": {
+    "message": "Mention:"
+  },
+  "l_dms_timeline": {
+    "message": "DM:"
+  },
+  "l_lists_timeline": {
+    "message": "Lists:"
+  },
+  "l_search_timeline": {
+    "message": "Search:"
+  },
+  "l_favorites_timeline": {
     "message": "Favorites:"
+  },
+  "l_notifications_timeline": {
+    "message": "Notifications:"
   },
   "l_blocked_users": {
     "message": "Blocked Users:"

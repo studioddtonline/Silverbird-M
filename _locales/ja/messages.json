@@ -579,8 +579,26 @@
   "l_unified_timeline": {
     "message": "Unifiedタイムライン:"
   },
-  "tml_favorites": {
+  "l_home_timeline": {
+    "message": "ホーム:"
+  },
+  "l_mention_timeline": {
+    "message": "メンション:"
+  },
+  "l_dms_timeline": {
+    "message": "DM:"
+  },
+  "l_lists_timeline": {
+    "message": "リスト:"
+  },
+  "l_search_timeline": {
+    "message": "検索:"
+  },
+  "l_favorites_timeline": {
     "message": "お気に入り:"
+  },
+  "l_notifications_timeline": {
+    "message": "通知:"
   },
   "l_blocked_users": {
     "message": "ブロック済みユーザ:"

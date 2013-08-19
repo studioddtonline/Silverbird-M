@@ -845,7 +845,7 @@
   "c_search_on_silverbird_m": {
     "message": "Search \"%s\" on Silverbird M"
   },
-  "initial_fetch_error": {
+  "a_initial_fetch_error": {
     "message": "fail to fetch necessary data for boot Silverbird M. your network or Twitter is probably down."
   }
 }

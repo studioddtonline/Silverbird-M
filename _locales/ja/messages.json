@@ -841,7 +841,7 @@
   "c_search_on_silverbird_m": {
     "message": "Silverbird Mで「%s」を検索"
   },
-  "initial_fetch_error": {
+  "a_initial_fetch_error": {
     "message": "Silverbird Mの起動に必要なデータのダウンロードができませんでした。インターネットに接続できていないか、Twitterがダウンしている可能性があります。"
   }
 }

@@ -850,5 +850,8 @@
   },
   "a_initialization_is_not_finished": {
     "message": "Initialization is not finished. Please try again later."
+  },
+  "ue_disable_dm": {
+    "message": "Direct messages tab have been disabled for now. This is happening because Twitter's denying access to them for some bizarre reason. You can try enabling them again in the options page."
   }
 }

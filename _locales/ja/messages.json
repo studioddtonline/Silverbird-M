@@ -846,5 +846,8 @@
   },
   "a_initialization_is_not_finished": {
     "message": "初期化中です。もうしばらく待ってから再度お試しください。"
+  },
+  "ue_disable_dm": {
+    "message": "ただいま、DMが無効になっています。これはTwitter側の問題です。のちほどオプションページから有効にし直してみてください。"
   }
 }

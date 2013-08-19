@@ -1,6 +1,6 @@
 {
   "extDescription": {
-    "message": "Silverbird M は Twitterクライアントです。あなたのタイムラインを追うことができます。Silverbird MはSilver Birdからforkしたプロジェクトです。",
+    "message": "Silverbird M は Twitterクライアントです。Silverbird MはSilver Birdからforkしたプロジェクトです。",
     "description": "Chrome拡張の説明"
   },
   "resetSize": {
@@ -479,9 +479,6 @@
   },
   "l_show_user_autocomplete": {
     "message": "ユーザ名をオートコンプリートする:"
-  },
-  "l_tab_select_with_hover": {
-    "message": "マウスホバーでタブを選択する:"
   },
   "l_tweet_color": {
     "message": "ツイートの色:"

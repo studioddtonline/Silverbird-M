@@ -847,5 +847,8 @@
   },
   "a_initial_fetch_error": {
     "message": "fail to fetch necessary data for boot Silverbird M. your network or Twitter is probably down."
+  },
+  "a_initialization_is_not_finished": {
+    "message": "Initialization is not finished. Please try again later."
   }
 }

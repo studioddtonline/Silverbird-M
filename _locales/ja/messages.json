@@ -843,5 +843,8 @@
   },
   "a_initial_fetch_error": {
     "message": "Silverbird Mの起動に必要なデータのダウンロードができませんでした。インターネットに接続できていないか、Twitterがダウンしている可能性があります。"
+  },
+  "a_initialization_is_not_finished": {
+    "message": "初期化中です。もうしばらく待ってから再度お試しください。"
   }
 }

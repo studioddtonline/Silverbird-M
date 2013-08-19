@@ -8,7 +8,6 @@
 <script src="lib/3rdparty/jquery.js"></script>
 <script src="lib/3rdparty/colorpicker.js"></script>
 <script src="lib/shortener_lib.js"></script>
-
 <script src="lib/options/global.js"></script>
 <script src="lib/options/options.js"></script>
 <script src="lib/options/page.js"></script>
@@ -103,12 +102,6 @@
     <input type="checkbox" id="show_hits_in_popup" name="show_hits_in_popup" /><br/>
     <label for="show_user_autocomplete" class="i18n" id="l_show_user_autocomplete">Autocomplete usernames:</label>
     <input type="checkbox" style="margin-bottom: 7px;" id="show_user_autocomplete" name="show_user_autocomplete" /><br/>
-
-    <label id="l_icon_color" class="i18n">Icon color:</label>
-    <canvas name="idle_color" width="19" height="19" class="color_selector" must_restart></canvas><br/>
-
-    <label for="tweets_color_only_unified" id="l_tweets_color_only_unified" class="i18n">Colors only in unified:</label>
-    <input type="checkbox" name="tweets_color_only_unified" /><br/>
     <table class="tweet_color">
       <tr>
         <th></th>
@@ -151,47 +144,26 @@
 
   <fieldset>
     <legend class="i18n" id="g_notifications">Notifications</legend>
-    <table class="notifications">
-      <tr>
-        <th></th>
-        <th class="i18n" id="l_tweet_notificacion">Tweet Notification</th>
-        <th class="i18n" id="l_change_icon">Change Icon</th>
-        <th class="i18n" id="l_icon_color_column">Icon Color</th>
-      <tr>
-        <td class="label i18n" id="notif_home">Home:</td>
-        <td><input type="checkbox" name="home_notify"></td>
-        <td><input type="checkbox" name="home_icon"></td>
-        <td><canvas name="home_color" width="19" height="19" class="color_selector"></canvas></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="notif_mentions">Mentions:</td>
-        <td><input type="checkbox" name="mentions_notify"></td>
-        <td><input type="checkbox" name="mentions_icon"></td>
-        <td><canvas name="mentions_color" width="19" height="19" class="color_selector"></canvas></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="notif_dms">DMs:</td>
-        <td><input type="checkbox" name="dms_notify"></td>
-        <td><input type="checkbox" name="dms_icon"></td>
-        <td><canvas name="dms_color" width="19" height="19" class="color_selector"></canvas></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="notif_lists">Lists:</td>
-        <td><input type="checkbox" name="lists_notify"></td>
-        <td><input type="checkbox" name="lists_icon"></td>
-        <td><canvas name="lists_color" width="19" height="19" class="color_selector"></canvas></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="notif_search">Search:</td>
-        <td><input type="checkbox" name="search_notify"></td>
-        <td><input type="checkbox" name="search_icon"></td>
-        <td><canvas name="search_color" width="19" height="19" class="color_selector"></canvas></td>
-      </tr>
-    </table><br>
-
     <label for="tweets_notification_style" class="i18n" id="l_tweets_notification_style">Notification Style:</label>
     <input type="radio" name="tweets_notification_style" value="never" id="noti_never"> <label for="noti_never" class="radio_opt i18n" id="l_noti_never">Never</label>
     <input type="radio" name="tweets_notification_style" value="desktop" id="noti_desktop"> <label for="noti_desktop" class="radio_opt i18n" id="l_noti_desktop">Desktop Notifications</label><br>
+    <table class="notifications">
+      <tr>
+        <th>&nbsp;</th>
+        <th class="label i18n" id="notif_home">Home:</th>
+        <th class="label i18n" id="notif_mentions">Mentions:</th>
+        <th class="label i18n" id="notif_dms">DMs:</td>
+        <th class="label i18n" id="notif_lists">Lists:</th>
+        <th class="label i18n" id="notif_search">Search:</th>
+      <tr>
+        <td class="i18n" id="l_tweet_notificacion">Tweet Notification</td>
+        <td><input type="checkbox" name="home_notify"></td>
+        <td><input type="checkbox" name="mentions_notify"></td>
+        <td><input type="checkbox" name="dms_notify"></td>
+        <td><input type="checkbox" name="lists_notify"></td>
+        <td><input type="checkbox" name="search_notify"></td>
+      </tr>
+    </table><br>
     <label for="notification_fade_timeout" class="i18n" id="l_notification_fade_timeout">Notification Timeout (s):</label>
     <input type="text" name="notification_fade_timeout" validator="required,number,positive" converter="RefreshInterval"><br>
 

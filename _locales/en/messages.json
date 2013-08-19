@@ -51,9 +51,6 @@
   "notify": {
     "message": "Toggle Notify"
   },
-  "changeIcon": {
-    "message": "Toggle Change Icon"
-  },
   "show_unified": {
     "message": "Show Unified Tab"
   },
@@ -196,9 +193,6 @@
   },
   "preventClosing": {
     "message": "Click to prevent closing."
-  },
-  "changeNotificationSettings": {
-    "message": "You can change notification settings in the options page"
   },
   "errorExpandingUrl": {
     "message": "Sorry, something went wrong, please try again."
@@ -493,12 +487,6 @@
   "l_tab_select_with_hover": {
     "message": "Select Tab with Hover:"
   },
-  "l_icon_color": {
-    "message": "Icon color:"
-  },
-  "l_tweets_color_only_unified": {
-    "message": "Colors only in unified:"
-  },
   "l_tweet_color": {
     "message": "Tweet color:"
   },
@@ -513,12 +501,6 @@
   },
   "l_tweet_notification": {
     "message": "Tweet Notification"
-  },
-  "l_change_icon": {
-    "message": "Change Icon"
-  },
-  "l_icon_color_column": {
-    "message": "Icon Color"
   },
   "notif_home": {
     "message": "Home:"
@@ -853,5 +835,8 @@
   },
   "ue_disable_dm": {
     "message": "Direct messages tab have been disabled for now. This is happening because Twitter's denying access to them for some bizarre reason. You can try enabling them again in the options page."
+  },
+  "l_tweet_notificacion": {
+    "message": "Notify Tweets"
   }
 }

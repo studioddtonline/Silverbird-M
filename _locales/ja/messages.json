@@ -47,9 +47,6 @@
   "notify": {
     "message": "通知設定の切り替え"
   },
-  "changeIcon": {
-    "message": "アイコン変更の切り替え"
-  },
   "show_unified": {
     "message": "Unifiedタブを表示"
   },
@@ -192,9 +189,6 @@
   },
   "preventClosing": {
     "message": "クリックすると留まります"
-  },
-  "changeNotificationSettings": {
-    "message": "オプションページで通知設定を変更できます。"
   },
   "errorExpandingUrl": {
     "message": "失敗したようです。もう一度試してください。"
@@ -489,12 +483,6 @@
   "l_tab_select_with_hover": {
     "message": "マウスホバーでタブを選択する:"
   },
-  "l_icon_color": {
-    "message": "アイコンカラー:"
-  },
-  "l_tweets_color_only_unified": {
-    "message": "カラー変更はUnifiedのみ:"
-  },
   "l_tweet_color": {
     "message": "ツイートの色:"
   },
@@ -509,12 +497,6 @@
   },
   "l_tweet_notification": {
     "message": "ツイート通知"
-  },
-  "l_change_icon": {
-    "message": "アイコン変更"
-  },
-  "l_icon_color_column": {
-    "message": "アイコンカラー"
   },
   "notif_home": {
     "message": "ホーム:"
@@ -535,7 +517,7 @@
     "message": "通知:"
   },
   "l_tweets_notification_style": {
-    "message": "通知設定:"
+    "message": "通知の方法:"
   },
   "l_noti_never": {
     "message": "通知しない"
@@ -849,5 +831,8 @@
   },
   "ue_disable_dm": {
     "message": "ただいま、DMが無効になっています。これはTwitter側の問題です。のちほどオプションページから有効にし直してみてください。"
+  },
+  "l_tweet_notificacion": {
+    "message": "通知の対象にする"
   }
 }

@@ -1,159 +1,16 @@
 body {
-  font-family: 'Hiragino Kaku Gothic ProN', meiryo, Helvetica, Arial, sans-serif;
+  font-family: 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
   margin: 0px;
-  padding: 0px;
-  color: black;
-  font-size: 10pt;
-}
-
-fieldset {
-  border: 1px solid #b4cff2;
-  margin-bottom: 10px;
-}
-
-fieldset legend {
-  font-weight: bold;
-}
-
-#main_area label {
-  float: left;
-  width: 300px;
-}
-
-#main_area label.radio_opt {
-  float: none;
-  width: inherit;
-}
-
-#main_area input[type="text"], #main_area input[type="password"], #main_area select {
-  border: 1px solid #b4cff2;
-  width: 140px;
-}
-
-#main_area span.error {
-  color: red;
-  margin-left: 5px;
-}
-
-#main_area .notice {
-  font-style: italic;
-  color: #777;
-  font-size: 8pt;
-}
-
-#main_area .hits_notice {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-
-  text-align: center;
-}
-
-#main_area #predicted_hits_count {
-  font-weight: bold;
-  border: 1px solid #b4cff2;
-  padding: 2px;
-  padding-right: 3px;
-}
-
-#main_area table {
-  border-collapse: collapse;
-}
-
-#main_area table input[type="text"] {
-  width: 50px;
-}
-
-#main_area table td:not(.label) {
-  text-align: center;
-  border-right: 1px solid #000;
-}
-
-#main_area table.notifications td {
-  width: 120px;
-}
-
-#main_area table.tweet_color td {
-  width: 100px;
-}
-
-#main_area table.timelines td {
-  width: 120px;
-}
-
-#main_area table td.label {
-  width: inherit;
-}
-
-#main_area table th:not(:empty) {
-  border-right: 1px solid #000;
-}
-
-#main_area {
-  -webkit-border-radius: 5px;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  background-color: #ffffff;
-  border: 3px solid #e5effe;
-  padding: 2px 4px 2px 4px;
+  background-color: white;
 }
 
 .color_selector {
   cursor: pointer;
-}
-
-div.color_selector {
-  margin-left: auto;
-  margin-right: auto;
   width: 40px;
   height: 25px;
   position: absolute;
-  margin-top: -7px;
-  margin-left: 30px;
 }
 
 div.checkerboard {
   background-image: url(../img/checkerboard.png);
-}
-
-#saved_notice {
-  -webkit-border-radius: 5px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 100px;
-  margin-left: -200px;
-  margin-top: -50px;
-  color: #fff;
-  text-align: center;
-  font-size: 12pt;
-  padding: 5px;
-  display: none;
-}
-
-#saved_notice.needConfirmation {
-  border: 5px solid #6f8030;
-  background-color: #b8d34f;
-}
-
-#saved_notice.noConfirmation {
-  border: 5px solid #51802f;
-  background-color: #8bdb50;
-  line-height: 100px;
-}
-
-#restart_notice {
-  font-size: 10pt;
-  margin-top: 5px;
-}
-
-canvas#nerds {
-  display: block;
-}
-
-a.locales_report {
-  color: black;
 }

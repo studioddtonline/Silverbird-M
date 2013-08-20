@@ -1,297 +1,401 @@
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html>
-
 <head>
-<link rel="stylesheet" type="text/css" href="css/options.css" />
-<link rel="stylesheet" type="text/css" href="css/colorpicker/colorpicker.css" />
-<script src="lib/3rdparty/jquery.js"></script>
-<script src="lib/3rdparty/colorpicker.js"></script>
-<script src="lib/shortener_lib.js"></script>
-<script src="lib/options/global.js"></script>
-<script src="lib/options/options.js"></script>
-<script src="lib/options/page.js"></script>
-
-<title>Silverbird M Options</title>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen, projection" />
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen, projection" />
+  <link rel="stylesheet" href="css/options.css" />
+  <link rel="stylesheet" href="css/colorpicker/colorpicker.css" />
+  <script src="lib/3rdparty/jquery.js"></script>
+  <script src="lib/3rdparty/bootstrap.min.js"></script>
+  <script src="lib/3rdparty/colorpicker.js"></script>
+  <script src="lib/shortener_lib.js"></script>
+  <script src="lib/options/global.js"></script>
+  <script src="lib/options/options.js"></script>
+  <script src="lib/options/page.js"></script>
+  <title>Silverbird M Options</title>
 </head>
 <body>
-
-<h1 class="i18n" id="options_title">Silverbird M Options</h1>
-
-<div id="saved_notice">
-  <span class="i18n" id="conf_saved">Your configuration has been successfully saved!</span>
-  <div id="restart_notice">
-    <span class="i18n" id="changes_restart">
-    However, some of your changes require the extension to be restarted. Would you like to do it now?<br>
-    (This will reset your unread tweets count.)
-    </span>
-    <br>
-    <input type="button" class="i18n" id="Yes" value="Yes">
-    <input type="button" class="i18n" id="No" value="No">
+  <div class="container">
+    <div class="page-header">
+      <h1 class="i18n" id="options_title">Silverbird M Options</h1>
+    </div>
   </div>
-</div>
-<div id="main_area">
-  <fieldset>
-    <legend id="g_ui" class="i18n">UI</legend>
-    <label for="compliant_twitter_display_requirements" class="i18n" id="l_compliant_twitter_display_requirements">Compliant Twitter Display Requirements:</label>
-    <input type="checkbox" id="compliant_twitter_display_requirements" name="compliant_twitter_display_requirements" /><br/>
-    <p id="incompliant_options">
-      <label for="hidden_user_icons" class="i18n" id="l_hidden_user_icons">Hidden User Icons:</label>
-      <input type="checkbox" id="hidden_user_icons" name="hidden_user_icons" class="CTDR" /><br/>
-      <label for="name_attribute" id="l_name_attribute" class="i18n">Name in tweets:</label>
-      <select name="name_attribute" class="CTDR">
-        <option value="both" id="o_both" class="i18n" >Default</option>
-        <option value="name" id="o_name" class="i18n">Real name</option>
-        <option value="screen_name" id="o_screen_name" class="i18n">Screen name (nickname)</option>
-      </select><br>
-      <label for="display_simple_name" class="i18n" id="l_display_simple_name">Display Simple Name:</label>
-      <input type="checkbox" id="display_simple_name" name="display_simple_name" class="CTDR" /><br/>
-      <label for="hidden_footer" class="i18n" id="l_hidden_footer">Hidden Footer:</label>
-      <input type="checkbox" id="hidden_footer" name="hidden_footer" class="CTDR" /><br/>
-      <label for="hidden_timestamp" class="i18n" id="l_hidden_timestamp">Hidden Timestamp:</label>
-      <input type="checkbox" id="hidden_timestamp" name="hidden_timestamp" class="CTDR hFooter" /><br/>
-      <label for="hidden_reply_info" class="i18n" id="l_hidden_reply_info">Hidden Reply Info:</label>
-      <input type="checkbox" id="hidden_reply_info" name="hidden_reply_info" class="CTDR hFooter" /><br/>
-      <label for="hidden_retweet_info" class="i18n" id="l_hidden_retweet_info">Hidden Retweet Info:</label>
-      <input type="checkbox" id="hidden_retweet_info" name="hidden_retweet_info" class="CTDR hFooter" /><br/>
-      <label for="hidden_client_name" class="i18n" id="l_hidden_client_name">Hidden Client Name:</label>
-      <input type="checkbox" id="hidden_client_name" name="hidden_client_name" class="CTDR hFooter" /><br/>
-      <label for="hidden_dm_info" class="i18n" id="l_hidden_dm_info">Hidden DM Info:</label>
-      <input type="checkbox" id="hidden_dm_info" name="hidden_dm_info" class="CTDR hFooter" /><br/>
-      <label for="hidden_geo_info" class="i18n" id="l_hidden_geo_info">Hidden Geo Info:</label>
-      <input type="checkbox" id="hidden_geo_info" name="hidden_geo_info" class="CTDR hFooter" /><br/>
-      <label for="hidden_list_info" class="i18n" id="l_hidden_list_info">Hidden List Info:</label>
-      <input type="checkbox" id="hidden_list_info" name="hidden_list_info" class="CTDR hFooter" /><br/>
-      <label for="aggressive_flat" class="i18n" id="l_aggressive_flat">Aggressive Flat:</label>
-      <input type="checkbox" id="aggressive_flat" name="aggressive_flat" class="CTDR" />
-    </p>
-    <label for="icon_size" id="l_icon_size" class="i18n">Icon size:</label>
-    <select name="icon_size">
-      <option value="icon_small" id="o_icon_small" class="i18n">Small</option>
-      <option value="icon_normal" id="o_icon_normal" class="i18n">Nomal</option>
-      <option value="icon_large" id="o_icon_large" class="i18n">Large</option>
-      <option value="icon_max" id="o_icon_max" class="i18n">Maximum</option>
-    </select><br>
-    <label for="compose_position" id="l_compose_position" class="i18n">Compose area position:</label>
-    <select name="compose_position">
-      <option value="top" id="o_top" class="i18n">Top</option>
-      <option value="bottom" id="o_bottom" class="i18n">Bottom</option>
-    </select><br>
-
-    <label for="theme" id="l_theme" class="i18n">UI Theme:</label>
-    <select name="theme">
-      <option value="css/chromified.css,css/chromified-theme/jquery-ui-1.7.2.custom.css">Chromified</option>
-    </select><br>
-    <label for="font_size" id="l_font_size" class="i18n">Font Size:</label>
-    <select name="font_size">
-      <option value="0.8em" id="o_small" class="i18n">Small</option>
-      <option value="1.0em" id="o_normal" class="i18n">Normal</option>
-      <option value="1.2em" id="o_large" class="i18n">Large</option>
-      <option value="1.4em" id="o_extra_large" class="i18n">Extra Large</option>
-    </select><br>
-    <label for="default_locale" class="i18n" id="l_default_locale">Default Locale:</label>
-    <select name="default_locale"></select><br>
-    <label for="font_family" id="l_font_family" class="i18n">Font Family:</label>
-    <input type="text" style="width: 20em"; name="font_family" validator="required"><br>
-    <label for="show_expanded_urls" class="i18n" id="l_show_expanded_urls">Expand shortened URLs:</label>
-    <input type="checkbox" id="show_expanded_urls" name="show_expanded_urls" /><br>
-    <label for="reply_all" class="i18n" id="l_reply_all">Reply to all mentioned:</label>
-    <input type="checkbox" id="reply_all" name="reply_all" /><br/>
-    <label for="show_hits_in_popup" class="i18n" id="l_show_hits_in_popup">Show API hits count:</label>
-    <input type="checkbox" id="show_hits_in_popup" name="show_hits_in_popup" /><br/>
-    <label for="show_user_autocomplete" class="i18n" id="l_show_user_autocomplete">Autocomplete usernames:</label>
-    <input type="checkbox" style="margin-bottom: 7px;" id="show_user_autocomplete" name="show_user_autocomplete" /><br/>
-    <table class="tweet_color">
-      <tr>
-        <th></th>
-        <th class="i18n" id="w_Home">Home</th>
-        <th class="i18n" id="w_Mentions">Mentions</th>
-        <th class="i18n" id="w_DM">DMs</th>
-        <th class="i18n" id="w_Lists">Lists</th>
-        <th class="i18n" id="w_Favorites">Favorites</th>
-        <th class="i18n" id="w_Search">Search</th>
-      <tr>
-        <td class="label i18n" id="l_tweet_color">Tweet color:</td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="home_tweets_color" class="color_selector"></div>
-        </td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="mentions_tweets_color" class="color_selector"></div>
-        </td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="dms_tweets_color" class="color_selector"></div>
-        </td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="lists_tweets_color" class="color_selector"></div>
-        </td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="favorites_tweets_color" class="color_selector"></div>
-        </td>
-        <td>
-          <div class="color_selector checkerboard"></div>
-          <div name="search_tweets_color" class="color_selector"></div>
-        </td>
-      </tr>
-    </table><br>
-    <input type="button" value="Reset Popup Size" class="i18n" id="btn_reset_popup_size">
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_notifications">Notifications</legend>
-    <label for="tweets_notification_style" class="i18n" id="l_tweets_notification_style">Notification Style:</label>
-    <input type="radio" name="tweets_notification_style" value="never" id="noti_never"> <label for="noti_never" class="radio_opt i18n" id="l_noti_never">Never</label>
-    <input type="radio" name="tweets_notification_style" value="desktop" id="noti_desktop"> <label for="noti_desktop" class="radio_opt i18n" id="l_noti_desktop">Desktop Notifications</label><br>
-    <table class="notifications">
-      <tr>
-        <th>&nbsp;</th>
-        <th class="label i18n" id="notif_home">Home:</th>
-        <th class="label i18n" id="notif_mentions">Mentions:</th>
-        <th class="label i18n" id="notif_dms">DMs:</td>
-        <th class="label i18n" id="notif_lists">Lists:</th>
-        <th class="label i18n" id="notif_search">Search:</th>
-      <tr>
-        <td class="i18n" id="l_tweet_notificacion">Tweet Notification</td>
-        <td><input type="checkbox" name="home_notify"></td>
-        <td><input type="checkbox" name="mentions_notify"></td>
-        <td><input type="checkbox" name="dms_notify"></td>
-        <td><input type="checkbox" name="lists_notify"></td>
-        <td><input type="checkbox" name="search_notify"></td>
-      </tr>
-    </table><br>
-    <label for="notification_fade_timeout" class="i18n" id="l_notification_fade_timeout">Notification Timeout (s):</label>
-    <input type="text" name="notification_fade_timeout" validator="required,number,positive" converter="RefreshInterval"><br>
-
-    <label for="notification_max_popups" class="i18n" id="l_notification_max_popups">Notifications at once (-1: all):</label>
-    <input type="text" name="notification_max_popups" validator="required,number"><br>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_shortener">Shortener</legend>
-    <label for="url_shortener" class="i18n" id="l_url_shortener">URL Shortener:</label>
-    <select name="url_shortener"></select><br>
-    <label for="share_include_title" class="i18n" id="l_share_include_title">Include page title (sharing):</label>
-    <input type="checkbox" name="share_include_title"><br>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_image_service">Image Service</legend>
-    <label for="url_shortener" class="i18n" id="l_image_up_service">Image Upload Service:</label>
-    <select name="image_upload_service"></select>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_trending_topics">Trending Topics</legend>
-    <label for="trending_topics_woeid" class="i18n" id="l_trending_topics_woeid">Trending Topics Locale:</label>
-    <select name="trending_topics_woeid"></select>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_timelines">Timelines</legend>
-    <label for="tweets_per_page" class="i18n" id="l_tweets_per_page">Tweets per Page:</label>
-    <input type="text" name="tweets_per_page" validator="required,number,positive,maxTweetsPerRequest" must_restart><br>
-    <label for="max_cached_tweets" class="i18n" id="l_max_cached_tweets">Max Shown Tweets:</label>
-    <input type="text" name="max_cached_tweets" validator="required,number,positive,maxTweetsOnTimeline" must_restart>
-    <table class="timelines">
-      <tr>
-        <th></th>
-        <th id="l_visible" class="i18n">Visible</th>
-        <th id="l_refresh_interval_seconds" class="i18n">Refresh Interval (s)</th>
-        <th id="l_include_in_unified" class="i18n">Include in unified timeline</th>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_unified_timeline">Unified Timeline:</td>
-        <td><input type="checkbox" name="unified_visible" validator="unifiedValidator"></td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_home_timeline">Home:</td>
-        <td><input type="checkbox" name="home_visible"></td>
-        <td><input type="text" name="home_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="home_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_mention_timeline">Mentions:</td>
-        <td><input type="checkbox" name="mentions_visible"></td>
-        <td><input type="text" name="mentions_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="mentions_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_dms_timeline">DM:</td>
-        <td><input type="checkbox" name="dms_visible"></td>
-        <td><input type="text" name="dms_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="dms_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_lists_timeline">Lists:</td>
-        <td><input type="checkbox" name="lists_visible"></td>
-        <td><input type="text" name="lists_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="lists_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_search_timeline">Search:</td>
-        <td><input type="checkbox" name="search_visible"></td>
-        <td><input type="text" name="search_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="search_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_favorites_timeline">Favorites:</td>
-        <td><input type="checkbox" name="favorites_visible"></td>
-        <td><input type="text" name="favorites_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-        <td><input type="checkbox" name="favorites_include_unified"></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_notifications_timeline">Notifications:</td>
-        <td colspan="2">&nbsp;</td>
-        <td><input type="checkbox" name="notification_include_unified"></td>
-      </tr>
-    </table>
-    <table class="timelines">
-      <tr>
-        <th></th>
-        <th id="l_refresh_interval_minutes" class="i18n">Refresh Interval (m)</th>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_blocked_users">Blocked Users:</td>
-        <td><input type="text" name="blockedusers_refresh_interval" validator="required,number,positive,minAlarm" must_restart></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_trends_in_places">Trends of places:</td>
-        <td><input type="text" name="trends_in_places" validator="required,number,positive,minAlarm" must_restart></td>
-      </tr>
-      <tr>
-        <td class="label i18n" id="l_saved_searches">Saved Searches:</td>
-        <td><input type="text" name="saved_searches" validator="required,number,positive,minAlarm" must_restart></td>
-      </tr>
-    </table>
-  </fieldset>
-
-  <fieldset>
-    <legend class="i18n" id="g_advanced">Advanced</legend>
-    <label for="request_timeout" class="i18n" id="l_request_timeout">Request Timeout (ms):</label>
-    <input type="text" name="request_timeout" validator="required,number,positive" must_restart><br>
-    <label for="use_streaming_api" class="i18n" id="l_use_streaming_api">Use Streaming API:</label>
-    <input type="checkbox" name="use_streaming_api" must_restart><br>
-    <label for="use_bearer_token" class="i18n" id="l_use_bearer_token">Use Application-only Auth:</label>
-    <input type="checkbox" name="use_bearer_token" must_restart><br>
-    <label for="use_keyboard_shortcuts" class="i18n" id="l_use_keyboard_shortcuts">Use Keyboard Shortcuts:</label>
-    <input type="checkbox" name="use_keyboard_shortcuts"><br>
-  </fieldset>
-
-  <br>
-  <div id="buttons_area">
-    <input type="button" class="i18n" value="Save" id="btn_save">
-    <input type="button" class="i18n" value="Reset" id="btn_reset">
-    <input type="button" class="i18n" value="Reset to default" id="btn_default">
+  <div class="modal fade" role="dialog" aria-hidden="true" id="saved_notice">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <span class="i18n" id="conf_saved">Your configuration has been successfully saved!</span>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-<a class="locales_report" href="locales.html">Locales Report</a>
+  <div class="modal fade" role="dialog" aria-hidden="true" id="restart_notice">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <span class="i18n" id="changes_restart">However, some of your changes require the extension to be restarted. Would you like to do it now?<br>(This will reset your unread tweets count.)</span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default i18n" data-dismiss="modal"id="d_restart_immediately">Restart immediately</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_ui">UI</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="compliant_twitter_display_requirements" class="i18n" id="l_compliant_twitter_display_requirements">Compliant Twitter Display Requirements</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" id="compliant_twitter_display_requirements" name="compliant_twitter_display_requirements" /></div>
+        </div>
+        <div id="incompliant_options">
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_user_icons" class="i18n" id="l_hidden_user_icons">Hidden User Icons</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR" id="hidden_user_icons" name="hidden_user_icons" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="name_attribute" class="i18n" id="l_name_attribute">Name in tweets</label></div>
+            <div class="col-md-4"><select class="form-control CTDR" name="name_attribute">
+              <option value="both" class="i18n" id="o_both">Default</option>
+              <option value="name" class="i18n" id="o_name">Real name</option>
+              <option value="screen_name" class="i18n" id="o_screen_name">Screen name (nickname)</option>
+            </select></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="display_simple_name" class="i18n" id="l_display_simple_name">Display Simple Name</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR" id="display_simple_name" name="display_simple_name" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_footer" class="i18n" id="l_hidden_footer">Hidden Footer</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR" id="hidden_footer" name="hidden_footer" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_timestamp" class="i18n" id="l_hidden_timestamp">Hidden Timestamp</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_timestamp" name="hidden_timestamp" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_reply_info" class="i18n" id="l_hidden_reply_info">Hidden Reply Info</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_reply_info" name="hidden_reply_info" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_retweet_info" class="i18n" id="l_hidden_retweet_info">Hidden Retweet Info</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_retweet_info" name="hidden_retweet_info" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_client_name" class="i18n" id="l_hidden_client_name">Hidden Client Name</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_client_name" name="hidden_client_name" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_dm_info" class="i18n" id="l_hidden_dm_info">Hidden DM Info</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_dm_info" name="hidden_dm_info" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_geo_info" class="i18n" id="l_hidden_geo_info">Hidden Geo Info</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_geo_info" name="hidden_geo_info" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="hidden_list_info" class="i18n" id="l_hidden_list_info">Hidden List Info</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR hFooter" id="hidden_list_info" name="hidden_list_info" /></div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-7 col-md-offset-1"><label for="aggressive_flat" class="i18n" id="l_aggressive_flat">Aggressive Flat</label></div>
+            <div class="col-md-4"><input type="checkbox" class="checkbox CTDR" id="aggressive_flat" name="aggressive_flat" /></div>
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="icon_size" id="l_icon_size" class="i18n">Icon size</label></div>
+          <div class="col-md-4"><select class="form-control" name="icon_size">
+            <option value="icon_small" id="o_icon_small" class="i18n">Small</option>
+            <option value="icon_normal" id="o_icon_normal" class="i18n">Nomal</option>
+            <option value="icon_large" id="o_icon_large" class="i18n">Large</option>
+            <option value="icon_max" id="o_icon_max" class="i18n">Maximum</option>
+          </select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="compose_position" id="l_compose_position" class="i18n">Compose area position</label></div>
+          <div class="col-md-4"><select class="form-control" name="compose_position">
+            <option value="top" id="o_top" class="i18n">Top</option>
+            <option value="bottom" id="o_bottom" class="i18n">Bottom</option>
+          </select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="theme" id="l_theme" class="i18n">UI Theme</label></div>
+          <div class="col-md-4"><select class="form-control" name="theme">
+            <option value="css/chromified.css,css/chromified-theme/jquery-ui-1.7.2.custom.css">Chromified</option>
+          </select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="font_size" id="l_font_size" class="i18n">Font Size</label></div>
+          <div class="col-md-4"><select class="form-control" name="font_size">
+            <option value="0.8em" id="o_small" class="i18n">Small</option>
+            <option value="1.0em" id="o_normal" class="i18n">Normal</option>
+            <option value="1.2em" id="o_large" class="i18n">Large</option>
+            <option value="1.4em" id="o_extra_large" class="i18n">Extra Large</option>
+          </select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="default_locale" class="i18n" id="l_default_locale">Default Locale</label></div>
+          <div class="col-md-4"><select class="form-control" name="default_locale"></select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-5"><label for="font_family" class="i18n" id="l_font_family">Font Family</label></div>
+          <div class="col-md-7"><input type="text" class="form-control" name="font_family" validator="required" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="show_expanded_urls" class="i18n" id="l_show_expanded_urls">Expand shortened URLs</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" id="show_expanded_urls" name="show_expanded_urls" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="reply_all" class="i18n" id="l_reply_all">Reply to all mentioned</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" id="reply_all" name="reply_all" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="show_hits_in_popup" class="i18n" id="l_show_hits_in_popup">Show API hits count</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" id="show_hits_in_popup" name="show_hits_in_popup" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="show_user_autocomplete" class="i18n" id="l_show_user_autocomplete">Autocomplete usernames</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" id="show_user_autocomplete" name="show_user_autocomplete" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-4 col-md-offset-8"><input type="button" class="i18n btn" value="Reset Popup Size" class="" id="btn_reset_popup_size"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_timelines">Timelines</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="tweets_per_page" class="i18n" id="l_tweets_per_page">Tweets per Page</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="tweets_per_page" validator="required,number,positive,maxTweetsPerRequest" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="max_cached_tweets" class="i18n" id="l_max_cached_tweets">Max Shown Tweets</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="max_cached_tweets" validator="required,number,positive,maxTweetsOnTimeline" must_restart /></div>
+        </div>
+      </div>
+      <table class="table">
+        <tr>
+          <th colspan="5" class="i18n col-md-12" id="l_timeline_display">Display Timelines</th>
+        </tr>
+        <tr>
+          <th class="col-md-3">&nbsp;</th>
+          <th class="i18n col-md-2" id="l_visible">Visible</th>
+          <th class="i18n col-md-2" id="l_include_in_unified">Include in unified timeline</th>
+          <th class="i18n col-md-2" id="l_refresh_interval_seconds">Refresh Interval (s)</th>
+          <th class="i18n col-md-3" id="l_timeline_background_color">Timeline Background Color)</th>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_unified_timeline">Unified Timeline</th>
+          <td><input type="checkbox" name="unified_visible" validator="unifiedValidator"></td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_home_timeline">Home</th>
+          <td><input type="checkbox" name="home_visible"></td>
+          <td><input type="checkbox" name="home_include_unified"></td>
+          <td><input type="text" class="form-control" name="home_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="home_tweets_color" class="color_selector"></div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_mention_timeline">Mentions</th>
+          <td><input type="checkbox" name="mentions_visible"></td>
+          <td><input type="checkbox" name="mentions_include_unified"></td>
+          <td><input type="text" class="form-control" name="mentions_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="mentions_tweets_color" class="color_selector"></div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_dms_timeline">DM</th>
+          <td><input type="checkbox" name="dms_visible"></td>
+          <td><input type="checkbox" name="dms_include_unified"></td>
+          <td><input type="text" class="form-control" name="dms_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="dms_tweets_color" class="color_selector"></div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_lists_timeline">Lists</th>
+          <td><input type="checkbox" name="lists_visible"></td>
+          <td><input type="checkbox" name="lists_include_unified"></td>
+          <td><input type="text" class="form-control" name="lists_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="lists_tweets_color" class="color_selector"></div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_search_timeline">Search</th>
+          <td><input type="checkbox" name="search_visible"></td>
+          <td><input type="checkbox" name="search_include_unified"></td>
+          <td><input type="text" class="form-control" name="search_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="search_tweets_color" class="color_selector">&nbsp;</div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_favorites_timeline">Favorites</th>
+          <td><input type="checkbox" name="favorites_visible"></td>
+          <td><input type="checkbox" name="favorites_include_unified"></td>
+          <td><input type="text" class="form-control" name="favorites_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>
+            <div class="color_selector checkerboard"></div>
+            <div name="favorites_tweets_color" class="color_selector">&nbsp;</div>
+          </td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_notifications_timeline">Notifications</th>
+          <td>&nbsp;</td>
+          <td><input type="checkbox" name="notification_include_unified"></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_notifications">Notifications</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-4"><label for="tweets_notification_style" class="i18n" id="l_tweets_notification_style">Notification Style</label></div>
+          <div class="col-md-4"><input type="radio" name="tweets_notification_style" value="never" id="noti_never"> <label for="noti_never" class="i18n" id="l_noti_never">Never</label></div>
+          <div class="col-md-4"><input type="radio" name="tweets_notification_style" value="desktop" id="noti_desktop"> <label for="noti_desktop" class="i18n" id="l_noti_desktop">Desktop Notifications</label></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="notification_fade_timeout" class="i18n" id="l_notification_fade_timeout">Notification Timeout (s)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="notification_fade_timeout" validator="required,number,positive" converter="RefreshInterval" /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="notification_max_popups" class="i18n" id="l_notification_max_popups">Notifications at once (-1: all)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="notification_max_popups" validator="required,number" /></div>
+        </div>
+      </div>
+      <table class="table">
+        <tr>
+          <th class="col-md-2">&nbsp;</th>
+          <th class="i18n col-md-2" id="notif_home">Home</th>
+          <th class="i18n col-md-2" id="notif_mentions">Mentions</th>
+          <th class="i18n col-md-2" id="notif_dms">DMs</td>
+          <th class="i18n col-md-2" id="notif_lists">Lists</th>
+          <th class="i18n col-md-2" id="notif_search">Search</th>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_tweet_notificacion">Tweet Notification</th>
+          <td><input type="checkbox" name="home_notify"></td>
+          <td><input type="checkbox" name="mentions_notify"></td>
+          <td><input type="checkbox" name="dms_notify"></td>
+          <td><input type="checkbox" name="lists_notify"></td>
+          <td><input type="checkbox" name="search_notify"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_shortener">Shortener</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="url_shortener" class="i18n" id="l_url_shortener">URL Shortener</label></div>
+          <div class="col-md-4"><select class="form-control" name="url_shortener"></select></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="share_include_title" class="i18n" id="l_share_include_title">Include page title (sharing)</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" name="share_include_title"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_image_service">Image Service</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="image_upload_service" class="i18n" id="l_image_up_service">Image Upload Service</label></div>
+          <div class="col-md-4"><select class="form-control" name="image_upload_service"></select></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_trending_topics">Trending Topics</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="trending_topics_woeid" class="i18n" id="l_trending_topics_woeid">Trending Topics Locale</label></div>
+          <div class="col-md-4"><select class="form-control" name="trending_topics_woeid"></select></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="i18n panel-title" id="g_advanced">Advanced</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row form-group">
+          <div class="col-md-8"><label for="request_timeout" class="i18n" id="l_blocked_users">Blocked Users Retrieve Interval (min)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="blockedusers_refresh_interval" validator="required,number,positive,minAlarm" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="request_timeout" class="i18n" id="l_trends_in_places">Trends of places Retrieve Interval (min)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="trends_in_places" validator="required,number,positive,minAlarm" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="request_timeout" class="i18n" id="l_saved_searches">Saved Searches Retrieve Interval (min)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="saved_searches" validator="required,number,positive,minAlarm" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="request_timeout" class="i18n" id="l_request_timeout">Request Timeout (ms)</label></div>
+          <div class="col-md-4"><input type="text" class="form-control" name="request_timeout" validator="required,number,positive" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="use_streaming_api" class="i18n" id="l_use_streaming_api">Use Streaming API</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" name="use_streaming_api" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="use_bearer_token" class="i18n" id="l_use_bearer_token">Use Application-only Auth</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" name="use_bearer_token" must_restart /></div>
+        </div>
+        <div class="row form-group">
+          <div class="col-md-8"><label for="use_keyboard_shortcuts" class="i18n" id="l_use_keyboard_shortcuts">Use Keyboard Shortcuts</label></div>
+          <div class="col-md-4"><input type="checkbox" class="checkbox" name="use_keyboard_shortcuts" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <input type="button" class="i18n btn" value="Save" id="btn_save">
+    <input type="button" class="i18n btn" value="Reset" id="btn_reset">
+    <input type="button" class="i18n btn" value="Reset to default" id="btn_default">
+    <a class="locales_report" href="locales.html">Locales Report</a>
+  </div>
 </body>
 </html>

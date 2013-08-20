@@ -421,13 +421,13 @@
     "message": "新しい設定が反映されました。"
   },
   "changes_restart": {
-    "message": "設定の反映にはSilverbird Mを再起動する必要があります。(未読カウンターはリセットされます)"
+    "message": "新しい設定が保存されました。設定の反映にはSilverbird Mを再起動する必要があります。(未読カウンターはリセットされます)"
   },
   "g_ui": {
     "message": "ユーザインターフェース設定"
   },
   "l_name_attribute": {
-    "message": "ツイート上の名前表示:"
+    "message": "ツイート上の名前表示"
   },
   "o_screen_name": {
     "message": "アカウント名のみ"
@@ -439,7 +439,7 @@
     "message": "標準"
   },
   "l_compose_position": {
-    "message": "ツイート入力欄の位置:"
+    "message": "ツイート入力欄の位置"
   },
   "o_top": {
     "message": "タイムライン上部"
@@ -448,10 +448,10 @@
     "message": "タイムライン下部"
   },
   "l_theme": {
-    "message": "テーマ:"
+    "message": "テーマ"
   },
   "l_font_size": {
-    "message": "フォントサイズ:"
+    "message": "フォントサイズ"
   },
   "o_small": {
     "message": "小さい"
@@ -466,22 +466,22 @@
     "message": "特大"
   },
   "l_font_family": {
-    "message": "フォントの種類:"
+    "message": "フォントの種類"
   },
   "l_show_expanded_urls": {
-    "message": "短縮URLを展開する:"
+    "message": "短縮URLを展開する"
   },
   "l_reply_all": {
-    "message": "すべてのメンションにリプライする:"
+    "message": "すべてのメンションにリプライする"
   },
   "l_show_hits_in_popup": {
-    "message": "API利用回数を表示する:"
+    "message": "API利用回数を表示する"
   },
   "l_show_user_autocomplete": {
-    "message": "ユーザ名をオートコンプリートする:"
+    "message": "ユーザ名をオートコンプリートする"
   },
-  "l_tweet_color": {
-    "message": "ツイートの色:"
+  "l_timeline_background_color": {
+    "message": "タイムラインの背景色"
   },
   "w_Mentions": {
     "message": "メンション"
@@ -496,25 +496,25 @@
     "message": "ツイート通知"
   },
   "notif_home": {
-    "message": "ホーム:"
+    "message": "ホーム"
   },
   "notif_mentions": {
-    "message": "メンション:"
+    "message": "メンション"
   },
   "notif_dms": {
-    "message": "DM:"
+    "message": "DM"
   },
   "notif_lists": {
-    "message": "リスト:"
+    "message": "リスト"
   },
   "notif_search": {
-    "message": "検索:"
+    "message": "検索"
   },
   "notif_notification": {
-    "message": "通知:"
+    "message": "通知"
   },
   "l_tweets_notification_style": {
-    "message": "通知の方法:"
+    "message": "通知の方法"
   },
   "l_noti_never": {
     "message": "通知しない"
@@ -523,25 +523,25 @@
     "message": "デスクトップ通知"
   },
   "l_notification_fade_timeout": {
-    "message": "通知のタイムアウト (秒):"
+    "message": "通知のタイムアウト (秒)"
   },
   "l_notification_max_popups": {
-    "message": "一度に通知する最大数 (-1: 全て通知):"
+    "message": "一度に通知する最大数 (-1: 全て通知)"
   },
   "g_shortener": {
     "message": "短縮URL"
   },
   "l_url_shortener": {
-    "message": "短縮URLプロバイダ:"
+    "message": "短縮URLプロバイダ"
   },
   "l_share_include_title": {
-    "message": "共有対象のページタイトルを含める:"
+    "message": "共有対象のページタイトルを含める"
   },
   "g_timelines": {
-    "message": "タイムライン"
+    "message": "タイムライン設定"
   },
   "l_visible": {
-    "message": "表示"
+    "message": "タイムラインを表示する"
   },
   "l_refresh_interval_seconds": {
     "message": "更新間隔 (秒)"
@@ -550,49 +550,49 @@
     "message": "更新間隔 (分)"
   },
   "l_include_in_unified": {
-    "message": "Unifiedタイムラインに表示する"
+    "message": "Unifiedタイムラインに含める"
   },
   "l_tabs_count": {
     "message": "タブの個数"
   },
   "l_unified_timeline": {
-    "message": "Unifiedタイムライン:"
+    "message": "Unifiedタイムライン"
   },
   "l_home_timeline": {
-    "message": "ホーム:"
+    "message": "ホーム"
   },
   "l_mention_timeline": {
-    "message": "メンション:"
+    "message": "メンション"
   },
   "l_dms_timeline": {
-    "message": "DM:"
+    "message": "DM"
   },
   "l_lists_timeline": {
-    "message": "リスト:"
+    "message": "リスト"
   },
   "l_search_timeline": {
-    "message": "検索:"
+    "message": "検索"
   },
   "l_favorites_timeline": {
-    "message": "お気に入り:"
+    "message": "お気に入り"
   },
   "l_notifications_timeline": {
-    "message": "通知:"
+    "message": "通知"
   },
   "l_blocked_users": {
-    "message": "ブロック済みユーザ:"
+    "message": "ブロック済みユーザの取得間隔 (分)"
   },
   "l_tweets_per_page": {
-    "message": "1ページ中のツイート数:"
+    "message": "1ページ中のツイート数"
   },
   "l_max_cached_tweets": {
-    "message": "ツイートの最大表示数:"
+    "message": "ツイートの最大表示数"
   },
   "g_advanced": {
     "message": "詳細設定"
   },
   "l_request_timeout": {
-    "message": "リクエストタイムアウト (ミリ秒):"
+    "message": "リクエストタイムアウト (ミリ秒)"
   },
   "btn_save": {
     "message": "保存"
@@ -634,10 +634,10 @@
     "message": "画像サービス"
   },
   "l_image_up_service": {
-    "message": "画像アップローダー:"
+    "message": "画像アップローダー"
   },
   "l_default_locale": {
-    "message": "使用する言語:"
+    "message": "使用する言語"
   },
   "automatic": {
     "message": "ブラウザと同じ"
@@ -649,10 +649,10 @@
     "message": "トレンドのトピック" 
   },
   "l_trending_topics_woeid": {
-    "message": "地域のトレンド:" 
+    "message": "地域のトレンド" 
   },
   "l_use_streaming_api": {
-    "message": "Streaming APIを使う (実験的):"
+    "message": "Streaming APIを使う (実験的)"
   },
   "block_action": {
     "message": "ブロックする"
@@ -684,7 +684,7 @@
     "message" : "この保存済み検索を削除"
   },
   "l_use_bearer_token": {
-    "message": "Application-only認証を使う (実験的):"
+    "message": "Application-only認証を使う (実験的)"
   },
   "updateLists": {
     "message": "リスト更新"
@@ -693,55 +693,55 @@
     "message": "Twitterで見る"
   },
   "l_use_keyboard_shortcuts": {
-    "message": "キーボードショートカットを使う (実験的):"
+    "message": "キーボードショートカットを使う (実験的)"
   },
   "undefined_message": {
     "message": "不明"
   },
   "l_compliant_twitter_display_requirements": {
-    "message": "Twitter Display Requirementsに準拠する:"
+    "message": "Twitter Display Requirementsに準拠する"
   },
   "l_hidden_user_icons": {
-    "message": "ユーザアイコンを表示しない:"
+    "message": "ユーザアイコンを表示しない"
   },
   "l_display_simple_name": {
-    "message": "簡素な名前表示をする:"
+    "message": "簡素な名前表示をする"
   },
   "l_hidden_timestamp": {
-    "message": "タイムスタンプを表示しない:"
+    "message": "タイムスタンプを表示しない"
   },
   "l_hidden_footer": {
-    "message": "フッターを表示しない:"
+    "message": "フッターを表示しない"
   },
   "l_aggressive_flat": {
-    "message": "アグレッシブフラット:"
+    "message": "アグレッシブフラット"
   },
   "ue_expand_in_reply": {
     "message": "リプライ元が削除されているか、保護されたユーザです。"
   },
   "l_hidden_reply_info": {
-    "message": "リプライ情報を表示しない:"
+    "message": "リプライ情報を表示しない"
   },
   "l_hidden_retweet_info": {
-    "message": "リツイート情報を表示しない:"
+    "message": "リツイート情報を表示しない"
   },
   "l_hidden_client_name": {
-    "message": "クライアント名を表示しない:"
+    "message": "クライアント名を表示しない"
   },
   "l_hidden_dm_info": {
-    "message": "DM情報を表示しない:"
+    "message": "DM情報を表示しない"
   },
   "l_hidden_geo_info": {
-    "message": "位置情報を表示しない:"
+    "message": "位置情報を表示しない"
   },
   "l_hidden_list_info": {
-    "message": "リスト情報を表示しない:"
+    "message": "リスト情報を表示しない"
   },
   "l_trends_in_places": {
-    "message": "地域のトレンド:"
+    "message": "地域のトレンドの取得間隔 (分)"
   },
   "l_saved_searches": {
-    "message": "保存済み検索:"
+    "message": "保存済み検索の取得間隔 (分)"
   },
   "l_icon_size": {
     "message": "プロフィールアイコンサイズ"
@@ -831,5 +831,11 @@
   },
   "l_tweet_notificacion": {
     "message": "通知の対象にする"
+  },
+  "l_timeline_display": {
+    "message": "タイムラインの表示設定"
+  },
+  "d_restart_immediately": {
+    "message": "ただちに再起動"
   }
 }

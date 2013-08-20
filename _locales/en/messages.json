@@ -640,12 +640,6 @@
   "l_image_up_service": {
     "message": "Image Upload Service"
   },
-  "l_default_locale": {
-    "message": "Default Locale"
-  },
-  "automatic": {
-    "message": "Same as browser"
-  },
   "trending_topics": {
     "message": "Trends"
   },

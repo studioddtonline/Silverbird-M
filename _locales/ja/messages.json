@@ -636,12 +636,6 @@
   "l_image_up_service": {
     "message": "画像アップローダー"
   },
-  "l_default_locale": {
-    "message": "使用する言語"
-  },
-  "automatic": {
-    "message": "ブラウザと同じ"
-  },
   "trending_topics": {
     "message": "トレンド"
   },

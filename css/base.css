@@ -24,18 +24,6 @@ input[type='text'] {
   margin: 0;
 }
 
-#__debug {
-  width: 200px;
-  background-color: #dd0;
-}
-
-#error {
-  width: 430px;
-  margin: 5px;
-  margin-bottom: 10px;
-  background-color: #F9C236;
-}
-
 #absolute_container {
   position: absolute;
   z-index: 999999;

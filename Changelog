@@ -1,3 +1,10 @@
+0.5.3.0
+
+* required chrome 29
+* remove icon color features
+* remove Google Analytics script
+* remove locale setting
+
 0.5.2.23
 
 * add notifications timeline (hidden)

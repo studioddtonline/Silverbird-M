@@ -20,7 +20,7 @@ Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/silver
 
 ### Compatibility ###
 
-It works on all Chrome/Chromium distribution channels: Stable, Beta and Dev.....maybe
+It works on all Chrome/Chromium distribution channels: Stable, and Beta.
 
 ### Features ###
 

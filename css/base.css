@@ -80,8 +80,8 @@ input[type='text'] {
   margin-top: 4px;
 }
 
-.header_link_right #detach_img,
-.header_link_right #twitter_img {
+.header_link_right #detach_window,
+.header_link_right #view_twitter {
   width: 16px;
   height: 16px;
   margin: 0 2px;

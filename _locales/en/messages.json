@@ -835,5 +835,14 @@
   },
   "d_restart_immediately": {
     "message": "Restart immediately"
+  },
+  "stream_status": {
+    "message": "Connect UserStream"
+  },
+  "stream_disconnected": {
+    "message": "Connect UserStream"
+  },
+  "stream_connected": {
+    "message": "Disconnect UserStream"
   }
 }

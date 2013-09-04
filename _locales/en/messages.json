@@ -32,15 +32,14 @@
     "message": "Refresh",
     "description": "Refresh link"
   },
-  "suspend_toggle": {
-    "message": "Suspend",
-    "description": "Suspend link"
+  "suspend_status": {
+    "message": "Click to Resume"
   },
-  "suspended_notice": {
-    "message": "Automatic updates suspended"
+  "timeline_running": {
+    "message": "Click to Suspend"
   },
-  "resume": {
-    "message": "Resume"
+  "timeline_suspended": {
+    "message": "Click to Resume"
   },
   "remove_tab": {
     "message": "Remove This Tab"

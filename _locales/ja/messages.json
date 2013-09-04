@@ -28,15 +28,14 @@
     "message": "リロード",
     "description": "再読み込みへのリンク"
   },
-  "suspend_toggle": {
-    "message": "自動更新停止",
-    "description": "自動更新停止へのリンク"
+  "suspend_status": {
+    "message": "クリックで更新再開"
   },
-  "suspended_notice": {
-    "message": "自動更新停止中……"
+  "timeline_running": {
+    "message": "クリックで更新停止"
   },
-  "resume": {
-    "message": "自動更新再開"
+  "timeline_suspended": {
+    "message": "クリックで更新再開"
   },
   "remove_tab": {
     "message": "このタブを削除"

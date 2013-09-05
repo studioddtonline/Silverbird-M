@@ -846,5 +846,8 @@
   },
   "worldwide": {
     "message": "Worldwide"
+  },
+  "l_badge_only_for_notification": {
+    "message": "Badge only for Notifications"
   }
 }

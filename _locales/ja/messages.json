@@ -842,5 +842,8 @@
   },
   "worldwide": {
     "message": "ワールドワイド"
+  },
+  "l_badge_only_for_notification": {
+    "message": "通知対象のみバッジする"
   }
 }

@@ -1,9 +1,10 @@
-0.5.3.1
+0.5.3.2
 
 * required chrome 29
 * remove icon color features
 * remove Google Analytics script
 * remove locale setting
+* Bugfix
 
 0.5.2.23
 

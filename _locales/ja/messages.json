@@ -839,5 +839,8 @@
   },
   "stream_connected": {
     "message": "UserStreamから切断する"
+  },
+  "worldwide": {
+    "message": "ワールドワイド"
   }
 }

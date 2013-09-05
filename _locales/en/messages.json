@@ -843,5 +843,8 @@
   },
   "stream_connected": {
     "message": "Disconnect UserStream"
+  },
+  "worldwide": {
+    "message": "Worldwide"
   }
 }

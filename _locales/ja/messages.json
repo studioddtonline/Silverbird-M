@@ -842,5 +842,8 @@
   },
   "l_badge_only_for_notification": {
     "message": "通知対象のみバッジする"
+  },
+  "ue_unauthorized_user": {
+    "message": "保護されたユーザか、削除済みアカウントです。"
   }
 }

@@ -846,5 +846,8 @@
   },
   "l_badge_only_for_notification": {
     "message": "Badge only for Notifications"
+  },
+  "ue_unauthorized_user": {
+    "message": "That user probably is deleted or protected."
   }
 }

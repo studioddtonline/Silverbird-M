@@ -465,26 +465,6 @@ div.reply_separator {
   cursor: pointer;
 }
 
-div#popup_footer {
-  display: none;
-  position: relative;
-  overflow: hidden;
-}
-
-div#popup_footer ul {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-div#popup_footer ul li {
-  width: 100%;
-  margin: 0;
-  padding: 0 1em 0 1em;
-  display: none;
-}
-
 div.worklist_container {
   margin: 0;
   padding: 0;

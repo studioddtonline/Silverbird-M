@@ -477,9 +477,6 @@
   "l_reply_all": {
     "message": "Reply to all mentioned"
   },
-  "l_show_hits_in_popup": {
-    "message": "Show API hits count"
-  },
   "l_show_user_autocomplete": {
     "message": "Autocomplete usernames"
   },

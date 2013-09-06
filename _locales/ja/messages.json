@@ -473,9 +473,6 @@
   "l_reply_all": {
     "message": "すべてのメンションにリプライする"
   },
-  "l_show_hits_in_popup": {
-    "message": "API利用回数を表示する"
-  },
   "l_show_user_autocomplete": {
     "message": "ユーザ名をオートコンプリートする"
   },

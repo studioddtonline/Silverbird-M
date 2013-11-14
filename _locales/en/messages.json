@@ -849,5 +849,8 @@
   },
   "ue_unauthorized_user": {
     "message": "That user probably is deleted or protected."
+  },
+  "extShortName": {
+    "message": "SilM"
   }
 }

@@ -845,5 +845,8 @@
   },
   "ue_unauthorized_user": {
     "message": "保護されたユーザか、削除済みアカウントです。"
+  },
+  "extShortName": {
+    "message": "汁M"
   }
 }

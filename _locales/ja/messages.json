@@ -848,5 +848,13 @@
   },
   "extShortName": {
     "message": "汁M"
+  },
+  "ue_wait_fetch_trends": {
+    "message": "$wait_minutes$分ほどお待ちください",
+    "placeholders": {
+      "wait_minutes": {
+        "content": "$1"
+      }
+    }
   }
 }

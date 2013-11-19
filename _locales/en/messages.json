@@ -852,5 +852,13 @@
   },
   "extShortName": {
     "message": "SilM"
+  },
+  "ue_wait_fetch_trends": {
+    "message": "Please wait $wait_minutes$ minutes",
+    "placeholders": {
+      "wait_minutes": {
+        "content": "$1"
+      }
+    }
   }
 }

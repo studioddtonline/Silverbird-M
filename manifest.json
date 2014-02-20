@@ -36,7 +36,7 @@
                 "https://api.twitter.com/oauth/authorize"
             ],
             "js": [
-                "lib/3rdparty/jquery.js",
+                "lib/3rdparty/jquery-2.1.0.min.js",
                 "lib/oauth_authorizer.js"
             ]
         }

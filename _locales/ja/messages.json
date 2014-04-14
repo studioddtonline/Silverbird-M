@@ -856,5 +856,8 @@
         "content": "$1"
       }
     }
+  },
+  "detach_window_for_upload": {
+    "message": "画像を添付したいなら独立ウィンドウにしてください"
   }
 }

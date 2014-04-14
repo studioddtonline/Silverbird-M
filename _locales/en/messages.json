@@ -860,5 +860,8 @@
         "content": "$1"
       }
     }
+  },
+  "detach_window_for_upload": {
+    "message": "Detach window to upload images"
   }
 }

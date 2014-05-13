@@ -863,5 +863,11 @@
   },
   "detach_window_for_upload": {
     "message": "Detach window to upload images"
+  },
+  "mute_action": {
+    "message": "Mute"
+  },
+  "unmute_action": {
+    "message": "Unmute"
   }
 }

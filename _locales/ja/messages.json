@@ -859,5 +859,11 @@
   },
   "detach_window_for_upload": {
     "message": "画像を添付したいなら独立ウィンドウにしてください"
+  },
+  "mute_action": {
+    "message": "ミュートする"
+  },
+  "unmute_action": {
+    "message": "ミュートしない"
   }
 }

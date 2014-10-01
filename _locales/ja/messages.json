@@ -865,5 +865,8 @@
   },
   "unmute_action": {
     "message": "ミュートしない"
+  },
+  "ue_follows_over_limit": {
+    "message": "10000フォローを超えるとUser Streamは利用できません。"
   }
 }

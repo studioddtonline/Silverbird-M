@@ -869,5 +869,8 @@
   },
   "unmute_action": {
     "message": "Unmute"
+  },
+  "ue_follows_over_limit": {
+    "message": "You have over 10000 folloing, and can not use user-streams."
   }
 }

@@ -1,7 +1,7 @@
-0.5.4.2
+0.5.4.3
 
 * support Mutes (experimental)
-* remove twitpic support
+* revive twitpic support and default image uploader is changed to pic.twitter.com
 * jQuery is updated to 2.1.1
 * jQuery UI is updated to 1.10.4
 

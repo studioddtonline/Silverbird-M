@@ -2,7 +2,7 @@
     "name": "Silverbird M",
     "version": "0.5.4.4",
     "manifest_version": 2,
-    "minimum_chrome_version": "32.0",
+    "minimum_chrome_version": "36.0",
     "description": "__MSG_extDescription__",
     "default_locale": "en",
     "browser_action": {

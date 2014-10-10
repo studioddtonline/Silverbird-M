@@ -868,5 +868,8 @@
   },
   "ue_follows_over_limit": {
     "message": "10000フォローを超えるとUser Streamは利用できません。"
+  },
+  "expanding_url": {
+    "message": "URL展開中..."
   }
 }

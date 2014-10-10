@@ -872,5 +872,8 @@
   },
   "ue_follows_over_limit": {
     "message": "You have over 10000 folloing, and can not use user-streams."
+  },
+  "expanding_url": {
+    "message": "URL expanding..."
   }
 }

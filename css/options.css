@@ -1,5 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,greek,vietnamese,greek-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+* {
+  font-family: 'Noto Sans Japanese', 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
 body {
-  font-family: 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
   margin: 0px;
   background-color: white;
 }

@@ -1,9 +1,11 @@
-0.5.4.5
+0.5.4.6
 
-* required chrome 32
+* required chrome 38
+* new URL Expander
+* use Noto Sans Japanese and Roboto on google fonts
 * support Mutes (experimental)
-* revive twitpic support and default image uploader is changed to pic.twitter.com
-* add support for vine thumbnail
+* re-remove twitpic support and default image uploader is changed to pic.twitter.com
+* add support for thumbnails in OpenGraph API / Twitter Cards
 * jQuery is updated to 2.1.1
 * jQuery UI is updated to 1.10.4
 

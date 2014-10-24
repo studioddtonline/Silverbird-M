@@ -8,6 +8,7 @@
 
 body {
   margin: 0px;
+  padding-top: 100px;
   background-color: white;
 }
 
@@ -20,4 +21,8 @@ body {
 
 div.checkerboard {
   background-image: url(../img/checkerboard.png);
+}
+
+nav button {
+  margin: 24px 5px auto auto;
 }

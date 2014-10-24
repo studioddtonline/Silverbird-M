@@ -16,11 +16,18 @@
   <title>Silverbird M Options</title>
 </head>
 <body>
-  <div class="container">
-    <div class="page-header">
-      <h1 class="i18n" id="options_title">Silverbird M Options</h1>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="col-md-8">
+        <h1 class="i18n" id="options_title">Silverbird M Options</h1>
+      </div>
+      <div class="col-md-4 text-right">
+        <button class="btn"><span class="glyphicon glyphicon-ok"></span><span class="i18n" id="btn_save">Save</span></button>
+        <button class="btn"><span class="glyphicon glyphicon-remove"></span><span class="i18n" id="btn_reset">Reset</span></button>
+        <button class="btn"><span class="i18n" id="btn_default">Reset to default</span></button>
+      </div>
     </div>
-  </div>
+  </nav>
   <div class="modal fade" role="dialog" aria-hidden="true" id="saved_notice">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -387,9 +394,6 @@
     </div>
   </div>
   <div class="container">
-    <input type="button" class="i18n btn" value="Save" id="btn_save">
-    <input type="button" class="i18n btn" value="Reset" id="btn_reset">
-    <input type="button" class="i18n btn" value="Reset to default" id="btn_default">
     <a class="locales_report" href="locales.html">Locales Report</a>
   </div>
 </body>

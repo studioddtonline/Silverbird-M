@@ -264,7 +264,7 @@
     "message": "検索キーワードが未入力か、検索結果がありませんでした。"
   },
   "ue_updatingTweets_nofetched": {
-    "message": "<br>何度も空っぽのままなら、<a href=\"#\" class=\"msg-trigger-reload\">Silverbird Mをリロードしてください</a>"
+    "message": "<br>何度も空っぽのままなら、Silverbird Mをリロードしてください。"
   },
   "ue_deletingTweet": {
     "message": "ツイートの削除に失敗しました エラー $status$",
@@ -347,7 +347,7 @@
     }
   },
   "oAuthError": {
-    "message": "アクセス許可確認中に以下のエラーが発生しました: $errorMessage$<br><a href=\"#\" class=\"msg-trigger-reload\">クリックしてやりなおしてください</a>",
+    "message": "アクセス許可確認中に以下のエラーが発生しました: $errorMessage$",
     "placeholders": {
       "errorMessage": {
         "content": "$1"

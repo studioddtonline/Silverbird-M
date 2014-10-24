@@ -262,7 +262,7 @@
     }
   },
   "ue_updatingTweets_timeout": {
-    "message": "<br> If this timeout error is being shown repeatedly, <a href=\"#\" class=\"msg-trigger-reload\">please try logging out and logging in again.</a>"
+    "message": "<br> If this timeout error is being shown repeatedly."
   },
   "ue_updatingTweets_noresult": {
     "message": "No search query, or No results"
@@ -351,7 +351,7 @@
     }
   },
   "oAuthError": {
-    "message": "The following error occurred trying to authenticate: $errorMessage$. Please, <a href=\"#\" class=\"msg-trigger-reload\">click here to restart the authentication process</a>",
+    "message": "The following error occurred trying to authenticate: $errorMessage$.",
     "placeholders": {
       "errorMessage": {
         "content": "$1"

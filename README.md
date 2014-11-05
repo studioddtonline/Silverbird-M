@@ -20,7 +20,9 @@ Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/silver
 
 ### Compatibility ###
 
-It works on all Chrome/Chromium distribution channels: Stable, and Beta.
+It works on Chrome/Chromium distribution channels bellow: Stable, and Beta.
+It does not works on Canary Channel.
+It does not works on any browsers which are using Blink. (ex. Opera)
 
 ### Features ###
 
@@ -37,4 +39,4 @@ This project uses the very simple and permissive MIT license. Check the LICENSE 
 
 ### Credits ###
 
-[Cezar Sa Espinola](http://cezarsa.github.com/) - Origenal Development
+[Cezar Sa Espinola](http://cezarsa.github.com/) - Original Development

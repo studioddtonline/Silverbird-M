@@ -2,16 +2,16 @@
 
 <html>
 <head>
-<!-- Theme specific CSS files are loaded later by the ThemeManager -->
-<link id="base_stylesheet" rel="stylesheet" type="text/css" href="css/base.css" />
-<link rel="stylesheet" type="text/css" href="css/action_menu.css" />
-<link rel="stylesheet" type="text/css" href="css/simple_select.css" />
-<link rel="stylesheet" type="text/css" href="css/jquery.contextMenu.css" />
-<link rel="stylesheet" type="text/css" href="css/jquery.ui.dialog.css" />
+<link rel="stylesheet" href="css/jquery-ui/jquery-ui.structure.min.css" />
+<link rel="stylesheet" href="css/jquery-ui/jquery-ui.theme.min.css" />
+<link rel="stylesheet" href="css/action_menu.css" />
+<link rel="stylesheet" href="css/simple_select.css" />
+<link rel="stylesheet" href="css/jquery.contextMenu.css" />
+<link id="base_stylesheet" rel="stylesheet" href="css/silm.theme.css" />
 <title>Silverbird M Popup</title>
 <script src="lib/popup/global.js"></script>
 <script src="lib/3rdparty/jquery-2.1.1.min.js"></script>
-<script src="lib/3rdparty/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="lib/3rdparty/jquery-ui.min.js"></script>
 <script src="lib/3rdparty/jquery.contextMenu.js"></script>
 <script src="lib/3rdparty/jquery.insertatcaret.min.js"></script>
 <script src="lib/3rdparty/oauth.js"></script>
@@ -54,7 +54,7 @@
     <div id="shortener_area">
       <input type="text" name="shortener_text">
       <div id="shorten_current" class="i18n" title="Share current page"></div>
-      <div id="shortener_button"><div><span id="shortenIt" class="i18n"></span></div></div>
+      <div id="shortener_button"><span id="shortenIt" class="i18n"></span></div>
     </div>
     <div class="footer">
       <input id="tweetit" class="i18n" type="button" value="Tweet!" />

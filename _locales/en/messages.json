@@ -450,9 +450,6 @@
   "o_bottom": {
     "message": "Bottom"
   },
-  "l_theme": {
-    "message": "UI Theme (deprecated)"
-  },
   "l_font_size": {
     "message": "Font Size"
   },

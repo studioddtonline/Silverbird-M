@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 * {
-  font-family: 'Noto Sans Japanese', 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI Symbol', 'Apple Color Emoji', Symbola;
+  font-family: 'Noto Sans Japanese', 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI Symbol', 'Apple Color Emoji', Symbola !important;
   font-style: normal;
   font-weight: 300;
 }
@@ -26,6 +26,9 @@ a:hover {
 
 input[type='text'] {
   margin: 0;
+  border-radius: .4em;
+  background-color: #f2f2f2;
+  border: .1em solid #999;
 }
 
 #absolute_container {
@@ -42,6 +45,9 @@ input[type='text'] {
   margin-right: auto;
   padding: 4px;
   display: table;
+  background-color: #e5effe;
+  border: 2px solid #b4cff2;
+  border-top: 0;
 }
 
 #warning .img_area {
@@ -60,6 +66,8 @@ input[type='text'] {
   margin-top: -3px;
   margin-right: -3px;
   margin-left: 3px;
+  border: 1px solid #b4cff2;
+  padding: 0px 4px 0px 4px;
 }
 
 #enter_pin,
@@ -124,6 +132,14 @@ input[type='text'] {
   margin-bottom: 3px;
   cursor: pointer;
   clear: both;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #666;
+}
+
+#update_tweets:hover {
+  background-color: #646464;
+  color: white;
 }
 
 #shortener_area {
@@ -143,13 +159,21 @@ input[type='text'] {
   width: 100px;
   padding: 1px;
   margin-left: -51px;
-}
-
-#shortener_button div {
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+  background-color: #e5effe;
+  border: 1px solid #b4cff2;
+  border-top: 0px;
   margin-top: -1px;
   text-align: center;
   cursor: pointer;
   display: none;
+}
+
+#shortener_button div:hover {
+  background-color: #f0f5fb;
+  border: 1px solid #c1cddc;
+  border-top: 0px;
 }
 
 #shorten_current {
@@ -160,12 +184,16 @@ input[type='text'] {
   right: 4px;
   margin-top: -16px;
   cursor: pointer;
+  background: transparent url(../img/globe_blue.png) repeat-x 0 0;
 }
 
 #compose_tweet_area textarea {
   width: 100%;
   margin: 0;
   padding: 0;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #c1c1c1;
 }
 
 #compose_tweet_area .footer .chars_left {
@@ -194,6 +222,16 @@ input[type='text'] {
   padding: 0;
   text-align: center;
   cursor: pointer;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #f2f2f2;
+  border: 1px solid #b4b4b4;
+  padding: 3px;
+}
+
+#compose_tweet:hover {
+  background-color: #fbfbfb;
+  border: 1px solid #c1c1c1;
 }
 
 #tabs {
@@ -208,36 +246,28 @@ input[type='text'] {
 }
 
 #tabs .update_modifier {
-  border: 1px solid red !important;
+  border: .1em solid red !important;
   border-bottom: none !important;
-}
-
-#suspended_notice {
-  display: none;
-  color: white;
-  background-color: #777;
-  text-align: center;
-  padding: 0 5px 0 5px;
-  -webkit-border-radius: 5px;
 }
 
 .tweet {
   width: 100%;
-  padding: 2px 22px 0 4px;
+  margin: .2em .1em;
 }
 
 .tweet_overlay {
-  width: 100%;
-  margin-top: -2px;
-  margin-left: -4px;
-  padding: 2px 22px 2px 4px;
+  width: inherit;
+  border: .2em solid #e5e5e5;
+  border-radius: .4em;
+  padding: .1em 22px 0 .2em;
+  background-color: #f2f2f2;
   min-width: 400px;
-  min-height: 68px;
+  min-height: 5em;
   position: relative;
 }
 
 .tweet .first_container {
-  width: 100%;
+  width: inherit;
 }
 
 /* .tweet .profile_container */
@@ -249,11 +279,18 @@ input[type='text'] {
   float: left;
 }
 
+.tweet .user {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .tweet img.profile {
-  border: 0;
+  border: solid .1em #f2f2f2;
   margin-right: 4px;
   float: left;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .tweet img.profile.icon_small {
@@ -411,6 +448,7 @@ input[type='text'] {
   font-size: 8pt;
   margin-top: 4px;
   text-align: right;
+  color: #999;
 }
 
 .tweet .footer_container .inReply,
@@ -518,35 +556,55 @@ ul.worklist li {
   height: 12px;
 }
 
-/* jQuery UI Tooltip */
+/* override jQuery UI Structre*/
+
+.ui-tabs .ui-tabs-panel {
+  padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+  padding: .1em 0 0;
+}
+
+.ui-tabs .ui-tabs-nav > li {
+  min-width: 6em;
+  margin: 1px 0 0;
+  text-align: center;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: .2em .3em .1em;
+  float: initial;
+  display: block;
+}
+
+/* override jQuery UI Tooltip */
 
 .ui-tooltip {
-  position: absolute;
+  background-color: black;
+  margin: 0;
   padding: 0;
-  width: auto;
-  height: auto;
 }
 
 .ui-tooltip .ui-tooltip-content{
   color: white;
   background-color: black;
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   min-width: 50px;
   max-width: 300px;
-  min-height: 1.3em;
-  border-radius: 10px;
-  opacity: 0.8;
+  min-height: 1em;
+  max-height: 300px;
   word-break: break-all;
 }
 
 .ui-tooltip img{
   max-width: 200px;
   max-height: 200px;
-  border-radius: 10px;
+  border-radius: .8em;
 }
 
-/* jQuery UI Dialog */
+/* override jQuery UI Dialog */
 .ui-dialog .ui-dialog-titlebar-close {
   display: none;
 }

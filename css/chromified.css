@@ -96,11 +96,6 @@ input[type='text'] {
   color: #999;
 }
 
-.tweet .extendedEntitiesPhoto {
-  width: 20px;
-  height: 20px;
-}
-
 /* Simple Select */
 div.simple_select .label {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5effe), color-stop(0.5, #b4cff2), to(#e5effe));

@@ -9,6 +9,7 @@
   margin: 0px;
   display: none;
   -webkit-box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
+  min-width: 10em;
 }
 
 .contextMenu LI {

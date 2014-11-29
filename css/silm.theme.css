@@ -388,6 +388,10 @@ input[type='text'] {
   max-height: 54px;
 }
 
+.tweet .aggresive_after_content:after {
+  content: " : "
+}
+
 .tweet .primary_name,
 .tweet .secondary_name {
   max-width: 80%;

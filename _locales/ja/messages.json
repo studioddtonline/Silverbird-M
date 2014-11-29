@@ -624,7 +624,7 @@
     "message": "メンションを送る"
   },
   "g_image_service": {
-    "message": "画像サービス"
+    "message": "画像サービス (廃止予定)"
   },
   "l_image_up_service": {
     "message": "画像アップローダー"

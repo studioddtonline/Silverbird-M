@@ -628,7 +628,7 @@
     "message": "Mention"
   },
   "g_image_service": {
-    "message": "Image Service"
+    "message": "Image Service (deprecated)"
   },
   "l_image_up_service": {
     "message": "Image Upload Service"

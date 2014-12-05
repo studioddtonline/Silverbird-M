@@ -264,6 +264,9 @@
   "ue_updatingTweets_timeout": {
     "message": "<br> If this timeout error is being shown repeatedly."
   },
+  "ue_updatingTweets_noauthenticate": {
+    "message": "Fail to authenticate. If this error is displayed repeatedly, please try to signout."
+  },
   "ue_updatingTweets_noresult": {
     "message": "No search query, or No results"
   },

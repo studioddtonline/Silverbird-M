@@ -260,6 +260,9 @@
   "ue_updatingTweets_timeout": {
     "message": "<br>何度もタイムアウトするようなら、いったんログアウトしてからログインしなおしてください。"
   },
+  "ue_updatingTweets_noauthenticate": {
+    "message": "認証に失敗しました。何度も繰り返すようなら、いったんログアウトしてからログインしなおしてください。"
+  },
   "ue_updatingTweets_noresult": {
     "message": "検索キーワードが未入力か、検索結果がありませんでした。"
   },

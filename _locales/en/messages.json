@@ -444,9 +444,6 @@
   "o_both": {
     "message": "Default"
   },
-  "l_compose_position": {
-    "message": "Compose area position (deprecated)"
-  },
   "o_top": {
     "message": "Top"
   },

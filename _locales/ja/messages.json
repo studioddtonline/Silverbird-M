@@ -440,9 +440,6 @@
   "o_both": {
     "message": "標準"
   },
-  "l_compose_position": {
-    "message": "ツイート入力欄の位置 (廃止予定)"
-  },
   "o_top": {
     "message": "タイムライン上部"
   },

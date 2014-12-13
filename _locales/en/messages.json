@@ -577,7 +577,7 @@
     "message": "Notifications"
   },
   "l_blocked_users": {
-    "message": "Blocked Users Retrieve Interval (min)"
+    "message": "Blocked Users Retrieve Interval (min) (deprecated)"
   },
   "l_tweets_per_page": {
     "message": "Tweets per Page"
@@ -723,10 +723,10 @@
     "message": "Hidden List Info"
   },
   "l_trends_in_places": {
-    "message": "Trends in Places Retrieve Interval (min)"
+    "message": "Trends in Places Retrieve Interval (min) (deprecated)"
   },
   "l_saved_searches": {
-    "message": "Saved Searches Retrieve Interval (min)"
+    "message": "Saved Searches Retrieve Interval (min) (deprecated)"
   },
   "l_icon_size": {
     "message": "Profile Icon Size"

@@ -573,7 +573,7 @@
     "message": "通知"
   },
   "l_blocked_users": {
-    "message": "ブロック済みユーザの取得間隔 (分)"
+    "message": "ブロック済みユーザの取得間隔 (分) (廃止予定)"
   },
   "l_tweets_per_page": {
     "message": "1ページ中のツイート数"
@@ -719,10 +719,10 @@
     "message": "リスト情報を表示しない"
   },
   "l_trends_in_places": {
-    "message": "地域のトレンドの取得間隔 (分)"
+    "message": "地域のトレンドの取得間隔 (分) (廃止予定)"
   },
   "l_saved_searches": {
-    "message": "保存済み検索の取得間隔 (分)"
+    "message": "保存済み検索の取得間隔 (分) (廃止予定)"
   },
   "l_icon_size": {
     "message": "プロフィールアイコンサイズ"

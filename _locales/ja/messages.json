@@ -576,10 +576,10 @@
     "message": "ブロック済みユーザの取得間隔 (分) (廃止予定)"
   },
   "l_tweets_per_page": {
-    "message": "1ページ中のツイート数"
+    "message": "1ページ中のツイート数 (廃止予定)"
   },
   "l_max_cached_tweets": {
-    "message": "ツイートの最大表示数"
+    "message": "ツイートの最大表示数 (廃止予定)"
   },
   "g_advanced": {
     "message": "詳細設定"

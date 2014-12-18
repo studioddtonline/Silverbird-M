@@ -580,10 +580,10 @@
     "message": "Blocked Users Retrieve Interval (min) (deprecated)"
   },
   "l_tweets_per_page": {
-    "message": "Tweets per Page"
+    "message": "Tweets per Page (deprecated)"
   },
   "l_max_cached_tweets": {
-    "message": "Max Shown Tweets"
+    "message": "Max Shown Tweets (deprecated)"
   },
   "g_advanced": {
     "message": "Advanced"

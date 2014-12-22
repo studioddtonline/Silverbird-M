@@ -576,9 +576,6 @@
   "l_notifications_timeline": {
     "message": "Notifications"
   },
-  "l_blocked_users": {
-    "message": "Blocked Users Retrieve Interval (min) (deprecated)"
-  },
   "l_tweets_per_page": {
     "message": "Tweets per Page (deprecated)"
   },
@@ -722,12 +719,6 @@
   "l_hidden_list_info": {
     "message": "Hidden List Info"
   },
-  "l_trends_in_places": {
-    "message": "Trends in Places Retrieve Interval (min) (deprecated)"
-  },
-  "l_saved_searches": {
-    "message": "Saved Searches Retrieve Interval (min) (deprecated)"
-  },
   "l_icon_size": {
     "message": "Profile Icon Size"
   },
@@ -845,12 +836,7 @@
     "message": "SilM"
   },
   "ue_wait_fetch_trends": {
-    "message": "Please wait $wait_minutes$ minutes",
-    "placeholders": {
-      "wait_minutes": {
-        "content": "$1"
-      }
-    }
+    "message": "Please wait 5 minutes"
   },
   "detach_window_for_upload": {
     "message": "Detach window to upload images"

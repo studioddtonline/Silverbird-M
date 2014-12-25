@@ -810,7 +810,7 @@
     "message": "5分ほどお待ちください"
   },
   "detach_window_for_upload": {
-    "message": "画像を添付したいなら独立ウィンドウにしてください"
+    "message": "画像を追加するなら独立ウィンドウにしてください"
   },
   "mute_action": {
     "message": "ミュートする"
@@ -823,5 +823,17 @@
   },
   "expanding_url": {
     "message": "URL展開中..."
+  },
+  "select_images_for_upload": {
+    "message": "画像を追加"
+  },
+  "ue_too_big_image_size": {
+    "message": "画像サイズが大きすぎます。"
+  },
+  "ue_max_attached_images": {
+    "message": "これ以上画像を追加できません。"
+  },
+  "ue_media_upload_error": {
+    "message": "画像のアップロードに失敗しました。"
   }
 }

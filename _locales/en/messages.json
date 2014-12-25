@@ -827,5 +827,17 @@
   },
   "expanding_url": {
     "message": "URL expanding..."
+  },
+  "select_images_for_upload": {
+    "message": "Select Image"
+  },
+  "ue_too_big_image_size": {
+    "message": "This image is too big."
+  },
+  "ue_max_attached_images": {
+    "message": "Cannot attach any more."
+  },
+  "ue_media_upload_error": {
+    "message": "Error occurred when uploading image."
   }
 }

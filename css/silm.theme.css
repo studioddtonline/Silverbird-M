@@ -124,23 +124,7 @@ input[type='text'] {
   position: relative;
 }
 
-#update_tweets {
-  display: none;
-  font-size: 9pt;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 3px;
-  cursor: pointer;
-  clear: both;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  color: #666;
-}
-
-#update_tweets:hover {
-  background-color: #646464;
-  color: white;
-}
+/* #compose_tweet_area */
 
 #shortener_area {
   margin: 0;
@@ -186,6 +170,49 @@ input[type='text'] {
   cursor: pointer;
   background: transparent url(../img/globe_blue.png) repeat-x 0 0;
 }
+
+#tweetit {
+  width: initial;
+  max-width: 6em;
+  margin: .2em 0 .4em;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#upload_area {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+#upload_selector {
+  display: inherit;
+  margin: 0;
+  padding: .2em .4em;
+  width: auto;
+  height: initial;
+  background-color: #e2e2e2;
+}
+
+#upload_preview {
+  display: inherit;
+  vertical-align: bottom;
+}
+
+#upload_preview img {
+  width: 24px;
+  height: 24px;
+  border-radius: .4em;
+  margin: 0 .4em;
+}
+
+#image_input {
+  display: none;
+}
+
+/* #compose_tweet_area */
+
+/* #compose_tweet */
 
 #compose_tweet_area textarea {
   width: 100%;
@@ -233,6 +260,30 @@ input[type='text'] {
   background-color: #fbfbfb;
   border: 1px solid #c1c1c1;
 }
+
+/* #compose_tweet */
+
+/* #update_tweets */
+
+#update_tweets {
+  display: none;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3px;
+  cursor: pointer;
+  clear: both;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #666;
+}
+
+#update_tweets:hover {
+  background-color: #646464;
+  color: white;
+}
+
+/* #update_tweets */
 
 #tabs {
   clear: both;
@@ -543,17 +594,6 @@ ul.worklist li {
   padding: 0;
   margin: 0;
   display: block;
-}
-
-#upload_progress {
-  width: 120px;
-  display: none;
-}
-
-#attach_icon {
-  margin-left: 10px;
-  width: 12px;
-  height: 12px;
 }
 
 /* override jQuery UI Structre*/

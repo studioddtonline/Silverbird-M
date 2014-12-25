@@ -33,7 +33,6 @@
 <script src="lib/popup/search_tab.js"></script>
 <script src="lib/popup/timeline_tab.js"></script>
 <script src="lib/popup/autocomplete.js"></script>
-<script src="lib/popup/image_upload.js"></script>
 <script src="lib/popup/popup_init.js"></script>
 </head>
 <body>
@@ -58,10 +57,11 @@
     </div>
     <div class="footer">
       <input id="tweetit" class="i18n" type="button" value="Tweet!" />
-      <span id="upload_button_area">
-        <img id="attach_icon" src="img/attachment.png"><input id="image_input" type="file" name="media" accept="image/*" />
+      <span id="upload_area">
+        <span id="upload_selector"></span>
+        <span id="upload_preview"></span>
+        <input id="image_input" type="file" name="media" accept="image/*" />
       </span>
-      <progress id="upload_progress" max="100"></progress>
       <span class="chars_left"></span>
     </div>
   </div>

@@ -214,7 +214,7 @@ input[type='text'] {
 
 /* #compose_tweet */
 
-#compose_tweet_area textarea {
+#tweet_text {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -223,7 +223,7 @@ input[type='text'] {
   border: 1px solid #c1c1c1;
 }
 
-#compose_tweet_area .footer .chars_left {
+#chars_left {
   margin-top: 3px;
   float: right;
 }

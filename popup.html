@@ -49,9 +49,9 @@
   </div>
 
   <div id="compose_tweet_area" style="display: none;">
-    <textarea rows="4"></textarea>
+    <textarea rows="4" id="tweet_text"></textarea>
     <div id="shortener_area">
-      <input type="text" name="shortener_text">
+      <input type="text" name="shortener_text" id="shortener_text">
       <div id="shorten_current" class="i18n" title="Share current page"></div>
       <div id="shortener_button"><span id="shortenIt" class="i18n"></span></div>
     </div>
@@ -62,7 +62,7 @@
         <span id="upload_preview"></span>
         <input id="image_input" type="file" name="media" accept="image/*" />
       </span>
-      <span class="chars_left"></span>
+      <span id="chars_left"></span>
     </div>
   </div>
   <div id="compose_tweet">

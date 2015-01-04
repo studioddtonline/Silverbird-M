@@ -19,7 +19,9 @@
         "notifications",
         "tabs",
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking"
     ],
     "icons": {
         "16": "img/icon16.png",

@@ -29,7 +29,7 @@ It does not works on any browsers which are using Blink. (ex. Opera)
 * Follow your timelines and navigate through your tweets
 * Notify user through icon changes whenever new tweets arrive
 * Compose, reply, and RT tweets
-* Read / unread tweets tracking
+* Upload multiple photos
 * OAuth authentication
 * Twitter API 1.1 support
 

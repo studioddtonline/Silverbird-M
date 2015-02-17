@@ -63,11 +63,11 @@ input[type='text'] {
 #warning_dismiss {
   float: right;
   cursor: pointer;
-  margin-top: -3px;
-  margin-right: -3px;
-  margin-left: 3px;
-  border: 1px solid #b4cff2;
-  padding: 0px 4px 0px 4px;
+  background-color: #f2f2f2;
+  border: .1em solid #999;
+  width: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 #enter_pin,

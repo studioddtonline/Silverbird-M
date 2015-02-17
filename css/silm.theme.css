@@ -50,17 +50,17 @@ input[type='text'] {
   border-top: 0;
 }
 
-#warning .img_area {
+#warning_image {
   display: table-cell;
   vertical-align: middle;
   width: 32px;
 }
 
-#warning .content {
+#warning_content {
   margin-left: 5px;
 }
 
-#warning .dismiss {
+#warning_dismiss {
   float: right;
   cursor: pointer;
   margin-top: -3px;

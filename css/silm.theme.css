@@ -210,6 +210,10 @@ input[type='text'] {
   display: none;
 }
 
+#quote_tweet_url {
+  display: none;
+}
+
 /* #compose_tweet_area */
 
 /* #compose_tweet */

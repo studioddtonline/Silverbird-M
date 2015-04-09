@@ -160,8 +160,8 @@
   "deleteRTConfirm": {
     "message": "このリツイートを取り消しますか: "
   },
-  "oldRT": {
-    "message": "引用してツイート"
+  "quoteTweet": {
+    "message": "引用ツイート"
   },
   "newToken": {
     "message": "違うトークンをリクエスト"
@@ -835,5 +835,19 @@
   },
   "ue_media_upload_error": {
     "message": "画像のアップロードに失敗しました。"
+  },
+  "quote_tweet_url": {
+    "message": "このツイートを引用"
+  },
+  "l_quote_tweet_url": {
+    "message": "このツイート($url$)を引用",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "expand_quote_tweet": {
+    "message": "引用ツイートを展開"
   }
 }

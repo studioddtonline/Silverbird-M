@@ -164,8 +164,8 @@
   "deleteRTConfirm": {
     "message": "Undo this retweet: "
   },
-  "oldRT": {
-    "message": "Share (old school RT)"
+  "quoteTweet": {
+    "message": "Quote Tweet"
   },
   "newToken": {
     "message": "Request another token"
@@ -839,5 +839,22 @@
   },
   "ue_media_upload_error": {
     "message": "Error occurred when uploading image."
+  },
+  "quote_tweet_url": {
+    "message": "Quote to this tweet"
+  },
+  "quote_tweet_url": {
+    "message": "Quote to this tweet"
+  },
+  "l_quote_tweet_url": {
+    "message": "Quote to this tweet($url$)",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "expand_quote_tweet": {
+    "message": "Expand the quote tweet"
   }
 }

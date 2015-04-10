@@ -516,12 +516,9 @@ input[type='text'] {
   margin: auto 0 auto 1em;
 }
 
-.tweet .footer_container img.retweet {
-  margin: 0 2px;
-  padding: 0;
-  vertical-align: top;
-  max-width: 14px;
-  max-height: 14px;
+.tweet .footer_container .inRetweet > a,
+.tweet .footer_container .selfRetweet > a {
+  padding-left: 4px;
 }
 
 /* .tweet .footer_container */
@@ -542,16 +539,13 @@ input[type='text'] {
 .tweet .new_actions > .new_actions_item {
   margin-top: 4px;
   margin-bottom: 4px;
-}
-
-.tweet .new_actions > img {
+  font-size: 12px;
   cursor: pointer;
   display: none;
-  margin: 0;
   padding: 0;
 }
 
-.tweet .new_actions > img.starred {
+.tweet .new_actions > span.glyphicon-star {
   display: inline-block;
 }
 
@@ -669,4 +663,120 @@ ul.worklist li {
 /* override jQuery UI Dialog */
 .ui-dialog .ui-dialog-titlebar-close {
   display: none;
+}
+
+/* copy from Bootstrap */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('./bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('./bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('./bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('./bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('./bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('./bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-plus:before {
+  content: "\2b";
+}
+.glyphicon-minus:before {
+  content: "\2212";
+}
+.glyphicon-search:before {
+  content: "\e003";
+}
+.glyphicon-star:before {
+  content: "\e006";
+  color: yellow;
+  text-shadow: 1px 1px 1px gray, -1px 1px 1px gray, 1px -1px 1px gray, -1px -1px 1px gray;
+}
+.glyphicon-star-empty:before {
+  content: "\e007";
+  color: black;
+}
+.glyphicon-star-empty:hover:before {
+  color: yellow;
+  text-shadow: 1px 1px 1px gray, -1px 1px 1px gray, 1px -1px 1px gray, -1px -1px 1px gray;
+}
+.glyphicon-ok:before {
+  content: "\e013";
+}
+.glyphicon-remove:before {
+  content: "\e014";
+}
+.glyphicon-cog:before {
+  content: "\e019";
+}
+.glyphicon-trash:before {
+  content: "\e020";
+}
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+.glyphicon-play:before {
+  content: "\e072";
+}
+.glyphicon-pause:before {
+  content: "\e073";
+}
+.glyphicon-stop:before {
+  content: "\e074";
+}
+.glyphicon-forward:before {
+  content: "\e075";
+}
+.glyphicon-eject:before {
+  content: "\e078";
+}
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+.glyphicon-reply:before {
+  content: "\e095";
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.glyphicon-comment:before {
+  content: "\e111";
+}
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+.glyphicon-menu-hamburger:before {
+  content: "\e236";
+}
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+.glyphicon-menu-up:before {
+  content: "\e260";
 }

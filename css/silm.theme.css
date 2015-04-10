@@ -768,6 +768,9 @@ ul.worklist li {
 .glyphicon-retweet:before {
   content: "\e115";
 }
+.glyphicon-link:before {
+  content: "\e144";
+}
 .glyphicon-log-out:before {
   content: "\e163";
 }

@@ -534,17 +534,25 @@ input[type='text'] {
   right: 3px;
   margin: auto 0;
   padding: 0;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
-.tweet .new_actions img {
+.tweet .new_actions > .new_actions_item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.tweet .new_actions > img {
   cursor: pointer;
   display: none;
   margin: 0;
   padding: 0;
 }
 
-.tweet .new_actions img.starred {
-  display: inline;
+.tweet .new_actions > img.starred {
+  display: inline-block;
 }
 
 /* .tweet .overlay */

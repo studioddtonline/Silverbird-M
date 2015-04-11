@@ -106,13 +106,19 @@ input[type='text'] {
   margin: 0 2px;
 }
 
+.rotate_anime,
 #loading,
 #queue_loading {
+  width: 16px;
+  height: 16px;
   margin: 0 2px;
-  padding: 0;
-  padding-right: 5px;
-  padding-top: 6px;
   display: none;
+  -webkit-animation: rotate 2s; 
+  -webkit-animation-iteration-count: infinite; 
+}
+@-webkit-keyframes rotate { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } 
 }
 
 .timeline div.ui-resizable-se {
@@ -725,6 +731,9 @@ ul.worklist li {
 }
 .glyphicon-trash:before {
   content: "\e020";
+}
+.glyphicon-repeat:before {
+  content: "\e030";
 }
 .glyphicon-refresh:before {
   content: "\e031";

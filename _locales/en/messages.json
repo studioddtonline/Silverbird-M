@@ -856,5 +856,11 @@
   },
   "expand_quote_tweet": {
     "message": "Expand the quote tweet"
+  },
+  "verified_account": {
+    "message": "Verified Account"
+  },
+  "protected_account": {
+    "message": "Protected Account"
   }
 }

@@ -481,16 +481,8 @@ input[type='text'] {
   font-size: 8pt;
 }
 
-.tweet img.verified {
+.tweet .primary_name > span {
   margin: 0 0.5em;
-  padding: 0;
-  vertical-align: middle;
-}
-
-.tweet img.protected {
-  margin: 0 0.5em;
-  padding: 0;
-  vertical-align: middle;
 }
 
 /* .tweet .header_container */
@@ -738,8 +730,14 @@ ul.worklist li {
 .glyphicon-refresh:before {
   content: "\e031";
 }
+.glyphicon-lock:before {
+  content: "\e033";
+}
 .glyphicon-map-marker:before {
   content: "\e062";
+}
+.glyphicon-check:before {
+  content: "\e067";
 }
 .glyphicon-play:before {
   content: "\e072";

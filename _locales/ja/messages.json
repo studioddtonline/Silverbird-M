@@ -849,5 +849,11 @@
   },
   "expand_quote_tweet": {
     "message": "引用ツイートを展開"
+  },
+  "verified_account": {
+    "message": "認証済みアカウント"
+  },
+  "protected_account": {
+    "message": "保護されたアカウント"
   }
 }

@@ -167,7 +167,7 @@
     "message": "違うトークンをリクエスト"
   },
   "shortenerIdleString": {
-    "message": "短縮したいURLを入力するか、右画像をクリックしてください。 \u2192"
+    "message": "短縮したいURLを入力してください。この欄を選択するとサジェストします。"
   },
   "tweet_singular": {
     "message": "更新"
@@ -570,9 +570,6 @@
   },
   "shortenIt": {
     "message": "URLを短くする"
-  },
-  "shorten_current": {
-    "message": "表示中のページを共有する"
   },
   "tweet_send_error": {
     "message": "ツイート中にエラーが発生しました。文字数を超過しているか、同じ文面のツイートをしていないか確かめてからやり直してみてください。"

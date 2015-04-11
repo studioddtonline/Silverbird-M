@@ -174,17 +174,6 @@ input[type='text'] {
   border-top: 0px;
 }
 
-#shorten_current {
-  background-size: 14px 14px;
-  width: 14px;
-  height: 14px;
-  position: absolute;
-  right: 4px;
-  margin-top: -16px;
-  cursor: pointer;
-  background: transparent url(../img/globe_blue.png) repeat-x 0 0;
-}
-
 #tweetit {
   width: initial;
   max-width: 6em;

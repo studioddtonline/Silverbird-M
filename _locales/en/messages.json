@@ -171,7 +171,7 @@
     "message": "Request another token"
   },
   "shortenerIdleString": {
-    "message": "Type a URL to make it shorter, or, click right here \u2192"
+    "message": "Type a URL to make it shorter, or, click here to suggest URL"
   },
   "tweet_singular": {
     "message": "tweet"
@@ -574,9 +574,6 @@
   },
   "shortenIt": {
     "message": "Shorten it!"
-  },
-  "shorten_current": {
-    "message": "Share current page"
   },
   "tweet_send_error": {
     "message": "An error occurred while trying to send your tweet. Maybe Twitter is acting weird? You can try it again but please double check your account to prevent duplicated messages or overcount Twitter Max words."

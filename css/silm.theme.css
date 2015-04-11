@@ -235,20 +235,6 @@ input[type='text'] {
   float: right;
 }
 
-#compose_tweet img {
-  margin-top: 3px;
-}
-
-#compose_tweet img.left {
-  float: left;
-  margin-left: 5px;
-}
-
-#compose_tweet img.right {
-  float: right;
-  margin-right: 5px;
-}
-
 #compose_tweet {
   font-size: 9pt;
   font-weight: bold;
@@ -266,6 +252,10 @@ input[type='text'] {
 #compose_tweet:hover {
   background-color: #fbfbfb;
   border: 1px solid #c1c1c1;
+}
+
+#composeText {
+  margin-left: 1em;
 }
 
 /* #compose_tweet */

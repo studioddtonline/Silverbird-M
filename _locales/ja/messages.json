@@ -6,7 +6,7 @@
   "resetSize": {
     "message": "サイズをリセットしたいならダブルクリックしてください"
   },
-  "composeTweet": {
+  "composeText": {
     "message": "ツイートする",
     "description": "新しいツイートの入力欄を開く"
   },

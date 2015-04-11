@@ -6,11 +6,7 @@
   "resetSize": {
     "message": "Double click to reset size"
   },
-  "composeTweet": {
-    "message": "Compose tweet",
-    "description": "Text for composing new tweet"
-  },
-  "composeTweet": {
+  "composeText": {
     "message": "Compose tweet",
     "description": "Text for composing new tweet"
   },

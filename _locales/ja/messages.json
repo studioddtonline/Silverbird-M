@@ -667,7 +667,7 @@
     "message": "フッターを表示しない"
   },
   "ue_expand_in_reply": {
-    "message": "リプライ元が削除されているか、保護されたユーザです。"
+    "message": "ツイートが削除されているか、保護されたユーザです。"
   },
   "l_hidden_reply_info": {
     "message": "リプライ情報を表示しない"

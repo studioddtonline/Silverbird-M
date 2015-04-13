@@ -113,12 +113,13 @@ input[type='text'] {
   height: 16px;
   margin: 0 2px;
   display: none;
-  -webkit-animation: rotate 2s; 
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation: rotate 2s;
+  -webkit-animation-iteration-count: infinite;
+  transform-origin: 6.6px 7.4px;
 }
-@-webkit-keyframes rotate { 
+@-webkit-keyframes rotate {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); } 
+  100% { transform: rotate(360deg); }
 }
 
 .timeline div.ui-resizable-se {

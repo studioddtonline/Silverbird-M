@@ -6,9 +6,28 @@
   font-weight: 300;
 }
 
+@media screen and (max-width: 991px) {
+  body {
+    padding-top: 120px;
+  }
+
+  nav button {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    padding-top: 90px;
+  }
+
+  nav button {
+    margin-top: 24px;
+  }
+}
+
 body {
   margin: 0px;
-  padding-top: 100px;
   background-color: white;
 }
 
@@ -24,5 +43,5 @@ div.checkerboard {
 }
 
 nav button {
-  margin: 24px 5px auto auto;
+  margin: inherit 5px auto auto;
 }

@@ -163,6 +163,9 @@
   "quoteTweet": {
     "message": "Quote Tweet"
   },
+  "directMessage": {
+    "message": "DM"
+  },
   "newToken": {
     "message": "Request another token"
   },

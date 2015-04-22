@@ -520,11 +520,12 @@ input[type='text'] {
   width: 12px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap-reverse;
+  flex-shrink: 1;
 }
 
 .tweet .new_actions > .new_actions_item {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px 0 4px 4px;
   font-size: 12px;
   cursor: pointer;
   display: none;
@@ -675,6 +676,9 @@ ul.worklist li {
 }
 .glyphicon-minus:before {
   content: "\2212";
+}
+.glyphicon-envelope:before {
+  content: "\2709";
 }
 .glyphicon-search:before {
   content: "\e003";

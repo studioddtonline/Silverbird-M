@@ -163,6 +163,9 @@
   "quoteTweet": {
     "message": "引用ツイート"
   },
+  "directMessage": {
+    "message": "DM"
+  },
   "newToken": {
     "message": "違うトークンをリクエスト"
   },

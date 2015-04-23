@@ -858,5 +858,8 @@
   },
   "protected_account": {
     "message": "Protected Account"
+  },
+  "l_exclude_blocked_and_muted": {
+    "message": "Allow to exclude blocked or muted users"
   }
 }

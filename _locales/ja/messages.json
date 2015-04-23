@@ -855,5 +855,8 @@
   },
   "protected_account": {
     "message": "保護されたアカウント"
+  },
+  "l_exclude_blocked_and_muted": {
+    "message": "ブロックとミュートを反映する"
   }
 }

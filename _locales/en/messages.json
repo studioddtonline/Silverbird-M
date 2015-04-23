@@ -861,5 +861,8 @@
   },
   "l_exclude_blocked_and_muted": {
     "message": "Allow to exclude blocked or muted users"
+  },
+  "l_exclude_retweet": {
+    "message": "Allow to exclude retweet"
   }
 }

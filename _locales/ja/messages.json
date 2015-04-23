@@ -858,5 +858,8 @@
   },
   "l_exclude_blocked_and_muted": {
     "message": "ブロックとミュートを反映する"
+  },
+  "l_exclude_retweet": {
+    "message": "リツイートを除外する"
   }
 }

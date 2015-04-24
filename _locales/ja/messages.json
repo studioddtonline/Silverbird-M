@@ -497,7 +497,7 @@
     "message": "通知のタイムアウト (秒)"
   },
   "l_notification_max_popups": {
-    "message": "一度に通知する最大数 (-1: 全て通知)"
+    "message": "一度に通知する最大数 (-1: 全て通知) (廃止予定)"
   },
   "g_shortener": {
     "message": "短縮URL"

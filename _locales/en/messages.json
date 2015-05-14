@@ -496,9 +496,6 @@
   "l_notification_fade_timeout": {
     "message": "Notification Timeout (s)"
   },
-  "l_notification_max_popups": {
-    "message": "Notifications at once (-1: all) (deprecated)"
-  },
   "g_shortener": {
     "message": "Shortener"
   },

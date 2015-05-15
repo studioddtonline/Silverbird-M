@@ -1,11 +1,11 @@
 <template id="templateEnterPin">
-  <div id="enter_pin">
-    <img src="img/loading.gif" id="loading_oauth" style="display: none;"/>
-    <label for="pin">Twitter's OAuth Pin:</label>
-    <input type="text" name="pin"><br>
-    <input type="button" class="i18n" id="btnAuthorize" value="Authorize!">
-    <br><br>
-    <a href="#" id="newToken" class="i18n"></a>
+  <div id="enter_pin" style="">
+    <label for="input_pin">Twitter's OAuth Pin:<span id="loading_oauth" class="i18n glyphicon glyphicon-repeat"></span></label>
+    <input type="text" name="input_pin" id="input_pin"></input>
+    <input type="button" class="i18n" id="btnAuthorize" value="Authorize!"></input>
+    <input type="button" class="i18n" id="newToken" value="Get New Token"></input>
   </div>
   <div id="error_pin"></div>
 </template>
+<link rel="stylesheet" href="./enterpin.css" />
+<script src="./enterpin.js"></script>

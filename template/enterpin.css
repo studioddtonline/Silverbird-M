@@ -1,0 +1,21 @@
+#enter_pin,
+#error_pin {
+  min-height: 8em;
+}
+
+#enter_pin {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+#error_pin {
+  display: none;
+}
+
+#loading_oauth {
+  display: none;
+}
+

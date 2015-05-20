@@ -108,11 +108,11 @@ input[type='text'] {
   height: 16px;
   margin: 0 2px;
   display: none;
-  -webkit-animation: rotate 2s;
-  -webkit-animation-iteration-count: infinite;
+  animation: rotate 2s;
+  animation-iteration-count: infinite;
   transform-origin: 6.6px 7.4px;
 }
-@-webkit-keyframes rotate {
+@keyframes rotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }

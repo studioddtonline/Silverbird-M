@@ -559,13 +559,13 @@
   "l_request_timeout": {
     "message": "Request Timeout (ms)"
   },
-  "btn_save": {
+  "btn_save_text": {
     "message": "Save"
   },
-  "btn_reset": {
+  "btn_reset_text": {
     "message": "Reset"
   },
-  "btn_default": {
+  "btn_default_text": {
     "message": "Reset to default"
   },
   "shortenIt": {

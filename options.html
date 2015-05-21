@@ -159,102 +159,98 @@
           <th colspan="5" class="i18n col-md-12" id="l_timeline_display">Display Timelines</th>
         </tr>
         <tr>
-          <th class="col-md-2">&nbsp;</th>
-          <th class="i18n col-md-2" id="l_visible">Visible</th>
-          <th class="i18n col-md-2" id="l_include_in_unified">Include in unified timeline</th>
-          <th class="i18n col-md-2" id="l_exclude_blocked_and_muted">Allow to exclude blocked or muted users</th>
-          <th class="i18n col-md-2" id="l_exclude_retweet">Allow to exclude retweet</th>
-          <th class="i18n col-md-1" id="l_refresh_interval_seconds">Refresh Interval (s)</th>
-          <th class="i18n col-md-1" id="l_timeline_background_color">Timeline Background Color)</th>
+          <th class="col-xs-4">&nbsp;</th>
+          <th class="i18n col-md-1" id="l_unified_timeline">Unified Timeline</th>
+          <th class="i18n col-md-1" id="l_home_timeline">Home</th>
+          <th class="i18n col-md-1" id="l_mention_timeline">Mentions</th>
+          <th class="i18n col-md-1" id="l_dms_timeline">DM</th>
+          <th class="i18n col-md-1" id="l_lists_timeline">Lists</th>
+          <th class="i18n col-md-1" id="l_search_timeline">Search</th>
+          <th class="i18n col-md-1" id="l_favorites_timeline">Favorites</th>
+          <th class="i18n col-md-1" id="l_notifications_timeline">Notifications</th>
         </tr>
         <tr>
-          <th class="i18n" id="l_unified_timeline">Unified Timeline</th>
+          <th class="i18n" id="l_visible">Visible</th>
           <td><input type="checkbox" name="unified_visible" validator="unifiedValidator"></td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
+          <td><input type="checkbox" name="home_visible"></td>
+          <td><input type="checkbox" name="mentions_visible"></td>
+          <td><input type="checkbox" name="dms_visible"></td>
+          <td><input type="checkbox" name="lists_visible"></td>
+          <td><input type="checkbox" name="search_visible"></td>
+          <td><input type="checkbox" name="favorites_visible"></td>
+          <td>&nbsp;</td>
         </tr>
         <tr>
-          <th class="i18n" id="l_home_timeline">Home</th>
-          <td><input type="checkbox" name="home_visible"></td>
+          <th class="i18n" id="l_include_in_unified">Include in unified timeline</th>
+          <td>&nbsp;</td>
           <td><input type="checkbox" name="home_include_unified"></td>
+          <td><input type="checkbox" name="mentions_include_unified"></td>
+          <td><input type="checkbox" name="dms_include_unified"></td>
+          <td><input type="checkbox" name="lists_include_unified"></td>
+          <td><input type="checkbox" name="search_include_unified"></td>
+          <td><input type="checkbox" name="favorites_include_unified"></td>
+          <td><input type="checkbox" name="notification_include_unified"></td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_exclude_blocked_and_muted">Allow to exclude blocked or muted users</th>
+          <td>&nbsp;</td>
           <td>-</td>
           <td>-</td>
+          <td>-</td>
+          <td><input type="checkbox" name="lists_exclude_blocked_muted"></td>
+          <td><input type="checkbox" name="search_exclude_blocked_muted"></td>
+          <td>-</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_exclude_retweet">Allow to exclude retweet</th>
+          <td>&nbsp;</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td><input type="checkbox" name="search_exclude_retweet"></td>
+          <td>-</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_refresh_interval_seconds">Refresh Interval (s)</th>
+          <td>&nbsp;</td>
           <td><input type="text" class="form-control" name="home_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td><input type="text" class="form-control" name="mentions_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td><input type="text" class="form-control" name="dms_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td><input type="text" class="form-control" name="lists_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td><input type="text" class="form-control" name="search_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td><input type="text" class="form-control" name="favorites_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="i18n" id="l_timeline_background_color">Timeline Background Color)</th>
+          <td>&nbsp;</td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="home_tweets_color" class="color_selector"></div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_mention_timeline">Mentions</th>
-          <td><input type="checkbox" name="mentions_visible"></td>
-          <td><input type="checkbox" name="mentions_include_unified"></td>
-          <td>-</td>
-          <td>-</td>
-          <td><input type="text" class="form-control" name="mentions_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="mentions_tweets_color" class="color_selector"></div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_dms_timeline">DM</th>
-          <td><input type="checkbox" name="dms_visible"></td>
-          <td><input type="checkbox" name="dms_include_unified"></td>
-          <td>-</td>
-          <td>-</td>
-          <td><input type="text" class="form-control" name="dms_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="dms_tweets_color" class="color_selector"></div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_lists_timeline">Lists</th>
-          <td><input type="checkbox" name="lists_visible"></td>
-          <td><input type="checkbox" name="lists_include_unified"></td>
-          <td><input type="checkbox" name="lists_exclude_blocked_muted"></td>
-          <td>-</td>
-          <td><input type="text" class="form-control" name="lists_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="lists_tweets_color" class="color_selector"></div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_search_timeline">Search</th>
-          <td><input type="checkbox" name="search_visible"></td>
-          <td><input type="checkbox" name="search_include_unified"></td>
-          <td><input type="checkbox" name="search_exclude_blocked_muted"></td>
-          <td><input type="checkbox" name="search_exclude_retweet"></td>
-          <td><input type="text" class="form-control" name="search_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="search_tweets_color" class="color_selector">&nbsp;</div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_favorites_timeline">Favorites</th>
-          <td><input type="checkbox" name="favorites_visible"></td>
-          <td><input type="checkbox" name="favorites_include_unified"></td>
-          <td>-</td>
-          <td>-</td>
-          <td><input type="text" class="form-control" name="favorites_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
           <td>
             <div class="color_selector checkerboard"></div>
             <div name="favorites_tweets_color" class="color_selector">&nbsp;</div>
           </td>
-        </tr>
-        <tr>
-          <th class="i18n" id="l_notifications_timeline">Notifications</th>
-          <td>&nbsp;</td>
-          <td><input type="checkbox" name="notification_include_unified"></td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
       </table>

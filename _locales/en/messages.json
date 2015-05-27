@@ -547,12 +547,6 @@
   "l_notifications_timeline": {
     "message": "Notifications"
   },
-  "l_tweets_per_page": {
-    "message": "Tweets per Page (deprecated)"
-  },
-  "l_max_cached_tweets": {
-    "message": "Max Shown Tweets (deprecated)"
-  },
   "g_advanced": {
     "message": "Advanced"
   },
@@ -591,12 +585,6 @@
   },
   "add_mention_action": {
     "message": "Mention"
-  },
-  "g_image_service": {
-    "message": "Image Service (deprecated)"
-  },
-  "l_image_up_service": {
-    "message": "Image Upload Service"
   },
   "trending_topics": {
     "message": "Trends"

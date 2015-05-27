@@ -547,12 +547,6 @@
   "l_notifications_timeline": {
     "message": "通知"
   },
-  "l_tweets_per_page": {
-    "message": "1ページ中のツイート数 (廃止予定)"
-  },
-  "l_max_cached_tweets": {
-    "message": "ツイートの最大表示数 (廃止予定)"
-  },
   "g_advanced": {
     "message": "詳細設定"
   },
@@ -591,12 +585,6 @@
   },
   "add_mention_action": {
     "message": "メンションを送る"
-  },
-  "g_image_service": {
-    "message": "画像サービス (廃止予定)"
-  },
-  "l_image_up_service": {
-    "message": "画像アップローダー"
   },
   "trending_topics": {
     "message": "トレンド"

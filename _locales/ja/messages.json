@@ -858,5 +858,8 @@
   },
   "l_exclude_retweet": {
     "message": "リツイートを除外する"
+  },
+  "now_uploading": {
+    "message": "画像をアップロード中..."
   }
 }

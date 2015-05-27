@@ -861,5 +861,8 @@
   },
   "l_exclude_retweet": {
     "message": "Allow to exclude retweet"
+  },
+  "now_uploading": {
+    "message": "Now Uploading..."
   }
 }

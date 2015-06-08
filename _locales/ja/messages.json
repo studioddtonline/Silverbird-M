@@ -270,7 +270,7 @@
     "message": "検索キーワードが未入力か、検索結果がありませんでした。"
   },
   "ue_updatingTweets_nofetched": {
-    "message": "<br>何度も空っぽのままなら、Silverbird Mをリロードしてください。"
+    "message": "何も取得できませんでした。"
   },
   "ue_deletingTweet": {
     "message": "ツイートの削除に失敗しました エラー $status$",

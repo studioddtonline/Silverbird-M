@@ -270,7 +270,7 @@
     "message": "No search query, or No results"
   },
   "ue_updatingTweets_nofetched": {
-    "message": "<br> If no tweets is displayed repeatedly, please try to reload the Silverbird M."
+    "message": "No Tweets."
   },
   "ue_deletingTweet": {
     "message": "Unexpected error $status$ deleting tweet.",

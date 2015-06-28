@@ -636,7 +636,8 @@ ul.worklist li {
   word-break: break-all;
 }
 
-.ui-tooltip img{
+.ui-tooltip img,
+.ui-tooltip video{
   max-width: 200px;
   max-height: 200px;
   border-radius: .8em;

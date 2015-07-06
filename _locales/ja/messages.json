@@ -849,5 +849,13 @@
   },
   "now_uploading": {
     "message": "画像をアップロード中..."
+  },
+  "n_quoted_tweet": {
+    "message": "$source_screen_name$さんがあなたのツイートを引用しました。",
+    "placeholders": {
+      "source_screen_name": {
+        "content": "$1"
+      }
+    }
   }
 }

@@ -852,5 +852,13 @@
   },
   "now_uploading": {
     "message": "Now Uploading..."
+  },
+  "n_quoted_tweet": {
+    "message": "$source_screen_name$ quotes your tweet.",
+    "placeholders": {
+      "source_screen_name": {
+        "content": "$1"
+      }
+    }
   }
 }

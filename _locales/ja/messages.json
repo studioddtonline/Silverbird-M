@@ -857,5 +857,11 @@
         "content": "$1"
       }
     }
+  },
+  "n_update_trends": {
+    "message": "トレンドが更新されました。"
+  },
+  "l_notify_update_trends": {
+    "message": "トレンドの更新を通知する" 
   }
 }

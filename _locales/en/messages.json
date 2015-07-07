@@ -860,5 +860,11 @@
         "content": "$1"
       }
     }
+  },
+  "n_update_trends": {
+    "message": "Now, update trending topics."
+  },
+  "l_notify_update_trends": {
+    "message": "Notify Updates of Trending Topics" 
   }
 }

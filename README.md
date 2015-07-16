@@ -13,11 +13,6 @@ Silverbird M is a fork of the Silver Bird.
 4. Enable Chrome/Chromium Extensions Developer Mode
 5. Load unpacked extension
 
-#### Easy Installing ####
-
-Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/silverbird-m/gopipemgedcleeegndifdeddpemopeda)  
-\(That is in Alpha state. It will remove soon\)
-
 ### Compatibility ###
 
 It works on Chrome/Chromium distribution channels bellow: Stable, and Beta.

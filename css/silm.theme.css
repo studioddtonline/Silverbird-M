@@ -448,16 +448,16 @@ input[type='text'] {
   font-size: 11pt;
 }
 
+.tweet .primary_name > span.glyphicon {
+  margin-left: 0.5em;
+}
+
 .tweet .secondary_name {
   padding-left: 8px;
 }
 
 .tweet .secondary_name .user {
   font-size: 8pt;
-}
-
-.tweet .primary_name > span {
-  margin: 0 0.5em;
 }
 
 /* .tweet .header_container */

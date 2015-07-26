@@ -323,12 +323,6 @@ input[type='text'] {
   float: left;
 }
 
-.tweet .user {
-  color: #666;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .tweet img.profile {
   border: solid .1em #f2f2f2;
   margin-right: 4px;
@@ -438,13 +432,15 @@ input[type='text'] {
   overflow: hidden;
 }
 
-.tweet .primary_name .user,
-.tweet .secondary_name .user {
+.tweet .header_container .user {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
   word-wrap: normal;
   line-height: 1;
 }
 
-.tweet .primary_name .user {
+.tweet .primary_name > .user {
   font-size: 11pt;
 }
 
@@ -456,7 +452,7 @@ input[type='text'] {
   padding-left: 8px;
 }
 
-.tweet .secondary_name .user {
+.tweet .secondary_name > .user {
   font-size: 8pt;
 }
 

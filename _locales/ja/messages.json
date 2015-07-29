@@ -866,5 +866,11 @@
   },
   "ue_over_dm_character_limit": {
     "message": "DMの文字数を超過しています。"
+  },
+  "ue_restricted_write_action": {
+    "message": "Silverbird MはTwiiter社によって書き込みが制限されています。"
+  },
+  "ue_twitter_is_now_unable": {
+    "message": "Twitterがダウンしています。"
   }
 }

@@ -869,5 +869,11 @@
   },
   "ue_over_dm_character_limit": {
     "message": "The text of your direct message is over the max character limit."
+  },
+  "ue_restricted_write_action": {
+    "message": "Silverbird M cannot perform write actions."
+  },
+  "ue_twitter_is_now_unable": {
+    "message": "Twitter is probably down."
   }
 }

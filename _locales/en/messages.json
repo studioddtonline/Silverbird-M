@@ -866,5 +866,8 @@
   },
   "l_notify_update_trends": {
     "message": "Notify Updates of Trending Topics" 
+  },
+  "ue_over_dm_character_limit": {
+    "message": "The text of your direct message is over the max character limit."
   }
 }

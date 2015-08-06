@@ -13,6 +13,7 @@ div.simple_select .label {
   border-radius: 8px;
   border: 1px solid #555;
   color: #555;
+  font-size: 12px;
 }
 
 div.simple_select .label img {

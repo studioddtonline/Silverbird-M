@@ -8,7 +8,7 @@ $(document.body)
     loading.hide();
     $("#enter_pin").hide();
     if(result) {
-      setTimeout(location.reload, 5 * 1000);
+      window.close();
     } else {
       $("#error_pin")
       .show()
@@ -21,4 +21,3 @@ $(document.body)
   window.close();
 });
 doLocalization();
-

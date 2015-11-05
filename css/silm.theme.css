@@ -523,7 +523,7 @@ input[type='text'] {
   padding: 0;
 }
 
-.tweet .new_actions > span.glyphicon-star {
+.tweet .new_actions > span.glyphicon-heart {
   display: inline-block;
 }
 
@@ -675,18 +675,16 @@ ul.worklist li {
 .glyphicon-search:before {
   content: "\e003";
 }
-.glyphicon-star:before {
-  content: "\e006";
-  color: yellow;
-  text-shadow: 1px 1px 1px gray, -1px 1px 1px gray, 1px -1px 1px gray, -1px -1px 1px gray;
+.glyphicon-heart:before {
+  content: "\e005";
+  color: #E81C4F;
 }
-.glyphicon-star-empty:before {
-  content: "\e007";
+.glyphicon-heart-empty:before {
+  content: "\e143";
   color: black;
 }
-.glyphicon-star-empty:hover:before {
-  color: yellow;
-  text-shadow: 1px 1px 1px gray, -1px 1px 1px gray, 1px -1px 1px gray, -1px -1px 1px gray;
+.glyphicon-heart-empty:hover:before {
+  color: #E81C4F;
 }
 .glyphicon-ok:before {
   content: "\e013";

@@ -58,8 +58,8 @@
   "show_dms": {
     "message": "DMタブを表示"
   },
-  "show_favorites": {
-    "message": "おきにいりタブを表示"
+  "show_likes": {
+    "message": "いいねタブを表示"
   },
   "add_lists": {
     "message": "リストタブを追加"
@@ -85,8 +85,8 @@
   "w_ReceivedDM": {
     "message": "受信済みDM"
   },
-  "w_Favorites": {
-    "message": "お気に入り"
+  "w_Likes": {
+    "message": "いいね"
   },
   "w_Lists": {
     "message": "リスト"
@@ -127,11 +127,11 @@
   "retweetedCount_suffix": {
     "message": "人がリツイート"
   },
-  "unmarkFavorite": {
-    "message": "お気に入りを解除"
+  "unmarkLike": {
+    "message": "いいねから削除"
   },
-  "markFavorite": {
-    "message": "お気に入りに登録"
+  "markLike": {
+    "message": "いいねに追加"
   },
   "Delete": {
     "message": "削除"
@@ -288,16 +288,16 @@
       }
     }
   },
-  "ue_markFavorite": {
-    "message": "お気に入りの登録に失敗しました エラー $status$",
+  "ue_markLike": {
+    "message": "いいねの追加に失敗しました エラー $status$",
     "placeholders": {
       "status": {
         "content": "$1"
       }
     }
   },
-  "ue_unmarkFavorite": {
-    "message": "お気に入りの削除に失敗しました エラー $status$",
+  "ue_unmarkLike": {
+    "message": "いいねの削除に失敗しました エラー $status$",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -541,8 +541,8 @@
   "l_search_timeline": {
     "message": "検索"
   },
-  "l_favorites_timeline": {
-    "message": "お気に入り"
+  "l_likes_timeline": {
+    "message": "いいね"
   },
   "l_notifications_timeline": {
     "message": "通知"
@@ -693,16 +693,16 @@
   "w_Notification": {
     "message": "通知"
   },
-  "n_favorite": {
-    "message": "$source_screen_name$さんがあなたのツイートをお気に入りにしました。",
+  "n_like": {
+    "message": "$source_screen_name$さんがあなたのツイートをいいねに加えました。",
     "placeholders": {
       "source_screen_name": {
         "content": "$1"
       }
     }
   },
-  "n_unfavorite": {
-    "message": "$source_screen_name$さんがあなたのツイートをお気に入りから外しました。",
+  "n_unlike": {
+    "message": "$source_screen_name$さんがあなたのツイートをいいねから外しました。",
     "placeholders": {
       "source_screen_name": {
         "content": "$1"

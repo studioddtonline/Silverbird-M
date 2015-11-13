@@ -875,5 +875,8 @@
   },
   "ue_twitter_is_now_unable": {
     "message": "Twitter is probably down."
+  },
+  "ue_churn_action": {
+    "message": "Detecting churn action. RETRY LATER, please."
   }
 }

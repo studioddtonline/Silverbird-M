@@ -872,5 +872,8 @@
   },
   "ue_twitter_is_now_unable": {
     "message": "Twitterがダウンしています。"
+  },
+  "ue_churn_action": {
+    "message": "あとでやりなおしてください。"
   }
 }

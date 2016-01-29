@@ -15,9 +15,9 @@ Silverbird M is a fork of the Silver Bird.
 
 ### Compatibility ###
 
-It works on Chrome/Chromium distribution channels bellow: Stable, and Beta.
-It does not works on Canary Channel.
-It does not works on any browsers which are using Blink. (ex. Opera)
+It works on Chrome/Chromium distribution channels below: Stable, and Beta.
+It does not work on Canary Channel.
+It does not work on any browsers which are using [Blink](https://www.chromium.org/blink) (eg. Opera).
 
 ### Features ###
 

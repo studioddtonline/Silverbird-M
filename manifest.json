@@ -11,7 +11,32 @@
         "default_popup": "popup.html?popup"
     },
     "background": {
-        "page": "background.html"
+        "scripts": [
+            "lib/3rdparty/jquery-2.1.4.min.js",
+            "lib/3rdparty/oauth.js",
+            "lib/3rdparty/sha1.js",
+            "lib/secret_keys.js",
+            "lib/persistence.js",
+            "lib/twitter_lib.js",
+            "lib/expander.js",
+            "lib/options_backend.js",
+            "lib/stream_listener.js",
+            "lib/timeline_factory.js",
+            "lib/timeline_template.js",
+            "lib/timelines/timeline.js",
+            "lib/timelines/dm_timeline.js",
+            "lib/timelines/likes_timeline.js",
+            "lib/timelines/unified_timeline.js",
+            "lib/timelines/unified_dms_timeline.js",
+            "lib/timelines/multiple_timeline.js",
+            "lib/timelines/lists_timeline.js",
+            "lib/timelines/search_timeline.js",
+            "lib/timelines/notification_timeline.js",
+            "lib/send_queue.js",
+            "lib/shortener_lib.js",
+            "lib/ComposerData.js",
+            "lib/tweet_manager.js"
+        ]
     },
     "permissions": [
         "alarms",

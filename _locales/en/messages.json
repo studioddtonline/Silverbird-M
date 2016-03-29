@@ -764,9 +764,6 @@
   "l_tweet_notificacion": {
     "message": "Notify Tweets"
   },
-  "l_timeline_display": {
-    "message": "Display Timelines"
-  },
   "d_restart_immediately": {
     "message": "Restart immediately"
   },

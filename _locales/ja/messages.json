@@ -764,9 +764,6 @@
   "l_tweet_notificacion": {
     "message": "通知の対象にする"
   },
-  "l_timeline_display": {
-    "message": "タイムラインの表示設定"
-  },
   "d_restart_immediately": {
     "message": "ただちに再起動"
   },

@@ -872,5 +872,8 @@
   },
   "ue_churn_action": {
     "message": "あとでやりなおしてください。"
+  },
+  "ue_already_retweeting": {
+    "message": "すでにリツイートしてあります"
   }
 }

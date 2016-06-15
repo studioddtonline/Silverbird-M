@@ -875,5 +875,8 @@
   },
   "ue_churn_action": {
     "message": "Detecting churn action. RETRY LATER, please."
+  },
+  "ue_already_retweeting": {
+    "message": "You have already retweeted this tweet."
   }
 }

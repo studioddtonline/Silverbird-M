@@ -875,5 +875,8 @@
   },
   "ue_already_retweeting": {
     "message": "すでにリツイートしてあります"
+  },
+  "o_no_shorten": {
+    "message": "短縮しない"
   }
 }

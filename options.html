@@ -11,7 +11,6 @@
   <script src="lib/3rdparty/jquery-2.1.4.min.js"></script>
   <script src="lib/3rdparty/bootstrap.min.js"></script>
   <script src="lib/3rdparty/colorpicker.js"></script>
-  <script src="lib/options/converters.js"></script>
   <script src="lib/options/validator.js"></script>
   <script src="lib/options/options.js"></script>
   <script src="lib/options/page.js"></script>
@@ -213,17 +212,6 @@
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <th class="i18n" id="l_refresh_interval_seconds">Refresh Interval (s) (deprecated)</th>
-          <td>&nbsp;</td>
-          <td><input type="text" class="form-control" name="home_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td><input type="text" class="form-control" name="mentions_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td><input type="text" class="form-control" name="dms_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td><input type="text" class="form-control" name="lists_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td><input type="text" class="form-control" name="search_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td><input type="text" class="form-control" name="likes_refresh_interval" validator="required,number,minRefresh" converter="RefreshInterval"></td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
           <th class="i18n" id="l_timeline_background_color">Timeline Background Color)</th>
           <td>&nbsp;</td>
           <td>
@@ -269,7 +257,7 @@
         <div class="notify_options">
           <div class="row form-group">
             <div class="col-md-8"><label for="notification_fade_timeout" class="i18n" id="l_notification_fade_timeout">Notification Timeout (s)</label></div>
-            <div class="col-md-4"><input type="text" class="form-control" name="notification_fade_timeout" validator="required,number,positive" converter="RefreshInterval" /></div>
+            <div class="col-md-4"><input type="text" class="form-control" name="notification_fade_timeout" validator="required,number,positive" /></div>
           </div>
           <div class="row form-group">
             <div class="col-md-8"><label for="badge_only_for_notification" class="i18n" id="l_badge_only_for_notification">Reply to all mentioned</label></div>

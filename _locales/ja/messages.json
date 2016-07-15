@@ -511,9 +511,6 @@
   "l_visible": {
     "message": "タイムラインを表示する"
   },
-  "l_refresh_interval_seconds": {
-    "message": "更新間隔 (秒) (廃止予定)"
-  },
   "l_refresh_interval_minutes": {
     "message": "更新間隔 (分)"
   },

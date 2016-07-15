@@ -511,9 +511,6 @@
   "l_visible": {
     "message": "Visible"
   },
-  "l_refresh_interval_minutes": {
-    "message": "Refresh Interval (m)"
-  },
   "l_include_in_unified": {
     "message": "Include in unified timeline"
   },

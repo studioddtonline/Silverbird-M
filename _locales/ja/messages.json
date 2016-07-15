@@ -511,9 +511,6 @@
   "l_visible": {
     "message": "タイムラインを表示する"
   },
-  "l_refresh_interval_minutes": {
-    "message": "更新間隔 (分)"
-  },
   "l_include_in_unified": {
     "message": "Unifiedタイムラインに含める"
   },

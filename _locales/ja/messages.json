@@ -657,6 +657,12 @@
   "l_hidden_retweet_info": {
     "message": "リツイート情報を表示しない"
   },
+  "l_hidden_retweet_count": {
+    "message": "リツイート数を表示しない"
+  },
+  "l_hidden_like_count": {
+    "message": "いいねの数を表示しない"
+  },
   "l_hidden_client_name": {
     "message": "クライアント名を表示しない"
   },

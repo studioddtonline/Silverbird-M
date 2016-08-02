@@ -657,6 +657,12 @@
   "l_hidden_retweet_info": {
     "message": "Hidden Retweet Info"
   },
+  "l_hidden_retweet_count": {
+    "message": "Hidden Retweet Counts"
+  },
+  "l_hidden_like_count": {
+    "message": "Hidden Like Counts"
+  },
   "l_hidden_client_name": {
     "message": "Hidden Client Name"
   },

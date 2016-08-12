@@ -102,8 +102,7 @@ input[type='text'] {
 }
 
 .rotate_anime,
-#loading,
-#queue_loading {
+#loading {
   width: 16px;
   height: 16px;
   margin: 0 2px;

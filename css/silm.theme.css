@@ -303,13 +303,13 @@ input[type='text'] {
   border: .2em solid #e5e5e5;
   background-color: #f2f2f2;
   display: flex;
-  align-items: flex-start;
+  flex-flow: row nowrap;
 }
 
 .first_container {
   display: flex;
-  flex-direction: column;
-  flex: 100;
+  flex-flow: column nowrap;
+  flex: 100 1 auto;
 }
 
 .retweets_container {
@@ -319,20 +319,22 @@ input[type='text'] {
   padding: .5em;
   border-bottom: .1em solid #e5e5e5;
   display: flex;
+  flex-flow: row nowrap;
 }
 
 .retweets_container > span {
   margin: 0 .5em 0 0;
-  word-break: keep-all
+  flex: 0 1 content;
 }
 
+.retweets_container > span,
 .retweets_container > span > a {
-  word-break: keep-all
+  word-break: keep-all;
 }
 
 .retweets_container > span.selfRetweet,
 .retweets_container > span.inRetweet {
-  flex: 100;
+  flex: 100 1 auto;
 }
 
 .retweets_container > span.inRetweet img {
@@ -349,10 +351,11 @@ input[type='text'] {
 
 .main_container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
 }
 
 .icon_container {
+  flex: 0 1 max-content;
 }
 
 img.profile.retweeter {
@@ -382,13 +385,13 @@ img.profile.icon_max {
 
 .content_container {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   padding: 0 .5em;
 }
 
 .name_container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .name_container > span,
@@ -420,19 +423,21 @@ img.profile.icon_max {
   text-align: right;
   color: #999;
   display: flex;
+  flex-flow: row wrap-reverse;
 }
 
 .footer_container > span {
   margin: 0 .5em 0 0;
-  word-break: keep-all
+  flex: 0 1 content;
 }
 
+.footer_container > span,
 .footer_container > span > a {
-  word-break: keep-all
+  word-break: keep-all;
 }
 
 .footer_container > span.timestamp {
-  flex: 100;
+  flex: 100 1 auto;
 }
 
 .footer_container > span > span.glyphicon {
@@ -442,12 +447,12 @@ img.profile.icon_max {
 .new_actions {
   margin: 0;
   padding: 0;
-  width: 12px;
+  width: 16px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
-  flex-shrink: 1;
+  flex-flow: column wrap-reverse;
   align-items: flex-start;
+  flex: 0 1 auto;
+  min-width: 16px;
 }
 
 .tweet .new_actions > .new_actions_item {

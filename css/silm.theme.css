@@ -423,7 +423,8 @@ img.profile.icon_max {
   text-align: right;
   color: #999;
   display: flex;
-  flex-flow: row wrap-reverse;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 .footer_container > span {
@@ -438,6 +439,12 @@ img.profile.icon_max {
 
 .footer_container > span.timestamp {
   flex: 100 1 auto;
+}
+
+.footer_container > span.from_app,
+.footer_container > span.from_list {
+  flex: 100 1 min-content;
+  margin-left: auto;
 }
 
 .footer_container > span > span.glyphicon {

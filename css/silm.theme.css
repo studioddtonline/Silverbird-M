@@ -580,6 +580,10 @@ ul.worklist li {
   border-radius: .8em;
 }
 
+.ui-widget-shadow {
+  opacity: 1;
+}
+
 /* override jQuery UI Dialog */
 .ui-dialog .ui-dialog-titlebar-close {
   display: none;

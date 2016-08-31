@@ -12,7 +12,7 @@
     },
     "background": {
         "scripts": [
-            "lib/3rdparty/jquery-2.1.4.min.js",
+            "lib/3rdparty/jquery.min.js",
             "lib/3rdparty/oauth.js",
             "lib/3rdparty/sha1.js",
             "lib/secret_keys.js",

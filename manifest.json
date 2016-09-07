@@ -20,7 +20,7 @@
             "lib/twitter_lib.js",
             "lib/expander.js",
             "lib/options_backend.js",
-            "lib/stream_listener.js",
+            "lib/TwitterRequest.js",
             "lib/timeline_factory.js",
             "lib/timeline_template.js",
             "lib/timelines/timeline.js",

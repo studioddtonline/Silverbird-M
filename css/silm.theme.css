@@ -399,7 +399,7 @@ img.profile.icon_max {
   margin-right: .5em;
 }
 
-.name_container > div.primary_name,
+.name_container > div.primary_name span.user,
 .name_container > div.primary_name a {
   font-weight: 500;
 }

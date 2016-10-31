@@ -21,6 +21,7 @@
             "lib/expander.js",
             "lib/options_backend.js",
             "lib/TwitterRequest.js",
+            "lib/NotificationManager.js",
             "lib/timeline_factory.js",
             "lib/timeline_template.js",
             "lib/timelines/timeline.js",

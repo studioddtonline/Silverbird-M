@@ -7,13 +7,8 @@ div.simple_select {
 }
 
 div.simple_select .label {
-  margin: 1px 2px 1px 2px;
-  padding: 1px 3px 1px 3px;
-  background: linear-gradient(to bottom, #e5e5e5, #f2f2f2 50%, #fefefe);
-  border-radius: 8px;
-  border: 1px solid #555;
+  margin: 1px 2px;
   color: #555;
-  font-size: 12px;
 }
 
 div.simple_select .label img {

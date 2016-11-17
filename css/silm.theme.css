@@ -75,24 +75,28 @@ input[type='text'] {
   min-width: 440px;
 }
 
+.header_links {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 100 1 auto;
+}
+
 .header_link_left,
 .header_link_right {
   display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 auto;
   padding: 6px 0 2px;
 }
 
-.header_link_left {
-  float: left;
+.header_link_right {
+  justify-content: flex-end;
 }
 
 .header_link_left > span,
 .header_link_right > span {
   font-size: 1em;
   margin-right: .5em;
-}
-
-.header_link_right {
-  float: right;
 }
 
 .header_link_right #view_twitter {

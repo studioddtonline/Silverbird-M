@@ -8,7 +8,7 @@
     "browser_action": {
         "default_icon": "img/icon19.png",
         "default_title": "Silverbird M",
-        "default_popup": "popup.html?popup"
+        "default_popup": "popup.html?window=popup"
     },
     "background": {
         "scripts": [

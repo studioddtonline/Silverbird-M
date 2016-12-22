@@ -172,35 +172,30 @@ input[type='text'] {
   border-top: 0px;
 }
 
-#tweetit {
+#attach_media_area {
+  margin: 0;
+  padding: .2em 0;
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 auto;
+}
+
+#tweetit,
+#attach_button {
   width: initial;
   max-width: 6em;
-  margin: .2em 0 .4em;
-  display: inline-flex;
-  vertical-align: middle;
+  margin-right: .2em;
 }
 
-#upload_area {
+#upload_previews {
   margin: 0;
   padding: 0;
-  display: inline-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 100 auto;
 }
 
-#upload_selector {
-  display: inherit;
-  margin: 0;
-  padding: .2em .4em;
-  width: auto;
-  height: initial;
-  background-color: #e2e2e2;
-}
-
-#upload_preview {
-  display: inherit;
-  vertical-align: bottom;
-}
-
-#upload_preview img {
+#upload_previews img {
   width: 24px;
   height: 24px;
   border-radius: .4em;
@@ -215,6 +210,9 @@ input[type='text'] {
   display: none;
 }
 
+#chars_left {
+}
+
 /* #compose_tweet_area */
 
 /* #compose_tweet */
@@ -226,11 +224,6 @@ input[type='text'] {
   border-radius: 5px;
   background-color: #f4f4f4;
   border: 1px solid #c1c1c1;
-}
-
-#chars_left {
-  margin-top: 3px;
-  float: right;
 }
 
 #compose_tweet {

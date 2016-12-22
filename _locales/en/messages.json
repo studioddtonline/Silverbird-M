@@ -16,6 +16,9 @@
   "tweetit": {
     "message": "Tweet it!"
   },
+  "attach_button": {
+    "message": "Attach Image"
+  },
   "signout": {
     "message": "Log out",
     "description": "The text for the logout link"

@@ -16,6 +16,9 @@
   "tweetit": {
     "message": "ツイート"
   },
+  "attach_button": {
+    "message": "画像を追加"
+  },
   "signout": {
     "message": "ログアウト",
     "description": "ログアウトへのリンク"

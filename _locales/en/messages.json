@@ -385,18 +385,6 @@
   "day_plural": {
     "message": "days"
   },
-  "month_singular": {
-    "message": "month"
-  },
-  "month_plural": {
-    "message": "months"
-  },
-  "year_singular": {
-    "message": "year ago"
-  },
-  "year_plural": {
-    "message": "years ago"
-  },
   "options_title": {
     "message": "Silverbird M Options"
   },

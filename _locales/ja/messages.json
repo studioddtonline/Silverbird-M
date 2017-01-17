@@ -385,18 +385,6 @@
   "day_plural": {
     "message": "日"
   },
-  "month_singular": {
-    "message": "ヶ月"
-  },
-  "month_plural": {
-    "message": "ヶ月"
-  },
-  "year_singular": {
-    "message": "年"
-  },
-  "year_plural": {
-    "message": "年"
-  },
   "options_title": {
     "message": "Silverbird M 設定"
   },

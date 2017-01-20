@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,greek,vietnamese,greek-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+* {
+  font-family: 'Noto Sans Japanese', 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI Symbol', 'Apple Color Emoji', Symbola !important;
+  font-style: normal;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 11pt;
+  overflow: hidden;
+}
+
+a {
+  color: #665;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type='text'] {
+  margin: 0;
+  border-radius: .4em;
+  border: .1em solid #ccc;
+  line-height: 1.3;
+}
+
+/* copy from Bootstrap */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('./bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('./bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('./bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('./bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('./bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('./bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-plus:before {
+  content: "\2b";
+}
+.glyphicon-minus:before {
+  content: "\2212";
+}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+.glyphicon-search:before {
+  content: "\e003";
+}
+.glyphicon-heart:before {
+  content: "\e005";
+  color: #E81C4F;
+}
+.glyphicon-heart-empty:before {
+  content: "\e143";
+  color: black;
+}
+.glyphicon-heart-empty:hover:before {
+  color: #E81C4F;
+}
+.glyphicon-ok:before {
+  content: "\e013";
+}
+.glyphicon-remove:before {
+  content: "\e014";
+}
+.glyphicon-cog:before {
+  content: "\e019";
+}
+.glyphicon-trash:before {
+  content: "\e020";
+}
+.glyphicon-repeat:before {
+  content: "\e030";
+}
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+.glyphicon-lock:before {
+  content: "\e033";
+}
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+.glyphicon-check:before {
+  content: "\e067";
+}
+.glyphicon-play:before {
+  content: "\e072";
+}
+.glyphicon-pause:before {
+  content: "\e073";
+}
+.glyphicon-stop:before {
+  content: "\e074";
+}
+.glyphicon-forward:before {
+  content: "\e075";
+}
+.glyphicon-eject:before {
+  content: "\e078";
+}
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+.glyphicon-reply:before {
+  content: "\e095";
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.glyphicon-comment:before {
+  content: "\e111";
+}
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+.glyphicon-link:before {
+  content: "\e144";
+}
+.glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+.glyphicon-trends:before {
+  content: "\e155";
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+.glyphicon-menu-hamburger:before {
+  content: "\e236";
+}
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+.glyphicon-menu-up:before {
+  content: "\e260";
+}

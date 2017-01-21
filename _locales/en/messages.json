@@ -812,9 +812,6 @@
   "quote_tweet_url": {
     "message": "Quote to this tweet"
   },
-  "quote_tweet_url": {
-    "message": "Quote to this tweet"
-  },
   "l_quote_tweet_url": {
     "message": "Quote to this tweet($url$)",
     "placeholders": {

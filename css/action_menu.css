@@ -5,9 +5,9 @@ div.action_menu {
 }
 
 div.action_menu .action_area {
-  display: -webkit-box;
+  display: flex;
   background-color: rgb(0, 153, 219);
-  -webkit-border-radius: 5px;
+  border-radius: 5px;
   white-space: nowrap;
 }
 
@@ -16,7 +16,6 @@ div.action_menu .action_area .second_level_hidden {
 }
 
 div.action_menu .second_level_trigger {
-  -webkit-box-flex: 1;
   font-size: 7pt;
   color: white;
   cursor: pointer;
@@ -81,15 +80,14 @@ div.action_menu.left {
 }
 
 div.action_menu.horizontal .action_area {
-  -webkit-box-orient: horizontal;
+  flex-direction: row;
 }
 
 div.action_menu.vertical .action_area {
-  -webkit-box-orient: vertical;
+  flex-direction: column;
 }
 
 div.action_menu .action {
-  -webkit-box-flex: 1;
   margin: 3px;
 }
 

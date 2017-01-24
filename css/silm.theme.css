@@ -32,7 +32,7 @@
 #warning_dismiss {
   float: right;
   cursor: pointer;
-  background-color: #f4f4f4;
+  background-color: var(--main-bg-color);
   border: .1em solid #999;
   width: 20px;
   border-radius: 20px;
@@ -127,8 +127,8 @@
   margin-left: -51px;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
-  background-color: #e5effe;
-  border: 1px solid #b4cff2;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bd-color);
   border-top: 0px;
   margin-top: -1px;
   text-align: center;
@@ -137,8 +137,8 @@
 }
 
 #shortener_button div:hover {
-  background-color: #f0f5fb;
-  border: 1px solid #c1cddc;
+  background-color: var(--hover-bg-color);
+  border: 1px solid var(--main-bd-color);
   border-top: 0px;
 }
 
@@ -192,8 +192,8 @@
   margin: 0;
   padding: 0;
   border-radius: 5px;
-  background-color: #f4f4f4;
-  border: 1px solid #c1c1c1;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bd-color);
 }
 
 #compose_tweet {
@@ -205,8 +205,8 @@
   cursor: pointer;
   border-radius: 5px;
   color: #555;
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bd-color);
   padding: 3px;
 }
 
@@ -239,7 +239,7 @@
 }
 
 #update_tweets:hover {
-  background-color: #f4f4f4;
+  background-color: var(--main-bg-color);
   color: #555;
 }
 
@@ -268,7 +268,7 @@
 
 .tweet_overlay {
   border: .2em solid #e5e5e5;
-  background-color: #f4f4f4;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-flow: row nowrap;
 }
@@ -313,7 +313,7 @@
 }
 
 .retweets_container > span.action_cancel_retweet:hover {
-  color: black;
+  color: var(--main-font-color);
 }
 
 .main_container {
@@ -558,7 +558,7 @@ ul.worklist li {
 /* override jQuery UI Theme*/
 .ui-widget-header {
   border: none;
-  border-bottom: solid 1px #ccc;
+  border-bottom: solid 1px var(--main-bd-color);
   border-radius: 0;
   background: transparent none;
   line-height: 1.6;
@@ -572,7 +572,7 @@ ul.worklist li {
 
 .ui-state-active,
 .ui-widget-header .ui-state-active {
-  border: solid 1px #ccc;
+  border: solid 1px var(--main-bd-color);
   background: transparent none;
   font-weight: normal;
   color: #555;

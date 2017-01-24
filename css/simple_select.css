@@ -42,13 +42,13 @@ div.simple_select .options_area ul li {
   margin: 0;
   padding: .1em .5em;
   cursor: pointer;
-  color: black;
+  color: var(--main-font-color);
   text-align: center;
 }
 
 div.simple_select .options_area ul li:hover {
   background-color: rgb(232, 232, 232);
-  color: black;
+  color: var(--main-font-color);
 }
 
 div.simple_select ul li.selected {

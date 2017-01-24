@@ -1,16 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,greek,vietnamese,greek-ext,latin-ext,cyrillic);
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
+:root {
+  --main-font-color: #333;
+  --main-bg-color: #f4f4f4;
+  --main-bd-color: #c5c5c5;
+  --hover-bg-color: #ededed;
+}
+
 * {
   font-family: 'Noto Sans Japanese', 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI Symbol', 'Apple Color Emoji', Symbola !important;
   font-style: normal;
   font-weight: 300;
+  color: var(--main-font-color);
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: black;
   font-size: 11pt;
   overflow: hidden;
 }
@@ -27,7 +34,7 @@ a:hover {
 input[type='text'] {
   margin: 0;
   border-radius: .4em;
-  border: .1em solid #ccc;
+  border: .1em solid var(--main-bd-color);
   line-height: 1.3;
 }
 
@@ -68,7 +75,7 @@ input[type='text'] {
 }
 .glyphicon-heart-empty:before {
   content: "\e143";
-  color: black;
+  color: var(--main-font-color);
 }
 .glyphicon-heart-empty:hover:before {
   color: #E81C4F;

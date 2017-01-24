@@ -120,17 +120,14 @@
 }
 
 #shortener_button {
-  left: 50%;
+  left: calc((100% - 150px) / 2);
   position: absolute;
-  width: 100px;
-  padding: 1px;
-  margin-left: -51px;
+  width: 150px;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
   background-color: var(--main-bg-color);
   border: 1px solid var(--main-bd-color);
   border-top: 0px;
-  margin-top: -1px;
   text-align: center;
   cursor: pointer;
   display: none;
@@ -213,6 +210,9 @@
 #compose_tweet:hover {
   background-color: #999;
   border: 1px solid #999;
+}
+
+#compose_tweet:hover * {
   color: #f4f4f4;
 }
 
@@ -490,7 +490,7 @@ div.reply_separator {
   padding: 0;
 }
 
-.ui-tooltip .ui-tooltip-content{
+.ui-tooltip > .ui-tooltip-content > p {
   color: white;
   background-color: black;
   margin: 0;
@@ -502,8 +502,8 @@ div.reply_separator {
   word-break: break-all;
 }
 
-.ui-tooltip img,
-.ui-tooltip video{
+.ui-tooltip > .ui-tooltip-content > img,
+.ui-tooltip > .ui-tooltip-content > video {
   max-width: 200px;
   max-height: 200px;
 }

@@ -207,15 +207,6 @@
   padding: 3px;
 }
 
-#compose_tweet:hover {
-  background-color: #999;
-  border: 1px solid #999;
-}
-
-#compose_tweet:hover * {
-  color: #f4f4f4;
-}
-
 #composeText {
   margin-left: 1em;
 }

@@ -4,6 +4,7 @@
   position: absolute;
   z-index: 999999;
   left: 0;
+  top: 0;
   width: 100%;
   display: none;
 }
@@ -47,21 +48,26 @@
 }
 
 .header_links {
+  margin-top: 26px;
   display: flex;
   flex-flow: row nowrap;
-  flex: 100 1 auto;
+  justify-content: flex-start;
 }
 
 .header_link_left,
 .header_link_right {
+  flex: 1 1 auto; /* flex item from .header_links */
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 1 auto;
   padding: 6px 0 2px;
 }
 
+.header_link_left {
+  justify-content: flex-start; /* flex item from .header_link_left */
+}
+
 .header_link_right {
-  justify-content: flex-end;
+  justify-content: flex-end; /* flex item from .header_link_right */
 }
 
 .header_link_left > span,
@@ -77,7 +83,8 @@
 }
 
 .rotate_anime,
-#loading {
+#loading,
+#uploading {
   width: 16px;
   height: 16px;
   margin: 0 2px;
@@ -85,6 +92,10 @@
   animation: rotate 2s;
   animation-iteration-count: infinite;
   transform-origin: 6.6px 7.4px;
+}
+
+#uploading {
+  margin: 4px 4px 0 0;
 }
 
 @keyframes rotate {
@@ -110,15 +121,22 @@
 
 /* #compose_tweet_area */
 
+#compose_tweet_area {
+  flex: 100 1 auto; /* flex item from silm-composer */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
 #shortener_area {
   margin: 0;
   padding: 0;
   margin-bottom: 2px;
+  flex: 0 1 auto; /* flex item from #compose_tweet_area */
 }
 
 #shortener_area input {
-  width: 100%;
-  z-index: 999;
+  width: calc(100% - 2px);
 }
 
 #shortener_button {
@@ -141,12 +159,18 @@
   border-top: 0px;
 }
 
+#quote_tweet_url {
+  flex: 0 1 auto; /* flex item from #compose_tweet_area */
+  display: none;
+}
+
 #attach_media_area {
-  margin: 0;
-  padding: .2em 0;
+  margin: 2px 0;
+  padding: 0;
+  flex: 0 1 auto; /* flex item from #compose_tweet_area */
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 1 auto;
+  justify-content: flex-start;
 }
 
 #tweetit,
@@ -154,14 +178,15 @@
   width: initial;
   max-width: 6em;
   margin-right: .2em;
+  flex: 0 1 auto; /* flex item from #attach_media_area */
 }
 
 #upload_previews {
   margin: 0;
   padding: 0;
+  flex: 100 1 auto; /* flex item from #attach_media_area */
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 100 auto;
 }
 
 #upload_previews img {
@@ -169,51 +194,28 @@
   height: 24px;
   border-radius: .4em;
   margin: 0 .4em;
+  flex: 0 1 auto; /* flex item from #upload_previews */
 }
 
 #image_input {
   display: none;
 }
 
-#quote_tweet_url {
-  display: none;
+#chars_left {
+  flex: 0 1 auto; /* flex item from #attach_media_area */
 }
 
-#chars_left {
+#tweet_text {
+  flex: 100 1 auto; /* flex item from #compose_tweet_area */
+  width: calc(100% - 2px);
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bd-color);
 }
 
 /* #compose_tweet_area */
-
-/* #compose_tweet */
-
-#tweet_text {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  background-color: var(--main-bg-color);
-  border: 1px solid var(--main-bd-color);
-}
-
-#compose_tweet {
-  font-size: 9pt;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 5px;
-  color: #555;
-  background-color: var(--main-bg-color);
-  border: 1px solid var(--main-bd-color);
-  padding: 3px;
-}
-
-#composeText {
-  margin-left: 1em;
-}
-
-/* #compose_tweet */
 
 /* #update_tweets */
 
@@ -450,7 +452,7 @@ div.reply_separator {
   width: 20px;
   height: 20px;
   text-align: center;
-  z-index: 99999;
+  z-index: 10000;
 }
 
 /* override jQuery UI Structre*/
@@ -473,6 +475,10 @@ div.reply_separator {
   padding: .2em .3em .1em;
   float: initial;
   display: block;
+}
+
+.ui-front {
+  z-index: 20000;
 }
 
 /* override jQuery UI Tooltip */

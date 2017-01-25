@@ -20,6 +20,7 @@
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
 <script src="lib/popup/work_list.js"></script>
+<script src="lib/popup/SilMComposer.js"></script>
 <script src="lib/popup/composer.js"></script>
 <script src="lib/popup/shortener.js"></script>
 <script src="lib/popup/renderer.js"></script>
@@ -33,38 +34,6 @@
 </head>
 <body>
 <div id="workspace" style="display: none;">
-  <div id="absolute_container">
-    <div id="warning">
-      <div id="warning_image"><img src="img/warning.png" /></div>
-      <div id="warning_dismiss">X</div>
-      <div id="warning_content"></div>
-      <div style="clear: both;"></div>
-    </div>
-  </div>
-
-  <div id="compose_tweet_area" style="display: none;">
-    <textarea rows="4" id="tweet_text"></textarea>
-    <div id="quote_tweet_url">
-      <span class="glyphicon glyphicon-remove-circle" id="quote_tweet_dismiss"></span>
-      <span id="quote_tweet_text" class="i18n" title="Quote to this tweet"></span>
-    </div>
-    <div id="shortener_area">
-      <input type="text" name="shortener_text" id="shortener_text">
-      <div id="shortener_button"><span id="shortenIt" class="i18n"></span></div>
-    </div>
-    <div id="attach_media_area">
-      <input id="tweetit" class="i18n" type="button" value="Tweet!" />
-      <input id="attach_button" class="i18n" type="button" value="Attach" />
-      <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
-      <span id="upload_previews">
-      </span>
-      <span id="chars_left"></span>
-    </div>
-  </div>
-  <div id="compose_tweet">
-    <span class="glyphicon glyphicon-menu-down"></span><span id="composeText" class="i18n"></span>
-  </div>
-
   <div class="header_links">
     <div class="header_link_left">
       <span id="signout" class="i18n glyphicon glyphicon-log-out" title="signout"></span>
@@ -84,6 +53,37 @@
 
   <div id="update_tweets"></div>
   <div id="tabs"><ul></ul></div>
+
+  <silm-composer>
+    <div id="compose_tweet_area">
+      <textarea rows="4" id="tweet_text"></textarea>
+      <div id="quote_tweet_url">
+        <span class="glyphicon glyphicon-remove-circle" id="quote_tweet_dismiss"></span>
+        <span id="quote_tweet_text" class="i18n" title="Quote to this tweet"></span>
+      </div>
+      <div id="shortener_area">
+        <input type="text" name="shortener_text" id="shortener_text">
+        <div id="shortener_button"><span id="shortenIt" class="i18n"></span></div>
+      </div>
+      <div id="attach_media_area">
+        <input id="tweetit" class="i18n" type="button" value="Tweet!" />
+        <input id="attach_button" class="i18n" type="button" value="Attach" />
+        <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
+        <span id="upload_previews">
+        </span>
+        <span id="uploading" class="glyphicon glyphicon-repeat"></span><span id="chars_left"></span>
+      </div>
+    </div>
+  </silm-composer>
+
+  <div id="absolute_container">
+    <div id="warning">
+      <div id="warning_image"><img src="img/warning.png" /></div>
+      <div id="warning_dismiss">X</div>
+      <div id="warning_content"></div>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
 </div>
 
 <ul id="tab_context_menu" class="contextMenu"></ul>

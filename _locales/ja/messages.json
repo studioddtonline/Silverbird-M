@@ -544,7 +544,7 @@
   "btn_default_text": {
     "message": "初期化"
   },
-  "shortenIt": {
+  "shortener_button": {
     "message": "URLを短くする"
   },
   "tweet_send_error": {

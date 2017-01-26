@@ -128,37 +128,6 @@
   justify-content: flex-start;
 }
 
-#shortener_area {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 2px;
-  flex: 0 1 auto; /* flex item from #compose_tweet_area */
-}
-
-#shortener_area input {
-  width: calc(100% - 2px);
-}
-
-#shortener_button {
-  left: calc((100% - 150px) / 2);
-  position: absolute;
-  width: 150px;
-  border-bottom-left-radius: 5px 5px;
-  border-bottom-right-radius: 5px 5px;
-  background-color: var(--main-bg-color);
-  border: 1px solid var(--main-bd-color);
-  border-top: 0px;
-  text-align: center;
-  cursor: pointer;
-  display: none;
-}
-
-#shortener_button div:hover {
-  background-color: var(--hover-bg-color);
-  border: 1px solid var(--main-bd-color);
-  border-top: 0px;
-}
-
 #quote_tweet_url {
   flex: 0 1 auto; /* flex item from #compose_tweet_area */
   display: none;

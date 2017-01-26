@@ -544,7 +544,7 @@
   "btn_default_text": {
     "message": "Reset to default"
   },
-  "shortenIt": {
+  "shortener_button": {
     "message": "Shorten it!"
   },
   "tweet_send_error": {

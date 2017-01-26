@@ -20,9 +20,9 @@
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
 <script src="lib/popup/work_list.js"></script>
+<script src="lib/popup/SilMShortener.js"></script>
 <script src="lib/popup/SilMComposer.js"></script>
 <script src="lib/popup/composer.js"></script>
-<script src="lib/popup/shortener.js"></script>
 <script src="lib/popup/renderer.js"></script>
 <script src="lib/popup/lists.js"></script>
 <script src="lib/popup/context_menu.js"></script>
@@ -61,10 +61,7 @@
         <span class="glyphicon glyphicon-remove-circle" id="quote_tweet_dismiss"></span>
         <span id="quote_tweet_text" class="i18n" title="Quote to this tweet"></span>
       </div>
-      <div id="shortener_area">
-        <input type="text" name="shortener_text" id="shortener_text">
-        <div id="shortener_button"><span id="shortenIt" class="i18n"></span></div>
-      </div>
+      <silm-shortener></silm-shortener>
       <div id="attach_media_area">
         <input id="tweetit" class="i18n" type="button" value="Tweet!" />
         <input id="attach_button" class="i18n" type="button" value="Attach" />

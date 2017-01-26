@@ -481,22 +481,33 @@ div.reply_separator {
   padding: 0;
 }
 
+.ui-tooltip > .ui-tooltip-content {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ui-tooltip > .ui-tooltip-content,
 .ui-tooltip > .ui-tooltip-content > p {
   color: white;
-  background-color: black;
-  margin: 0;
+  word-break: break-all;
+}
+
+.ui-tooltip > .ui-tooltip-content > p {
   padding: 5px;
   min-width: 50px;
-  max-width: 300px;
   min-height: 1em;
-  max-height: 300px;
-  word-break: break-all;
+  max-width: 300px;
+  max-height: 2em;
 }
 
 .ui-tooltip > .ui-tooltip-content > img,
 .ui-tooltip > .ui-tooltip-content > video {
-  max-width: 200px;
+  min-width: 100px;
+  min-height: 50px;
+  max-width: 300px;
   max-height: 200px;
+  margin-bottom: -5px; /* magic 5px */
 }
 
 .ui-widget-shadow {

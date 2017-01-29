@@ -42,6 +42,8 @@
 #workspace {
   margin: 0 4px 0 4px;
   min-width: 440px;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .header_links {
@@ -237,7 +239,7 @@
 /* #update_tweets */
 
 #tabs {
-  clear: both;
+  flex: 100 0 auto; /* flex item from #workspace */
 }
 
 #tabs .timeline_tab input.search_selector {

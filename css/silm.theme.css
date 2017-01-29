@@ -1,45 +1,5 @@
 @import "./silm_reset.css";
 
-#absolute_container {
-  position: absolute;
-  z-index: 999999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  display: none;
-}
-
-#warning {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 4px;
-  display: table;
-  background-color: #e5effe;
-  border: 2px solid #b4cff2;
-  border-top: 0;
-}
-
-#warning_image {
-  display: table-cell;
-  vertical-align: middle;
-  width: 32px;
-}
-
-#warning_content {
-  margin-left: 5px;
-}
-
-#warning_dismiss {
-  float: right;
-  cursor: pointer;
-  background-color: var(--main-bg-color);
-  border: .1em solid #999;
-  width: 20px;
-  border-radius: 20px;
-  text-align: center;
-}
-
 #workspace {
   margin: 0 4px 0 4px;
   min-width: 440px;

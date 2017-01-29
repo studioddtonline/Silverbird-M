@@ -20,6 +20,7 @@
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
 <script src="lib/popup/work_list.js"></script>
+<script src="lib/popup/SilMSnackbar.js"></script>
 <script src="lib/popup/SilMShortener.js"></script>
 <script src="lib/popup/SilMComposer.js"></script>
 <script src="lib/popup/composer.js"></script>
@@ -73,14 +74,7 @@
     </div>
   </silm-composer>
 
-  <div id="absolute_container">
-    <div id="warning">
-      <div id="warning_image"><img src="img/warning.png" /></div>
-      <div id="warning_dismiss">X</div>
-      <div id="warning_content"></div>
-      <div style="clear: both;"></div>
-    </div>
-  </div>
+  <silm-snackbar class="info"></silm-snackbar>
 </div>
 
 <ul id="tab_context_menu" class="contextMenu"></ul>

@@ -6,10 +6,12 @@
   --main-bg-color: #f4f4f4;
   --main-bd-color: #c5c5c5;
   --hover-bg-color: #ededed;
+  --silm-main-fonts: "Noto Sans Japanese", "Roboto", Helvetica, Arial, sans-serif;
+  --silm-emoji-fonts: "Noto Color Emoji", "Segoe UI Emoji", "Apple Color Emoji", "Noto Emoji", "Segoe UI Symbol", Symbola;
 }
 
 * {
-  font-family: 'Noto Sans Japanese', 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI Symbol', 'Apple Color Emoji', Symbola !important;
+  font-family: var(--silm-main-fonts), var(--silm-emoji-fonts) !important;
   font-style: normal;
   font-weight: 300;
   color: var(--main-font-color);

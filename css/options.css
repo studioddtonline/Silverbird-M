@@ -1,10 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,greek,vietnamese,greek-ext,latin-ext,cyrillic);
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-
-* {
-  font-family: 'Noto Sans Japanese', 'Roboto', sans-serif;
-  font-weight: 300;
-}
+@import "./silm_reset.css";
 
 @media screen and (max-width: 991px) {
   body {
@@ -29,6 +23,7 @@
 body {
   margin: 0px;
   background-color: white;
+  overflow: auto;
 }
 
 .color_selector {

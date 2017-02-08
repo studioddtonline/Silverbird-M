@@ -430,9 +430,6 @@
   "o_extra_large": {
     "message": "Extra Large"
   },
-  "l_font_family": {
-    "message": "Font Family (deprecated)"
-  },
   "l_show_expanded_urls": {
     "message": "Expand shortened URLs"
   },

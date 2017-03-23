@@ -2,16 +2,18 @@
 
 ### What is it? ###
 
-Silverbird M is a general purpose Chrome/Chromium Twitter extension.  
+Silverbird M is a general purpose Chrome/Chromium Twitter extension.
 Silverbird M is a fork of the Silver Bird.
 
 ### Installing ###
 
 1. Get it at the [Download it directly from GitHub](https://github.com/studioddtonline/Silverbird-M)
-2. Get your own Twitter API ConsumerKey and ConsumerSecret.
-3. Fill gap of lib/secret_keys_stub.js, and rename to lib/secret_keys.js
-4. Enable Chrome/Chromium Extensions Developer Mode
-5. Load unpacked extension
+2. Run "npm install"
+3. Get your own Twitter API ConsumerKey and ConsumerSecret.
+4. Fill gap of "./src/lib/secret_keys_stub.js", and rename to "./src/lib/secret_keys.js"
+5. Run "npm run build"
+6. Enable Chrome/Chromium Extensions Developer Mode
+7. Load unpacked extension from "./dist"
 
 ### Compatibility ###
 

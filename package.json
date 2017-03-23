@@ -1,0 +1,33 @@
+{
+  "name": "silverbird_m",
+  "title": "Silverbird M",
+  "version": "1.0.0",
+  "description": "Silverbird M is a fork of Silver Bird.",
+  "scripts": {
+    "build": "npm run build:js && npm run build:css && npm run build:assets && npm run build:bootstrap",
+    "build:assets": "sh ./tools/copy_assets.sh",
+    "build:bootstrap": "sh ./tools/copy_bootstrap.sh",
+    "build:css": "sh ./tools/copy_css.sh",
+    "build:js": "sh ./tools/copy_js.sh",
+    "clean": "rimraf ./dist && mkdirp ./dist",
+    "prebuild": "npm run clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioddtonline/Silverbird-M.git"
+  },
+  "author": "TAKAHASHI Mirai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studioddtonline/Silverbird-M/issues"
+  },
+  "homepage": "https://github.com/studioddtonline/Silverbird-M",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

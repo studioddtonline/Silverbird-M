@@ -20,6 +20,7 @@
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
 <script src="lib/popup/work_list.js"></script>
+<script src="lib/popup/SilMLoadingIcon.js"></script>
 <script src="lib/popup/SilMSnackbar.js"></script>
 <script src="lib/popup/SilMShortener.js"></script>
 <script src="lib/popup/SilMComposer.js"></script>
@@ -44,7 +45,7 @@
       <span id="saved_searches" class="i18n glyphicon glyphicon-search" title="saved searches"></span>
     </div>
     <div class="header_link_right">
-      <span id="loading" class="i18n glyphicon glyphicon-repeat"></span>
+      <silm-loadingicon></silm-loadingicon>
       <span id="suspend_status" class="i18n glyphicon glyphicon-stop" title="Click to Resume"></span>
       <span id="stream_status" class="i18n glyphicon glyphicon-pause" title="Connect UserStream"></span>
       <span id="detach_window" class="i18n glyphicon glyphicon-eject" title="Detach window"></span>
@@ -69,7 +70,7 @@
         <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
         <span id="upload_previews">
         </span>
-        <span id="uploading" class="glyphicon glyphicon-repeat"></span><span id="chars_left"></span>
+        <silm-loadingicon></silm-loadingicon><span id="chars_left"></span>
       </div>
     </div>
   </silm-composer>

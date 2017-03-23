@@ -42,25 +42,8 @@
   margin: 0 2px;
 }
 
-.rotate_anime,
-#loading,
-#uploading {
-  width: 16px;
-  height: 16px;
-  margin: 0 2px;
-  display: none;
-  animation: rotate 2s;
-  animation-iteration-count: infinite;
-  transform-origin: 6.6px 7.4px;
-}
-
-#uploading {
-  margin: 4px 4px 0 0;
-}
-
-@keyframes rotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.header_link_right silm-loadingicon {
+  margin: 1px 8px 2px 0;
 }
 
 .timeline div.ui-resizable-se {
@@ -100,6 +83,11 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+}
+
+#attach_media_area silm-loadingicon {
+  margin: 4px 4px 0 0;
+  flex: 0 1 auto; /* flex item from #compose_tweet_area */
 }
 
 #tweetit,

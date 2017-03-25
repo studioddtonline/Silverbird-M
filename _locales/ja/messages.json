@@ -817,6 +817,14 @@
       }
     }
   },
+  "l_reply_target_url": {
+    "message": "このツイート($url$)にリプライ",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
   "expand_quote_tweet": {
     "message": "引用ツイートを展開"
   },

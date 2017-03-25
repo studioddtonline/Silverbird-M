@@ -817,6 +817,14 @@
       }
     }
   },
+  "l_reply_target_url": {
+    "message": "Reply to this tweet($url$)",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
   "expand_quote_tweet": {
     "message": "Expand the quote tweet"
   },

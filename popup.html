@@ -20,6 +20,8 @@
 <script src="lib/popup/paginator.js"></script>
 <script src="lib/popup/theme_manager.js"></script>
 <script src="lib/popup/work_list.js"></script>
+<script src="lib/popup/SilMTextWithDismiss.js"></script>
+<script src="lib/popup/SilMQuoteTweetURL.js"></script>
 <script src="lib/popup/SilMLoadingIcon.js"></script>
 <script src="lib/popup/SilMSnackbar.js"></script>
 <script src="lib/popup/SilMShortener.js"></script>
@@ -59,10 +61,7 @@
   <silm-composer>
     <div id="compose_tweet_area">
       <textarea rows="4" id="tweet_text"></textarea>
-      <div id="quote_tweet_url">
-        <span class="glyphicon glyphicon-remove-circle" id="quote_tweet_dismiss"></span>
-        <span id="quote_tweet_text" class="i18n" title="Quote to this tweet"></span>
-      </div>
+      <silm-quotetweeturl id="quote_tweet_url"></silm-quotetweeturl>
       <silm-shortener></silm-shortener>
       <div id="attach_media_area">
         <input id="tweetit" class="i18n" type="button" value="Tweet!" />

@@ -71,11 +71,6 @@
   justify-content: flex-start;
 }
 
-#quote_tweet_url {
-  flex: 0 1 auto; /* flex item from #compose_tweet_area */
-  display: none;
-}
-
 #attach_media_area {
   margin: 2px 0;
   padding: 0;

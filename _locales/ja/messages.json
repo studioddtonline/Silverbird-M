@@ -154,9 +154,6 @@
   "Retweet": {
     "message": "リツイート"
   },
-  "retweetConfirm": {
-    "message": "このメッセージをリツイートしますか: "
-  },
   "deleteRT": {
     "message": "リツイート取り消し"
   },
@@ -874,5 +871,8 @@
   },
   "o_no_shorten": {
     "message": "短縮しない"
+  },
+  "n_done_retweet": {
+    "message": "リツイートしました。"
   }
 }

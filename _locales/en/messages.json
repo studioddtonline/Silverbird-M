@@ -154,9 +154,6 @@
   "Retweet": {
     "message": "Retweet"
   },
-  "retweetConfirm": {
-    "message": "Retweet this message: "
-  },
   "deleteRT": {
     "message": "Undo Retweet"
   },
@@ -874,6 +871,8 @@
   },
   "o_no_shorten": {
     "message": "No Shorten"
+  },
+  "n_done_retweet": {
+    "message": "Retweeted."
   }
-  
 }

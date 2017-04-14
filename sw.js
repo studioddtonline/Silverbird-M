@@ -1,9 +1,5 @@
-const SilM_WorkerVersion = 1;
+const SilM_WorkerVersion = 2;
 const SilM_CacheName = `SilverbirdM_Cache_Version${SilM_WorkerVersion}`;
-const SilM_CachePath = [
-  "fonts.googleapis.com",
-  "fonts.gstatic.com"
-];
 
 self.addEventListener("install", (event) => {
   //console.info(`sw:install: %o`, event);
@@ -32,31 +28,29 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const url = event.request.url;
-  if(url.includes("chrome-extension://")) {
+  if(url.includes("chrome-extension://")
+  || url.includes(".twitter.com")
+  || event.request.method !== "GET") {
     return;
   }
-  if(SilM_CachePath.reduce((prev, current, index, array) => {
-    return url.includes(current) || prev;
-  }, false)) {
-    event.respondWith(
-      caches.open(SilM_CacheName).then((cache) => {
-        return cache.match(event.request).then((response) => {
-          if(response) {
+  event.respondWith(
+    caches.open(SilM_CacheName).then((cache) => {
+      return cache.match(event.request).then((response) => {
+        if(response) {
+          return response;
+        } else {
+          return fetch(event.request.clone()).then((response) => {
+            if(response.ok) {
+              cache.put(event.request, response.clone());
+            }
             return response;
-          } else {
-            return fetch(event.request.clone()).then((response) => {
-              if(response.ok) {
-                cache.put(event.request, response.clone());
-              }
-              return response;
-            });
-          }
-        });
-      }).catch((e) => {
-        console.warn(`sw:fetch: respondWith: %o`, e);
-      })
-    )
-  }
+          });
+        }
+      });
+    }).catch((e) => {
+      console.warn(`sw:fetch: respondWith: %o`, e);
+    })
+  )
   //console.info(`sw:fetch: %o`, event);
 });
 

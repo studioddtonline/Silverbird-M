@@ -59,8 +59,21 @@ self.addEventListener("message", (event) => {
     return;
   }
   switch(true) {
+    case event.data.request === "preload" && !!event.data.url:
+      doPreload(event.data.url);
+      break;
     default:
       console.info(`sw:message: %o`, event);
       break;
   }
 });
+
+async function doPreload(url) {
+  try {
+    const cache = await caches.open(SilM_CacheName);
+    cache.add(new URL(url));
+    return `cached: ${url}`;
+  } catch(e) {
+    return e;
+  }
+}

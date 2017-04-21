@@ -36,7 +36,7 @@ a:hover {
 input[type='text'] {
   margin: 0;
   border-radius: .4em;
-  border: .1em solid var(--main-bd-color);
+  border: 1px solid var(--main-bd-color);
   line-height: 1.3;
 }
 

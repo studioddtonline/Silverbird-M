@@ -1,7 +1,18 @@
 div.action_menu {
   position: absolute;
+  transition-property: opacity, z-index;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+div.action_menu.show {
+  transition-property: opacity, z-index;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
   z-index: 999999;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 div.action_menu .action_area {
@@ -16,7 +27,6 @@ div.action_menu .action_area .second_level_hidden {
 }
 
 div.action_menu .second_level_trigger {
-  font-size: 7pt;
   color: white;
   cursor: pointer;
   text-align: center;

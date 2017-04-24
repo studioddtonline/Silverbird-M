@@ -93,8 +93,16 @@ div.action_menu.horizontal .action_area {
   flex-direction: row;
 }
 
+div.action_menu.horizontal .action_area.inverted {
+  flex-direction: row-reverse;
+}
+
 div.action_menu.vertical .action_area {
   flex-direction: column;
+}
+
+div.action_menu.vertical .action_area.inverted {
+  flex-direction: column-reverse;
 }
 
 div.action_menu .action {

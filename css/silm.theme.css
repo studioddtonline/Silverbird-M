@@ -169,6 +169,14 @@
 .tweet_space {
 }
 
+.blindOut {
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+}
+
 .tweet {
   margin: .2em .1em;
 }
@@ -352,25 +360,6 @@ img.profile.icon_max {
 
 .tweet .new_actions > span.glyphicon-heart {
   display: inline-block;
-}
-
-div.reply_separator {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  margin-top: -13px;
-  margin-left: 13px; /* Half of the padding used for the actions */
-  border: solid .2em #999;
-  border-radius: 20px;
-  padding: 0;
-  background-color: white;
-  color: #999;
-  font-weight: 600;
-  cursor: pointer;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  z-index: 10000;
 }
 
 /* override jQuery UI Structre*/

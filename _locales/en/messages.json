@@ -874,5 +874,11 @@
   },
   "n_done_retweet": {
     "message": "Retweeted."
+  },
+  "n_blocked_user": {
+    "message": "tweet from blocked user"
+  },
+  "n_muting_user": {
+    "message": "tweet from muting user"
   }
 }

@@ -874,5 +874,11 @@
   },
   "n_done_retweet": {
     "message": "リツイートしました。"
+  },
+  "n_blocked_user": {
+    "message": "ブロック済みユーザのツイートです。"
+  },
+  "n_muting_user": {
+    "message": "ミュート中ユーザのツイートです。"
   }
 }

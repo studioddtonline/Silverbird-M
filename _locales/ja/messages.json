@@ -880,5 +880,8 @@
   },
   "n_muting_user": {
     "message": "ミュート中ユーザのツイートです。"
+  },
+  "unblock_action": {
+    "message": "ブロックを解除する"
   }
 }

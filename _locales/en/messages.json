@@ -880,5 +880,8 @@
   },
   "n_muting_user": {
     "message": "tweet from muting user"
+  },
+  "unblock_action": {
+    "message": "unblock user"
   }
 }

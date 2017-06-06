@@ -14,9 +14,28 @@
   justify-content: flex-start;
 }
 
+.header_links > div#update_tweets {
+  flex: 10 0 auto; /* flex item from .header_links */
+  display: none;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+  margin: 3px 0;
+  cursor: pointer;
+  border: solid 1px #999;
+  border-radius: .4em;
+  background-color: #999;
+  color: #f4f4f4;
+}
+
+.header_links > div#update_tweets:hover {
+  background-color: var(--main-bg-color);
+  color: #555;
+}
+
 .header_link_left,
 .header_link_right {
-  flex: 1 1 auto; /* flex item from .header_links */
+  flex: 1 10 auto; /* flex item from .header_links */
   display: flex;
   flex-flow: row nowrap;
   padding: 6px 0 2px;
@@ -128,29 +147,6 @@
 }
 
 /* #compose_tweet_area */
-
-/* #update_tweets */
-
-#update_tweets {
-  display: none;
-  font-size: 9pt;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 3px;
-  cursor: pointer;
-  clear: both;
-  border: solid 1px #999;
-  border-radius: .4em;
-  background-color: #999;
-  color: #f4f4f4;
-}
-
-#update_tweets:hover {
-  background-color: var(--main-bg-color);
-  color: #555;
-}
-
-/* #update_tweets */
 
 #tabs {
   flex: 100 0 auto; /* flex item from #workspace */

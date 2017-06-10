@@ -14,25 +14,6 @@
   justify-content: flex-start;
 }
 
-.header_links > div#update_tweets {
-  flex: 10 0 auto; /* flex item from .header_links */
-  display: none;
-  font-size: 9pt;
-  font-weight: bold;
-  text-align: center;
-  margin: 3px 0;
-  cursor: pointer;
-  border: solid 1px #999;
-  border-radius: .4em;
-  background-color: #999;
-  color: #f4f4f4;
-}
-
-.header_links > div#update_tweets:hover {
-  background-color: var(--main-bg-color);
-  color: #555;
-}
-
 .header_link_left,
 .header_link_right {
   flex: 1 10 auto; /* flex item from .header_links */

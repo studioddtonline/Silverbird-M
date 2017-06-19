@@ -183,7 +183,7 @@
 
 .retweets_container > span {
   margin: 0 .5em 0 0;
-  flex: 0 1 content;
+  flex: 0 1 auto;
 }
 
 .retweets_container > span,
@@ -194,9 +194,12 @@
 .retweets_container > span.selfRetweet,
 .retweets_container > span.inRetweet {
   flex: 100 1 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
-.retweets_container > span.inRetweet img {
+.retweets_container > span.inRetweet silm-usericon {
   margin: .1em .5em -0.2em 0;
 }
 
@@ -216,31 +219,6 @@
 
 .icon_container {
   flex: 0 1 max-content;
-}
-
-img.profile.retweeter {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-img.profile.icon_small {
-  width: 24px;
-  height: 24px;
-}
-
-img.profile.icon_normal {
-  width: 48px;
-  height: 48px;
-}
-
-img.profile.icon_large {
-  width: 73px;
-  height: 73px;
-}
-
-img.profile.icon_max {
-  width: 128px;
-  height: 128px;
 }
 
 .content_container {

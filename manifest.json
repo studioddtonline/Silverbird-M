@@ -36,6 +36,7 @@
             "lib/send_queue.js",
             "lib/shortener_lib.js",
             "lib/ComposerData.js",
+            "lib/DummyTweet.js",
             "lib/tweet_manager.js"
         ]
     },

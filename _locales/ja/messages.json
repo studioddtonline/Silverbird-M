@@ -749,14 +749,11 @@
   "d_restart_immediately": {
     "message": "ただちに再起動"
   },
-  "stream_status": {
-    "message": "UserStreamに接続する"
-  },
   "stream_disconnected": {
-    "message": "UserStreamに接続する"
+    "message": "UserStream切断済み"
   },
   "stream_connected": {
-    "message": "UserStreamから切断する"
+    "message": "UserStream接続中"
   },
   "worldwide": {
     "message": "ワールドワイド"

@@ -31,14 +31,11 @@
     "message": "リロード",
     "description": "再読み込みへのリンク"
   },
-  "suspend_status": {
-    "message": "クリックで更新再開"
-  },
   "timeline_running": {
-    "message": "クリックで更新停止"
+    "message": "タイムライン稼働中"
   },
   "timeline_suspended": {
-    "message": "クリックで更新再開"
+    "message": "タイムライン停止中"
   },
   "remove_tab": {
     "message": "このタブを削除"

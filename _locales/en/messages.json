@@ -31,14 +31,11 @@
     "message": "Refresh",
     "description": "Refresh link"
   },
-  "suspend_status": {
-    "message": "Click to Resume"
-  },
   "timeline_running": {
-    "message": "Click to Suspend"
+    "message": "Timeline is running"
   },
   "timeline_suspended": {
-    "message": "Click to Resume"
+    "message": "Timeline is suspended"
   },
   "remove_tab": {
     "message": "Remove This Tab"

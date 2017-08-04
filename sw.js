@@ -71,7 +71,7 @@ self.addEventListener("message", (event) => {
 async function doPreload(url) {
   try {
     const cache = await caches.open(SilM_CacheName);
-    cache.add(new URL(url));
+    await cache.add(new URL(url));
     return `cached: ${url}`;
   } catch(e) {
     return e;

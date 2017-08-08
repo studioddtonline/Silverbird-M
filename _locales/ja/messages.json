@@ -606,7 +606,7 @@
   "updateLists": {
     "message": "リスト更新"
   },
-  "view_twitter": {
+  "twitter_link": {
     "message": "Twitterで見る"
   },
   "l_use_keyboard_shortcuts": {

@@ -37,6 +37,13 @@ div.checkerboard {
   background-image: url(../img/checkerboard.png);
 }
 
-nav button {
-  margin: inherit 5px auto auto;
+nav button#btn_save,
+nav button#btn_reset {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+nav button:not(:last-child) {
+  margin-right: 5px;
 }

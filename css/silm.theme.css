@@ -8,42 +8,45 @@
 }
 
 .header_links {
-  margin-top: 26px;
+  margin: 30px 0 4px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
 }
 
 .header_link_left,
 .header_link_right {
-  flex: 1 10 auto; /* flex item from .header_links */
+  flex: 0 1 auto; /* flex item from .header_links */
   display: flex;
   flex-flow: row nowrap;
-  padding: 6px 0 2px;
+  align-items: center;
 }
 
 .header_link_left {
-  justify-content: flex-start; /* flex item from .header_link_left */
+  justify-content: flex-start;
 }
 
 .header_link_right {
-  justify-content: flex-end; /* flex item from .header_link_right */
+  justify-content: flex-end;
 }
 
 .header_link_left > span,
 .header_link_right > span {
-  font-size: 1em;
-  margin-right: .5em;
+  font-size: 16px;
 }
 
-.header_link_right #view_twitter {
+.header_link_left > span {
+  margin-right: .2em;
+  cursor: pointer;
+}
+
+.header_link_left #twitter_link {
   width: 16px;
   height: 16px;
-  margin: 0 2px;
+  background-image: url("../img/twitter-bird-16x16.png");
 }
 
-.header_link_right silm-loadingicon {
-  margin: 1px 8px 2px 0;
+.header_link_right > * {
+  margin-left: .2em;
 }
 
 .timeline div.ui-resizable-se {
@@ -65,7 +68,7 @@
 /* #compose_tweet_area */
 
 #compose_tweet_area {
-  flex: 100 1 auto; /* flex item from silm-composer */
+  flex: 10 1 auto; /* flex item from silm-composer */
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -78,35 +81,52 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+  align-items: center;
 }
 
-#attach_media_area silm-loadingicon {
-  margin: 4px 4px 0 0;
-  flex: 0 1 auto; /* flex item from #compose_tweet_area */
+#attach_media_area > *:not(:last-child) {
+  margin-right: 5px;
 }
 
 #tweetit,
 #attach_button {
-  width: initial;
-  max-width: 6em;
-  margin-right: .2em;
+  cursor: pointer;
   flex: 0 1 auto; /* flex item from #attach_media_area */
+  height: 26px;
+  border-radius: 13px;
+  border: 1px solid var(--main-bd-color);
+  transition-property: opacity;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+  opacity: 1;
+  outline: none;
+}
+
+#tweetit.disabled,
+#attach_button.disabled {
+  cursor: not-allowed;
+  transition-property: opacity;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+  opacity: .3;
 }
 
 #upload_previews {
   margin: 0;
   padding: 0;
-  flex: 100 1 auto; /* flex item from #attach_media_area */
+  flex: 10 1 auto; /* flex item from #attach_media_area */
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
 }
 
-#upload_previews img {
+#upload_previews silm-uploadedthumbnail {
   width: 24px;
   height: 24px;
   border-radius: .4em;
   margin: 0 .4em;
   flex: 0 1 auto; /* flex item from #upload_previews */
+  outline: none;
 }
 
 #image_input {
@@ -125,6 +145,7 @@
   border-radius: 5px;
   background-color: var(--main-bg-color);
   border: 1px solid var(--main-bd-color);
+  outline: none;
 }
 
 /* #compose_tweet_area */
@@ -179,6 +200,7 @@
   border-bottom: .1em solid #e5e5e5;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
 }
 
 .retweets_container > span {
@@ -203,7 +225,7 @@
   margin: .1em .5em -0.2em 0;
 }
 
-.retweets_container > span.glyphicon {
+.retweets_container > span.material-icons {
   margin: .2em .5em -0.1em 0;
 }
 
@@ -218,7 +240,7 @@
 }
 
 .icon_container {
-  flex: 0 1 max-content;
+  flex: 0 1 auto;
 }
 
 .content_container {
@@ -230,6 +252,7 @@
 .name_container {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 .name_container > span,
@@ -247,12 +270,10 @@
   color: #999;
 }
 
-.name_container > span.verifiedAccount,
-.name_container > span.protectedAccount {
-  margin: .2em .5em 0 0;
-}
-
-.text_container {
+.text_container .inlineLink {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .footer_container {
@@ -262,12 +283,12 @@
   color: #999;
   display: flex;
   flex-flow: row wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .footer_container > span {
   margin: 0 .5em 0 0;
-  flex: 0 1 content;
+  flex: 0 1 auto;
 }
 
 .footer_container > span,
@@ -281,12 +302,18 @@
 
 .footer_container > span.from_app,
 .footer_container > span.from_list {
-  flex: 100 1 min-content;
   margin-left: auto;
 }
 
-.footer_container > span > span.glyphicon {
-  margin: auto .4em -0.2em auto;
+.footer_container > span.inRetweet,
+.footer_container > span.inLike {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.footer_container > span.inLike > span {
+  color: var(--twitter-like-color);
 }
 
 .new_actions {
@@ -313,8 +340,9 @@
   display: inline-block;
 }
 
-.tweet .new_actions > span.glyphicon-heart {
+.tweet .new_actions > span.liked {
   display: inline-block;
+  color: var(--twitter-like-color);
 }
 
 /* override jQuery UI Structre*/

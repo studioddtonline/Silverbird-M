@@ -44,19 +44,19 @@
 <div id="workspace" style="display: none;">
   <div class="header_links">
     <div class="header_link_left">
-      <span id="signout" class="i18n glyphicon glyphicon-log-out" title="signout"></span>
-      <span id="options_page_link" class="i18n glyphicon glyphicon-cog" title="option"></span>
-      <span id="refresh_trigger" class="i18n glyphicon glyphicon-refresh" title="refresh"></span>
-      <span id="trending_topics" class="i18n glyphicon glyphicon-trends" title="trending topics"></span>
-      <span id="saved_searches" class="i18n glyphicon glyphicon-search" title="saved searches"></span>
+      <span id="twitter_link" class="i18n" title="View Twitter"></span>
+      <span id="signout" class="i18n material-icons" title="signout">exit_to_app</span>
+      <span id="detach_window" class="i18n material-icons" title="Detach window">eject</span>
+      <span id="options_page_link" class="i18n material-icons" title="option">settings</span>
+      <span id="refresh_trigger" class="i18n material-icons" title="refresh">refresh</span>
+      <span id="trending_topics" class="i18n material-icons" title="trending topics">trending_up</span>
+      <span id="saved_searches" class="i18n material-icons" title="saved searches">search</span>
     </div>
     <silm-updatetweets></silm-updatetweets>
     <div class="header_link_right">
       <silm-loadingicon></silm-loadingicon>
-      <span id="suspend_status" class="glyphicon glyphicon-stop"></span>
-      <span id="stream_status" class="glyphicon glyphicon-pause"></span>
-      <span id="detach_window" class="i18n glyphicon glyphicon-eject" title="Detach window"></span>
-      <a id="twitter_link" href="#"><img id="view_twitter" src="img/twitter-bird-16x16.png" class="i18n" title="View Twitter" ></a>
+      <span id="suspend_status" class="material-icons"></span>
+      <span id="stream_status" class="material-icons"></span>
     </div>
   </div>
   <div id="tabs"><ul></ul></div>
@@ -68,12 +68,13 @@
       <silm-quotetweeturl id="quote_tweet_url"></silm-quotetweeturl>
       <silm-shortener></silm-shortener>
       <div id="attach_media_area">
-        <input id="tweetit" class="i18n" type="button" value="Tweet!" />
-        <input id="attach_button" class="i18n" type="button" value="Attach" />
+        <button id="tweetit" class="i18n disabled">Tweet</button>
+        <button id="attach_button" class="i18n material-icons" title="Attach">insert_photo</button>
         <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
         <span id="upload_previews">
         </span>
-        <silm-loadingicon></silm-loadingicon><span id="chars_left"></span>
+        <silm-loadingicon></silm-loadingicon>
+        <span id="chars_left"></span>
       </div>
     </div>
   </silm-composer>

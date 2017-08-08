@@ -7,13 +7,13 @@ div.simple_select {
 }
 
 div.simple_select .label {
-  margin: 1px 2px;
+  margin: 0;
+  padding: 0;
   color: #555;
-}
-
-div.simple_select .label img {
-  padding-left: 10px;
-  padding-right: 5px;
+  display: flex;
+  flex-flow: raw nowrap;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 

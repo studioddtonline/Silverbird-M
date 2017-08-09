@@ -62,19 +62,21 @@
   <div id="tabs"><ul></ul></div>
 
   <silm-composer composed="false">
-    <div id="compose_tweet_area">
-      <silm-replytargeturl id="reply_target_url"></silm-replytargeturl>
-      <textarea rows="4" id="tweet_text"></textarea>
-      <silm-quotetweeturl id="quote_tweet_url"></silm-quotetweeturl>
-      <div id="attach_media_area">
-        <button id="tweetit" class="i18n disabled">Tweet</button>
+    <silm-replytargeturl id="reply_target_url"></silm-replytargeturl>
+    <textarea rows="4" id="tweet_text"></textarea>
+    <silm-quotetweeturl id="quote_tweet_url"></silm-quotetweeturl>
+    <div id="composer_widget_area">
+      <div id="composer_widget_area_left">
         <silm-shortener></silm-shortener>
         <button id="attach_button" class="i18n material-icons" title="Attach">insert_photo</button>
         <span id="upload_previews">
         </span>
         <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
+      </div>
+      <div id="composer_widget_area_right">
         <silm-loadingicon></silm-loadingicon>
         <span id="chars_left"></span>
+        <button id="tweetit" class="i18n disabled">Tweet</button>
       </div>
     </div>
   </silm-composer>

@@ -103,6 +103,7 @@
 }
 
 #tweetit.disabled,
+silm-shortener.disabled,
 #attach_button.disabled {
   cursor: not-allowed;
   transition-property: opacity;
@@ -118,6 +119,10 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+}
+
+silm-shortener.visible ~ #upload_previews {
+  flex: 0 1 auto; /* flex item from #attach_media_area */
 }
 
 #upload_previews silm-uploadedthumbnail {

@@ -66,13 +66,13 @@
       <silm-replytargeturl id="reply_target_url"></silm-replytargeturl>
       <textarea rows="4" id="tweet_text"></textarea>
       <silm-quotetweeturl id="quote_tweet_url"></silm-quotetweeturl>
-      <silm-shortener></silm-shortener>
       <div id="attach_media_area">
         <button id="tweetit" class="i18n disabled">Tweet</button>
+        <silm-shortener></silm-shortener>
         <button id="attach_button" class="i18n material-icons" title="Attach">insert_photo</button>
-        <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
         <span id="upload_previews">
         </span>
+        <input id="image_input" type="file" name="media" accept="image/jpeg,image/png,image/webp" multiple />
         <silm-loadingicon></silm-loadingicon>
         <span id="chars_left"></span>
       </div>

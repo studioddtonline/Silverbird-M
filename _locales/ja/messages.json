@@ -478,12 +478,6 @@
   "l_notification_fade_timeout": {
     "message": "通知のタイムアウト (秒)"
   },
-  "g_shortener": {
-    "message": "短縮URL"
-  },
-  "l_url_shortener": {
-    "message": "短縮URLプロバイダ (廃止予定)"
-  },
   "l_share_include_title": {
     "message": "共有対象のページタイトルを含める"
   },

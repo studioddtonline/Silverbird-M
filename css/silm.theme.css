@@ -159,7 +159,6 @@ silm-composer {
 }
 
 #tweetit.disabled,
-silm-shortener.disabled,
 #attach_button.disabled {
   cursor: not-allowed;
   transition-property: opacity;

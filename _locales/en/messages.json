@@ -166,8 +166,8 @@
   "newToken": {
     "message": "Request another token"
   },
-  "shortenerIdleString": {
-    "message": "Type a URL to make it shorter, or, click here to suggest URL"
+  "attach_url_idle": {
+    "message": "Type a URL to attach, or, click here to suggest URL"
   },
   "tweet_singular": {
     "message": "tweet"
@@ -538,8 +538,8 @@
   "btn_default_text": {
     "message": "Reset to default"
   },
-  "shortener_button": {
-    "message": "Shorten it!"
+  "attach_url_button": {
+    "message": "attach URL"
   },
   "tweet_send_error": {
     "message": "An error occurred while trying to send your tweet. Maybe Twitter is acting weird? You can try it again but please double check your account to prevent duplicated messages or overcount Twitter Max words."

@@ -857,9 +857,6 @@
   "ue_already_retweeting": {
     "message": "You have already retweeted this tweet."
   },
-  "o_no_shorten": {
-    "message": "No Shorten"
-  },
   "n_done_retweet": {
     "message": "Retweeted."
   },

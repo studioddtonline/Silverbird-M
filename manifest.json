@@ -34,7 +34,6 @@
             "lib/timelines/search_timeline.js",
             "lib/timelines/notification_timeline.js",
             "lib/send_queue.js",
-            "lib/shortener_lib.js",
             "lib/ComposerData.js",
             "lib/DummyTweet.js",
             "lib/tweet_manager.js"
@@ -72,7 +71,6 @@
     "options_page": "options.html",
     "short_name": "__MSG_extShortName__",
     "web_accessible_resources": [
-        "oauth_callback.html",
         "popup.html"
     ]
 }

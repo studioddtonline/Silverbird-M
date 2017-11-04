@@ -31,12 +31,6 @@
     "message": "リロード",
     "description": "再読み込みへのリンク"
   },
-  "timeline_running": {
-    "message": "タイムライン稼働中"
-  },
-  "timeline_suspended": {
-    "message": "タイムライン停止中"
-  },
   "remove_tab": {
     "message": "このタブを削除"
   },

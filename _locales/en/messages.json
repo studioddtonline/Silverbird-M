@@ -31,12 +31,6 @@
     "message": "Refresh",
     "description": "Refresh link"
   },
-  "timeline_running": {
-    "message": "Timeline is running"
-  },
-  "timeline_suspended": {
-    "message": "Timeline is suspended"
-  },
   "remove_tab": {
     "message": "Remove This Tab"
   },
